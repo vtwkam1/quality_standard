@@ -14,7 +14,10 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
-library(tidyverse)
+library(dplyr)
+library(stringr)
+library(tidyr)
+# library(tidyverse)
 library(rvest)
 library(knitr)
 ```
