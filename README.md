@@ -1,2 +1,2 @@
 # quality_standard
-"testing Git connection" 
+Testing Rstudio Git connection
