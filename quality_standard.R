@@ -3,7 +3,7 @@ library(dplyr)
 library(stringr)
 library(tidyr)
 library(rvest)
-library(knitr)
+library(rlang)
 
 qs_number <- 205
 qs_url <- paste0("https://www.nice.org.uk/guidance/qs", qs_number)
@@ -65,50 +65,58 @@ extract_statement <- function(qs_links, n, qs_number) {
   
   # Separate out points for structure, process and outcome
   section_table <- function(section) {
-      
-      # Generate empty table
-      table <- data.frame(point = rep(NA, length(section)), text = section)
-      
-      # If text in text column starts with a lower case character followed by a bracket, extract that letter into point column (e.g. "a)")
-      table <- table %>% 
-          mutate(point = if_else(
-              str_detect(text, "^[:lower:]{1}\\) "),
-              str_extract(text, "^[:lower:]{1}(?=\\) )"),
-              NULL))
-      
-      # If for the first row, there is no a), b) etc, assign "a" in point column
-      if (is.na(table$point[1])) {
-          table$point[1] <- "a"
-      }
-      
-      # If a row has no value in the point column, assign it the point letter for the row above
-      for (i in 1:seq_along(table$point)) {
-          if (is.na(table$point[i])) {
-              table$point[i] <- table$point[i-1]
-          }
-      }
-      
-      # E
-      table <- table %>% 
-          group_by(point) %>% 
-          # Assign index to rows within each point
-          mutate(point_index = 1:n()) %>% 
-          ungroup() %>% 
-          # Create label column and assign
-          mutate(label = case_when(
-              str_detect(text, "^[:lower:]{1}\\) ") ~ "statement",
-              str_detect(text, "^Data source: ") ~ "data source",
-              str_detect(text, "^Numerator \u2013") ~ "numerator",
-              str_detect(text, "^Denominator \u2013") ~ "denominator")) %>% 
-          # If no label and first statement in point group, assign "statement" label
-          mutate(label = if_else(
-              is.na(label) & point_index == 1,
-              "statement",
-              label)) %>% 
-          # Drop index column
-          select(-point_index)
+    
+    if (!is_empty(section))  {
+        # Generate empty table
+        table <- data.frame(point = rep(NA, length(section)), text = section)
+        
+        # If text in text column starts with a lower case character followed by a bracket, extract that letter into point column (e.g. "a)")
+        table <- table %>% 
+            mutate(point = if_else(
+                str_detect(text, "^[:lower:]{1}\\) "),
+                str_extract(text, "^[:lower:]{1}(?=\\) )"),
+                NULL))
+        
+        # If for the first row, there is no a), b) etc, assign "a" in point column
+        if (is.na(table$point[1])) {
+            table$point[1] <- "a"
+        }
+        
+        # If a row has no value in the point column, assign it the point letter for the row above
+        for (i in seq_along(table$point)) {
+            if (is.na(table$point[i])) {
+                table$point[i] <- table$point[i-1]
+            }
+        }
+        
+        # E
+        table <- table %>% 
+            group_by(point) %>% 
+            # Assign index to rows within each point
+            mutate(point_index = 1:n()) %>% 
+            ungroup() %>% 
+            # Create label column and assign
+            mutate(label = case_when(
+                str_detect(text, "^[:lower:]{1}\\) ") ~ "statement",
+                str_detect(text, "^Data source: ") ~ "data source",
+                str_detect(text, "^Numerator \u2013") ~ "numerator",
+                str_detect(text, "^Denominator \u2013") ~ "denominator")) %>% 
+            # If no label and first statement in point group, assign "statement" label
+            mutate(label = if_else(
+                is.na(label) & point_index == 1,
+                "statement",
+                label)) %>% 
+            # Drop index column
+            select(-point_index)
+        
+        return(table)
+    }
+    
+    else {
+      table <- data.frame(point = character(), text = character(), label = character())
       
       return(table)
+    }
   }
   
   qm_structure_table <- section_table(qm_structure) %>% 
@@ -145,6 +153,11 @@ extract_statement <- function(qs_links, n, qs_number) {
       pivot_wider(names_from = label,
                   values_from = text)
   
+  if(!("numerator" %in% colnames(measures))) {
+    measures$numerator <- NA
+    measures$denominator <- NA
+  }
+  
   return(measures)
 }
 
@@ -157,7 +170,7 @@ all_statements <- data.frame(qs_number = character(),
                              numerator = character(),
                              denominator = character())
 
-for (i in 1:seq_along(qs_links)) {   
+for (i in seq_along(qs_links)) {   
     st_table  <- extract_statement(qs_links, i, qs_number)
     
     all_statements <- rbind(all_statements, st_table)
