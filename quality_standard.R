@@ -5,7 +5,7 @@ library(tidyr)
 library(rvest)
 library(knitr)
 
-qs_number <- 33
+qs_number <- 205
 qs_url <- paste0("https://www.nice.org.uk/guidance/qs", qs_number)
 
 # Returns xml_document object with webpage html
@@ -25,7 +25,7 @@ qs_links <- qs_html %>%
 qs_links <- qs_links[str_detect(qs_links, "Quality-statement-\\d+")]
 
 # Read quality statement
-extract_statement <- function(qs_links, n, text, i, point, label, point_index, qs_number, measure) {
+extract_statement <- function(qs_links, n, qs_number) {
   qs <- read_html(qs_links[n])
   
   # assumes only one paragraph as using html_element() not elements
@@ -82,7 +82,7 @@ extract_statement <- function(qs_links, n, text, i, point, label, point_index, q
       }
       
       # If a row has no value in the point column, assign it the point letter for the row above
-      for (i in 1:length(table$point)) {
+      for (i in 1:seq_along(table$point)) {
           if (is.na(table$point[i])) {
               table$point[i] <- table$point[i-1]
           }
@@ -137,9 +137,28 @@ extract_statement <- function(qs_links, n, text, i, point, label, point_index, q
   # Combine measures
   measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>% 
       filter(label != "data source") %>% 
-      mutate(text = str_remove(text, "^.*(:|\\)|\u2013)") %>% str_to_sentence()) %>% 
+      mutate(text = str_remove(text, "^.*(:|\\)|\u2013)") %>% 
+                 str_to_sentence() %>%
+                 str_trim()) %>% 
       relocate(text, .after = last_col()) %>% 
       mutate(measure_id = paste(statement_number, measure, point, sep = "-")) %>% 
       pivot_wider(names_from = label,
                   values_from = text)
+  
+  return(measures)
+}
+
+all_statements <- data.frame(qs_number = character(), 
+                             statement_number = numeric(),
+                             measure = character(),
+                             point = character(),
+                             measure_id = character(),
+                             statement = character(),
+                             numerator = character(),
+                             denominator = character())
+
+for (i in 1:seq_along(qs_links)) {   
+    st_table  <- extract_statement(qs_links, i, qs_number)
+    
+    all_statements <- rbind(all_statements, st_table)
 }
