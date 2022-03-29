@@ -120,8 +120,8 @@ extract_statement <- function(qs_links, n, qs_id) {
     measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>% 
         filter(label != "data source") %>% 
         mutate(measure = str_remove(measure, "^.*(:|\\)|\u2013)") %>% 
-                   str_to_sentence() %>%
-                   str_trim()) %>% 
+                   str_trim() %>% 
+                   str_replace("^\\w{1}", toupper)) %>% 
         relocate(measure, .after = last_col()) %>% 
         mutate(measure_id = paste(qs_id, statement_number, measure_type, point, sep = "-")) %>% 
         pivot_wider(names_from = label,
