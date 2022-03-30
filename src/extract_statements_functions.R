@@ -1,6 +1,6 @@
 extract_measure <- function(qs_html, measure_type) {
     
-    css <- str_c('div[title^="Quality measure"] div[title="', measure_type, '"] p')
+    css <- str_c('div[title^="Quality measure"] div[title*="', measure_type, '"] p')
     
     quality_measure <- qs_html %>% 
         html_elements(css) %>% 
@@ -76,10 +76,10 @@ extract_statement <- function(qs_links, n, qs_id) {
         html_element(".h2") %>% 
         html_text2()
     
-    statement_number <- str_extract(title, "(?<=Quality statement )\\d+(?=:)")
+    statement_number <- str_extract(title, "(?<=(s|S)tatement )\\d+")
     
     statement <- qs_html %>% 
-        html_element('div[title="Quality statement"] p') %>% 
+        html_element('div[title*="tatement"] p') %>% 
         html_text2() %>% 
         # Remove bracketed info on year
         str_remove("\\[.*\\]") %>% 
