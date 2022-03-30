@@ -1,0 +1,21 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS204-1-structure-a,"Evidence of local arrangements to ensure that midwives and other healthcare professionals carrying out antenatal appointments are aware of the risks of drinking alcohol in pregnancy, including FASD, and the advice in the UK Chief Medical Officers' low-risk drinking guidelines on alcohol consumption in pregnancy.",NA,NA
+1,structure,b,QS204-1-structure-b,Evidence of local arrangements to ensure that antenatal appointments include discussion of the risks of drinking alcohol in pregnancy and the advice in the UK Chief Medical Officers' low-risk drinking guidelines.,NA,NA
+1,process,a,QS204-1-process-a,Proportion of antenatal appointments in which pregnant women are advised not to drink alcohol during pregnancy.,The number in the denominator in which pregnant women are advised not to drink alcohol.,The total number of antenatal appointments attended.
+1,outcome,a,QS204-1-outcome-a,Rate of alcohol-exposed pregnancies.,NA,NA
+2,structure,a,QS204-2-structure-a,Evidence of local arrangements to ensure that antenatal appointments include discussion about drinking alcohol in pregnancy.,NA,NA
+2,process,a,QS204-2-process-a,Proportion of antenatal booking appointments where drinking of alcohol is reported.,The number in the denominator where the weekly number of alcohol units reported is greater than 1.,The number of antenatal booking appointments.
+2,process,b,QS204-2-process-b,Proportion of routine antenatal appointments attended in which alcohol consumption is recorded.,The number in the denominator in which alcohol consumption is recorded.,The total number of routine antenatal appointments attended.
+2,outcome,a,QS204-2-outcome-a,Diagnosis rates for FASD.,NA,NA
+3,structure,a,QS204-3-structure-a,Evidence of local pathways that refer children and young people with probable prenatal alcohol exposure to a healthcare professional with additional training in FASD.,NA,NA
+3,structure,b,QS204-3-structure-b,Evidence of local arrangements to increase awareness of FASD among healthcare professionals.,NA,NA
+3,structure,c,QS204-3-structure-c,Evidence of local services with healthcare professionals who have additional training in FASD.,NA,NA
+3,process,a,QS204-3-process-a,"Proportion of children and young people with probable prenatal alcohol exposure and significant physical, developmental or behavioural difficulties referred for assessment.",The number in the denominator referred for assessment.,"The number of children and young people with probable prenatal alcohol exposure and significant physical, developmental or behavioural difficulties."
+3,outcome,a,QS204-3-outcome-a,Average time to diagnosis of FASD.,NA,NA
+3,outcome,b,QS204-3-outcome-b,Diagnosis rates for FASD.,NA,NA
+4,structure,a,QS204-4-structure-a,Evidence of local services with healthcare professionals with expertise in neurodevelopmental assessment who have had additional training in FASD.,NA,NA
+4,outcome,a,QS204-4-outcome-a,Diagnosis rate for FASD.,NA,NA
+5,structure,a,QS204-5-structure-a,Evidence of local frameworks for managing FASD that ensure healthcare professionals coordinate care across disciplines and organisations.,NA,NA
+5,structure,b,QS204-5-structure-b,"Evidence of local arrangements for communicating and sharing management plans between providers of health, education and social services.",NA,NA
+5,process,a,QS204-5-process-a,Proportion of children and young people diagnosed with FASD who have a management plan.,The number in the denominator who have a management plan.,The number of children and young people diagnosed with FASD.
+5,outcome,a,QS204-5-outcome-a,Health-related quality of life for people diagnosed with FASD.,NA,NA

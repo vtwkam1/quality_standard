@@ -1,0 +1,24 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS5-1-structure-a,"Evidence of local systems that invite adults with, or at risk of, CKD to have eGFRcreatinine and ACR testing.",NA,NA
+1,process,a,QS5-1-process-a,Proportion of adults with CKD who had eGFRcreatinine testing in the past year.,The number in the denominator who had eGFRcreatinine testing in the past year.,The number of adults with CKD.
+1,process,b,QS5-1-process-b,Proportion of adults with CKD who had ACR testing at the frequency agreed with their healthcare professional.,The number in the denominator who had ACR testing at the frequency agreed with their healthcare professional.,The number of adults with CKD.
+1,process,c,QS5-1-process-c,Proportion of adults at risk of CKD who had eGFRcreatinine testing at the frequency agreed with their healthcare professional.,The number in the denominator who had eGFRcreatinine testing at the frequency agreed with their healthcare professional.,The number of adults at risk of CKD.
+1,process,d,QS5-1-process-d,Proportion of adults at risk of CKD who had ACR testing at the frequency agreed with their healthcare professional.,The number in the denominator who had ACR testing at the agreed frequency.,The number of adults at risk of CKD.
+1,outcome,a,QS5-1-outcome-a,Prevalence of undiagnosed CKD.,NA,NA
+1,outcome,b,QS5-1-outcome-b,Stage of CKD at diagnosis.,NA,NA
+2,structure,a,QS5-2-structure-a,Evidence of local systems to identify and invite adults with CKD to have a blood pressure reading.,NA,NA
+2,structure,b,QS5-2-structure-b,Evidence of the availability of equipment to take a blood pressure reading from adults with CKD.,NA,NA
+2,process,a,QS5-2-process-a,Proportion of adults with CKD with an ACR below 70 mg/mmol whose systolic blood pressure is between 120 and 139 mmHg and their clinic diastolic blood pressure below 90 mmHg.,The number in the denominator whose systolic blood pressure is between 120 and 139 mmHg and their clinic diastolic blood pressure below 90 mmHg.,The number of adults with CKD with an ACR below 70 mg/mmol.
+2,process,b,QS5-2-process-b,Proportion of adults with CKD whose systolic blood pressure is between 120 and 129 mmHg and their clinic diastolic blood pressure below 80 mmHg.,The number in the denominator whose systolic blood pressure is between 120 and 129 mmHg and their clinic diastolic blood pressure below 80 mmHg.,The number of adults with CKD.
+2,process,c,QS5-2-process-c,Proportion of adults with CKD and an ACR of 70 mg/mmol or more whose systolic blood pressure is between 120 and 129 mmHg and their clinic diastolic blood pressure below 80 mmHg.,The number in the denominator whose systolic blood pressure is between 120 and 129 mmHg and their clinic diastolic blood pressure below 80 mmHg.,The number of adults with CKD and an ACR of 70 mg/mmol or more.
+2,outcome,a,QS5-2-outcome-a,Prevalence of cardiovascular disease among people with CKD.,NA,NA
+2,outcome,b,QS5-2-outcome-b,Incidence of cardiovascular events for people with CKD.,NA,NA
+2,outcome,c,QS5-2-outcome-c,Cardiovascular mortality rates among people with CKD.,NA,NA
+2,outcome,d,QS5-2-outcome-d,Stage kidney disease.,NA,NA
+3,structure,a,QS5-3-structure-a,Evidence of the availability of atorvastatin 20 mg within local service providers.,NA,NA
+3,structure,b,QS5-3-structure-b,Evidence of local systems to check whether adults with CKD are taking atorvastatin 20 mg and invite them to discuss starting treatment if not.,NA,NA
+3,process,a,QS5-3-process-a,Proportion of adults with CKD who receive atorvastatin 20 mg.,The number in the denominator who receive atorvastatin 20 mg.,The number of adults with CKD.
+3,outcome,a,QS5-3-outcome-a,Prevalence of cardiovascular disease among people with CKD.,NA,NA
+3,outcome,b,QS5-3-outcome-b,Incidence of cardiovascular events for people with CKD.,NA,NA
+3,outcome,c,QS5-3-outcome-c,Cardiovascular mortality rates among people with CKD.,NA,NA
+3,outcome,d,QS5-3-outcome-d,Proportion of people with CKD with a greater than 40% reduction in non‑high‑density lipoprotein cholesterol.,NA,NA

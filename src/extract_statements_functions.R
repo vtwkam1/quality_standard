@@ -47,9 +47,9 @@ section_table <- function(section) {
             # Create label column and assign
             mutate(label = case_when(
                 str_detect(measure, "^[:lower:]{1}\\) ") ~ "statement",
-                str_detect(measure, "^Data source: ") ~ "data source",
-                str_detect(measure, "^Numerator \u2013") ~ "numerator",
-                str_detect(measure, "^Denominator \u2013") ~ "denominator")) %>% 
+                str_detect(measure, "^Data source") ~ "data source",
+                str_detect(measure, "^Numerator") ~ "numerator",
+                str_detect(measure, "^Denominator") ~ "denominator")) %>% 
             # If no label and first statement in point group, assign "statement" label
             mutate(label = if_else(
                 is.na(label) & point_index == 1,
@@ -78,62 +78,79 @@ extract_statement <- function(qs_links, n, qs_id) {
     
     statement_number <- str_extract(title, "(?<=(s|S)tatement )\\d+")
     
-    statement <- qs_html %>% 
-        html_element('div[title*="tatement"] p') %>% 
-        html_text2() %>% 
-        # Remove bracketed info on year
-        str_remove("\\[.*\\]") %>% 
-        str_trim()
-    
-    statement_row <- tibble(qs_id = qs_id, statement_number = statement_number, statement = statement)
-    
-    # Extract all p elements inside a div element with title attribute "Structure" which is itself inside a div element with title attribute "Quality measures"
-    qm_structure <- extract_measure(qs_html, measure = "Structure")
-    qm_process <- extract_measure(qs_html, measure = "Process")
-    qm_outcome <- extract_measure(qs_html, measure = "Outcome")
-    
-    # Separate out points for structure, process and outcome
-    qm_structure_table <- section_table(qm_structure) %>% 
-        mutate(qs_id = qs_id,
-               statement_number = statement_number,
-               measure_type = "structure",
-               .before = 1
+    if (!str_detect(title, "(P|p)laceholder")) {
+        
+        statement <- qs_html %>% 
+            html_element('div[title*="tatement"] p') %>% 
+            html_text2() %>% 
+            # Remove bracketed info on year
+            str_remove("\\[.*\\]") %>% 
+            str_trim()
+        
+        statement_row <- tibble(qs_id = qs_id, statement_number = statement_number, statement = statement)
+        
+        # Extract all p elements inside a div element with title attribute "Structure" which is itself inside a div element with title attribute "Quality measures"
+        qm_structure <- extract_measure(qs_html, measure = "Structure")
+        qm_process <- extract_measure(qs_html, measure = "Process")
+        qm_outcome <- extract_measure(qs_html, measure = "Outcome")
+        
+        # Separate out points for structure, process and outcome
+        qm_structure_table <- section_table(qm_structure) %>% 
+            mutate(qs_id = qs_id,
+                   statement_number = statement_number,
+                   measure_type = "structure",
+                   .before = 1
+            )
+        
+        
+        qm_process_table <- section_table(qm_process)  %>% 
+            mutate(qs_id = qs_id,
+                   statement_number = statement_number,
+                   measure_type = "process",
+                   .before = 1
+            )
+        
+        
+        qm_outcome_table <- section_table(qm_outcome)  %>% 
+            mutate(qs_id = qs_id,
+                   statement_number = statement_number,
+                   measure_type = "outcome",
+                   .before = 1
+            )
+        
+        # Combine measures
+        measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>% 
+            filter(label != "data source") %>% 
+            mutate(measure = str_remove(measure, "^.*(:|\\)|\u2013|-)") %>% 
+                       str_trim() %>% 
+                       str_replace("^\\w{1}", toupper)) %>% 
+            relocate(measure, .after = last_col()) %>% 
+            mutate(measure_id = paste(qs_id, statement_number, measure_type, point, sep = "-")) %>% 
+            pivot_wider(names_from = label,
+                        values_from = measure) %>% 
+            rename(measure = statement) %>% 
+            select(-qs_id)
+        
+        if(!("numerator" %in% colnames(measures))) {
+            measures$numerator <- NA
+            measures$denominator <- NA
+        }
+        
+    } else {
+        statement <- sprintf("[Placeholder: %s]", str_extract(title, "(?<=:).+") %>% str_trim())
+        
+        statement_row <- tibble(qs_id = qs_id, statement_number = statement_number, statement = statement)
+        
+        measures <- tibble(
+            statement_number = statement_number,
+            measure_type = "placeholder",
+            point = NA,
+            measure_id = NA,
+            measure = NA,
+            numerator = NA,
+            denominator = NA
         )
-    
-    
-    qm_process_table <- section_table(qm_process)  %>% 
-        mutate(qs_id = qs_id,
-               statement_number = statement_number,
-               measure_type = "process",
-               .before = 1
-        )
-    
-    
-    qm_outcome_table <- section_table(qm_outcome)  %>% 
-        mutate(qs_id = qs_id,
-               statement_number = statement_number,
-               measure_type = "outcome",
-               .before = 1
-        )
-    
-    # Combine measures
-    measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>% 
-        filter(label != "data source") %>% 
-        mutate(measure = str_remove(measure, "^.*(:|\\)|\u2013)") %>% 
-                   str_trim() %>% 
-                   str_replace("^\\w{1}", toupper)) %>% 
-        relocate(measure, .after = last_col()) %>% 
-        mutate(measure_id = paste(qs_id, statement_number, measure_type, point, sep = "-")) %>% 
-        pivot_wider(names_from = label,
-                    values_from = measure) %>% 
-        rename(measure = statement) %>% 
-        select(-qs_id)
-    
-    if(!("numerator" %in% colnames(measures))) {
-        measures$numerator <- NA
-        measures$denominator <- NA
     }
-    
-    return(list("statement_row" = statement_row,
-                "measures" = measures))
+        return(list("statement_row" = statement_row,
+                    "measures" = measures))
 }

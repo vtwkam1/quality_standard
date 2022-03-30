@@ -1,0 +1,30 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS12-1-structure-a,Evidence of local arrangements to ensure that specialist services carry out the triple diagnostic assessment at a single hospital visit in people referred with suspected breast cancer.,NA,NA
+1,process,a,QS12-1-process-a,Proportion of people with suspected breast cancer referred to specialist services who receive the triple diagnostic assessment in a single visit.,The number in the denominator who receive the triple diagnostic assessment in a single visit.,The number of people with suspected breast cancer referred to specialist services.
+1,outcome,a,QS12-1-outcome-a,Stage at diagnosis of breast cancer.,NA,NA
+1,outcome,b,QS12-1-outcome-b,Breast cancer survival rates.,NA,NA
+2,structure,a,QS12-2-structure-a,Proven invasive breast cancer or DCIS do not have an MRI scan for preoperative assessment unless there are specific clinical indications for its use.,NA,NA
+2,process,a,QS12-2-process-a,Proven invasive breast cancer or DCIS in which there is a specific clinical indication for its use.,The number in the denominator in which there is a specific clinical indication for preoperative MRI.,Proven invasive breast cancer or DCIS.
+2,outcome,a,QS12-2-outcome-a,Proven invasive breast cancer or DCIS.,NA,NA
+3,structure,a,QS12-3-structure-a,Negative early breast cancer who are at intermediate risk of distant recurrence.,NA,NA
+3,process,a,QS12-3-process-a,Negative early breast cancer who are at intermediate risk of distant recurrence who receive gene expression profiling.,The number in the denominator who receive gene expression profiling.,Negative early breast cancer who are at intermediate risk of distant recurrence.
+3,outcome,a,QS12-3-outcome-a,.,NA,NA
+3,outcome,b,QS12-3-outcome-b,Incidence of adverse events from chemotherapy.,NA,NA
+3,outcome,c,QS12-3-outcome-c,Mortality from breast cancer.,NA,NA
+4,structure,a,QS12-4-structure-a,Evidence of local arrangements and written clinical protocols to ensure that people with newly diagnosed invasive breast cancer have the ER and HER2 status of the tumour assessed.,NA,NA
+4,structure,b,QS12-4-structure-b,"Evidence of local arrangements and written clinical protocols to ensure that people with recurrent breast cancer have the ER and HER2 status of the tumour assessed, if clinically appropriate.",NA,NA
+4,process,a,QS12-4-process-a,Proportion of people with newly diagnosed invasive breast cancer who have the ER status of the tumour assessed.,The number of people in the denominator who have the ER status of the tumour assessed.,The number of people with newly diagnosed invasive breast cancer.
+4,process,b,QS12-4-process-b,Proportion of people with newly diagnosed invasive breast cancer who have the HER2 status of the tumour assessed.,The number of people in the denominator who have the HER2 status of the tumour assessed.,The number of people with newly diagnosed invasive breast cancer.
+4,process,c,QS12-4-process-c,"Proportion of people with histologically confirmed recurrent breast cancer who have the ER status of the tumour assessed, if clinically appropriate.","The number of people in the denominator who have the ER status of the tumour assessed, if clinically appropriate.",The number of people with histologically confirmed recurrent breast cancer.
+4,process,d,QS12-4-process-d,"Proportion of people with histologically confirmed recurrent breast cancer who have the HER2 status of the tumour assessed, if clinically appropriate.","The number of people in the denominator who have the HER2 status of the tumour assessed, if clinically appropriate.",The number of people with histologically confirmed recurrent breast cancer.
+4,outcome,a,QS12-4-outcome-a,Breast cancer survival rates.,NA,NA
+5,structure,a,QS12-5-structure-a,Evidence of local arrangements to ensure that a multidisciplinary team manages the treatment and care of people with breast cancer who develop metastatic disease.,NA,NA
+5,process,a,QS12-5-process-a,Proportion of people with breast cancer who develop metastatic disease who have their treatment and care managed by a multidisciplinary team.,The number in the denominator who have their treatment and care managed by a multidisciplinary team.,The number of people with breast cancer who develop metastatic disease.
+5,outcome,a,QS12-5-outcome-a,.,NA,NA
+5,outcome,b,QS12-5-outcome-b,Incidence of adverse events from chemotherapy.,NA,NA
+5,outcome,c,QS12-5-outcome-c,Mortality from breast cancer.,NA,NA
+6,structure,a,QS12-6-structure-a,"Evidence of local arrangements to ensure that people with locally advanced, metastatic or distant recurrent breast cancer are assigned a key worker.",NA,NA
+6,process,a,QS12-6-process-a,Proportion of people with locally advanced breast cancer with an assigned key worker.,The number in the denominator with an assigned key worker.,The number of people with locally advanced breast cancer.
+6,process,b,QS12-6-process-b,Proportion of people with metastatic breast cancer with an assigned key worker.,The number in the denominator with an assigned key worker.,The number of people with metastatic breast cancer.
+6,process,c,QS12-6-process-c,Proportion of people with distant recurrent breast cancer with an assigned key worker.,The number in the denominator with an assigned key worker.,The number of people with distant recurrent breast cancer.
+6,outcome,a,QS12-6-outcome-a,Patient satisfaction with information and support received throughout their care for breast cancer.,NA,NA

@@ -1,0 +1,42 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS17-1-structure-a,Evidence of local needs assessment to identify population groups for campaigns to raise awareness of the symptoms and signs of lung cancer and encourage people to seek medical advice if they need to.,NA,NA
+1,structure,b,QS17-1-structure-b,Evidence of locally coordinated campaigns to raise awareness of the symptoms and signs of lung cancer and encourage people to seek medical advice if they need to.,NA,NA
+1,structure,c,QS17-1-structure-c,Evidence of evaluation of locally coordinated campaigns to raise awareness of the symptoms and signs of lung cancer and encourage people to seek medical advice if they need to.,NA,NA
+1,outcome,a,QS17-1-outcome-a,Proportion of adults in the population who can recognise and recall the symptoms and signs of lung cancer.,The number in the denominator who can recognise and recall the symptoms and signs of lung cancer.,The number of adults in the population.
+1,outcome,b,QS17-1-outcome-b,Proportion of adults with a new diagnosis of lung cancer who were diagnosed via an emergency route.,The number in the denominator who were diagnosed via an emergency route.,The number of adults with a new diagnosis of lung cancer.
+1,outcome,c,QS17-1-outcome-c,Proportion of adults with a new diagnosis of lung cancer diagnosed at stage I or II.,The number in the denominator diagnosed at stage I or II.,The number of adults with a new diagnosis of lung cancer.
+2,structure,a,QS17-2-structure-a,Evidence of local arrangements to ensure that adults with suspected or confirmed lung cancer who smoke are given advice about why it is important to stop smoking.,NA,NA
+2,structure,b,QS17-2-structure-b,Based support for adults with suspected or confirmed lung cancer to help them to stop smoking.,NA,NA
+2,process,a,QS17-2-process-a,Based support to stop smoking.,Based support to stop smoking.,The number of adults with suspected or confirmed lung cancer who smoke.
+2,outcome,a,QS17-2-outcome-a,Smoking rates in adults with lung cancer having treatment with curative intent.,NA,NA
+2,outcome,b,QS17-2-outcome-b,1‑year survival rate for adults with lung cancer treated with curative intent.,NA,NA
+3,structure,a,QS17-3-structure-a,Evidence of the availability of clinical nurse specialists who specialise in the care and support of adults with lung cancer.,NA,NA
+3,structure,b,QS17-3-structure-b,Evidence of local arrangements to ensure that adults with lung cancer know how to contact the lung cancer clinical nurse specialist between hospital visits.,NA,NA
+3,process,a,QS17-3-process-a,Proportion of adults with lung cancer who had a lung cancer clinical nurse specialist present at diagnosis.,The number in the denominator who had a lung cancer clinical nurse specialist present at diagnosis.,The number of adults with lung cancer.
+3,process,b,QS17-3-process-b,Proportion of adults with lung cancer who have had assessment by a lung cancer clinical nurse specialist.,The number in the denominator who have had assessment by a lung cancer clinical nurse specialist.,The number of adults with lung cancer.
+3,process,c,QS17-3-process-c,Proportion of adults with lung cancer who were given the name of a lung cancer clinical nurse specialist who would support them.,The number in the denominator who were given the name of a lung cancer clinical nurse specialist who would support them.,The number of adults with lung cancer.
+3,outcome,a,QS17-3-outcome-a,Proportion of adults with lung cancer who are satisfied with the support provided by a lung cancer clinical nurse specialist.,The number in the denominator who are satisfied with the support provided by a lung cancer clinical nurse specialist.,The number of adults with lung cancer.
+3,outcome,b,QS17-3-outcome-b,Health‑related quality of life for adults with lung cancer.,NA,NA
+4,structure,a,QS17-4-structure-a,"Evidence of local processes to record investigations to accurately determine diagnosis and stage and to assess lung function, for adults with lung cancer who are being considered for treatment with curative intent.",NA,NA
+4,structure,b,QS17-4-structure-b,For adults with lung cancer who are being considered for treatment with curative intent.,NA,NA
+4,structure,c,QS17-4-structure-c,Cell lung cancer stage II or III who are being considered for treatment with curative intent.,NA,NA
+4,process,a,QS17-4-process-a,Proportion of adults with lung cancer treated with curative intent who had PET‑CT before starting treatment.,The number in the denominator who had PET‑CT before starting treatment.,The number of adults with lung cancer treated with curative intent.
+4,process,b,QS17-4-process-b,Cell lung cancer stage II or III treated with curative intent who had brain imaging before starting treatment.,The number in the denominator who had brain imaging before starting treatment.,Cell lung cancer stage II or III treated with curative intent.
+4,process,c,QS17-4-process-c,Before starting treatment.,The number in the denominator who had spirometry and TLCO before starting treatment.,Cell lung cancer treated with curative intent.
+4,process,d,QS17-4-process-d,Proportion of adults with lung cancer who had clinical stage and performance status recorded.,The number in the denominator who had clinical stage and performance status recorded.,The number of adults with lung cancer.
+4,outcome,a,QS17-4-outcome-a,1‑year survival rate for adults with lung cancer treated with curative intent.,NA,NA
+5,structure,a,QS17-5-structure-a,Evidence that lung cancer multidisciplinary team meetings include all specialist core members.,NA,NA
+5,structure,b,QS17-5-structure-b,Cell lung cancer and good performance status.,NA,NA
+5,structure,c,QS17-5-structure-c,Cell lung cancer stage I or II and good performance status have treatment with curative intent.,NA,NA
+5,process,a,QS17-5-process-a,Cell lung cancer stage I or II and good performance status who have treatment with curative intent.,The number in the denominator who have treatment with curative intent.,Cell lung cancer stage I or II and good performance status.
+5,outcome,a,QS17-5-outcome-a,Cell lung cancer stage I or II and good performance status who are satisfied that treatment options were explained to them.,The number in the denominator who are satisfied that treatment options were explained to them.,Cell lung cancer stage I or II and good performance status.
+5,outcome,b,QS17-5-outcome-b,Cell lung cancer stage I or II.,NA,NA
+5,outcome,c,QS17-5-outcome-c,Cell lung cancer stage I or II.,NA,NA
+6,structure,a,QS17-6-structure-a,Evidence of the availability of radiologists and respiratory specialists experienced in performing lung biopsies for adults with lung cancer.,NA,NA
+6,structure,b,QS17-6-structure-b,"Cell lung cancer stage III or IV who are having tissue sampling, have samples taken that are suitable for pathological diagnosis and assessment of predictive biomarkers.",NA,NA
+6,structure,c,QS17-6-structure-c,For people with lung cancer.,NA,NA
+6,process,a,QS17-6-process-a,Cell lung cancer stage III or IV who have a second diagnostic test in order to determine histological sub‑type or predictive biomarkers.,The number in the denominator who have a second diagnostic test in order to determine histological sub‑type or predictive biomarkers.,Cell lung cancer stage III or IV.
+6,process,b,QS17-6-process-b,Cell lung cancer stage III or IV for whom the reported tumour sub‑type is 'not otherwise specified'.,The number in the denominator for whom the reported tumour sub‑type is 'not otherwise specified'.,Cell lung cancer stage III or IV.
+6,process,c,QS17-6-process-c,Cell lung cancer stage III or IV and performance status 0 to 2 who are successfully tested for all relevant biomarkers.,The number in the denominator who are successfully tested for all relevant biomarkers.,Cell lung cancer stage III or IV and performance status 0 to 2.
+6,outcome,a,QS17-6-outcome-a,Cell lung cancer stage III or IV and performance status 0 to 2 who have a pathological diagnosis.,The number in the denominator who have a pathological diagnosis.,Cell lung cancer stage III or IV and performance status 0 to 2.
+6,outcome,b,QS17-6-outcome-b,Cell lung cancer stage III or IV.,NA,NA

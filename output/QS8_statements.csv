@@ -1,0 +1,14 @@
+qs_id,statement_number,statement
+QS8,1,"People who may have depression receive an assessment that identifies the severity of symptoms, the degree of associated functional impairment and the duration of the episode."
+QS8,2,"Practitioners delivering pharmacological, psychological or psychosocial interventions for people with depression receive regular supervision that ensures they are competent in delivering interventions of appropriate content and duration in accordance with NICE guidance."
+QS8,3,"Practitioners delivering pharmacological, psychological or psychosocial interventions for people with depression record health outcomes at each appointment and use the findings to adjust delivery of interventions."
+QS8,4,People with persistent subthreshold depressive symptoms or mild to moderate depression receive appropriate low-intensity psychosocial interventions.
+QS8,5,People with persistent subthreshold depressive symptoms or mild depression are prescribed antidepressants only when they meet specific clinical criteria in accordance with NICE guidance.
+QS8,6,People with moderate or severe depression (and no existing chronic physical health problem) receive a combination of antidepressant medication and either high-intensity cognitive behavioural therapy or interpersonal therapy.
+QS8,7,People with moderate depression and a chronic physical health problem receive an appropriate high-intensity psychological intervention.
+QS8,8,People with severe depression and a chronic physical health problem receive a combination of antidepressant medication and individual cognitive behavioural therapy.
+QS8,9,"People with moderate to severe depression and a chronic physical health problem with associated functional impairment, whose symptoms are not responding to initial interventions, receive collaborative care."
+QS8,10,"People with depression who benefit from treatment with antidepressants are advised to continue with treatment for at least 6 months after remission, extending to at least 2 years for people at risk of relapse."
+QS8,11,People with depression whose treatment consists solely of antidepressants are regularly reassessed at intervals of at least 2 to 4 weeks for at least the first 3 months of treatment.
+QS8,12,People with depression that has not responded adequately to initial treatment within 6 to 8 weeks have their treatment plan reviewed.
+QS8,13,People who have been treated for depression who have residual symptoms or are considered to be at significant risk of relapse receive appropriate psychological interventions.
