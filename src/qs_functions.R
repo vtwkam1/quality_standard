@@ -1,6 +1,6 @@
 extract_measure <- function(qs_html, measure_type) {
     
-    css <- str_c('div[title="Quality measures"] div[title="', measure_type, '"] p')
+    css <- str_c('div[title^="Quality measure"] div[title="', measure_type, '"] p')
     
     quality_measure <- qs_html %>% 
         html_elements(css) %>% 
