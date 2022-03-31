@@ -1,0 +1,28 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS111-1-structure-a,"Evidence that local authorities and NHS organisations provide, or make contractual arrangements for the provision of, healthy food and drink options in any vending machines in their venues.",NA,NA
+1,process,a,QS111-1-process-a,Proportion of local authority and NHS venues with vending machines that contain healthy food and drink options.,The number in the denominator that have vending machines that contain healthy food and drink options.,The number of local authority and NHS venues with vending machines.
+2,structure,a,QS111-2-structure-a,Evidence that local authorities and NHS organisations ensure that information on the nutritional content of meals is included on menus at venues.,NA,NA
+3,structure,a,QS111-3-structure-a,Evidence that local authority and NHS venues make arrangements to display healthy food and drink options in prominent positions.,NA,NA
+3,outcome,a,QS111-3-outcome-a,Sales of healthy food and drink options.,NA,NA
+4,structure,a,QS111-4-structure-a,Evidence that an up‑to‑date list of local lifestyle weight management programmes for adults is publicly available.,NA,NA
+4,outcome,a,QS111-4-outcome-a,Number of self‑referrals of overweight or obese adults to locally commissioned lifestyle weight management programmes.,NA,NA
+5,structure,a,QS111-5-structure-a,Evidence that commissioners and providers of lifestyle weight management programmes jointly agree the key performance indicators to be collected for monitoring and evaluation.,NA,NA
+5,structure,b,QS111-5-structure-b,Evidence that commissioners and providers of lifestyle weight management programmes have used data from monitoring and evaluation to amend and improve programmes.,NA,NA
+5,process,a,QS111-5-process-a,"Proportion of adults recruited to a locally commissioned lifestyle weight management programme who have information on attendance, outcomes and views of participants and staff collected at recruitment and completion.","The number in the denominator who have information on attendance, outcomes and views of participants and staff collected at recruitment and completion.",The number of adults recruited to a locally commissioned lifestyle weight management programme.
+5,process,b,QS111-5-process-b,Proportion of adults who complete a lifestyle weight management programme who have data on outcomes collected 6 months after completion of the programme.,The number in the denominator who have data on outcomes collected 6 months after completion of the programme.,The number of adults who complete a lifestyle weight management programme.
+5,process,c,QS111-5-process-c,Proportion of adults who complete a lifestyle weight management programme who have data on outcomes collected 1 year after completion of the programme.,The number in the denominator who have data on outcomes collected 1 year after completion of the programme.,The number of adults who complete a lifestyle weight management programme.
+5,outcome,a,QS111-5-outcome-a,Improved performance of local lifestyle weight management programmes.,NA,NA
+6,structure,a,QS111-6-structure-a,Evidence of local arrangements to give adults who are identified as being overweight or obese information about local lifestyle weight management programmes.,NA,NA
+6,process,a,QS111-6-process-a,Proportion of adults identified as being overweight or obese who are given information about local lifestyle weight management programmes.,The number in the denominator who are given information about local weight management programmes.,The number of adults identified as being overweight or obese.
+6,outcome,a,QS111-6-outcome-a,Number of self‑referrals of overweight or obese adults to lifestyle weight management programmes.,NA,NA
+6,outcome,b,QS111-6-outcome-b,Obesity prevalence.,NA,NA
+6,outcome,c,QS111-6-outcome-c,Prevalence of obesity‑related comorbidities.,NA,NA
+7,structure,a,QS111-7-structure-a,Evidence of local arrangements to ensure that adults who are identified as overweight or obese with comorbidities are offered a referral to a lifestyle weight management programme.,NA,NA
+7,process,a,QS111-7-process-a,Proportion of adults who are identified as overweight or obese with comorbidities who are referred to a lifestyle weight management programme.,The number in the denominator who are referred to a lifestyle weight management programme.,The number of adults who are identified as overweight or obese with comorbidities.
+7,outcome,a,QS111-7-outcome-a,Number of adults who are identified as overweight or obese with comorbidities enrolling in lifestyle weight management services.,NA,NA
+7,outcome,b,QS111-7-outcome-b,Obesity prevalence among adults with comorbidities.,NA,NA
+7,outcome,c,QS111-7-outcome-c,Obesity‑related comorbidities,NA,NA
+8,structure,a,QS111-8-structure-a,Evidence of local arrangements to ensure that adults about to complete a lifestyle weight management programme agree a plan to prevent weight regain.,NA,NA
+8,process,a,QS111-8-process-a,Proportion of adults completing a lifestyle weight management programme who agree a plan to prevent weight regain.,The number in the denominator who agree a plan to prevent weight regain.,The number of adults about to complete a lifestyle weight management programme.
+8,outcome,a,QS111-8-outcome-a,Obesity prevalence.,NA,NA
+8,outcome,b,QS111-8-outcome-b,Prevalence of obesity‑related comorbidities.,NA,NA

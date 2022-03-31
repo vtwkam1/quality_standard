@@ -1,0 +1,19 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS45-1-structure-a,"Evidence of local arrangements to ensure that men with LUTS are offered a full physical examination, including a digital rectal examination, as part of their initial assessment.",NA,NA
+1,process,a,QS45-1-process-a,"Proportion of men with LUTS who receive a full physical examination, including a digital rectal examination, as part of their initial assessment.","The number of men in the denominator who receive a full physical examination, including a digital rectal examination, as part of their initial assessment.",The number of men who present with LUTS.
+2,structure,a,QS45-2-structure-a,"Evidence of local arrangements to ensure that men with bothersome LUTS are asked to complete a urinary frequency and volume chart, as part of their initial assessment.",NA,NA
+2,process,a,QS45-2-process-a,"Proportion of men with bothersome LUTS who complete a urinary frequency and volume chart, as part of their initial assessment.","The number of men in the denominator who complete a urinary frequency and volume chart, as part of their initial assessment.",The number of men who present with bothersome LUTS.
+3,structure,a,QS45-3-structure-a,"Evidence of local arrangements to ensure that men with LUTS whose symptoms are not bothersome or complicated are given written advice on lifestyle interventions, as part of their initial assessment.",NA,NA
+3,process,a,QS45-3-process-a,"Proportion of men with LUTS whose symptoms are not bothersome or complicated who are given written advice on lifestyle interventions, as part of their initial assessment.","The number of men in the denominator who are given written advice on lifestyle interventions, as part of their initial assessment.",The number of men who present with LUTS whose symptoms are not bothersome or complicated.
+3,outcome,a,QS45-3-outcome-a,Men with LUTS whose symptoms are not bothersome or complicated feel informed about lifestyle options that might help to manage their condition.,NA,NA
+4,error,NA,NA,NA,NA,NA
+5,structure,a,QS45-5-structure-a,Micturition dribble are given information about how to perform urethral milking.,NA,NA
+5,process,a,QS45-5-process-a,Micturition dribble who are given information about how to perform urethral milking.,The number of men in the denominator who are given information about how to perform urethral milking.,Micturition dribble.
+5,outcome,a,QS45-5-outcome-a,Micturition dribble feel informed about how to perform urethral milking to help them to manage their condition.,NA,NA
+6,structure,a,QS45-6-structure-a,Evidence of local arrangements to ensure that men with LUTS receive a timely medication review.,NA,NA
+6,process,a,QS45-6-process-a,6 weeks.,6 weeks.,Blockers.
+6,process,b,QS45-6-process-b,6 months.,6 months.,The number of men with LUTS prescribed 5‑alpha reductase inhibitors.
+6,process,c,QS45-6-process-c,6 weeks until symptoms are stable.,6 weeks until symptoms are stable.,The number of men with LUTS prescribed anticholinergics.
+7,structure,a,QS45-7-structure-a,"Void residual volume, as part of their specialist assessment.",NA,NA
+7,process,a,QS45-7-process-a,"Void residual volume measured, as part of their specialist assessment.",Void residual volume measured at the time of specialist assessment.,The number of men with LUTS undergoing specialist assessment.
+8,error,NA,NA,NA,NA,NA

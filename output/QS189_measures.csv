@@ -1,0 +1,34 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS189-1-structure-a,Agency suicide prevention partnerships have a strategic suicide prevention group attended by senior level representatives.,NA,NA
+1,structure,b,QS189-1-structure-b,Agency suicide prevention partnerships have clear governance and accountability structures.,NA,NA
+1,structure,c,QS189-1-structure-c,"Agency suicide prevention partnerships support people with personal experience of a suicide attempt, suicidal thoughts and feelings, or a suicide bereavement, to be involved in the partnership.",NA,NA
+1,outcome,a,QS189-1-outcome-a,Harm.,NA,NA
+1,outcome,b,QS189-1-outcome-b,Harm in the community.,NA,NA
+1,outcome,c,QS189-1-outcome-c,Suicide rate.,NA,NA
+2,structure,a,QS189-2-structure-a,Agency suicide prevention partnerships collect and analyse local information on methods of suicide and locations.,NA,NA
+2,structure,b,QS189-2-structure-b,Agency suicide prevention partnerships identify how they will reduce access to methods of suicide.,NA,NA
+2,structure,c,QS189-2-structure-c,Agency suicide prevention partnerships review progress in reducing access to methods of suicide at least annually.,NA,NA
+2,outcome,a,QS189-2-outcome-a,Number of suicides by methods identified in the local suicide prevention action plan.,NA,NA
+2,outcome,b,QS189-2-outcome-b,Frequency locations.,NA,NA
+2,outcome,c,QS189-2-outcome-c,Suicide rate.,NA,NA
+3,structure,a,QS189-3-structure-a,Agency suicide prevention partnerships have a local media plan that identifies how they will encourage best practice in reporting on suicide and suicidal behaviour.,NA,NA
+3,structure,b,QS189-3-structure-b,Agency suicide prevention partnerships have a named lead for the local media plan.,NA,NA
+3,structure,c,QS189-3-structure-c,Agency suicide prevention partnerships work with other organisations such as the Samaritans to give feedback to local media journalists and editors about reporting on suicide and suicidal behaviour.,NA,NA
+3,outcome,a,QS189-3-outcome-a,Number of local media reports of suicide or suicidal behaviour that do not meet best practice criteria.,NA,NA
+3,outcome,b,QS189-3-outcome-b,Suicide rate.,NA,NA
+4,structure,a,QS189-4-structure-a,Evidence of local arrangements to provide training on information sharing and confidentiality based on the Department of Health and Social Care's consensus statement on information sharing and suicide prevention to practitioners in contact with adults presenting to health or care services with suicidal thoughts or plans.,NA,NA
+4,structure,b,QS189-4-structure-b,"Evidence of local processes to ensure that adults presenting with suicidal thoughts or plans discuss whether they would like their family, carers or friends to be involved in their care.",NA,NA
+4,structure,c,QS189-4-structure-c,Evidence of local processes to ensure that adults with suicidal thoughts or plans are made aware of the limits of confidentiality.,NA,NA
+4,process,a,QS189-4-process-a,"Proportion of adults presenting with suicidal thoughts or plans who discuss whether they would like their family, carers or friends to be involved in their care.","The number in the denominator who discuss whether they would like their family, carers or friends to be involved in their care.",The number of adults presenting with suicidal thoughts or plans.
+4,process,b,QS189-4-process-b,Proportion of adults presenting with suicidal thoughts or plans who are made aware of the limits of confidentiality.,The number in the denominator who are made aware of the limits of confidentiality.,The number of adults presenting with suicidal thoughts or plans.
+4,outcome,a,QS189-4-outcome-a,"Proportion of assessments for adults who presented with suicidal thoughts or plans who wanted their family, carers or friends involved, that involved family, carers or friends.","The number in the denominator that involved family, carers or friends.","The number of assessments for adults who presented with suicidal thoughts or plans who wanted their family, carers or friends involved."
+4,outcome,b,QS189-4-outcome-b,"Proportion of family members, carers or friends of adults who presented with suicidal thoughts or plans who are satisfied with information sharing about suicide risk.",The number in the denominator who are satisfied with information sharing about suicide risk.,"The number of family members, carers or friends of adults who presented with suicidal thoughts or plans."
+4,outcome,c,QS189-4-outcome-c,Suicide rate.,NA,NA
+5,structure,a,QS189-5-structure-a,Evidence of local arrangements to use rapid intelligence gathering to identify people who may be bereaved or affected by a suspected suicide.,NA,NA
+5,structure,b,QS189-5-structure-b,Evidence of local processes to give information to people bereaved or affected by a suspected suicide and to ask if they need help.,NA,NA
+5,structure,c,QS189-5-structure-c,Evidence of local services that can provide support to people bereaved or affected by a suspected suicide.,NA,NA
+5,process,a,QS189-5-process-a,Proportion of people bereaved or affected by a suspected suicide who are given information.,The number in the denominator who are given information.,The number of people bereaved or affected by a suspected suicide.
+5,process,b,QS189-5-process-b,Proportion of people bereaved or affected by a suspected suicide who are asked if they need help.,The number in the denominator who are asked if they need help.,The number of people bereaved or affected by a suspected suicide.
+5,process,c,QS189-5-process-c,Proportion of people bereaved or affected by a suspected suicide who access tailored support.,The number in the denominator who access tailored support.,The number of people bereaved or affected by a suspected suicide.
+5,outcome,a,QS189-5-outcome-a,Proportion of people bereaved or affected by a suicide who are satisfied with information and support.,The number in the denominator who are satisfied with information and support.,The number of people bereaved or affected by a suicide.
+5,outcome,b,QS189-5-outcome-b,Number of suicides among people bereaved or affected by a suicide.,NA,NA

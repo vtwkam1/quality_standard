@@ -1,0 +1,22 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS134-1-structure-a,Evidence of local arrangements to undertake serological testing for people identified with increased risk or symptoms of coeliac disease.,NA,NA
+1,process,a,QS134-1-process-a,Proportion of people at increased risk of coeliac disease who receive a serological test for coeliac disease.,The number in the denominator who receive a serological test for coeliac disease.,.
+1,process,b,QS134-1-process-b,Proportion of people with symptoms of coeliac disease who receive a serological test for coeliac disease.,The number in the denominator who receive a serological test for coeliac disease.,The number of people who have symptoms of coeliac disease.
+1,outcome,a,QS134-1-outcome-a,Diagnosed prevalence of coeliac disease.,NA,NA
+2,structure,a,QS134-2-structure-a,Evidence of local arrangements to ensure that people with a positive serological test for coeliac disease are referred to a specialist.,NA,NA
+2,structure,b,QS134-2-structure-b,Evidence of local arrangements to ensure that people referred to a specialist following a positive serological test for coeliac disease are advised to continue with a gluten‑containing diet until diagnosis is confirmed.,NA,NA
+2,process,a,QS134-2-process-a,Proportion of people with a positive serological test for coeliac disease who are referred to a specialist.,The number in the denominator who are referred to a specialist.,The number of people with a positive serological test for coeliac disease.
+2,process,b,QS134-2-process-b,Proportion of people referred to a specialist following a positive serological test for coeliac disease who are advised to continue with a gluten‑containing diet until diagnosis is confirmed.,The number in the denominator who are advised to continue with a gluten‑containing diet until diagnosis is confirmed.,The number of people referred to a specialist following a positive serological test for coeliac disease.
+2,outcome,a,QS134-2-outcome-a,Diagnosed prevalence of coeliac disease.,NA,NA
+3,structure,a,QS134-3-structure-a,Evidence of local processes to ensure that people referred to a specialist who need an endoscopic intestinal biopsy to diagnose coeliac disease have it within 6 weeks of referral.,NA,NA
+3,process,a,QS134-3-process-a,Proportion of people referred to a specialist who need an endoscopic intestinal biopsy to diagnose coeliac disease who have it within 6 weeks of referral.,The number in the denominator who have an endoscopic intestinal biopsy within 6 weeks of referral.,The number of people referred to a specialist who need an endoscopic intestinal biopsy to diagnose coeliac disease.
+3,process,b,QS134-3-process-b,Proportion of people with a positive serological test for coeliac disease who complete the diagnosis process.,The number in the denominator who complete the diagnosis process.,The number of people with a positive serological test for coeliac disease.
+3,outcome,a,QS134-3-outcome-a,Diagnosed prevalence of coeliac disease.,NA,NA
+4,structure,a,QS134-4-structure-a,Evidence of local arrangements to ensure that people newly diagnosed with coeliac disease discuss how to follow a gluten‑free diet with a healthcare professional with specialist knowledge of coeliac disease.,NA,NA
+4,process,a,QS134-4-process-a,Free diet with a healthcare professional with specialist knowledge of coeliac disease.,Free diet with a healthcare professional with specialist knowledge of coeliac disease.,The number of people newly diagnosed with coeliac disease.
+4,outcome,a,QS134-4-outcome-a,Satisfaction among people with coeliac disease that they are supported to manage their condition.,NA,NA
+4,outcome,b,QS134-4-outcome-b,Related quality of life for people with coeliac disease.,NA,NA
+5,structure,a,QS134-5-structure-a,Evidence of local arrangements to ensure that people with coeliac disease are offered an annual review.,NA,NA
+5,process,a,QS134-5-process-a,Proportion of people diagnosed with coeliac disease for more than 12 months who received an annual review in the previous 12 months.,The number in the denominator who received an annual review in the previous 12 months.,The number of people diagnosed with coeliac disease for more than 12 months.
+5,outcome,a,QS134-5-outcome-a,Related quality of life for people with coeliac disease.,NA,NA
+5,outcome,b,QS134-5-outcome-b,Identification of complications associated with coeliac disease.,NA,NA

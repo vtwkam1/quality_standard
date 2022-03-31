@@ -1,0 +1,18 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS133-1-structure-a,Evidence of local arrangements to undertake comprehensive assessment before any intervention programme for attachment difficulties.,NA,NA
+1,process,a,QS133-1-process-a,Proportion of intervention programmes commencing for attachment difficulties in children and young people that included a comprehensive assessment before the interventions began.,The number in the denominator that included a comprehensive assessment before the interventions began.,The number of intervention programmes commencing for attachment difficulties in children and young people.
+1,outcome,a,QS133-1-outcome-a,Social and emotional development and behavioural functioning of children at risk of or with confirmed attachment difficulties.,NA,NA
+1,outcome,b,QS133-1-outcome-b,Sensitivity and responsiveness in parents of children with attachment difficulties on the edge of care.,NA,NA
+2,structure,a,QS133-2-structure-a,Evidence of local arrangements to develop education plans for all children and young people with attachment difficulties that set out how they will be supported in school.,NA,NA
+2,process,a,QS133-2-process-a,Proportion of children and young people with attachment difficulties who have an education plan setting out how they will be supported in school.,The number in the denominator who have an education plan setting out how they will be supported in school.,The number of children and young people with attachment difficulties.
+2,outcome,a,QS133-2-outcome-a,School attendance rates for children and young people with attachment difficulties.,NA,NA
+2,outcome,b,QS133-2-outcome-b,School exclusions for children and young people with attachment difficulties.,NA,NA
+3,structure,a,QS133-3-structure-a,Age children identified to have or be at risk of attachment difficulties are offered a video feedback programme.,NA,NA
+3,process,a,QS133-3-process-a,Age children with or at risk of attachment difficulties whose parents or carers receive a video feedback programme.,The number in the denominator whose parents or carers receive a video feedback programme.,Age children with or at risk of attachment difficulties.
+3,outcome,a,QS133-3-outcome-a,Sensitivity and responsiveness in parents of children with attachment difficulties on the edge of care.,NA,NA
+3,outcome,b,QS133-3-outcome-b,Breakdown in care placements for preschool aged children with or at risk of attachment difficulties.,NA,NA
+4,structure,a,QS133-4-structure-a,"Evidence of local arrangements to provide training, education and support programmes for carers of children and young people with attachment difficulties.",NA,NA
+4,structure,b,QS133-4-structure-b,"Evidence that training, education and support programmes for carers of children and young people with attachment difficulties are appropriate to the age of the child.",NA,NA
+4,outcome,a,QS133-4-outcome-a,Breakdown of placements for children and young people with attachment difficulties.,NA,NA
+4,outcome,b,QS133-4-outcome-b,School attendance rates for children and young people with attachment difficulties in care.,NA,NA
+4,outcome,c,QS133-4-outcome-c,School exclusions for children and young people with attachment difficulties in care.,NA,NA

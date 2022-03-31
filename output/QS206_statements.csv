@@ -1,3 +1,6 @@
 qs_id,statement_number,statement
 QS206,1,Adults who will have hip or knee replacement are given advice on preoperative rehabilitation when they are listed for surgery.
+QS206,2,Adults with isolated medial compartmental osteoarthritis who will have knee replacement are given the choice of partial or total replacement.
+QS206,3,Adults having hip or knee replacement are given tranexamic acid during surgery.
 QS206,4,"Adults having hip, knee or shoulder replacement have 2 'stop moments' during surgery so that implant details and the compatibility of all components can be checked."
+QS206,5,"Adults who have had hip, knee or shoulder replacement are given advice on postoperative rehabilitation before discharge."

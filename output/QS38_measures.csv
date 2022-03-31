@@ -1,0 +1,27 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS38-1-structure-a,Evidence of local arrangements to ensure that people with acute upper gastrointestinal bleeding receive a risk assessment using a validated risk score.,NA,NA
+1,process,a,QS38-1-process-a,Proportion of people with acute upper gastrointestinal bleeding who receive a risk assessment using a validated risk score.,The number of people in the denominator who receive a risk assessment using a validated risk score.,The number of people with acute upper gastrointestinal bleeding.
+2,structure,a,QS38-2-structure-a,Evidence of local arrangements to ensure that people with severe acute upper gastrointestinal bleeding who are haemodynamically unstable are given an endoscopy within 2 hours of optimal resuscitation.,NA,NA
+2,process,a,QS38-2-process-a,Proportion of people with severe acute upper gastrointestinal bleeding who are haemodynamically unstable who receive endoscopy within 2 hours of optimal resuscitation.,The number of people in the denominator who receive endoscopy within 2 hours of optimal resuscitation.,The number of people with severe acute upper gastrointestinal bleeding who are haemodynamically unstable.
+3,structure,a,QS38-3-structure-a,Evidence of local arrangements to ensure that people admitted to hospital with acute upper gastrointestinal bleeding who are haemodynamically stable are given an endoscopy within 24 hours of admission.,NA,NA
+3,process,a,QS38-3-process-a,Proportion of people admitted to hospital with acute upper gastrointestinal bleeding who are haemodynamically stable who receive endoscopy within 24 hours of admission.,The number of people in the denominator who receive endoscopy within 24 hours of admission.,The number of people admitted to hospital with acute upper gastrointestinal bleeding who are haemodynamically stable.
+3,outcome,a,QS38-3-outcome-a,Length of hospital stay for people with acute upper gastrointestinal bleeding who are haemodynamically stable.,NA,NA
+4,structure,a,QS38-4-structure-a,.,NA,NA
+4,process,a,QS38-4-process-a,.,.,Variceal acute upper gastrointestinal bleeding and stigmata of recent haemorrhage.
+4,outcome,a,QS38-4-outcome-a,Bleeding within 48 hours.,NA,NA
+4,outcome,b,QS38-4-outcome-b,Variceal acute upper gastrointestinal bleeding and stigmata of recent haemorrhage who need rescue therapies.,NA,NA
+5,structure,a,QS38-5-structure-a,.,NA,NA
+5,process,a,QS38-5-process-a,.,.,Bleed after endoscopic treatment and who are haemodynamically unstable.
+6,structure,a,QS38-6-structure-a,Evidence of local arrangements to ensure that people with suspected or confirmed variceal acute upper gastrointestinal bleeding are given antibiotic therapy at presentation.,NA,NA
+6,process,a,QS38-6-process-a,Proportion of people with suspected or confirmed variceal acute upper gastrointestinal bleeding who receive antibiotic therapy at presentation.,The number of people in the denominator who receive antibiotic therapy at presentation.,The number of people with suspected or confirmed variceal acute upper gastrointestinal bleeding at presentation.
+6,outcome,a,QS38-6-outcome-a,Rates of sepsis in people with suspected or confirmed variceal acute upper gastrointestinal bleeding.,NA,NA
+7,structure,a,QS38-7-structure-a,Evidence of local arrangements to ensure that people with acute upper gastrointestinal bleeding from oesophageal varices are given band ligation.,NA,NA
+7,process,a,QS38-7-process-a,Proportion of people with acute upper gastrointestinal bleeding from oesophageal varices who receive band ligation.,The number of people in the denominator who receive band ligation.,The number of people with acute upper gastrointestinal bleeding from oesophageal varices.
+7,outcome,a,QS38-7-outcome-a,Rates of uncontrolled bleeding in people with upper gastrointestinal bleeding from oesophageal varices.,NA,NA
+8,structure,a,QS38-8-structure-a,Evidence of local arrangements to ensure that people with acute upper gastrointestinal bleeding from gastric varices are given an endoscopic injection of N‑butyl‑2‑cyanoacrylate.,NA,NA
+8,process,a,QS38-8-process-a,Proportion of people with acute upper gastrointestinal bleeding from gastric varices who receive endoscopic injection of N‑butyl‑2‑cyanoacrylate.,The number of people in the denominator who receive endoscopic injection of N‑butyl‑2‑cyanoacrylate.,The number of people with acute upper gastrointestinal bleeding from gastric varices.
+8,outcome,a,QS38-8-outcome-a,Rates of uncontrolled bleeding in people with acute upper gastrointestinal bleeding from gastric varices.,NA,NA
+9,structure,a,QS38-9-structure-a,Evidence of local arrangements to ensure that people with uncontrolled acute upper gastrointestinal bleeding from varices are given TIPS.,NA,NA
+9,process,a,QS38-9-process-a,The proportion of people with uncontrolled acute upper gastrointestinal bleeding from varices who receive TIPS.,The number of people in the denominator who receive TIPS.,The number of people with uncontrolled acute upper gastrointestinal bleeding from varices.
+10,structure,a,QS38-10-structure-a,Dose aspirin.,NA,NA
+10,process,a,QS38-10-process-a,Dose aspirin.,Dose aspirin.,The number of people with acute upper gastrointestinal bleeding who take aspirin for secondary prevention of vascular events and in whom haemostasis has been achieved.

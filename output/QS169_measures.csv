@@ -1,0 +1,18 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS169-1-structure-a,Evidence of local arrangements for healthcare professionals to agree a discharge plan with parents or carers of a preterm baby before the baby is discharged from hospital.,NA,NA
+1,process,a,QS169-1-process-a,Proportion of preterm babies discharged from hospital whose parents or carers have a discharge plan.,The number in the denominator whose parents or carers have a discharge plan.,The number of preterm babies discharged from hospital.
+1,outcome,a,QS169-1-outcome-a,Proportion of parents or carers who felt prepared for their baby's discharge from hospital.,NA,NA
+2,structure,a,QS169-2-structure-a,Evidence of local arrangements for a neonatal outreach team with expertise in the development of babies born preterm to be available through a single point of contact.,NA,NA
+2,process,a,QS169-2-process-a,Proportion of preterm babies who are eligible for enhanced developmental support whose parents or carers are provided with a single point of contact for outreach care within the neonatal service.,The number in the denominator whose parents or carers are provided with a single point of contact for outreach care within the neonatal service.,The number of preterm babies who are eligible for enhanced developmental support.
+2,outcome,a,QS169-2-outcome-a,Acute issues following discharge from neonatal services.,NA,NA
+3,structure,a,QS169-3-structure-a,"Evidence of local systems, such as the BadgerNet electronic record system, to record data on children born preterm and identify who needs enhanced developmental surveillance.",NA,NA
+3,structure,b,QS169-3-structure-b,That focus on development with children born preterm who are eligible for enhanced developmental surveillance.,NA,NA
+3,process,a,QS169-3-process-a,That focuses on development.,That focuses on development.,The number of children born preterm who are eligible for enhanced developmental surveillance.
+3,process,b,QS169-3-process-b,That focuses on development.,That focuses on development.,The number of children born preterm who are eligible for enhanced developmental surveillance.
+3,process,c,QS169-3-process-c,.,.,The number of children born preterm who are eligible for enhanced developmental surveillance.
+3,outcome,a,QS169-3-outcome-a,With a developmental outcome category recorded.,NA,NA
+3,outcome,b,QS169-3-outcome-b,Who have support provided.,NA,NA
+4,structure,a,QS169-4-structure-a,"Evidence of local systems, such as the BadgerNet electronic record system, to record data on children born preterm and identify those born before 28+0 weeks' gestation.",NA,NA
+4,structure,b,QS169-4-structure-b,With children who are born before 28+0 weeks' gestation.,NA,NA
+4,process,a,QS169-4-process-a,.,.,The number of children born before 28+0 weeks' gestation.
+4,outcome,a,QS169-4-outcome-a,Who have support provided.,NA,NA

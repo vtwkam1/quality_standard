@@ -1,0 +1,6 @@
+qs_id,statement_number,statement
+QS161,1,People with suspected sepsis are assessed using a structured set of observations to stratify risk of severe illness or death.
+QS161,2,People with suspected sepsis in acute hospital settings and at least 1 of the criteria indicating high risk of severe illness or death have an immediate review by a senior clinical decision-maker and antibiotics given within 1 hour if indicated.
+QS161,3,People with suspected sepsis in acute hospital settings who need treatment to restore cardiovascular stability have an intravenous fluid bolus within 1 hour of risk being stratified.
+QS161,4,People with suspected sepsis in acute hospital settings who receive intravenous antibiotics or fluid bolus are seen by a consultant if their condition fails to respond within 1 hour of initial treatment.
+QS161,5,People with suspected sepsis who have been stratified as at low risk of severe illness or death are given information about symptoms to monitor and how to access medical care.

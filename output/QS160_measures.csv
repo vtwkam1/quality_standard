@@ -1,0 +1,26 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS160-1-structure-a,Limiting condition during pregnancy are involved in developing an advance care plan before the birth.,NA,NA
+1,structure,b,QS160-1-structure-b,Limiting condition are involved in developing an advance care plan.,NA,NA
+1,structure,c,QS160-1-structure-c,Limiting conditions and their parents or carers are involved in developing an advance care plan.,NA,NA
+1,process,a,QS160-1-process-a,Limiting condition in the baby in which the parents are involved in developing an advance care plan before birth.,The number in the denominator in which parents are involved in developing an advance care plan before birth.,Limiting condition in the baby.
+1,process,b,QS160-1-process-b,Limiting condition who are involved in developing an advance care plan.,The number in the denominator who are involved in developing an advance care plan.,Limiting condition.
+1,process,c,QS160-1-process-c,Limiting condition who are involved in developing their advance care plan.,The number in the denominator who are involved in developing their advance care plan.,Limiting condition.
+1,outcome,a,QS160-1-outcome-a,Limiting condition and their parents and carers.,NA,NA
+2,structure,a,QS160-2-structure-a,Limiting condition to lead and coordinate their care.,NA,NA
+2,process,a,QS160-2-process-a,Limiting condition who have a named medical specialist.,The number in the denominator who have a named medical specialist.,Limiting condition.
+2,outcome,a,QS160-2-outcome-a,Limiting condition.,NA,NA
+3,structure,a,QS160-3-structure-a,Limiting condition and their parents or carers.,NA,NA
+3,process,a,QS160-3-process-a,"Limiting condition and their parents or carers who are given information about emotional and psychological support, including how to access it.","The number in the denominator who are given information about emotional and psychological support, including how to access it.",Limiting condition and their parents or carers.
+3,outcome,a,QS160-3-outcome-a,"Limiting condition, and their parents or carers, with information they are given about emotional and psychological support.",NA,NA
+4,structure,a,QS160-4-structure-a,Limiting conditions include input from the specialist paediatric palliative care team.,NA,NA
+4,process,a,QS160-4-process-a,Limiting conditions cared for by a multidisciplinary team that includes input from a specialist paediatric palliative care team.,The number in the denominator cared for by a multidisciplinary team that includes input from a specialist paediatric palliative care team.,Limiting conditions.
+4,outcome,a,QS160-4-outcome-a,"Limiting conditions, and their parents or carers.",NA,NA
+5,structure,a,QS160-5-structure-a,"Evidence of local arrangements to provide support for grief and loss to parents or carers when infants, children and young people are approaching the end of life and after their death.",NA,NA
+5,process,a,QS160-5-process-a,"Limiting condition, who had a plan for support with grief and loss before the death of the infant, child or young person.","The number in the denominator whose parents and carers had a plan for support with grief and loss before the death of the infant, child or young person.",Limiting condition who have died.
+5,process,b,QS160-5-process-b,"Limiting condition who have a plan for support with grief and loss after the death of the infant, child or young person.","The number in the denominator who have a plan for support with grief and loss after the death of the infant, child or young person.",Limiting condition who have died.
+5,outcome,a,QS160-5-outcome-a,"Level of satisfaction with grief and loss support in parents or carers of infants, children and young people receiving end of life care.",NA,NA
+6,structure,a,QS160-6-structure-a,"Evidence of local arrangements to ensure that children's nursing care is available 24 hours a day for infants, children and young people approaching the end of life who are being cared for at home.",NA,NA
+6,structure,b,QS160-6-structure-b,"Evidence of local arrangements to ensure that advice from a consultant in paediatric palliative care is available 24 hours a day for infants, children and young people approaching the end of life who are being cared for at home.",NA,NA
+6,process,a,QS160-6-process-a,Hour access to children's nursing care.,Hour access to children's nursing care before their death.,"The number of infants, children and young people approaching the end of life and being cared for at home."
+6,process,b,QS160-6-process-b,Hour access to advice from a consultant in paediatric palliative care.,Hour access to advice from a consultant in paediatric palliative care before their death.,"The number of infants, children and young people approaching the end of life and being cared for at home."
+6,outcome,a,QS160-6-outcome-a,"Proportion of infants, children and young people who had the option of being cared for at home when approaching the end of life.",NA,NA

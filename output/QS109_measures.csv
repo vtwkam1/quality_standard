@@ -1,0 +1,39 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS109-1-structure-a,Evidence of local arrangements and written clinical protocols to ensure that women with diabetes planning a pregnancy are prescribed 5 mg/day folic acid from at least 3 months before conception.,NA,NA
+1,process,a,QS109-1-process-a,Proportion of pregnant women with type 1 diabetes prescribed 5 mg/day folic acid from at least 3 months before conception.,The number in the denominator prescribed 5 mg/day folic acid from at least 3 months before conception.,The number of pregnant women with type 1 diabetes.
+1,process,b,QS109-1-process-b,Proportion of pregnant women with type 2 diabetes prescribed 5 mg/day folic acid from at least 3 months before conception.,The number in the denominator prescribed 5 mg/day folic acid from at least 3 months before conception.,The number of pregnant women with type 2 diabetes.
+1,outcome,a,QS109-1-outcome-a,Neural tube defects.,NA,NA
+2,structure,a,QS109-2-structure-a,Evidence of local arrangements to provide a joint diabetes and antenatal care team.,NA,NA
+2,structure,b,QS109-2-structure-b,Existing diabetes are seen by members of the joint diabetes and antenatal care team within 1 week of their pregnancy being confirmed.,NA,NA
+2,process,a,QS109-2-process-a,Existing diabetes who are seen by members of the joint diabetes and antenatal care team within 1 week of their pregnancy being confirmed.,The number in the denominator who are seen by members of the joint diabetes and antenatal care team within 1 week of their pregnancy being confirmed.,Existing diabetes.
+2,outcome,a,QS109-2-outcome-a,Maternal satisfaction.,NA,NA
+2,outcome,b,QS109-2-outcome-b,Perinatal morbidity.,NA,NA
+2,outcome,c,QS109-2-outcome-c,Perinatal mortality.,NA,NA
+2,outcome,d,QS109-2-outcome-d,Maternal adverse outcomes.,NA,NA
+3,structure,a,QS109-3-structure-a,Existing diabetes have their HbA1c levels measured at their booking appointment.,NA,NA
+3,process,a,QS109-3-process-a,Existing diabetes who have their HbA1c levels measured at their booking appointment.,The number in the denominator who have their HbA1c levels measured at their booking appointment.,Existing diabetes.
+3,outcome,a,QS109-3-outcome-a,Mode of birth.,NA,NA
+3,outcome,b,QS109-3-outcome-b,Adverse fetal outcomes.,NA,NA
+3,outcome,c,QS109-3-outcome-c,Maternal diabetic complications.,NA,NA
+4,structure,a,QS109-4-structure-a,Existing diabetes are referred at their booking appointment for retinal assessment.,NA,NA
+4,process,a,QS109-4-process-a,Existing diabetes who are referred at their booking appointment for retinal assessment.,The number in the denominator who are referred at their booking appointment for retinal assessment.,Existing diabetes attending a booking appointment who have not had retinal assessment in the last 3 months.
+4,process,b,QS109-4-process-b,Existing diabetes who have a retinal assessment in the first 3 months of pregnancy.,The number in the denominator who have a retinal assessment in the first 3 months of pregnancy.,Existing diabetes referred at their booking appointment for a retinal assessment.
+4,outcome,a,QS109-4-outcome-a,Rates of diabetic retinopathy during pregnancy.,NA,NA
+4,outcome,b,QS109-4-outcome-b,Diabetic retinopathy progression during pregnancy.,NA,NA
+5,structure,a,QS109-5-structure-a,Evidence of local arrangements to provide a joint diabetes and antenatal care team.,NA,NA
+5,structure,b,QS109-5-structure-b,Evidence of local arrangements and written clinical protocols to ensure that women diagnosed with gestational diabetes are seen by members of the joint diabetes and antenatal care team within 1 week of diagnosis.,NA,NA
+5,process,a,QS109-5-process-a,Proportion of women diagnosed with gestational diabetes who are seen by members of the joint diabetes and antenatal care team within 1 week of diagnosis.,The number in the denominator who are seen by members of the joint diabetes and antenatal care team within 1 week of diagnosis.,The number of pregnant women with gestational diabetes.
+5,outcome,a,QS109-5-outcome-a,Maternal satisfaction.,NA,NA
+5,outcome,b,QS109-5-outcome-b,Perinatal morbidity.,NA,NA
+5,outcome,c,QS109-5-outcome-c,Perinatal mortality.,NA,NA
+5,outcome,d,QS109-5-outcome-d,Maternal adverse outcomes.,NA,NA
+6,structure,a,QS109-6-structure-a,Monitor their blood glucose levels.,NA,NA
+6,structure,b,QS109-6-structure-b,Evidence of local arrangements to ensure that pregnant women with diabetes have access to appropriate blood glucose meters and are prescribed enough testing strips.,NA,NA
+6,process,a,QS109-6-process-a,Monitor their blood glucose levels.,Monitor their blood glucose levels.,The number of pregnant women with diabetes.
+6,process,b,QS109-6-process-b,Proportion of pregnant women with diabetes who have an appropriate blood glucose meter.,The number in the denominator who have an appropriate blood glucose meter.,The number of pregnant women with diabetes.
+6,process,c,QS109-6-process-c,Proportion of pregnant women with diabetes who are prescribed enough blood glucose testing strips.,The number in the denominator who are prescribed enough blood glucose testing strips.,The number of pregnant women with diabetes.
+6,outcome,a,QS109-6-outcome-a,Adverse fetal outcomes.,NA,NA
+6,outcome,b,QS109-6-outcome-b,Maternal diabetic complications.,NA,NA
+7,structure,a,QS109-7-structure-a,Evidence of local arrangements and written clinical protocols to ensure that women who have had gestational diabetes have an annual HbA1c test.,NA,NA
+7,process,a,QS109-7-process-a,Proportion of women who have had gestational diabetes who have an annual HbA1c test.,The number in the denominator who have had an HbA1c test in the last 12 months.,The number of women who have had gestational diabetes and whose baby was born at least 12 months ago.
+7,outcome,a,QS109-7-outcome-a,Earlier detection of type 2 diabetes.,NA,NA

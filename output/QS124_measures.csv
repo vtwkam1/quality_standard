@@ -1,0 +1,17 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS124-1-structure-a,Ray and CT for people with suspected cancer.,NA,NA
+1,outcome,a,QS124-1-outcome-a,Time to diagnostic test for suspected cancer.,NA,NA
+1,outcome,b,QS124-1-outcome-b,Time from presentation at GP to cancer diagnosis.,NA,NA
+2,structure,a,QS124-2-structure-a,Evidence of local direct access pathways to ensure that people presenting in primary care with symptoms that suggest oesophageal or stomach cancer have an urgent direct access upper gastrointestinal endoscopy.,NA,NA
+2,process,a,QS124-2-process-a,Proportion of people with symptoms that suggest oesophageal or stomach cancer who have an urgent direct access upper gastrointestinal endoscopy.,The number in the denominator who have an urgent direct access upper gastrointestinal endoscopy.,The number of people with symptoms that suggest oesophageal or stomach cancer sent for an urgent direct access upper gastrointestinal endoscopy at the time of presentation at their GP.
+2,outcome,a,QS124-2-outcome-a,Time to oesophageal cancer diagnosis.,NA,NA
+2,outcome,b,QS124-2-outcome-b,Time to stomach cancer diagnosis.,NA,NA
+3,structure,a,QS124-3-structure-a,"Evidence of local arrangements and written clinical protocols to ensure that adults presenting in primary care with symptoms that suggest colorectal cancer who do not meet the referral pathway criteria, have a test for blood in faeces.",NA,NA
+3,process,a,QS124-3-process-a,"Proportion of presentations of adults with symptoms that suggest colorectal cancer, without visible rectal bleeding, in which the person has a test for blood in faeces.",The number in the denominator resulting in a test for blood in faeces.,The number of presentations of adults with symptoms that suggest colorectal cancer who do not meet the referral pathway criteria.
+3,outcome,a,QS124-3-outcome-a,Stage of colorectal cancer at diagnosis.,NA,NA
+3,outcome,b,QS124-3-outcome-b,Related mortality.,NA,NA
+4,structure,a,QS124-4-structure-a,Evidence of local arrangements to ensure that people with suspected cancer who are referred to a cancer service are given written information to encourage them to attend.,NA,NA
+4,process,a,QS124-4-process-a,Proportion of referrals of people with suspected cancer to a cancer service for which there is a recorded discussion when they are offered the referral about information to encourage attendance.,The number in the denominator for which there is a record of a discussion when the referral was offered about information to encourage attendance.,The number of referrals of people with suspected cancer to a cancer service.
+4,outcome,a,QS124-4-outcome-a,Number of missed appointments.,NA,NA
+4,outcome,b,QS124-4-outcome-b,Patient satisfaction with information provided.,NA,NA
+4,outcome,c,QS124-4-outcome-c,Time to cancer diagnosis.,NA,NA

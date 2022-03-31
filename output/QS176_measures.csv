@@ -1,0 +1,18 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS176-1-structure-a,Gastric cancer.,NA,NA
+1,process,a,QS176-1-process-a,Gastric clinical nurse specialist.,Gastric clinical nurse specialist.,Gastric cancer.
+1,outcome,a,QS176-1-outcome-a,Gastric cancer.,NA,NA
+1,outcome,b,QS176-1-outcome-b,Gastric cancer.,NA,NA
+2,structure,a,QS176-2-structure-a,Gastric cancer take part in multidisciplinary team meetings.,NA,NA
+2,process,a,QS176-2-process-a,Gastric cancer.,Gastric cancer.,Gastric cancer.
+2,outcome,a,QS176-2-outcome-a,Gastric cancer MDT.,NA,NA
+2,outcome,b,QS176-2-outcome-b,Gastric cancer.,NA,NA
+3,structure,a,QS176-3-structure-a,Evidence of the availability of equipment and systems to request and report the results of F‑18 FDG PET‑CT scans.,NA,NA
+3,structure,b,QS176-3-structure-b,Evidence of local processes to identify F‑18 FDG PET‑CT scans reported more than 1 week after they have been requested.,NA,NA
+3,process,a,QS176-3-process-a,Oesophageal junctional cancer for whom radical treatment is suitable who have staging using F‑18 FDG PET‑CT with results reported within 1 week of the decision to request the scan.,The number of adults in the denominator who have the results of F‑18 FDG PET‑CT staging reported within 1 week of the decision to request the scan.,Oesophageal junctional cancer for whom radical treatment is suitable.
+3,outcome,a,QS176-3-outcome-a,Oesophageal junctional cancer who have accurate staging.,NA,NA
+3,outcome,b,QS176-3-outcome-b,Oesophageal junctional cancer who have endoscopic ultrasound.,NA,NA
+4,structure,a,QS176-4-structure-a,Gastric cancer before and after radical treatment.,NA,NA
+4,process,a,QS176-4-process-a,"Gastric cancer with radical treatment planned who have tailored, specialist dietetic support.","The number in the denominator who have tailored, specialist dietetic support before radical treatment.",Gastric cancer who have radical treatment planned.
+4,process,b,QS176-4-process-b,Gastric cancer who have tailored specialist dietetic support after radical treatment.,The number in the denominator who have tailored specialist dietetic support after radical treatment.,Gastric cancer who have radical treatment.
+4,outcome,a,QS176-4-outcome-a,Gastric cancer.,NA,NA

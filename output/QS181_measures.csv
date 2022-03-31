@@ -1,0 +1,26 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS181-1-structure-a,"Evidence that local authorities identify in the Local Plan, local transport plan and other key strategies how they will address air pollution, including who is responsible for delivering key actions.",NA,NA
+1,structure,b,QS181-1-structure-b,"Evidence that local authorities identify in the Local Plan, local transport plan and other key strategies how they will encourage and enable active travel.",NA,NA
+1,structure,c,QS181-1-structure-c,Emission vehicles.,NA,NA
+1,structure,d,QS181-1-structure-d,"Evidence that local authorities identify in the Local Plan, local transport plan and other key strategies how they will develop buildings and spaces to reduce exposure to air pollution.",NA,NA
+1,structure,e,QS181-1-structure-e,Evidence that local authorities identify key actions to address air pollution and monitor progress against them.,NA,NA
+1,outcome,a,QS181-1-outcome-a,Emission vehicles.,NA,NA
+1,outcome,b,QS181-1-outcome-b,.,NA,NA
+1,outcome,c,QS181-1-outcome-c,.,NA,NA
+1,outcome,d,QS181-1-outcome-d,.,NA,NA
+2,structure,a,QS181-2-structure-a,Related air pollution.,NA,NA
+2,structure,b,QS181-2-structure-b,Related air pollution in planning applications for major developments.,NA,NA
+2,process,a,QS181-2-process-a,Related air pollution.,Related air pollution.,The number of planning applications for major developments granted permission.
+2,outcome,a,QS181-2-outcome-a,Emission vehicles.,NA,NA
+2,outcome,b,QS181-2-outcome-b,.,NA,NA
+2,outcome,c,QS181-2-outcome-c,.,NA,NA
+2,outcome,d,QS181-2-outcome-d,.,NA,NA
+3,structure,a,QS181-3-structure-a,Evidence that public sector organisations identify how they will reduce emissions from their vehicle fleets to address air pollution.,NA,NA
+3,structure,b,QS181-3-structure-b,Evidence that public sector organisations require commissioned transport or fleet services to reduce emissions from their vehicle fleets to address air pollution.,NA,NA
+3,outcome,a,QS181-3-outcome-a,Emission vehicles in public sector vehicle fleets.,NA,NA
+3,outcome,b,QS181-3-outcome-b,Overall fuel consumption for public sector vehicle fleets.,NA,NA
+4,structure,a,QS181-4-structure-a,"Evidence that healthcare professionals carrying out routine health appointments with children, young people and adults with chronic respiratory or cardiovascular conditions are aware of the advice they should provide on what to do when outdoor air quality is poor.",NA,NA
+4,structure,b,QS181-4-structure-b,"Evidence of local processes to ensure that children, young people and adults with chronic respiratory or cardiovascular conditions attending routine health appointments are given advice on what to do when outdoor air quality is poor.",NA,NA
+4,process,a,QS181-4-process-a,"Proportion of children, young people and adults with chronic respiratory or cardiovascular conditions attending a routine health appointment that were given advice on what to do when outdoor air quality is poor.",The number in the denominator that were given advice on what to do when outdoor air quality is poor.,"The number of children, young people and adults with chronic respiratory or cardiovascular conditions attending a routine health appointment."
+4,outcome,a,QS181-4-outcome-a,"Level of awareness among children, young people and adults with chronic respiratory or cardiovascular conditions on what to do when outdoor air quality is poor.",NA,NA
+4,outcome,b,QS181-4-outcome-b,Rate of hospital attendance or admission for respiratory or cardiovascular exacerbations.,NA,NA

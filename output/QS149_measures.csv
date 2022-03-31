@@ -1,0 +1,20 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS149-1-structure-a,"Evidence of local arrangements to ensure that adults who have had a fragility fracture, use systemic glucocorticoids or have a history of falls, have an assessment of their fracture risk.",NA,NA
+1,process,a,QS149-1-process-a,Proportion of adults who have had a fragility fracture who have an assessment of their fracture risk.,The number in the denominator who have an assessment of their fracture risk.,The number of adults who have had a fragility fracture.
+1,process,b,QS149-1-process-b,Proportion of adults who use systemic glucocorticoids who have an assessment of their fracture risk.,The number in the denominator who have an assessment of their fracture risk.,The number of adults who use systemic glucocorticoids.
+1,process,c,QS149-1-process-c,Proportion of adults aged 50 and over who have a history of falls who have an assessment of their fracture risk.,The number in the denominator who have an assessment of their fracture risk.,The number of adults aged 50 and over who have a history of falls.
+1,outcome,a,QS149-1-outcome-a,Incidence of fragility fractures.,NA,NA
+2,structure,a,QS149-2-structure-a,Evidence of local arrangements to ensure that adults at high risk of fragility fracture are offered drug treatment to reduce fracture risk.,NA,NA
+2,process,a,QS149-2-process-a,Proportion of adults at high risk of fragility fracture receiving drug treatment to reduce fracture risk.,The number in the denominator who receive drug treatment to reduce fracture risk.,The number of adults at high risk of fragility fracture.
+2,outcome,a,QS149-2-outcome-a,Incidence of fragility fractures.,NA,NA
+2,outcome,b,QS149-2-outcome-b,Hospital admission rates for fragility fractures.,NA,NA
+3,structure,a,QS149-3-structure-a,Evidence of local arrangements to ensure that adults prescribed drug treatment to reduce fracture risk are asked about adverse effects and adherence to treatment at each medication review.,NA,NA
+3,process,a,QS149-3-process-a,Proportion of medication reviews for adults prescribed drug treatment to reduce fracture risk that include a record of adverse effects and adherence to treatment.,The number in the denominator that include a record of adverse effects and adherence to treatment.,The number of medication reviews for adults prescribed drug treatment to reduce fracture risk.
+3,outcome,a,QS149-3-outcome-a,Adults adhering to drug treatment to reduce fracture risk.,NA,NA
+3,outcome,b,QS149-3-outcome-b,Incidence of fragility fracture.,NA,NA
+4,structure,a,QS149-4-structure-a,Evidence of local arrangements to ensure that adults taking zoledronic acid for 3 years have a review of the need for continuing treatment.,NA,NA
+4,structure,b,QS149-4-structure-b,"Evidence of local arrangements to ensure that adults taking alendronate, ibandronate or risedronate for 5 years have a review of the need for continuing treatment.",NA,NA
+4,process,a,QS149-4-process-a,Proportion of adults taking zoledronic acid for 3 years who have a review of the need for continuing treatment.,The number in the denominator who have a review of the need for continuing treatment.,The number of adults taking zoledronic acid for 3 years.
+4,process,b,QS149-4-process-b,"Proportion of adults taking alendronate, ibandronate or risedronate for 5 years who have a review of the need for continuing treatment.",The number in the denominator who have a review of the need for continuing treatment.,"The number of adults taking alendronate, ibandronate or risedronate for 5 years."
+4,outcome,a,QS149-4-outcome-a,Term bisphosphonate therapy.,NA,NA
+4,outcome,b,QS149-4-outcome-b,Term bisphosphonate therapy.,NA,NA

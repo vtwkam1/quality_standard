@@ -1,0 +1,32 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS126-1-structure-a,"Evidence of local arrangements to ensure that people diagnosed with MND are given information about the diagnosis, prognosis and management of MND by a consultant neurologist with expertise in MND.",NA,NA
+1,process,a,QS126-1-process-a,"Of adults with MND, the number who are given information at diagnosis about the diagnosis, prognosis and management of MND by a consultant neurologist with expertise in treating people with MND.",NA,NA
+1,outcome,a,QS126-1-outcome-a,Adults diagnosed with MND understand how the condition is likely to affect them.,NA,NA
+1,outcome,b,QS126-1-outcome-b,Adults diagnosed with MND understand the type of care and support they can receive.,NA,NA
+1,outcome,c,QS126-1-outcome-c,"Adults diagnosed with MND, and their families or carers, feel able to cope.",NA,NA
+2,structure,a,QS126-2-structure-a,Evidence that MND multidisciplinary teams include respiratory physiologists or healthcare professionals who can assess respiratory function.,NA,NA
+2,structure,b,QS126-2-structure-b,3 months.,NA,NA
+2,structure,c,QS126-2-structure-c,Evidence of established relationships and decision making arrangements between MND multidisciplinary teams and respiratory ventilation services.,NA,NA
+2,structure,d,QS126-2-structure-d,Evidence of local arrangements to provide NIV for adults with MND who have respiratory impairment.,NA,NA
+2,process,a,QS126-2-process-a,"Of adults diagnosed with MND, the number of adults who had their respiratory function and symptoms assessed as part of the initial assessment to diagnose MND.",NA,NA
+2,process,b,QS126-2-process-b,"Of adults with MND, the number who have had their respiratory function and symptoms assessed within the past 3 months.",NA,NA
+2,process,c,QS126-2-process-c,"Of adults with MND who have respiratory impairment, the number who are established on NIV.",NA,NA
+2,outcome,a,QS126-2-outcome-a,Survival of adults with MND from diagnosis.,NA,NA
+2,outcome,b,QS126-2-outcome-b,Adults with MND able to maintain activities of daily living.,NA,NA
+3,structure,a,QS126-3-structure-a,Evidence of local arrangements to ensure that adults with MND have regular assessments from MND multidisciplinary teams.,NA,NA
+3,structure,b,QS126-3-structure-b,"Evidence of local arrangements to ensure that equipment is provided, or adapted, in a timely way to meet the individual needs identified for adults with MND.",NA,NA
+3,process,a,QS126-3-process-a,"Of adults with MND, the number who have had a comprehensive assessment by the MND multidisciplinary team in the past 3 months.",NA,NA
+3,process,b,QS126-3-process-b,"The length of time in days between an equipment need or an adaption need being identified in a comprehensive multidisciplinary team assessment, and the equipment being provided or adaption made.",NA,NA
+3,outcome,a,QS126-3-outcome-a,Adults with MND able to maintain activities of daily living.,NA,NA
+3,outcome,b,QS126-3-outcome-b,Adults with MND feel they are able to maintain their quality of life.,NA,NA
+3,outcome,c,QS126-3-outcome-c,Number of injuries to adults in the home associated with functions impaired by MND.,NA,NA
+4,structure,a,QS126-4-structure-a,Evidence of local arrangements to ensure that adults with MND receive personal care and support from a consistent team of care workers who are familiar with their needs.,NA,NA
+4,process,a,QS126-4-process-a,Number of workers providing personal care and support for an adult with MND.,NA,NA
+4,process,b,QS126-4-process-b,Number of first visits of workers providing personal care and support for an adult with MND.,NA,NA
+4,outcome,a,QS126-4-outcome-a,Adults with MND feel they receive the personal care and support they need.,NA,NA
+4,outcome,b,QS126-4-outcome-b,Adults with MND feel they are treated with dignity and respect.,NA,NA
+5,structure,a,QS126-5-structure-a,Evidence of local arrangements to ensure that adults with MND are given opportunities to discuss their preferences and concerns about end of life care at diagnosis and key stages of disease progression.,NA,NA
+5,process,a,QS126-5-process-a,"Of adults with MND, the number given opportunities to discuss their preferences and concerns about end of life care at diagnosis.",NA,NA
+5,process,b,QS126-5-process-b,"Of adults with MND, the number given opportunities to discuss their preferences and concerns about end of life care at key stages of disease progression.",NA,NA
+5,outcome,a,QS126-5-outcome-a,Adults with MND feel they have choice and control over their end of life care.,NA,NA
+5,outcome,b,QS126-5-outcome-b,Adults with MND receive end of life care informed by their wishes and preferences if they lose the ability to communicate.,NA,NA

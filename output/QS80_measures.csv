@@ -1,0 +1,35 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS80-1-structure-a,Evidence of local arrangements to ensure that early intervention in psychosis services are in place.,NA,NA
+1,structure,b,QS80-1-structure-b,Evidence of local arrangements to ensure that local referral pathways are available for adults with a first episode of psychosis to start treatment in early intervention in psychosis services within 2 weeks of referral.,NA,NA
+1,process,a,QS80-1-process-a,Proportion of adults referred with a first episode of psychosis who receive treatment from early intervention in psychosis services within 2 weeks of referral.,The number in the denominator who receive treatment from early intervention in psychosis services within 2 weeks.,The number of adults referred with a first episode of psychosis.
+1,outcome,a,QS80-1-outcome-a,Acute hospital admission rates.,NA,NA
+1,outcome,b,QS80-1-outcome-b,Duration of untreated psychosis.,NA,NA
+2,structure,a,QS80-2-structure-a,Evidence of local arrangements to ensure that CBTp is available to adults with psychosis or schizophrenia.,NA,NA
+2,process,a,QS80-2-process-a,Proportion of adults with psychosis who receive CBTp.,The number in the denominator who receive CBTp.,The number of adults with psychosis.
+2,process,b,QS80-2-process-b,Proportion of adults with schizophrenia who receive CBTp.,The number in the denominator who receive CBTp.,The number of adults with schizophrenia.
+2,outcome,a,QS80-2-outcome-a,Relapse rates of psychosis and schizophrenia in adults.,NA,NA
+3,structure,a,QS80-3-structure-a,Evidence of local arrangements to ensure that family intervention is available to family members of adults with psychosis or schizophrenia.,NA,NA
+3,process,a,QS80-3-process-a,Proportion of adults with psychosis whose family members receive family intervention.,The number in the denominator whose family members receive family intervention.,The number of adults with psychosis who live with or are in close contact with family members.
+3,process,b,QS80-3-process-b,Proportion of adults with schizophrenia whose family members receive family intervention.,The number in the denominator whose family members receive family intervention.,The number of adults with schizophrenia who live with or are in close contact with family members.
+3,outcome,a,QS80-3-outcome-a,Relapse rates of psychosis and schizophrenia in adults.,NA,NA
+4,structure,a,QS80-4-structure-a,Are offered clozapine.,NA,NA
+4,process,a,QS80-4-process-a,Who receive clozapine.,The number in the denominator who receive clozapine.,.
+4,outcome,a,QS80-4-outcome-a,Relapse rates of schizophrenia in adults.,NA,NA
+5,structure,a,QS80-5-structure-a,Evidence of local arrangements to ensure that adults with psychosis or schizophrenia who wish to find or return to work are offered supported employment programmes.,NA,NA
+5,process,a,QS80-5-process-a,Proportion of adults with psychosis or schizophrenia who wish to find or return to work who receive supported employment programmes.,The number in the denominator who receive supported employment programmes.,The number of adults with psychosis or schizophrenia who wish to find or return to work.
+5,outcome,a,QS80-5-outcome-a,Employment rates for adults with psychosis or schizophrenia.,NA,NA
+6,structure,a,QS80-6-structure-a,Evidence of local arrangements to ensure that adults with psychosis or schizophrenia receive comprehensive physical health assessments.,NA,NA
+6,process,a,QS80-6-process-a,Proportion of adults having treatment for first episode of psychosis who receive a comprehensive physical health assessment within 12 weeks.,The number in the denominator who receive a comprehensive physical health assessment within 12 weeks.,The number of adults having treatment for a first episode of psychosis.
+6,process,b,QS80-6-process-b,Proportion of adults having treatment for first episode of psychosis who have a comprehensive physical health assessment 1 year after starting treatment.,The number in the denominator who have a comprehensive physical health assessment 1 year after starting treatment.,The number of adults having treatment for a first episode of psychosis.
+6,process,c,QS80-6-process-c,Proportion of adults with psychosis and schizophrenia who have an annual comprehensive physical health assessment.,The number in the denominator who have an annual comprehensive physical health assessment.,The number of adults with psychosis or schizophrenia.
+6,outcome,a,QS80-6-outcome-a,Premature mortality of adults with psychosis or schizophrenia.,NA,NA
+7,structure,a,QS80-7-structure-a,Evidence of local arrangements to ensure that adults with psychosis or schizophrenia are offered combined healthy eating and physical activity programmes.,NA,NA
+7,structure,b,QS80-7-structure-b,Evidence of local arrangements to ensure that adults with psychosis or schizophrenia who smoke are offered help to stop smoking.,NA,NA
+7,process,a,QS80-7-process-a,Proportion of adults with psychosis or schizophrenia who received combined healthy eating and physical activity programmes within the past 12 months.,The number in the denominator who received combined healthy eating and physical activity programmes within the past 12 months.,The number of adults with psychosis or schizophrenia.
+7,process,b,QS80-7-process-b,Proportion of adults with psychosis or schizophrenia who smoke who received help to stop smoking within the past 12 months.,The number in the denominator who received help to stop smoking within the past 12 months.,The number of adults with psychosis or schizophrenia who smoke.
+7,outcome,a,QS80-7-outcome-a,Type 2 diabetes rates in adults with psychosis or schizophrenia.,NA,NA
+7,outcome,b,QS80-7-outcome-b,Obesity rates in adults with psychosis or schizophrenia.,NA,NA
+7,outcome,c,QS80-7-outcome-c,Smoking rates in adults with psychosis or schizophrenia.,NA,NA
+8,structure,a,QS80-8-structure-a,Evidence of local arrangements to ensure that carers of adults with psychosis or schizophrenia are offered a carer‑focused education and support programme.,NA,NA
+8,process,a,QS80-8-process-a,Proportion of adults with psychosis or schizophrenia whose carers receive a carer‑focused education and support programme.,The number in the denominator whose carers receive a carer‑focused education and support programme.,The number of adults with psychosis or schizophrenia with an identified carer.
+8,outcome,a,QS80-8-outcome-a,Quality of life for carers of adults with psychosis or schizophrenia.,NA,NA

@@ -1,0 +1,9 @@
+qs_id,statement_number,statement
+QS18,1,Women aged 50 years or over reporting one or more symptoms occurring persistently or frequently that suggest ovarian cancer are offered a CA125 test.
+QS18,2,Women with raised CA125 have an ultrasound of their abdomen and pelvis within 2 weeks of receiving the CA125 test results.
+QS18,3,"Women with normal CA125, or raised CA125 but normal ultrasound, with no confirmed diagnosis but continuing symptoms, are reassessed by their GP within 1 month."
+QS18,4,Women with a risk of malignancy index (RMI I) score of 250 or greater are referred to a specialist gynaecological cancer multidisciplinary team.
+QS18,5,"Women who are offered staging for ovarian cancer, following ultrasound, are offered computed tomography (CT) of the abdomen and pelvis as the initial staging investigation."
+QS18,6,Women who have computed tomography (CT) for staging of ovarian cancer have the results reported by a radiologist who is a core member of the specialist gynaecological cancer multidisciplinary team.
+QS18,7,Women with an indeterminate adnexal mass on ultrasound are offered magnetic resonance imaging (MRI) for further characterisation.
+QS18,8,Women with suspected stage I ovarian cancer have optimal surgical staging.

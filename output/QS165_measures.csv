@@ -1,0 +1,20 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS165-1-structure-a,After children and young people's vulnerability to drug misuse at their annual health plan review.,NA,NA
+1,structure,b,QS165-1-structure-b,After children and young people's vulnerability to drug misuse.,NA,NA
+1,process,a,QS165-1-process-a,After children and young people having their annual health plan review who have an assessment of vulnerability to drug misuse.,The number in the denominator who have an assessment of vulnerability to drug misuse.,After children and young people who have had a health plan review in the previous 12 months.
+1,outcome,a,QS165-1-outcome-a,After children and young people who misuse drugs.,NA,NA
+1,outcome,b,QS165-1-outcome-b,"After children and young people misusing drugs, who access support for drug misuse.",NA,NA
+2,structure,a,QS165-2-structure-a,Evidence of local arrangements for the use of an agreed brief and valid questionnaire to assess care leavers' vulnerability to drug misuse at their health assessment.,NA,NA
+2,structure,b,QS165-2-structure-b,Evidence of local arrangements for staff to be trained by specialist services in how to assess care leavers' vulnerability to drug misuse.,NA,NA
+2,process,a,QS165-2-process-a,Proportion of care leavers having a health assessment as part of planning to leave care who have an assessment of vulnerability to drug misuse.,The number in the denominator where there is an assessment of vulnerability to drug misuse.,The number of care leavers having a health assessment as part of planning to leave care.
+2,outcome,a,QS165-2-outcome-a,Number of care leavers who misuse drugs.,NA,NA
+2,outcome,b,QS165-2-outcome-b,Proportion of care leavers misusing drugs who access support for drug misuse.,NA,NA
+3,structure,a,QS165-3-structure-a,Evidence of local arrangements for the use of an agreed brief and valid questionnaire to assess children and young people's vulnerability to drug misuse at young offender assessments.,NA,NA
+3,structure,b,QS165-3-structure-b,Evidence of local arrangements for staff to be trained in how to assess children and young people's vulnerability to drug misuse.,NA,NA
+3,process,a,QS165-3-process-a,Proportion of young offender assessments which include an assessment of vulnerability to drug misuse.,The number in the denominator which include an assessment of vulnerability to drug misuse.,The number of young offender assessments.
+3,outcome,a,QS165-3-outcome-a,Number of children and young people in contact with youth offending services who misuse drugs.,NA,NA
+3,outcome,b,QS165-3-outcome-b,"Proportion of children and young people who are in contact with youth offending services, misusing drugs, who access support for drug misuse.",NA,NA
+4,structure,a,QS165-4-structure-a,Evidence of local arrangements to provide written information about local services and where to find further advice and support.,NA,NA
+4,process,a,QS165-4-process-a,Proportion of adults assessed as vulnerable to drug misuse who are given information about local services and where to find further advice and support.,The number in the denominator who are given information about local services and where to find further advice and support.,The number of adults assessed as vulnerable to drug misuse.
+4,outcome,a,QS165-4-outcome-a,Proportion of people aged 16 to 59 years who use drugs frequently.,NA,NA
+4,outcome,b,QS165-4-outcome-b,Proportion of people aged 16 to 24 years who use drugs frequently.,NA,NA

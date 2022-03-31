@@ -1,0 +1,20 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS168-1-structure-a,"Evidence that cystic fibrosis multidisciplinary teams have professionals with specialist expertise in the condition including a paediatrician or adult physician, nurse, physiotherapist, dietitian, pharmacist and a clinical psychologist.",NA,NA
+1,structure,b,QS168-1-structure-b,Evidence of local systems to identify and invite people with cystic fibrosis to have comprehensive annual reviews.,NA,NA
+1,process,a,QS168-1-process-a,Proportion of people with cystic fibrosis who have the results of all assessments they have had during the past year reviewed by a specialist multidisciplinary team.,The number in the denominator who have had the results of all assessments they have had during the past year reviewed by a specialist multidisciplinary team.,The number of people with cystic fibrosis.
+1,outcome,a,QS168-1-outcome-a,Of people with cystic fibrosis.,NA,NA
+1,outcome,b,QS168-1-outcome-b,Related quality of life scores of people with cystic fibrosis.,NA,NA
+1,outcome,c,QS168-1-outcome-c,Median BMI percentiles in children and young people with cystic fibrosis.,NA,NA
+1,outcome,d,QS168-1-outcome-d,Median BMI in adults with cystic fibrosis.,NA,NA
+2,structure,a,QS168-2-structure-a,Evidence of local infection control strategies that cover inpatient settings for people with cystic fibrosis.,NA,NA
+2,structure,b,QS168-2-structure-b,Evidence of inpatient wards containing individual rooms with en‑suite facilities.,NA,NA
+2,process,a,QS168-2-process-a,Proportion of inpatient admissions for people with cystic fibrosis where admission was to an individual room with en‑suite facilities.,The number in the denominator where admission was to an individual room with en‑suite facilities.,The number of inpatient admissions for people with cystic fibrosis.
+2,outcome,a,QS168-2-outcome-a,Incidence of cross‑infection in people with cystic fibrosis admitted as inpatients.,NA,NA
+2,outcome,b,QS168-2-outcome-b,Related quality of life scores of people with cystic fibrosis.,NA,NA
+3,structure,a,QS168-3-structure-a,Evidence of local arrangements to identify people with cystic fibrosis who have Pseudomonas aeruginosa infection.,NA,NA
+3,structure,b,QS168-3-structure-b,Evidence of the availability of devices for people with cystic fibrosis to take inhaled antibiotics.,NA,NA
+3,process,a,QS168-3-process-a,Proportion of people with cystic fibrosis who have chronic Pseudomonas aeruginosa infection prescribed an inhaled antibiotic.,The number in the denominator who are prescribed an inhaled antibiotic.,The number of people with cystic fibrosis who have chronic Pseudomonas aeruginosa infection.
+3,outcome,a,QS168-3-outcome-a,Of people with cystic fibrosis.,NA,NA
+4,structure,a,QS168-4-structure-a,Evidence of the availability of devices for people with cystic fibrosis to take inhaled rhDNase.,NA,NA
+4,process,a,QS168-4-process-a,Proportion of people with cystic fibrosis and clinical evidence of lung disease who are prescribed rhDNase as the first choice of mucoactive agent.,The number in the denominator prescribed rhDNase as the first choice of mucoactive agent.,The number of people with cystic fibrosis and clinical evidence of lung disease.
+4,outcome,a,QS168-4-outcome-a,Of people with cystic fibrosis.,NA,NA

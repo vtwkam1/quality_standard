@@ -1,0 +1,16 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS75-1-structure-a,Evidence of local arrangements to ensure that pregnant women whose babies are at risk of early‑onset neonatal infection are offered intrapartum antibiotic prophylaxis and given the first dose as soon as possible.,NA,NA
+1,process,a,QS75-1-process-a,Onset neonatal infection who receive intrapartum antibiotic prophylaxis.,The number in the denominator who receive intrapartum antibiotic prophylaxis.,Onset neonatal infection.
+1,process,b,QS75-1-process-b,Proportion of pregnant women receiving intrapartum antibiotic prophylaxis who are given it as soon as possible.,The number in the denominator whose intrapartum antibiotic prophylaxis is given as soon as possible.,The number of pregnant women who receive intrapartum antibiotic prophylaxis.
+1,outcome,a,QS75-1-outcome-a,Onset neonatal infection.,NA,NA
+2,structure,a,QS75-2-structure-a,Onset neonatal infection.,NA,NA
+2,process,a,QS75-2-process-a,Onset neonatal infection.,Onset neonatal infection.,The number of pregnant women.
+2,process,b,QS75-2-process-b,Onset neonatal infection.,Onset neonatal infection.,The number of newborn babies.
+2,process,c,QS75-2-process-c,Onset neonatal infection who receive an immediate physical examination including an assessment of the vital signs.,The number in the denominator who receive an immediate physical examination including an assessment of the vital signs.,Onset neonatal infection.
+3,structure,a,QS75-3-structure-a,Evidence of local arrangements to ensure that newborn babies who need antibiotic treatment receive it within 1 hour of the decision to treat.,NA,NA
+3,process,a,QS75-3-process-a,Proportion of newborn babies who need antibiotic treatment who receive it within 1 hour of the decision to treat.,The number in the denominator who receive antibiotics within 1 hour of the decision to treat.,The number of newborn babies who need antibiotic treatment.
+4,structure,a,QS75-4-structure-a,Onset neonatal infection have their need for it reassessed at 36 hours.,NA,NA
+4,process,a,QS75-4-process-a,Onset neonatal infection who have their need for it reassessed at 36 hours.,The number in the denominator who have their need for antibiotic treatment reassessed at 36 hours.,Onset neonatal infection.
+5,structure,a,QS75-5-structure-a,Onset neonatal infection has been a concern are given verbal and written information about neonatal infection before discharge.,NA,NA
+5,process,a,QS75-5-process-a,Onset neonatal infection has been a concern who are given verbal and written information about neonatal infection before discharge.,The number in the denominator whose parents or carers receive verbal and written information about neonatal infection before discharge.,Onset neonatal infection has been a concern.
+6,placeholder,NA,NA,NA,NA,NA

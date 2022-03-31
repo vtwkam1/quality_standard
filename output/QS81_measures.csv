@@ -1,0 +1,15 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS81-1-structure-a,Evidence of local referral pathways to ensure that people with suspected inflammatory bowel disease have a specialist assessment within 4 weeks of referral.,NA,NA
+1,process,a,QS81-1-process-a,Proportion of people with suspected inflammatory bowel disease who have a specialist assessment within 4 weeks of referral.,The number in the denominator who have a specialist assessment within 4 weeks of referral.,The number of people with suspected inflammatory bowel disease who are referred for specialist assessment.
+1,outcome,a,QS81-1-outcome-a,Patient experience of the referral process.,NA,NA
+2,structure,a,QS81-2-structure-a,"Evidence that services provide age‑appropriate support from a multidisciplinary team for people with inflammatory bowel disease, and their family members or carers.",NA,NA
+2,process,a,QS81-2-process-a,", for age‑appropriate support from a multidisciplinary team.",", for age‑appropriate support from a multidisciplinary team.",The number of people with inflammatory bowel disease.
+2,process,b,QS81-2-process-b,", for age‑appropriate support from a multidisciplinary team are met.",", for age‑appropriate support from a multidisciplinary team are met.",The number of people with inflammatory bowel disease whose needs for age‑appropriate support from a multidisciplinary team are recorded.
+2,outcome,a,QS81-2-outcome-a,Satisfaction of people with inflammatory bowel disease with the support provided.,NA,NA
+2,outcome,b,QS81-2-outcome-b,Satisfaction of family members or carers of people with inflammatory bowel disease with the support provided.,NA,NA
+3,structure,a,QS81-3-structure-a,Evidence of local arrangements to ensure that people having surgery for inflammatory bowel disease have it undertaken by a colorectal surgeon who is a core member of the inflammatory bowel disease multidisciplinary team.,NA,NA
+3,process,a,QS81-3-process-a,Proportion of surgical procedures for inflammatory bowel disease undertaken by a colorectal surgeon who is a core member of the inflammatory bowel disease multidisciplinary team.,The number in the denominator undertaken by a colorectal surgeon who is a core member of the inflammatory bowel disease multidisciplinary team.,The number of surgical procedures for inflammatory bowel disease.
+3,outcome,a,QS81-3-outcome-a,Complications after surgery.,NA,NA
+4,structure,a,QS81-4-structure-a,Evidence of documented local safety policies and procedures to monitor for adverse effects in people receiving drug treatment for inflammatory bowel disease.,NA,NA
+4,process,a,QS81-4-process-a,Proportion of people receiving drug treatment for inflammatory bowel disease who are monitored for adverse effects.,The number in the denominator for whom there is documented evidence that there is monitoring for adverse effects of drug treatment according to local safety policies and procedures.,The number of people receiving drug treatment for inflammatory bowel disease.
+4,outcome,a,QS81-4-outcome-a,The number of adverse events reported because of drug treatment for inflammatory bowel disease.,NA,NA

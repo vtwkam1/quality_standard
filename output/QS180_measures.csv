@@ -1,0 +1,28 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS180-1-structure-a,Evidence of the availability of equipment for performing the additional tests needed before referral for further investigation and diagnosis of COAG or related conditions.,NA,NA
+1,structure,b,QS180-1-structure-b,Evidence of the availability of staff trained to perform the additional tests needed before referral for further investigation and diagnosis of COAG or related conditions.,NA,NA
+1,process,a,QS180-1-process-a,Proportion of adults with signs of possible glaucoma on a routine sight test who had additional tests before referral for further investigation and diagnosis of COAG or related conditions.,The number in the denominator who had additional tests before referral for further investigation and diagnosis of COAG or related conditions.,The number of adults with signs of possible glaucoma on a routine sight test referred for further investigation and diagnosis of COAG or related conditions.
+1,outcome,a,QS180-1-outcome-a,Positive referrals for further investigation and diagnosis of COAG or related conditions.,NA,NA
+2,structure,a,QS180-2-structure-a,Eye cataract surgery.,NA,NA
+2,process,a,QS180-2-process-a,Proportion of presentations of cataract where the person has a discussion about how their vision affects their quality of life.,The number in the denominator where the person has a discussion about how their vision affects their quality of life.,The number of presentations of cataract.
+2,process,b,QS180-2-process-b,Proportion of presentations of cataract that are refused referral for surgery based on visual acuity alone.,The number in the denominator that are refused referral for surgery based on visual acuity alone.,The number of presentations of cataract.
+2,process,c,QS180-2-process-c,Proportion of referrals for cataract surgery that are not accepted based on visual acuity alone.,The number in the denominator that are not accepted based on visual acuity alone.,The number of referrals for cataract surgery.
+2,outcome,a,QS180-2-outcome-a,Related quality of life for adults with cataracts.,NA,NA
+3,structure,a,QS180-3-structure-a,Start treatment within 14 days of referral to the macular service.,NA,NA
+3,process,a,QS180-3-process-a,Who start treatment within 14 days of referral to the macular service.,The number in the denominator who start treatment within 14 days.,Referred to the macular service.
+3,outcome,a,QS180-3-outcome-a,.,NA,NA
+3,outcome,b,QS180-3-outcome-b,.,NA,NA
+4,structure,a,QS180-4-structure-a,Have monitoring for both eyes.,NA,NA
+4,process,a,QS180-4-process-a,Who have a monitoring appointment scheduled.,The number in the denominator who have a monitoring appointment scheduled.,.
+4,process,b,QS180-4-process-b,That are cancelled or delayed by the hospital.,The number in the denominator that are cancelled or delayed by the hospital.,.
+4,process,c,QS180-4-process-c,.,The number in the denominator that occur within 25% of their intended monitoring period.,.
+4,outcome,a,QS180-4-outcome-a,.,NA,NA
+5,structure,a,QS180-5-structure-a,"Evidence of local arrangements to ensure that adults with COAG or related conditions have reassessment appointments scheduled at specific intervals, according to their risk of conversion to COAG or progression to sight loss.",NA,NA
+5,process,a,QS180-5-process-a,Proportion of adults with COAG or related conditions who have reassessment at specific intervals.,The number in the denominator who have reassessment at specific intervals.,The number of adults with COAG or related conditions.
+5,process,b,QS180-5-process-b,Proportion of scheduled reassessment appointments for COAG or related conditions that are cancelled or delayed by the service provider.,The number in the denominator that are cancelled or delayed by the service provider.,The number of scheduled reassessment appointments for COAG or related conditions.
+5,process,c,QS180-5-process-c,Attendance by adults with COAG or related conditions.,The number in the denominator that occur within 25% of their intended reassessment period.,Attendance by adults with COAG or related conditions.
+5,outcome,a,QS180-5-outcome-a,.,NA,NA
+5,outcome,b,QS180-5-outcome-b,Related quality of life for adults with COAG or related conditions.,NA,NA
+6,structure,a,QS180-6-structure-a,Evidence of local arrangements to ensure that adults with serious eye disorders are given information about the CVI and those meeting the eligibility criteria are given a certificate.,NA,NA
+6,process,a,QS180-6-process-a,Proportion of adults with serious eye disorders that meet the eligibility criteria for a CVI who are given a CVI.,The number in the denominator who are given a CVI.,The number of adults with serious eye disorders that meet the eligibility criteria for a CVI.
+6,outcome,a,QS180-6-outcome-a,Related quality of life for adults with serious eye disorders.,NA,NA

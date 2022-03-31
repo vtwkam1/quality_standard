@@ -1,0 +1,23 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS147-1-structure-a,Evidence of arrangements for a named senior manager to have responsibility for making employee health and wellbeing a core organisational priority.,NA,NA
+1,structure,b,QS147-1-structure-b,Evidence of arrangements for implementing an employee health and wellbeing strategy.,NA,NA
+1,structure,c,QS147-1-structure-c,Evidence of arrangements to incorporate health and wellbeing in all relevant policies and communications.,NA,NA
+1,outcome,a,QS147-1-outcome-a,Employee sickness absence rates.,NA,NA
+1,outcome,b,QS147-1-outcome-b,Employee retention rates.,NA,NA
+1,outcome,c,QS147-1-outcome-c,Employee satisfaction rates.,NA,NA
+2,structure,a,QS147-2-structure-a,Evidence that supporting employee health and wellbeing is included in any documents outlining the skills and knowledge that line managers need.,NA,NA
+2,process,a,QS147-2-process-a,Proportion of line managers whose job descriptions include supporting employee health and wellbeing.,The number in the denominator whose job description includes supporting employee health and wellbeing.,The number of line managers in the organisation.
+2,process,b,QS147-2-process-b,Proportion of line managers whose performance reviews include an evaluation of how they support employee health and wellbeing.,The number in the denominator whose performance reviews include an evaluation of how they support employee health and wellbeing.,The number of line managers in the organisation.
+2,outcome,a,QS147-2-outcome-a,Employee sickness absence rates.,NA,NA
+2,outcome,b,QS147-2-outcome-b,Employee retention rates.,NA,NA
+3,structure,a,QS147-3-structure-a,Evidence of arrangements to ensure that line managers are given training in how to recognise and support employees when they are experiencing stress.,NA,NA
+3,process,a,QS147-3-process-a,Proportion of line managers who are trained to use a stress risk assessment to identify and respond to sources of stress.,The number in the denominator who are trained to use a stress risk assessment to identify and respond to sources of stress.,The number of line managers in the organisation.
+3,process,b,QS147-3-process-b,Proportion of line managers who are trained to recognise the causes of stress.,The number in the denominator who are trained to recognise the causes of stress.,The number of line managers in the organisation.
+3,process,c,QS147-3-process-c,Proportion of line managers who receive information on sources of support for stress both inside and outside the workplace.,The number in the denominator who receive information on sources of support for stress both inside and outside the workplace.,The number of line managers in the organisation.
+3,outcome,a,QS147-3-outcome-a,Identification of stress in employees.,NA,NA
+3,outcome,b,QS147-3-outcome-b,Support for employees experiencing stress.,NA,NA
+4,structure,a,QS147-4-structure-a,Making.,NA,NA
+4,structure,b,QS147-4-structure-b,Evidence of arrangements for feedback to employees on actions taken as a result of their contribution.,NA,NA
+4,outcome,a,QS147-4-outcome-a,Employee satisfaction rates.,NA,NA
+4,outcome,b,QS147-4-outcome-b,Employee engagement.,NA,NA
+4,outcome,c,QS147-4-outcome-c,Employee retention rates.,NA,NA

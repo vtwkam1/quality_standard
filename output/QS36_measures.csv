@@ -1,0 +1,10 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS36-1-structure-a,Who present with unexplained fever of 38°C or higher have a urine sample tested within 24 hours.,NA,NA
+1,process,a,QS36-1-process-a,"Proportion of infants, children and young people who present with unexplained fever of 38°C or higher who have a urine sample tested within 24 hours.",The number of people in the denominator who have a urine sample tested within 24 hours.,Presenting with unexplained fever of 38°C or higher.
+2,structure,a,QS36-2-structure-a,With a urinary tract infection have risk factors for urinary tract infection and serious underlying pathology recorded as part of their history and examination.,NA,NA
+2,process,a,QS36-2-process-a,"Proportion of infants, children and young people with a urinary tract infection who have risk factors for urinary tract infection and serious underlying pathology recorded as part of their history and examination.",The number of people in the denominator who have risk factors for urinary tract infection and serious underlying pathology recorded as part of their history and examination.,With a urinary tract infection.
+3,structure,a,QS36-3-structure-a,E. coli organisms.,NA,NA
+3,process,a,QS36-3-process-a,E. coli organisms.,E. coli organisms.,With a urinary tract infection caused by coliform bacteria.
+4,structure,a,QS36-4-structure-a,Infection and to seek medical advice straight away.,NA,NA
+4,process,a,QS36-4-process-a,Infection and to seek medical advice straight away.,Infection and to seek medical advice straight away.,Who have had a urinary tract infection.
+4,outcome,a,QS36-4-outcome-a,Infection and to seek medical advice straight away.,NA,NA

@@ -1,0 +1,13 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS52-1-structure-a,,,
+1,process,a,QS52-1-process-a,,,
+1,outcome,a,QS52-1-outcome-a,,,
+2,structure,a,QS52-2-structure-a,,,
+2,process,a,QS52-2-process-a,,,
+3,structure,a,QS52-3-structure-a,,,
+3,process,a,QS52-3-process-a,,,
+3,outcome,a,QS52-3-outcome-a,,,
+4,structure,a,QS52-4-structure-a,,,
+4,process,a,QS52-4-process-a,,,
+5,structure,a,QS52-5-structure-a,,,
+5,process,a,QS52-5-process-a,,,

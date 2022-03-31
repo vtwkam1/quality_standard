@@ -1,0 +1,9 @@
+qs_id,statement_number,statement
+QS74,1,People attending an emergency department with a head injury have a CT head scan within 1 hour of a risk factor for brain injury being identified.
+QS74,2,People attending an emergency department with a head injury have a CT head scan within 8 hours of the injury if they are taking anticoagulants but have no other risk factors for brain injury.
+QS74,3,People attending an emergency department with a head injury have a CT cervical spine scan within 1 hour of a risk factor for spinal injury being identified.
+QS74,4,People attending an emergency department with a head injury have a provisional written radiology report within 1 hour if a CT head or cervical spine scan is performed.
+QS74,5,People with a head injury who have a Glasgow Coma Scale (GCS) score of 8 or lower at any time have access to specialist treatment from a neuroscience unit.
+QS74,6,"People who are in hospital with new cognitive, communicative, emotional, behavioural or physical difficulties that continue 72 hours after a traumatic brain injury have an assessment for inpatient rehabilitation."
+QS74,7,"Community‑based neuro‑rehabilitation services provide a range of interventions to help support people (aged 16 and over) with continuing cognitive, communicative, emotional, behavioural or physical difficulties as a result of a traumatic brain injury."
+QS74,8,[Placeholder: Post‑acute phase rehabilitation for children and young people]

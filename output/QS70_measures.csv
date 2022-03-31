@@ -1,0 +1,16 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS70-1-structure-a,Evidence of local arrangements to ensure that children and young people who are bedwetting have a comprehensive initial assessment.,NA,NA
+1,process,a,QS70-1-process-a,Proportion of children and young people who are bedwetting who have a comprehensive initial assessment.,The number in the denominator who have a comprehensive initial assessment.,The number of children and young people presenting with a new episode of bedwetting.
+2,structure,a,QS70-2-structure-a,"Evidence of local arrangements to ensure that a review date is agreed for children and young people if they, or their parents or carers, are given advice about changing their daily routine to help with bedwetting.",NA,NA
+2,process,a,QS70-2-process-a,"Proportion of children and young people who have an agreed review date if they, or their parents or carers, are given advice about changing their daily routine to help with bedwetting.",The number in the denominator who have an agreed review date.,The number of children or young people who are given advice about changing their daily routine to help with bedwetting.
+2,outcome,a,QS70-2-outcome-a,Detection of unresolved bedwetting in children and young people who are given initial advice.,NA,NA
+3,structure,a,QS70-3-structure-a,"Evidence of local arrangements to ensure that children and young people, and their parents or carers if appropriate, have a discussion about initial treatment if bedwetting has not improved after changing their daily routine.",NA,NA
+3,process,a,QS70-3-process-a,About initial treatment.,About initial treatment.,The number of children and young people whose bedwetting has not improved after changing their daily routine.
+3,outcome,a,QS70-3-outcome-a,"Children, young people and their parents or carers are actively involved in decisions about their care.",NA,NA
+4,structure,a,QS70-4-structure-a,Evidence of local arrangements to ensure that children and young people who are bedwetting receive the treatment agreed in their initial treatment plan.,NA,NA
+4,process,a,QS70-4-process-a,Proportion of children and young people who are bedwetting who receive the treatment agreed in their initial treatment plan.,The number in the denominator who receive the treatment agreed in their initial treatment plan.,The number of children and young people who are bedwetting who have an initial treatment plan.
+4,process,b,QS70-4-process-b,Waiting times to receive initial treatment for bedwetting.,NA,NA
+4,outcome,a,QS70-4-outcome-a,Patient satisfaction with the availability of initial treatment for bedwetting.,NA,NA
+5,structure,a,QS70-5-structure-a,Evidence of local arrangements to ensure that children and young people whose bedwetting has not responded to courses of initial treatments can access a specialist review.,NA,NA
+5,process,a,QS70-5-process-a,Proportion of children and young people whose bedwetting has not responded to courses of initial treatments who are referred for a specialist review.,The number in the denominator referred for a specialist review.,The number of children and young people whose bedwetting has not responded to courses of initial treatments.
+5,outcome,a,QS70-5-outcome-a,Reduction in inappropriate hospital referrals.,NA,NA

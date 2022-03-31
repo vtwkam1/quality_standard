@@ -1,0 +1,14 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS119-1-structure-a,Evidence of local arrangements and written clinical protocols to ensure that people who have emergency treatment for suspected anaphylaxis are referred to a specialist allergy service.,NA,NA
+1,process,a,QS119-1-process-a,Proportion of cases of emergency treatment for suspected anaphylaxis that are followed by referral to a specialist allergy service.,The number in the denominator that are followed by referral to a specialist allergy service.,The number of cases of emergency treatment for suspected anaphylaxis.
+1,outcome,a,QS119-1-outcome-a,People who are vulnerable to anaphylaxis feel able to manage their condition.,NA,NA
+2,structure,a,QS119-2-structure-a,Injector after emergency treatment for suspected anaphylaxis are given training in how and when to use it before being discharged.,NA,NA
+2,process,a,QS119-2-process-a,Injector after emergency treatment for suspected anaphylaxis who are given training in how and when to use it before being discharged.,Injector before being discharged.,Injector after emergency treatment for suspected anaphylaxis.
+2,outcome,a,QS119-2-outcome-a,People who have had a suspected anaphylactic reaction feel able to manage their condition.,NA,NA
+2,outcome,b,QS119-2-outcome-b,Injector has been prescribed.,NA,NA
+3,structure,a,QS119-3-structure-a,Evidence of local arrangements and written protocols to ensure that people who have a systemic reaction to wasp or bee stings are referred to a specialist allergy service to assess whether venom immunotherapy would be suitable.,NA,NA
+3,process,a,QS119-3-process-a,Proportion of people who have a systemic reaction to a wasp or bee sting who are referred to a specialist allergy service to assess whether venom immunotherapy would be suitable.,The number in the denominator who are referred to a specialist allergy service to assess whether venom immunotherapy would be suitable.,The number of people presenting with a systemic reaction to a wasp or bee sting.
+3,outcome,a,QS119-3-outcome-a,Prescriptions of venom immunotherapy.,NA,NA
+3,outcome,b,QS119-3-outcome-b,Induced anaphylaxis.,NA,NA
+3,outcome,c,QS119-3-outcome-c,People feel able to manage their condition after treatment for anaphylaxis caused by a wasp or bee sting.,NA,NA
+4,placeholder,NA,NA,NA,NA,NA

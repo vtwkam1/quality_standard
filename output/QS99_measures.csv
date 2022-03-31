@@ -1,0 +1,19 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS99-1-structure-a,Evidence of local arrangements to ensure that adults admitted to hospital with an MI have an assessment of left ventricular function before discharge.,NA,NA
+1,process,a,QS99-1-process-a,Proportion of discharges from hospital after an MI where the patient had an assessment of left ventricular function while in hospital.,The number in the denominator where the patient had an assessment of left ventricular function while in hospital.,The number of discharges from hospital after an MI.
+2,structure,a,QS99-2-structure-a,Evidence of local arrangements to ensure that adults admitted to hospital with an MI are referred for cardiac rehabilitation before discharge.,NA,NA
+2,process,a,QS99-2-process-a,Proportion of discharges from hospital after an MI where the patient was referred for cardiac rehabilitation while in hospital.,The number in the denominator where the patient was referred for cardiac rehabilitation while in hospital.,The number of discharges from hospital after an MI.
+2,outcome,a,QS99-2-outcome-a,Uptake rates of cardiac rehabilitation programmes.,NA,NA
+3,structure,a,QS99-3-structure-a,Evidence of local arrangements to ensure that adults admitted to hospital with an MI have the results of investigations and a plan for future treatment and monitoring shared with their GP.,NA,NA
+3,process,a,QS99-3-process-a,Proportion of discharges from hospital after an MI where the patient had the results of investigations shared with their GP.,The number in the denominator where the patient had the results of investigations shared with their GP.,The number of discharges from hospital after an MI.
+3,process,b,QS99-3-process-b,Proportion of discharges from hospital after an MI where the patient had plans for future treatment and monitoring shared with their GP.,The number in the denominator where the patient had plans for future treatment and monitoring shared with their GP.,The number of discharges from hospital after an MI.
+3,outcome,a,QS99-3-outcome-a,Readmission rates.,NA,NA
+3,outcome,b,QS99-3-outcome-b,Rates of uptake and adherence to cardiac rehabilitation.,NA,NA
+3,outcome,c,QS99-3-outcome-c,Patient experience of GP services.,NA,NA
+4,structure,a,QS99-4-structure-a,Evidence of local arrangements to ensure that adults referred to a cardiac rehabilitation programme after an MI have an assessment appointment within 10 days of discharge from hospital.,NA,NA
+4,process,a,QS99-4-process-a,Proportion of referrals to a cardiac rehabilitation programme from hospital where the patient attends an assessment appointment within 10 days of discharge after an MI.,The number in the denominator where the patient attends an assessment appointment within 10 days of discharge.,The number of referrals to a cardiac rehabilitation programme from hospital after admission for an MI.
+4,outcome,a,QS99-4-outcome-a,Uptake rates of cardiac rehabilitation programmes.,NA,NA
+5,structure,a,QS99-5-structure-a,"Evidence of local arrangements to provide cardiac rehabilitation programmes during and outside working hours and the choice of undertaking programmes at home, in the community or in a hospital setting.",NA,NA
+5,process,a,QS99-5-process-a,"Proportion of people referred to a cardiac rehabilitation programme who are offered sessions during and outside working hours and the choice of undertaking the programme at home, in the community or in a hospital setting.","The number in the denominator offered sessions during and outside working hours and the choice of undertaking the programme at home, in the community or in a hospital setting.",The number of people referred to a cardiac rehabilitation programme after an MI.
+5,outcome,a,QS99-5-outcome-a,Rates of uptake of and adherence to cardiac rehabilitation programmes.,NA,NA
+5,outcome,b,QS99-5-outcome-b,Patient experience of cardiac rehabilitation programmes.,NA,NA

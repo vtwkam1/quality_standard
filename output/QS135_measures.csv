@@ -1,0 +1,28 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS135-1-structure-a,Evidence of local arrangements and clinical protocols to ensure that pregnant women at increased risk of preterm labour are given information about the potential signs and symptoms.,NA,NA
+1,process,a,QS135-1-process-a,Proportion of pregnant women at increased risk of preterm labour who are given information about the potential signs and symptoms.,The number in the denominator who are given information about the potential signs and symptoms.,The number of pregnant women at increased risk of preterm labour.
+1,outcome,a,QS135-1-outcome-a,Pregnant women's satisfaction with the information provided.,NA,NA
+2,structure,a,QS135-2-structure-a,Trimester loss and have a cervical length of 25 mm or less measured between 16+0 and 24+0 weeks of pregnancy are offered a choice of either prophylactic vaginal progesterone[3] or prophylactic cervical cerclage.,NA,NA
+2,process,a,QS135-2-process-a,Trimester loss and have a cervical length of 25 mm or less measured between 16+0 and 24+0 weeks of pregnancy who are offered a choice of either prophylactic vaginal progesterone[3] or prophylactic cervical cerclage.,The number in the denominator who are offered a choice of either prophylactic vaginal progesterone[3] or prophylactic cervical cerclage.,Trimester loss and have a cervical length of 25 mm or less measured between 16+0 and 24+0 weeks of pregnancy.
+2,outcome,a,QS135-2-outcome-a,Timing of labour and birth.,NA,NA
+3,structure,a,QS135-3-structure-a,Evidence of local arrangements and clinical protocols to ensure that women having a planned preterm birth are given information about the risks and potential outcomes.,NA,NA
+3,process,a,QS135-3-process-a,Proportion of women having a planned preterm birth who are given information about the risks and potential outcomes.,The number in the denominator who are given information about the risks and potential outcomes.,The number of women having a planned preterm birth.
+3,outcome,a,QS135-3-outcome-a,Women's awareness of the risks and potential outcomes of having a planned preterm birth.,NA,NA
+4,structure,a,QS135-4-structure-a,Evidence of local arrangements and written clinical protocols to ensure that women between 26+0 and 33+6 weeks of pregnancy who have intact membranes and are in suspected or diagnosed preterm labour are offered tocolysis.,NA,NA
+4,process,a,QS135-4-process-a,Proportion of women between 26+0 and 33+6 weeks of pregnancy who have intact membranes and are in suspected or diagnosed preterm labour who receive tocolysis.,The number in the denominator who receive tocolysis.,The number of women between 26+0 and 33+6 weeks of pregnancy who have intact membranes and are in suspected or diagnosed preterm labour.
+4,outcome,a,QS135-4-outcome-a,Neonatal death.,NA,NA
+4,outcome,b,QS135-4-outcome-b,Intraventricular haemorrhage.,NA,NA
+4,outcome,c,QS135-4-outcome-c,Incidence of neonatal sepsis.,NA,NA
+4,outcome,d,QS135-4-outcome-d,Use of antibiotics.,NA,NA
+4,outcome,e,QS135-4-outcome-e,Ventilation.,NA,NA
+5,structure,a,QS135-5-structure-a,PROM are offered maternal corticosteroids.,NA,NA
+5,process,a,QS135-5-process-a,"Proportion of women between 24+0 and 33+6 weeks of pregnancy in suspected, diagnosed or established preterm labour who receive maternal corticosteroids.",The number in the denominator who receive maternal corticosteroids.,"The number of women between 24+0 and 33+6 weeks of pregnancy in suspected, diagnosed or established preterm labour."
+5,process,b,QS135-5-process-b,Proportion of women between 24+0 and 33+6 weeks of pregnancy having a planned preterm birth who receive maternal corticosteroids.,The number in the denominator who receive maternal corticosteroids.,The number of women between 24+0 and 33+6 weeks of pregnancy who are having a planned preterm birth.
+5,process,c,QS135-5-process-c,PROM who receive maternal corticosteroids.,The number in the denominator who receive maternal corticosteroids.,PROM.
+5,outcome,a,QS135-5-outcome-a,Ventilation.,NA,NA
+5,outcome,b,QS135-5-outcome-b,Incidence of neonatal sepsis.,NA,NA
+5,outcome,c,QS135-5-outcome-c,Use of antibiotics.,NA,NA
+6,structure,a,QS135-6-structure-a,Evidence of local arrangements and written clinical protocols to ensure that women between 24+0 and 29+6 weeks of pregnancy who are in established preterm labour or having a planned preterm birth within 24 hours are offered magnesium sulfate[5].,NA,NA
+6,process,a,QS135-6-process-a,Proportion of women between 24+0 and 29+6 weeks of pregnancy in established preterm labour who receive magnesium sulfate[5].,The number in the denominator who receive magnesium sulfate[5].,The number of women between 24+0 and 29+6 weeks of pregnancy in established preterm labour.
+6,process,b,QS135-6-process-b,Proportion of women between 24+0 and 29+6 weeks of pregnancy who are having a planned preterm birth within 24 hours who receive magnesium sulfate[5].,The number in the denominator who receive magnesium sulfate[5] in the 24 hours before the birth.,The number of women between 24+0 and 29+6 weeks of pregnancy who have a planned preterm birth.
+6,outcome,a,QS135-6-outcome-a,Incidence of cerebral palsy.,NA,NA

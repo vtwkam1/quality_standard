@@ -1,0 +1,29 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS183-1-structure-a,Evidence that local authorities have a physical activity champion at a senior level.,NA,NA
+1,structure,b,QS183-1-structure-b,Evidence that healthcare commissioning groups have a physical activity champion at a senior level.,NA,NA
+1,structure,c,QS183-1-structure-c,"Evidence that physical activity champions are responsible for developing and implementing local strategies, policies and plans.",NA,NA
+1,structure,d,QS183-1-structure-d,"Evidence that physical activity champions ensure community engagement approaches have been used to develop and review local strategies, policies and plans.",NA,NA
+1,outcome,a,QS183-1-outcome-a,Proportion of adults meeting the recommendations in the UK Chief Medical Officers' physical activity guidelines.,The number in the denominator who meet the recommendations in the UK Chief Medical Officers' physical activity guidelines.,The number of adults.
+1,outcome,b,QS183-1-outcome-b,Proportion of children and young people meeting the recommendations in the UK Chief Medical Officers' physical activity guidelines.,The number in the denominator who meet the recommendations in the UK Chief Medical Officers' physical activity guidelines.,The number of children and young people.
+1,outcome,c,QS183-1-outcome-c,Percentage of children aged 5 to 16 sufficiently physically active for good health.,NA,NA
+1,outcome,d,QS183-1-outcome-d,"Proportion of adults, children and young people who are physically inactive.",The number in the denominator who are physically inactive.,"The number of adults, children and young people."
+2,structure,a,QS183-2-structure-a,"Evidence that local authorities prioritise pedestrians, cyclists and people who use public transport when developing and maintaining connected travel routes.",NA,NA
+2,structure,b,QS183-2-structure-b,Evidence that local authorities reallocate road space to support physically active modes of transport such as walking and cycling.,NA,NA
+2,structure,c,QS183-2-structure-c,", to move around their local area.",NA,NA
+2,outcome,a,QS183-2-outcome-a,Percentage of people cycling for travel.,NA,NA
+2,outcome,b,QS183-2-outcome-b,Percentage of people walking for travel.,NA,NA
+2,outcome,c,QS183-2-outcome-c,Number of pedestrians and cyclists reported killed or seriously injured on the roads.,NA,NA
+3,structure,a,QS183-3-structure-a,Evidence that local authorities and community members work in partnership to make decisions on the design and management of public open spaces.,NA,NA
+3,structure,b,QS183-3-structure-b,Evidence that local authorities encourage community members to help to maintain public open spaces by reporting any problems affecting accessibility and use.,NA,NA
+3,outcome,a,QS183-3-outcome-a,Percentage of people using outdoor space for exercise or health reasons.,NA,NA
+4,structure,a,QS183-4-structure-a,Evidence that workplaces have a physical activity programme to encourage employees to move more and be more physically active.,NA,NA
+4,structure,b,QS183-4-structure-b,Evidence that workplaces monitor their physical activity programme to encourage employees to move more and be more physically active.,NA,NA
+4,structure,c,QS183-4-structure-c,Evidence that workplaces liaise with neighbouring businesses and other partners to improve and promote accessible walking and cycling routes and accessible links to work sites.,NA,NA
+4,structure,d,QS183-4-structure-d,"Evidence that employees receive information tailored to the workplace about accessible walking and cycling routes which include public transport options, distances involved, cycle parking, maps, routes, alternative route directions and safety.",NA,NA
+4,outcome,a,QS183-4-outcome-a,Percentage of adults who actively travel to and from workplaces.,NA,NA
+4,outcome,b,QS183-4-outcome-b,Percentage of adults cycling for travel at least 3 days a week.,NA,NA
+4,outcome,c,QS183-4-outcome-c,Percentage of adults walking for travel at least 3 days a week.,NA,NA
+4,outcome,d,QS183-4-outcome-d,Level of satisfaction among employees who feel supported about their health and wellbeing.,NA,NA
+5,structure,a,QS183-5-structure-a,Evidence that schools and early years settings have travel plans that include performance targets to increase active travel.,NA,NA
+5,structure,b,QS183-5-structure-b,Evidence that schools and early years settings monitor and update their travel plans annually to ensure these continue to be fully aligned with other local authority plans.,NA,NA
+5,outcome,a,QS183-5-outcome-a,Percentage of children's travel to and from schools and early years settings that is active.,NA,NA

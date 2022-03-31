@@ -1,0 +1,10 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS42-1-structure-a,Evidence of local arrangements to ensure that people diagnosed with a primary headache disorder have their headache type classified as part of the diagnosis.,NA,NA
+1,process,a,QS42-1-process-a,Proportion of people diagnosed with a primary headache disorder who have their headache type classified as part of the diagnosis.,The number of people in the denominator who have their headache type classified as part of the diagnosis.,The number of people diagnosed with a primary headache disorder.
+2,structure,a,QS42-2-structure-a,Evidence of local arrangements to ensure that people with a primary headache disorder are given information on the risk of medication overuse headache.,NA,NA
+2,process,a,QS42-2-process-a,Proportion of people with a primary headache disorder who are given information on the risk of medication overuse headache.,The number of people in the denominator who are given information on the risk of medication overuse headache.,The number of people with a primary headache disorder.
+3,structure,a,QS42-3-structure-a,Type headache or migraine are not referred for imaging if they do not have signs or symptoms of secondary headache.,NA,NA
+3,process,a,QS42-3-process-a,Type headache or migraine who are referred for imaging.,The number of people in the denominator referred for imaging.,Type headache or migraine.
+4,structure,a,QS42-4-structure-a,Evidence of local arrangements to ensure that people with migraine are advised to take combination therapy with a triptan and either an NSAID or paracetamol.,NA,NA
+4,process,a,QS42-4-process-a,Proportion of people with migraine who are advised to take combination therapy with a triptan and either an NSAID or paracetamol.,The number of people in the denominator who are advised to take combination therapy with a triptan and either an NSAID or paracetamol.,The number of people with migraine.
+5,placeholder,NA,NA,NA,NA,NA

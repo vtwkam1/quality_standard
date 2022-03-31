@@ -1,0 +1,17 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS139-1-structure-a,Evidence that oral health needs assessments are part of joint strategic needs assessments.,NA,NA
+1,outcome,a,QS139-1-outcome-a,Identification of local groups of people at high risk of poor oral health.,NA,NA
+1,outcome,b,QS139-1-outcome-b,Development of an oral health strategy.,NA,NA
+2,structure,a,QS139-2-structure-a,Evidence of local arrangements to ensure that oral health improvement programmes are provided in early years services and schools in areas where children and young people are at high risk of poor oral health.,NA,NA
+2,process,a,QS139-2-process-a,Proportion of early years services in areas where children are at high risk of poor oral health where oral health improvement programmes are provided.,Number in the denominator where oral health improvement programmes are provided.,Number of early years services in areas where children are at high risk of poor oral health.
+2,process,b,QS139-2-process-b,Proportion of schools in areas where children and young people are at high risk of poor oral health where oral health improvement programmes are provided.,Number in the denominator where oral health improvement programmes are provided.,Number of schools in areas where children and young people are at high risk of poor oral health.
+2,outcome,a,QS139-2-outcome-a,Plaque on teeth of children.,NA,NA
+2,outcome,b,QS139-2-outcome-b,Tooth decay in children and young people.,NA,NA
+2,outcome,c,QS139-2-outcome-c,Tooth extractions in secondary care for children and young people.,NA,NA
+3,structure,a,QS139-3-structure-a,Evidence of local arrangements to include oral health in the care plans of people receiving health or social care support and at high risk of poor oral health.,NA,NA
+3,process,a,QS139-3-process-a,Proportion of care plans that include oral health for people receiving health or social care support and at high risk of poor oral health.,Number in the denominator that include oral health.,Number of care plans for people receiving health or social care support and at high risk of poor oral health.
+3,outcome,a,QS139-3-outcome-a,Tooth decay in people who are receiving health and social care support.,NA,NA
+4,structure,a,QS139-4-structure-a,Evidence of local arrangements to ensure that dental practices providing emergency care give information to people who do not have a regular dentist about the benefits of attending for routine care and how they can find a local dentist.,NA,NA
+4,process,a,QS139-4-process-a,Proportion of emergency attendances at dental practices of people who do not have a regular dentist where information about the benefits of attending for routine care and how to find a local dentist was given.,Number in the denominator where people were given information about the benefits of attending for routine care and how they can find a local dentist.,Number of emergency attendances at general dental practices of people who do not have a regular dentist.
+4,outcome,a,QS139-4-outcome-a,Adults who were seen by an NHS dentist in the previous 24 months.,NA,NA
+4,outcome,b,QS139-4-outcome-b,Children who were seen by an NHS dentist in the previous 12 months.,NA,NA

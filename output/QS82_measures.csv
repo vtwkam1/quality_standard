@@ -1,0 +1,32 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS82-1-structure-a,Evidence of arrangements within local schools and colleges to deliver combined interventions to stop children and young people taking up smoking by improving their social competence and awareness of social influences.,NA,NA
+1,process,a,QS82-1-process-a,Proportion of schools and colleges that deliver combined interventions to stop children and young people taking up smoking by improving their social competence and awareness of social influences.,The number in the denominator that deliver combined interventions to stop children and young people taking up smoking by improving their social competence and awareness of social influences.,The number of schools and colleges in a specified geographic area.
+1,process,b,QS82-1-process-b,Proportion of children and young people who receive combined interventions to stop them taking up smoking by improving their social competence and awareness of social influences.,The number in the denominator who receive combined interventions to stop them taking up smoking by improving their social competence and awareness of social influences.,The number of children and young people in schools and colleges in a specified geographic area.
+1,outcome,a,QS82-1-outcome-a,Proportion of children and young people who have tried smoking at least once.,NA,NA
+2,structure,a,QS82-2-structure-a,Evidence of arrangements in local schools and colleges to operate smokefree grounds and remove any areas designated for smoking.,NA,NA
+2,process,a,QS82-2-process-a,Proportion of schools and colleges that do not allow smoking anywhere in the grounds.,The number in the denominator that do not allow smoking anywhere in the grounds.,The number of schools and colleges in the specified geographic area.
+2,process,b,QS82-2-process-b,Proportion of schools and colleges with no designated areas for smoking.,The number in the denominator with no designated areas for smoking.,The number of schools and colleges in the specified geographic area.
+2,outcome,a,QS82-2-outcome-a,Schools and colleges with smokefree grounds and no areas designated for smoking.,NA,NA
+3,structure,a,QS82-3-structure-a,Evidence of local arrangements to obtain and interpret information to identify retailers that sell tobacco products to people under 18.,NA,NA
+3,structure,b,QS82-3-structure-b,Evidence of local actions undertaken to prevent retailers from selling tobacco products to people under 18.,NA,NA
+3,process,a,QS82-3-process-a,Proportion of tobacco test purchases with a recorded underage sale.,The number in the denominator with a recorded underage sale.,The number of tobacco test purchases carried out in a specified geographic area.
+3,process,b,QS82-3-process-b,Proportion of retailers with a recorded underage sale followed up with advice to the retailer.,The number in the denominator followed up with advice to the retailer.,The number of test purchases with a recorded underage sale in a specified geographic area.
+3,process,c,QS82-3-process-c,Proportion of individuals sanctioned for persistently selling tobacco to people under 18.,The number in the denominator sanctioned for persistently selling tobacco to people under 18.,The number of individuals identified as persistently selling tobacco to people under 18 in a specified geographic area.
+3,process,d,QS82-3-process-d,Proportion of tobacco sales outlets sanctioned for persistently selling tobacco to people under 18.,The number in the denominator sanctioned for persistently selling tobacco to people under 18.,The number of tobacco sales outlets identified as persistently selling tobacco to people under 18 in a specified geographic area.
+3,outcome,a,QS82-3-outcome-a,Incidence of underage tobacco sales.,NA,NA
+4,structure,a,QS82-4-structure-a,Smoking support during working hours without loss of pay.,NA,NA
+4,process,a,QS82-4-process-a,Smoking support during working hours and did so.,Smoking support during working hours.,Smoking support during working hours.
+4,process,b,QS82-4-process-b,Smoking support during working hours without loss of pay.,The number in the denominator who did not lose pay.,Smoking support during working hours.
+5,structure,a,QS82-5-structure-a,That do not allow smoking during working hours or when recognisable as an employee.,NA,NA
+5,process,a,QS82-5-process-a,That do not allow smoking during working hours or when recognisable as an employee.,That do not allow smoking during working hours or when recognisable as an employee.,The number of healthcare services in the specified geographic area.
+5,outcome,a,QS82-5-outcome-a,"Staff, contractors and volunteers found smoking during working hours or when recognisable as an employee.",NA,NA
+6,structure,a,QS82-6-structure-a,Evidence of arrangements within healthcare settings to operate smokefree grounds and remove any areas previously designated for smoking.,NA,NA
+6,process,a,QS82-6-process-a,Proportion of healthcare settings that do not allow smoking anywhere in their grounds.,The number in the denominator that do not allow smoking anywhere in their grounds.,The number of healthcare settings in the specified geographic area.
+6,process,b,QS82-6-process-b,Proportion of healthcare settings with no designated smoking areas.,The number in the denominator with no designated smoking areas.,The number of healthcare settings in the specified geographic area.
+7,structure,a,QS82-7-structure-a,Containing products are stocked by pharmacies within secondary healthcare services.,NA,NA
+7,structure,b,QS82-7-structure-b,Containing products is available for sale within secondary healthcare services for visitors and employees.,NA,NA
+7,process,a,QS82-7-process-a,Containing products.,Containing products.,The number of secondary healthcare settings in the specified geographic area.
+7,process,b,QS82-7-process-b,Containing products to visitors and employees.,Containing products to visitors and employees.,The number of secondary healthcare settings in the specified geographic area.
+8,structure,a,QS82-8-structure-a,Evidence of local authorities using regional or local media channels to reinforce messages from national tobacco reduction campaigns.,NA,NA
+8,structure,b,QS82-8-structure-b,Evidence of regional and local activities to reinforce national tobacco reduction campaigns.,NA,NA
+9,placeholder,NA,NA,NA,NA,NA

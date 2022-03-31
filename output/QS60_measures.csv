@@ -1,0 +1,16 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS60-1-structure-a,"Evidence of local arrangements to ensure that women who are offered induction of labour are provided with personalised information about the benefits and risks for them and their babies, and the alternatives to induction.",NA,NA
+1,process,a,QS60-1-process-a,"Proportion of women who are offered induction of labour who receive personalised information about the benefits and risks for them and their babies, and the alternatives to induction.","The number in the denominator who receive personalised information about the benefits and risks for them and their babies, and the alternatives to induction.",The number of women who are offered induction of labour.
+1,outcome,a,QS60-1-outcome-a,Women who are offered induction of labour feel that they were given sufficient information to enable them to choose to have their labour induced.,NA,NA
+2,structure,a,QS60-2-structure-a,Evidence of local arrangements to ensure that women who have their labour induced as outpatients are induced with safety and support procedures in place.,NA,NA
+2,process,a,QS60-2-process-a,Proportion of women who are induced as outpatients who agree a review plan before they go home.,The number in the denominator who agree a review plan before they go home.,The number of women who are induced as outpatients.
+2,process,b,QS60-2-process-b,"Proportion of women who are induced as outpatients who are given information on when to contact their midwife, maternity unit or obstetrician.","The number in the denominator who are given information on when to contact their midwife, maternity unit or obstetrician.",The number of women who are induced as outpatients.
+2,outcome,a,QS60-2-outcome-a,Maternal safety.,NA,NA
+2,outcome,b,QS60-2-outcome-b,Newborn safety.,NA,NA
+3,structure,a,QS60-3-structure-a,Evidence of local arrangements for women who have their labour induced to have access to pain relief that is appropriate to their level of pain and to the type of pain relief they request.,NA,NA
+3,outcome,a,QS60-3-outcome-a,Women who had induction of labour are satisfied that the pain relief they received was appropriate to their level of pain and to the type of pain relief they requested.,NA,NA
+4,structure,a,QS60-4-structure-a,Evidence of local arrangements to ensure that pregnant women discuss the option of vaginal examination for membrane sweeping at their antenatal appointments after 39 weeks of pregnancy.,NA,NA
+4,process,a,QS60-4-process-a,Proportion of pregnant women attending an antenatal appointment after 39 weeks of pregnancy who discuss the option of vaginal examination for membrane sweeping.,The number in the denominator who discuss the option of vaginal examination for membrane sweeping.,The number of pregnant women attending an antenatal appointment after 39 weeks of pregnancy.
+4,outcome,a,QS60-4-outcome-a,Rates of induction of labour for women with prolonged pregnancy.,NA,NA
+4,outcome,b,QS60-4-outcome-b,,NA,NA
+4,outcome,c,QS60-4-outcome-c,.,NA,NA

@@ -1,0 +1,25 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS200-1-structure-a,"Evidence that health and social care organisations have strategies, policies and processes to identify carers and encourage them to recognise their role and rights.",NA,NA
+1,structure,b,QS200-1-structure-b,Evidence that health and social care practitioners understand their responsibilities under the Care Act 2014 to identify carers.,NA,NA
+1,structure,c,QS200-1-structure-c,Evidence of local arrangements to encourage carers to self‑identify and seek support.,NA,NA
+1,structure,d,QS200-1-structure-d,"Evidence that health and social care organisations have systems to record and share details about carers, with their consent.",NA,NA
+1,outcome,a,QS200-1-outcome-a,Number of carers known to local health and care organisations.,NA,NA
+1,outcome,b,QS200-1-outcome-b,Average time it takes for carers to recognise their caring role.,NA,NA
+2,structure,a,QS200-2-structure-a,Evidence that health and social care organisations have policies and processes to support carers to actively participate in decision making and care planning for the person they care for.,NA,NA
+2,structure,b,QS200-2-structure-b,Evidence that health and social care organisations include evidence of the carer's contribution in care plans and discharge plans.,NA,NA
+2,outcome,a,QS200-2-outcome-a,Proportion of carers who feel they have been involved or consulted as much as they wanted to be in discussions about the support or services provided to the person they care for.,The number in the denominator who feel they have been involved or consulted as much as they wanted to be in discussions about the support or services provided to the person they care for.,The number of carers.
+2,outcome,b,QS200-2-outcome-b,Proportion of carers who feel they have encouragement and support in their caring role.,The number in the denominator who feel they have encouragement and support in their caring role.,The number of carers.
+3,structure,a,QS200-3-structure-a,"Evidence of local processes to ensure that carers having a carer's assessment are given the opportunity to discuss what matters most to them, including their own health, wellbeing and social care needs, and work, education, or training.",NA,NA
+3,process,a,QS200-3-process-a,"Proportion of carers' assessments that included the health, wellbeing, and social care needs of the carer.","The number in the denominator that included the health, wellbeing, and social care needs of the carer.",The number of carers' assessments.
+3,process,b,QS200-3-process-b,"Proportion of carers' assessments that included the work, education, or training needs of the carer.","The number in the denominator that included the work, education, or training needs of the carer.",The number of carers' assessments.
+3,outcome,a,QS200-3-outcome-a,Proportion of carers who had a carer's assessment who are satisfied that it reflects what matters most to them.,The number in the denominator who are satisfied that it reflects what matters most to them.,The number of carers who had a carer's assessment.
+3,outcome,b,QS200-3-outcome-b,Carer quality of life.,NA,NA
+3,outcome,c,QS200-3-outcome-c,Proportion of carers in paid work.,The number in the denominator who are in paid work.,The number of carers.
+4,structure,a,QS200-4-structure-a,Evidence of local arrangements for health and social care practitioners to have regular discussions with carers about the value of having a break from caring and the options available to them.,NA,NA
+4,structure,b,QS200-4-structure-b,Evidence that accessible and up‑to‑date information about the local options for replacement care is available.,NA,NA
+4,outcome,a,QS200-4-outcome-a,Proportion of carers who used support or services to take a break from caring.,The number in the denominator who used support or services to take a break from caring.,The number of carers.
+4,outcome,b,QS200-4-outcome-b,Carer quality of life.,NA,NA
+5,structure,a,QS200-5-structure-a,"Evidence that workplaces have policies, plans and processes in place to support carers.",NA,NA
+5,structure,b,QS200-5-structure-b,Evidence that workplaces offer supportive working arrangements for carers.,NA,NA
+5,outcome,a,QS200-5-outcome-a,Proportion of carers in paid work.,The number in the denominator who are in paid work.,The number of carers.
+5,outcome,b,QS200-5-outcome-b,Proportion of carers in paid work who feel supported by their employer.,The number in the denominator who feel supported by their employer.,The number of carers in paid work.

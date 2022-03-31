@@ -1,0 +1,10 @@
+qs_id,statement_number,statement
+QS100,1,Adults under 85 years with an estimated increased risk of cardiovascular disease (CVD) are offered a full formal risk assessment using the QRISK2 tool.
+QS100,2,Adults with a 10‑year risk of cardiovascular disease (CVD) of 10% or more are assessed for secondary causes before any offer of statin therapy.
+QS100,3,Adults with a 10‑year risk of cardiovascular disease (CVD) of 10% or more receive advice on lifestyle changes before any offer of statin therapy.
+QS100,4,"Adults with a 10‑year risk of cardiovascular disease (CVD) of 10% or more for whom lifestyle changes are ineffective or inappropriate, discuss the risks and benefits of starting statin therapy with their healthcare professional."
+QS100,5,Adults choosing statin therapy for the primary prevention of cardiovascular disease (CVD) are offered atorvastatin 20 mg.
+QS100,6,Adults with newly diagnosed cardiovascular disease (CVD) are offered atorvastatin 80 mg.
+QS100,7,Adults on a high‑intensity statin who have side effects are offered a lower dose or an alternative statin.
+QS100,8,Adults on a high‑intensity statin have a repeat measurement of lipids and liver transaminases after 3 months of treatment.
+QS100,9,[Placeholder: Identifying people with an estimated increased risk]

@@ -1,0 +1,30 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS157-1-structure-a,Evidence of local processes to offer an HIV test to all young people and adults who are admitted to hospital or attend an emergency department in areas of extremely high HIV prevalence.,NA,NA
+1,structure,b,QS157-1-structure-b,Evidence of local processes to offer an HIV test to all young people and adults having a blood test when admitted to hospital or attending an emergency department in areas of high HIV prevalence.,NA,NA
+1,process,a,QS157-1-process-a,"Proportion of young people and adults admitted to hospital or attending an emergency department, in an area of extremely high HIV prevalence, who receive an HIV test.",The number in the denominator who receive an HIV test.,The number of young people and adults admitted to hospital or attending an emergency department in an area of extremely high HIV prevalence.
+1,process,b,QS157-1-process-b,Proportion of young people and adults having a blood test when admitted to hospital or attending an emergency department in an area of high HIV prevalence who receive an HIV test.,The number in the denominator who receive an HIV test.,The number of young people and adults having a blood test when admitted to hospital or attending an emergency department in an area of high HIV prevalence.
+1,outcome,a,QS157-1-outcome-a,Number of new HIV diagnoses in areas of high and extremely high prevalence.,NA,NA
+1,outcome,b,QS157-1-outcome-b,Number of new HIV diagnoses made at a late stage of infection in areas of high and extremely high prevalence.,NA,NA
+2,structure,a,QS157-2-structure-a,Evidence of local processes to offer an HIV test to young people and adults registering with a GP in areas of high or extremely high HIV prevalence.,NA,NA
+2,structure,b,QS157-2-structure-b,Evidence of local processes to offer an HIV test to young people and adults having a blood test at their GP practice in areas of high or extremely high HIV prevalence if they have not had an HIV test in the past 12 months.,NA,NA
+2,process,a,QS157-2-process-a,Proportion of young people and adults newly registered with a GP in an area of high or extremely high HIV prevalence who receive an HIV test within 3 months of registration.,The number in the denominator who receive an HIV test within 3 months of registration.,The number of young people and adults newly registered with a GP in an area of high or extremely high HIV prevalence.
+2,process,b,QS157-2-process-b,Proportion of young people and adults who have not had an HIV test in the past 12 months having a blood test at their GP practice in an area of high or extremely high HIV prevalence who receive an HIV test.,The number in the denominator who receive an HIV test.,The number of young people and adults who have not had an HIV test in the past 12 months having a blood test at their GP practice in an area of high or extremely high HIV prevalence.
+2,outcome,a,QS157-2-outcome-a,"HIV testing rate per 1,000 registered patients in GP practices in areas of high and extremely high HIV prevalence.",NA,NA
+2,outcome,b,QS157-2-outcome-b,Number of new HIV diagnoses in areas of high and extremely high HIV prevalence.,NA,NA
+2,outcome,c,QS157-2-outcome-c,Number of new HIV diagnoses made at a late stage of infection in areas of high and extremely high HIV prevalence.,NA,NA
+3,structure,a,QS157-3-structure-a,Evidence of local systems that alert healthcare professionals to the need to offer an HIV test when an indicator condition is diagnosed.,NA,NA
+3,structure,b,QS157-3-structure-b,Evidence of local processes to offer an HIV test to young people and adults newly diagnosed with an indicator condition.,NA,NA
+3,process,a,QS157-3-process-a,Proportion of young people and adults newly diagnosed with an indicator condition who receive an HIV test.,The number in the denominator who receive an HIV test.,The number of young people and adults newly diagnosed with an indicator condition.
+3,outcome,a,QS157-3-outcome-a,Number of new HIV diagnoses.,NA,NA
+3,outcome,b,QS157-3-outcome-b,Number of new HIV diagnoses made at a late stage of infection.,NA,NA
+4,structure,a,QS157-4-structure-a,Risk groups.,NA,NA
+4,structure,b,QS157-4-structure-b,Risk groups who test negative for HIV that the test should be repeated at least annually.,NA,NA
+4,process,a,QS157-4-process-a,Risk groups who test negative for HIV who are advised that the test should be repeated at least annually.,The number in the denominator who are advised that the test should be repeated at least annually.,Risk groups who test negative for HIV.
+4,outcome,a,QS157-4-outcome-a,Risk groups who had an HIV test in the past 12 months.,The number in the denominator who had an HIV test in the past 12 months.,Risk groups.
+4,outcome,b,QS157-4-outcome-b,Risk groups.,NA,NA
+4,outcome,c,QS157-4-outcome-c,Risk groups.,NA,NA
+5,structure,a,QS157-5-structure-a,Evidence of local arrangements to ensure that notification procedures are in place to identify people who may have been exposed to HIV by a person newly diagnosed with HIV. These arrangements may include referral pathways to specialist sexual health services.,NA,NA
+5,process,a,QS157-5-process-a,Proportion of contactable people who may have been exposed to HIV by a person newly diagnosed with HIV who are tested within 3 months.,The number in the denominator who are tested for HIV within 3 months.,The number of contactable people who may have been exposed to HIV by a person newly diagnosed with HIV.
+5,outcome,a,QS157-5-outcome-a,Number of people tested per total number of index cases.,NA,NA
+5,outcome,b,QS157-5-outcome-b,Number of new HIV diagnoses.,NA,NA
+5,outcome,c,QS157-5-outcome-c,Number of new HIV diagnoses made at a late stage of infection.,NA,NA

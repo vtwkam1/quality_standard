@@ -1,0 +1,11 @@
+qs_id,statement_number,statement
+QS38,1,People with acute upper gastrointestinal bleeding receive a risk assessment using a validated risk score.
+QS38,2,People with severe acute upper gastrointestinal bleeding who are haemodynamically unstable are given an endoscopy within 2 hours of optimal resuscitation.
+QS38,3,People admitted to hospital with acute upper gastrointestinal bleeding who are haemodynamically stable are given an endoscopy within 24 hours of admission.
+QS38,4,People with non-variceal acute upper gastrointestinal bleeding and stigmata of recent haemorrhage are offered endoscopic treatments (combination or a mechanical method).
+QS38,5,People with non-variceal acute upper gastrointestinal bleeding who continue to bleed or re-bleed after endoscopic treatment and who are haemodynamically unstable are given interventional radiology treatment.
+QS38,6,People with suspected or confirmed variceal acute upper gastrointestinal bleeding are given antibiotic therapy at presentation.
+QS38,7,People with acute upper gastrointestinal bleeding from oesophageal varices are given band ligation.
+QS38,8,People with acute upper gastrointestinal bleeding from gastric varices are given an endoscopic injection of N‑butyl‑2‑cyanoacrylate.
+QS38,9,People with uncontrolled acute upper gastrointestinal bleeding from varices are given transjugular intrahepatic portosystemic shunts (TIPS).
+QS38,10,People with acute upper gastrointestinal bleeding who take aspirin for secondary prevention of vascular events and in whom haemostasis has been achieved are advised to continue on low-dose aspirin.

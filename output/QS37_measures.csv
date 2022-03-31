@@ -1,0 +1,43 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,error,NA,NA,NA,NA,NA
+2,structure,a,QS37-2-structure-a,"Evidence of local arrangements to ensure that women are advised, at the first postnatal midwife contact, of the symptoms and signs of potentially serious conditions that require them to seek medical advice without delay.",NA,NA
+2,process,a,QS37-2-process-a,"The proportion of women who are advised, at the first postnatal midwife contact, of the symptoms and signs of potentially serious conditions that require them to seek medical advice without delay.","The number in the denominator who are advised, at the first postnatal midwife contact, of the symptoms and signs of potentially serious conditions that require them to seek medical advice without delay.",The number of women who have given birth.
+2,outcome,a,QS37-2-outcome-a,Incidence of potentially avoidable maternal morbidity and mortality.,NA,NA
+2,outcome,b,QS37-2-outcome-b,Women who have given birth feel informed about symptoms and signs of potentially serious postnatal conditions.,NA,NA
+3,structure,a,QS37-3-structure-a,"Evidence of local arrangements to ensure that women or main carers of babies are advised, within 24 hours of the birth, of the symptoms and signs of serious illness in the baby that require them to contact emergency services.",NA,NA
+3,process,a,QS37-3-process-a,"The proportion of women or main carers of babies who are advised, within 24 hours of the birth, of the symptoms and signs of serious illness in the baby that require them to contact emergency services.","The number in the denominator who are advised, within 24 hours of the birth, of the symptoms and signs of serious illness in the baby that require them to contact emergency services.",The number of mothers or main carers of babies.
+3,outcome,a,QS37-3-outcome-a,Incidence of potentially avoidable infant morbidity and mortality.,NA,NA
+3,outcome,b,QS37-3-outcome-b,Women and main carers feel informed about symptoms and signs of serious illness in the baby.,NA,NA
+4,structure,a,QS37-4-structure-a,Sharing practices.,NA,NA
+4,process,a,QS37-4-process-a,Sharing practices.,Sharing practices.,The number of postnatal contacts.
+4,outcome,a,QS37-4-outcome-a,.,NA,NA
+4,outcome,b,QS37-4-outcome-b,Sharing practices.,NA,NA
+5,structure,a,QS37-5-structure-a,"Evidence of local arrangements for breastfeeding support to be provided through a service that uses an evaluated, structured programme.",NA,NA
+5,process,a,QS37-5-process-a,"Proportion of women who receive breastfeeding support through a service that uses an evaluated, structured programme.","The number in the denominator who receive breastfeeding support through a service that uses an evaluated, structured programme.",.
+5,process,b,QS37-5-process-b,Proportion of women who wanted to continue breastfeeding but stopped before they had planned to.,The number in the denominator who wanted to continue breastfeeding but stopped before they had planned to.,.
+5,outcome,a,QS37-5-outcome-a,Rates of breastfeeding initiation.,NA,NA
+5,outcome,b,QS37-5-outcome-b,Rates of exclusive or partial breastfeeding on discharge from hospital and at 6 to 8 weeks after the birth.,NA,NA
+5,outcome,c,QS37-5-outcome-c,Women's satisfaction with breastfeeding support.,NA,NA
+6,structure,a,QS37-6-structure-a,Evidence of local arrangements to ensure that information about bottle feeding is discussed with women or main carers of formula‑fed babies.,NA,NA
+6,process,a,QS37-6-process-a,The proportion of women or main carers of formula‑fed babies who have information about bottle feeding discussed with them.,The number in the denominator who have information about bottle feeding discussed with them.,The number of women or main carers of formula‑fed babies.
+6,outcome,a,QS37-6-outcome-a,Rates of hospital admissions for formula feeding‑related conditions.,NA,NA
+6,outcome,b,QS37-6-outcome-b,Women's and main carers' knowledge of how to sterilise feeding equipment and safely prepare formula milk.,NA,NA
+6,outcome,c,QS37-6-outcome-c,Women's and main carers' satisfaction with feeding support.,NA,NA
+7,structure,a,QS37-7-structure-a,Evidence of local arrangements to ensure that parents or main carers of babies are offered an appointment for the baby to attend for a 6‑ to 8‑week physical examination.,NA,NA
+7,structure,b,QS37-7-structure-b,Evidence of local arrangements to ensure that a system is in place to monitor the competency of practitioners undertaking a 6‑ to 8‑week physical examination.,NA,NA
+7,process,a,QS37-7-process-a,Proportion of babies who had a 6‑ to 8‑week physical examination.,The number in the denominator who had a 6‑ to 8‑week physical examination.,The number of babies aged 8 weeks.
+7,outcome,a,QS37-7-outcome-a,Incidence of physical abnormalities in babies.,NA,NA
+7,outcome,b,QS37-7-outcome-b,Health outcomes associated with early intervention for babies with physical abnormalities.,NA,NA
+8,structure,a,QS37-8-structure-a,Evidence of local arrangements to ensure that women have their BMI assessed and recorded at the 6‑ to 8‑week postnatal check.,NA,NA
+8,structure,b,QS37-8-structure-b,Evidence of local arrangements to ensure that women with a BMI of 30 kg/m2 or more at the 6‑ to 8‑week postnatal check are offered a referral for advice on healthy eating and physical activity.,NA,NA
+8,structure,c,QS37-8-structure-c,Evidence of local arrangements to ensure that the local workforce has appropriate numbers of staff trained to deliver healthy eating and physical activity services to postnatal women.,NA,NA
+8,process,a,QS37-8-process-a,The proportion of women who have their BMI recorded at the 6‑ to 8‑week postnatal check.,The number in the denominator who have their BMI recorded.,The number of women who attend a 6‑ to 8‑week postnatal check.
+8,process,b,QS37-8-process-b,The proportion of women with a BMI of 30 kg/m2 or more at the 6‑ to 8‑week postnatal check who are offered a referral for advice on healthy eating and physical activity.,The number in the denominator who are offered a referral for advice on healthy eating and physical activity.,The number of women with a BMI of 30 kg/m2 or more who attend a 6‑ to 8‑week postnatal check.
+8,process,c,QS37-8-process-c,The proportion of women with a BMI of 30 kg/m2 or more at the 6‑ to 8‑week postnatal check who accept a referral for advice on healthy eating and physical activity.,The number in the denominator who accept a referral for advice on healthy eating and physical activity.,The number of women with a BMI of 30 kg/m2 or more who attend a 6‑ to 8‑week postnatal check.
+8,outcome,a,QS37-8-outcome-a,"Women feel able to make informed decisions about healthy eating, physical activity and weight management for themselves and their family.",NA,NA
+9,structure,a,QS37-9-structure-a,"Evidence of local arrangements that women have an assessment of their emotional wellbeing, including bonding with their baby, at each postnatal contact.",NA,NA
+9,process,a,QS37-9-process-a,"Proportion of postnatal contacts that include an assessment of the woman's emotional wellbeing, including bonding with their baby.","The number in the denominator that include an assessment of the woman's emotional wellbeing, including bonding with their baby.",The number of postnatal contacts.
+9,outcome,a,QS37-9-outcome-a,Incidence of postnatal mental health problems.,NA,NA
+9,outcome,b,QS37-9-outcome-b,Mother emotional attachment problems.,NA,NA
+10,error,NA,NA,NA,NA,NA
+11,error,NA,NA,NA,NA,NA

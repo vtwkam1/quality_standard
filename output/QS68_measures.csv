@@ -1,0 +1,20 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS68-1-structure-a,Evidence of local arrangements to ensure that adults with a suspected acute coronary syndrome are assessed for the presence of acute myocardial infarction using the criteria in the universal definition of myocardial infarction.,NA,NA
+1,process,a,QS68-1-process-a,Proportion of adults with a diagnosis of acute myocardial infarction who had their diagnosis made using the criteria in the universal definition of myocardial infarction.,The number in the denominator who had their diagnosis made using the criteria in the universal definition of myocardial infarction.,The number of adults with a diagnosis of acute myocardial infarction.
+2,structure,a,QS68-2-structure-a,Month mortality to guide clinical management.,NA,NA
+2,process,a,QS68-2-process-a,Month mortality.,Month mortality.,The number of presentations because of NSTEMI or unstable angina.
+3,structure,a,QS68-3-structure-a,", have it within 72 hours of first admission to hospital.",NA,NA
+3,process,a,QS68-3-process-a,Within 72 hours of first admission to hospital.,Within 72 hours of admission to hospital.,.
+3,outcome,a,QS68-3-outcome-a,Incidence of cardiovascular events.,NA,NA
+4,structure,a,QS68-4-structure-a,"As soon as possible, but within 24 hours of becoming clinically unstable.",NA,NA
+4,process,a,QS68-4-process-a,.,NA,NA
+4,process,b,QS68-4-process-b,Within 24 hours of becoming clinically unstable.,Within 24 hours of becoming clinically unstable.,The number of adults with NSTEMI or unstable angina who are clinically unstable.
+4,outcome,a,QS68-4-outcome-a,Incidence of cardiovascular events.,NA,NA
+5,structure,a,QS68-5-structure-a,Because they are unconscious.,NA,NA
+5,process,a,QS68-5-process-a,.,.,The number of adults who were unconscious after cardiac arrest caused by suspected acute STEMI.
+6,structure,a,QS68-6-structure-a,"Evidence of local arrangements to ensure that adults with acute STEMI who present within 12 hours of onset of symptoms have primary PCI, as the preferred coronary reperfusion strategy, within 120 minutes of the time when fibrinolysis could have been given.",NA,NA
+6,structure,b,QS68-6-structure-b,Evidence of local arrangements to ensure that adults with acute STEMI have access to primary PCI 24 hours a day.,NA,NA
+6,structure,c,QS68-6-structure-c,Evidence that commissioners with their services providers have developed a single care pathway for coronary reperfusion.,NA,NA
+6,process,a,QS68-6-process-a,Proportion of adults with acute STEMI who present within 12 hours of onset of symptoms who receive primary PCI within 120 minutes of when fibrinolysis could have been given.,The number in the denominator receiving primary PCI within 120 minutes of when fibrinolysis could have been given.,The number of adults with acute STEMI who present within 12 hours of onset of symptoms.
+6,process,b,QS68-6-process-b,Proportion of adults with acute STEMI who present within 12 hours of onset of symptoms who receive primary PCI within 150 minutes of the call for professional help.,The number of people in the denominator receiving primary PCI within 150 minutes of the call for professional help.,The number of adults with acute STEMI who present within 12 hours of onset of symptoms.
+6,outcome,a,QS68-6-outcome-a,Incidence of cardiovascular events.,NA,NA

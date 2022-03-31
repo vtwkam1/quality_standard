@@ -1,0 +1,28 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator
+1,structure,a,QS173-1-structure-a,Evidence that information about the support provided by the local intermediate care service is available.,NA,NA
+1,structure,b,QS173-1-structure-b,Evidence of local processes to ensure that adults being assessed for intermediate care have a discussion about the support the service will and will not provide.,NA,NA
+1,process,a,QS173-1-process-a,Proportion of adults being assessed for intermediate care who have a record of a discussion about the support the service will and will not provide.,The number in the denominator who have a record of a discussion about the support the service will and will not provide.,The number of adults being assessed for intermediate care.
+1,outcome,a,QS173-1-outcome-a,Level of awareness of the support the service provides among adults assessed for intermediate care and their families and carers.,NA,NA
+2,structure,a,QS173-2-structure-a,Based intermediate care can be started within 2 days of referral.,NA,NA
+2,process,a,QS173-2-process-a,Based intermediate care from hospital who start the service within 2 days of referral.,The number in the denominator who start the service within 2 days of referral.,Based intermediate care from hospital.
+2,process,b,QS173-2-process-b,Based intermediate care from the community who start the service within 2 days of referral.,The number in the denominator who start the service within 2 days of referral.,Based intermediate care from the community.
+2,process,c,QS173-2-process-c,Based intermediate care that were not accepted due to insufficient capacity.,The number in the denominator that were not accepted due to insufficient capacity.,Based intermediate care.
+2,outcome,a,QS173-2-outcome-a,Rate of unplanned hospital admissions for chronic ambulatory care sensitive conditions.,NA,NA
+2,outcome,b,QS173-2-outcome-b,Rate of delayed transfer of care from hospital for adults.,NA,NA
+2,outcome,c,QS173-2-outcome-c,Based intermediate care to acute hospital or residential care.,NA,NA
+2,outcome,d,QS173-2-outcome-d,Proportion of people who were still at home 91 days after discharge from hospital into reablement or rehabilitation services.,NA,NA
+3,structure,a,QS173-3-structure-a,Evidence of local arrangements to ensure that staff carrying out assessments for intermediate care are trained to discuss and agree personalised goals with adults starting the service.,NA,NA
+3,structure,b,QS173-3-structure-b,", and care staff.",NA,NA
+3,process,a,QS173-3-process-a,Proportion of adults starting intermediate care who have a record of a discussion to agree personalised goals.,The number in the denominator who have a record of a discussion to agree personalised goals.,The number of adults starting intermediate care.
+3,process,b,QS173-3-process-b,Proportion of adults starting intermediate care who have documented personalised goals.,The number in the denominator who have documented personalised goals.,The number of adults starting intermediate care.
+3,outcome,a,QS173-3-outcome-a,Satisfaction of adults discharged from intermediate care that the service supported them to achieve their personalised goals.,NA,NA
+3,outcome,b,QS173-3-outcome-b,Proportion of adults discharged from intermediate care with a level of independence improved from admission.,NA,NA
+4,structure,a,QS173-4-structure-a,"Evidence of local referral pathways between intermediate care and statutory, independent and voluntary services.",NA,NA
+4,structure,b,QS173-4-structure-b,Evidence of local information about where adults leaving intermediate care can get support.,NA,NA
+4,structure,c,QS173-4-structure-c,Evidence of local processes to ensure that adults using intermediate care services discuss and agree a transition plan for when their support ends.,NA,NA
+4,process,a,QS173-4-process-a,Proportion of adults starting to use intermediate care services who have a record of a discussion to agree a transition plan for when their support ends.,The number in the denominator who have a record of a discussion to agree a transition plan for when their support ends.,The number of adults starting to use intermediate care services.
+4,process,b,QS173-4-process-b,Proportion of adults starting to use intermediate care services who have a documented transition plan for when their support ends.,The number in the denominator who have a documented transition plan for when their support ends.,The number of adults starting to use intermediate care services.
+4,process,c,QS173-4-process-c,Proportion of adults discharged from intermediate care whose transition plan for when their support ends was reviewed before discharge.,The number in the denominator whose transition plan for when their support ends was reviewed before discharge.,The number of adults discharged from intermediate care.
+4,outcome,a,QS173-4-outcome-a,Rate of emergency readmissions to hospital within 30 days of discharge from hospital into reablement or rehabilitation services.,NA,NA
+4,outcome,b,QS173-4-outcome-b,Proportion of people who were still at home 91 days after discharge from hospital into reablement or rehabilitation services.,NA,NA
+4,outcome,c,QS173-4-outcome-c,Satisfaction of adults with their transition from intermediate care.,NA,NA
