@@ -68,6 +68,30 @@ section_table <- function(section) {
     }
 }
 
+measures_table_fn <- function(statement_number = 9999, 
+                           measure_type = NA, 
+                           point = NA, 
+                           measure_id = NA, 
+                           measure = NA, 
+                           numerator = NA, 
+                           denominator = NA) {
+  return(tibble(
+      statement_number = statement_number,
+      measure_type = measure_type,
+      point = point,
+      measure_id = measure_id,
+      measure = measure,
+      numerator = numerator,
+      denominator = denominator
+  ))
+}
+
+statement_row_fn <- function(qs_id,
+                          statement_number,
+                          statement) {
+  return(tibble(qs_id = qs_id, statement_number = statement_number, statement = statement))
+}
+
 extract_statement <- function(qs_links, n, qs_id) {
     qs_html <- read_html(qs_links[n])
     
@@ -87,69 +111,72 @@ extract_statement <- function(qs_links, n, qs_id) {
             str_remove("\\[.*\\]") %>% 
             str_trim()
         
-        statement_row <- tibble(qs_id = qs_id, statement_number = statement_number, statement = statement)
+        statement_row <- statement_row_fn(qs_id, statement_number, statement)
         
         # Extract all p elements inside a div element with title attribute "Structure" which is itself inside a div element with title attribute "Quality measures"
         qm_structure <- extract_measure(qs_html, measure = "Structure")
         qm_process <- extract_measure(qs_html, measure = "Process")
         qm_outcome <- extract_measure(qs_html, measure = "Outcome")
         
-        # Separate out points for structure, process and outcome
-        qm_structure_table <- section_table(qm_structure) %>% 
-            mutate(qs_id = qs_id,
-                   statement_number = statement_number,
-                   measure_type = "structure",
-                   .before = 1
-            )
+        if (is_empty(qm_structure) & is_empty(qm_process) & is_empty(qm_outcome)){
+          
+          measures <- measures_table_fn(
+            statement_number = statement_number,
+            measure_type = "error")
+          
+        } else {
         
-        
-        qm_process_table <- section_table(qm_process)  %>% 
-            mutate(qs_id = qs_id,
-                   statement_number = statement_number,
-                   measure_type = "process",
-                   .before = 1
-            )
-        
-        
-        qm_outcome_table <- section_table(qm_outcome)  %>% 
-            mutate(qs_id = qs_id,
-                   statement_number = statement_number,
-                   measure_type = "outcome",
-                   .before = 1
-            )
-        
-        # Combine measures
-        measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>% 
-            filter(label != "data source") %>% 
-            mutate(measure = str_remove(measure, "^.*(:|\\)|\u2013|-)") %>% 
-                       str_trim() %>% 
-                       str_replace("^\\w{1}", toupper)) %>% 
-            relocate(measure, .after = last_col()) %>% 
-            mutate(measure_id = paste(qs_id, statement_number, measure_type, point, sep = "-")) %>% 
-            pivot_wider(names_from = label,
-                        values_from = measure) %>% 
-            rename(measure = statement) %>% 
-            select(-qs_id)
-        
-        if(!("numerator" %in% colnames(measures))) {
-            measures$numerator <- NA
-            measures$denominator <- NA
+          # Separate out points for structure, process and outcome
+          qm_structure_table <- section_table(qm_structure) %>% 
+              mutate(qs_id = qs_id,
+                     statement_number = statement_number,
+                     measure_type = "structure",
+                     .before = 1
+              )
+          
+          qm_process_table <- section_table(qm_process)  %>% 
+              mutate(qs_id = qs_id,
+                     statement_number = statement_number,
+                     measure_type = "process",
+                     .before = 1
+              )
+          
+          
+          qm_outcome_table <- section_table(qm_outcome)  %>% 
+              mutate(qs_id = qs_id,
+                     statement_number = statement_number,
+                     measure_type = "outcome",
+                     .before = 1
+              )
+          
+          # Combine measures
+          measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>% 
+              filter(label != "data source") %>% 
+              mutate(measure = str_remove(measure, "^.*(:|\\)|\u2013|-)") %>% 
+                         str_trim() %>% 
+                         str_replace("^\\w{1}", toupper)) %>% 
+              relocate(measure, .after = last_col()) %>% 
+              mutate(measure_id = paste(qs_id, statement_number, measure_type, point, sep = "-")) %>% 
+              pivot_wider(names_from = label,
+                          values_from = measure) %>% 
+              rename(measure = statement) %>% 
+              select(-qs_id)
+          
+          if(!("numerator" %in% colnames(measures))) {
+              measures$numerator <- NA
+              measures$denominator <- NA
+          }
+          
         }
         
     } else {
         statement <- sprintf("[Placeholder: %s]", str_extract(title, "(?<=:).+") %>% str_trim())
         
-        statement_row <- tibble(qs_id = qs_id, statement_number = statement_number, statement = statement)
+        statement_row <- statement_row_fn(qs_id, statement_number, statement)
         
-        measures <- tibble(
+        measures <- measures_table_fn(
             statement_number = statement_number,
-            measure_type = "placeholder",
-            point = NA,
-            measure_id = NA,
-            measure = NA,
-            numerator = NA,
-            denominator = NA
-        )
+            measure_type = "placeholder")
     }
         return(list("statement_row" = statement_row,
                     "measures" = measures))

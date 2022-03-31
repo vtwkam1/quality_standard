@@ -26,7 +26,7 @@ extract_qs <- function(qs_number) {
             # Create empty and write empty table
             write_csv(qs_directory, "./output/qs_directory.csv")
         } else {
-            qs_dir_import <- read_csv("./output/qs_directory.csv")
+            qs_dir_import <- read_csv("./output/qs_directory.csv", show_col_types = F)
             
             if (!(qs_id %in% qs_dir_import$qs_id)) {
                 write_csv(qs_directory, "./output/qs_directory.csv", append = T)
@@ -35,11 +35,11 @@ extract_qs <- function(qs_number) {
         
         # Read quality statement
         
-        statement_text <- data.frame(qs_id = character(),
+        statement_text <- statement_row_fn(qs_id = character(),
                                      statement_number = numeric(),
                                      statement = character())
         
-        all_statements <- data.frame(statement_number = numeric(),
+        all_statements <- measures_table_fn(statement_number = numeric(),
                                      measure_type = character(),
                                      point = character(),
                                      measure_id = character(),

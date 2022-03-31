@@ -12,11 +12,14 @@ source('./src/extract_statements_functions.R')
 
 # Create output folder if it doesn't already exist
 if(!dir.exists("output")) {
-  dir.create("output")
+    dir.create("output")
 }
 
-to_pull <- 1:206
+to_pull <- 1
 
 for (qs_number in to_pull) {
-  extract_qs(qs_number)
+    
+    extract_qs(qs_number)
+    
+    message(sprintf("QS%s extracted. Check output for errors.", qs_number))
 }

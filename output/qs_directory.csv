@@ -16,3 +16,186 @@ QS15,Patient experience in adult NHS services
 QS16,Hip fracture in adults
 QS17,Lung cancer in adults
 QS18,Ovarian cancer
+QS33,Rheumatoid arthritis in over 16s
+QS19,Meningitis (bacterial) and meningococcal septicaemia in children and young people
+QS20,Colorectal cancer
+QS21,Stable angina
+QS22,Antenatal care
+QS23,Drug use disorders in adults
+QS24,Nutrition support in adults
+QS25,Asthma
+QS26,Epilepsy in adults
+QS27,Epilepsy in children and young people
+QS28,Hypertension in adults
+QS31,Looked-after children and young people
+QS32,Caesarean birth
+QS34,Self‑harm
+QS35,Hypertension in pregnancy
+QS36,Urinary tract infection in children and young people
+QS37,Postnatal care
+QS38,Acute upper gastrointestinal bleeding in adults
+QS39,Attention deficit hyperactivity disorder
+QS40,Psoriasis
+QS41,Familial hypercholesterolaemia
+QS42,Headaches in over 12s
+QS43,Smoking: supporting people to stop
+QS44,Atopic eczema in under 12s
+QS45,Lower urinary tract symptoms in men
+QS46,Multiple pregnancy: twin and triplet pregnancies
+QS47,Heavy menstrual bleeding
+QS48,Depression in children and young people
+QS49,Surgical site infection
+QS50,Mental wellbeing of older people in care homes
+QS51,Autism
+QS52,Peripheral arterial disease
+QS53,Anxiety disorders
+QS54,Faecal incontinence in adults
+QS55,Cancer services for children and young people
+QS56,Metastatic spinal cord compression in adults
+QS57,Jaundice in newborn babies under 28 days
+QS58,Sickle cell disease
+QS59,Antisocial behaviour and conduct disorders in children and young people
+QS60,Inducing labour
+QS61,Infection prevention and control
+QS62,Constipation in children and young people
+QS63,Delirium in adults
+QS64,Fever in under 5s
+QS65,Hepatitis B
+QS66,Intravenous fluid therapy in adults in hospital
+QS67,Varicose veins in the legs
+QS68,Acute coronary syndromes in adults
+QS69,Ectopic pregnancy and miscarriage
+QS70,Bedwetting in children and young people
+QS71,Transient loss of consciousness ('blackouts') in over 16s
+QS72,Renal replacement therapy services for adults
+QS73,Fertility problems
+QS74,Head injury
+QS75,Neonatal infection
+QS76,Acute kidney injury
+QS77,Urinary incontinence in women
+QS78,Sarcoma
+QS79,Idiopathic pulmonary fibrosis in adults
+QS80,Psychosis and schizophrenia in adults
+QS81,Inflammatory bowel disease
+QS82,Smoking: reducing and preventing tobacco use
+QS83,Alcohol: preventing harmful use in the community
+QS84,"Physical activity: for NHS staff, patients and carers"
+QS85,Medicines management in care homes
+QS86,Falls in older people
+QS87,Osteoarthritis
+QS88,Personality disorders: borderline and antisocial
+QS89,Pressure ulcers
+QS90,Urinary tract infections in adults
+QS91,Prostate cancer
+QS92,Smoking: harm reduction
+QS93,Atrial fibrillation
+QS94,Obesity in children and young people: prevention and lifestyle weight management programmes
+QS95,Bipolar disorder in adults
+QS96,Dyspepsia and gastro‑oesophageal reflux disease in adults
+QS97,Drug allergy
+QS98,Nutrition: improving maternal and child nutrition
+QS99,Secondary prevention after a myocardial infarction
+QS100,Cardiovascular risk assessment and lipid modification
+QS101,Learning disability: behaviour that challenges
+QS102,"Bipolar disorder, psychosis and schizophrenia in children and young people"
+QS103,Acute heart failure
+QS104,Gallstone disease
+QS105,Intrapartum care
+QS106,Bladder cancer
+QS107,Preventing unintentional injury in under 15s
+QS108,Multiple sclerosis
+QS109,Diabetes in pregnancy
+QS110,Pneumonia in adults
+QS111,Obesity in adults: prevention and lifestyle weight management programmes
+QS112,Gastro-oesophageal reflux in children and young people
+QS113,Healthcare-associated infections
+QS114,Irritable bowel syndrome in adults
+QS115,Antenatal and postnatal mental health
+QS116,Domestic violence and abuse
+QS117,Preventing excess winter deaths and illness associated with cold homes
+QS118,Food allergy
+QS119,Anaphylaxis
+QS120,Medicines optimisation
+QS121,Antimicrobial stewardship
+QS122,Bronchiolitis in children
+QS123,Home care for older people
+QS124,Suspected cancer
+QS125,Diabetes in children and young people
+QS126,Motor neurone disease
+QS127,Obesity: clinical assessment and management
+QS128,Early years: promoting health and wellbeing in under 5s
+QS129,Contraception
+QS130,Skin cancer
+QS131,Intravenous fluid therapy in children and young people in hospital
+QS132,Social care for older people with multiple long-term conditions
+QS133,Children’s attachment
+QS134,Coeliac disease
+QS135,Preterm labour and birth
+QS136,Transition between inpatient hospital settings and community or care home settings for adults with social care needs
+QS137,Mental wellbeing and independence for older people
+QS138,Blood transfusion
+QS139,Oral health promotion in the community
+QS140,Transition from children’s to adults’ services
+QS141,Tuberculosis
+QS142,Learning disability: identifying and managing mental health problems
+QS143,Menopause
+QS144,Care of dying adults in the last days of life
+QS145,Vaccine uptake in under 19s
+QS146,Head and neck cancer
+QS147,Healthy workplaces: improving employee mental and physical health and wellbeing
+QS148,Community engagement: improving health and wellbeing
+QS149,Osteoporosis
+QS150,Haematological cancers
+QS151,Oral health in care homes
+QS152,Liver disease
+QS153,Multimorbidity
+QS154,Violent and aggressive behaviours in people with mental health problems
+QS155,Low back pain and sciatica in over 16s
+QS156,Physical health of people in prisons
+QS157,HIV testing: encouraging uptake
+QS158,Rehabilitation after critical illness in adults
+QS159,Transition between inpatient mental health settings and community or care home settings
+QS160,"End of life care for infants, children and young people"
+QS161,Sepsis
+QS162,Cerebral palsy in children and young people
+QS163,Mental health of adults in contact with the criminal justice system
+QS164,Parkinson's disease
+QS165,Drug misuse prevention
+QS166,Trauma
+QS167,"Promoting health and preventing premature mortality in black, Asian and other minority ethnic groups"
+QS168,Cystic fibrosis
+QS169,Developmental follow-up of children and young people born preterm
+QS170,Spondyloarthritis
+QS171,Medicines management for people receiving social care in the community
+QS172,Endometriosis
+QS173,Intermediate care including reablement
+QS174,Emergency and acute medical care in over 16s
+QS175,Eating disorders
+QS176,Oesophago-gastric cancer
+QS177,Pancreatic cancer
+QS178,Sexual health
+QS179,Child abuse and neglect
+QS180,Serious eye disorders
+QS181,Air pollution: outdoor air quality and health
+QS182,People’s experience using adult social care services
+QS183,Physical activity: encouraging activity in the community
+QS184,Dementia
+QS185,Hearing loss in adults
+QS186,Lyme disease
+QS187,Learning disability: care and support of people growing older
+QS188,Coexisting severe mental illness and substance misuse
+QS189,Suicide prevention
+QS190,Flu vaccination: increasing uptake
+QS191,Cerebral palsy in adults
+QS192,Intrapartum care: existing medical conditions and obstetric complications
+QS193,Specialist neonatal respiratory care for babies born preterm
+QS194,Decision making and mental capacity
+QS195,Renal and ureteric stones
+QS196,Community pharmacies: promoting health and wellbeing
+QS197,Faltering growth
+QS198,Suspected neurological conditions: recognition and referral
+QS199,Abortion care
+QS200,Supporting adult carers
+QS201,Venous thromboembolism in adults
+QS202,Workplace health: long-term sickness absence and capability to work
+QS203,Brain tumours (primary) and brain metastases in over 16s
