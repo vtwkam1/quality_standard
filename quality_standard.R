@@ -15,6 +15,8 @@ if(!dir.exists("output")) {
   dir.create("output")
 }
 
-for (qs_number in 1:206) {
+to_pull <- 1:206
+
+for (qs_number in to_pull) {
   extract_qs(qs_number)
 }
