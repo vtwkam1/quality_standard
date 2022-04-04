@@ -174,9 +174,12 @@ extract_statement <- function(qs_links, n, qs_id) {
         
         statement_row <- statement_row_fn(qs_id, statement_number, statement)
         
+        measure_type <- "placeholder"
+        
         measures <- measures_table_fn(
             statement_number = statement_number,
-            measure_type = "placeholder")
+            measure_type = measure_type,
+            measure_id = paste(qs_id, statement_number, measure_type, sep = "-"))
     }
         return(list("statement_row" = statement_row,
                     "measures" = measures))
