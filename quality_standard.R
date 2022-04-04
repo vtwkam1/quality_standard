@@ -3,6 +3,7 @@ library(dplyr)
 library(stringr)
 library(tidyr)
 library(readr)
+library(purrr)
 
 library(rvest)
 library(rlang)
@@ -15,7 +16,7 @@ if(!dir.exists("output")) {
     dir.create("output")
 }
 
-to_pull <- 1
+to_pull <- 112
 
 for (qs_number in to_pull) {
     

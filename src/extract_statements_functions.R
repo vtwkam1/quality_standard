@@ -13,7 +13,7 @@ extract_measure <- function(qs_html, measure_type) {
     return(quality_measure)
 }
 
-section_table <- function(section) {
+section_table <- function(section, qs_id, statement_number, section_type) {
     
     if (!is_empty(section))  {
         # Generate empty table
@@ -31,6 +31,28 @@ section_table <- function(section) {
             table$point[1] <- "a"
         }
         
+        # Renumber points if duplicate numbering detected
+        if(sum(duplicated(table$point[!is.na(table$point)])) > 0) {
+        
+          table <- table %>% 
+            mutate(row_id = row_number())
+          
+          renumber_points <- table %>% 
+            filter(!is.na(point)) %>% 
+            group_by(point) %>% 
+            filter(n() > 1) %>%
+            ungroup() %>% 
+            mutate(point_group = letters[row_number()]) %>% 
+            select(row_id, point_group) %>% 
+            rename(point = point_group)
+          
+          table <- table %>%
+            select(-point) %>% 
+            left_join(renumber_points, by = "row_id") %>% 
+            relocate(point) %>% 
+            select(-row_id)
+        }
+        
         # If a row has no value in the point column, assign it the point letter for the row above
         for (i in seq_along(table$point)) {
             if (is.na(table$point[i])) {
@@ -38,7 +60,7 @@ section_table <- function(section) {
             }
         }
         
-        # E
+        # Classify measures
         table <- table %>% 
             group_by(point) %>% 
             # Assign index to rows within each point
@@ -57,6 +79,15 @@ section_table <- function(section) {
                 label)) %>% 
             # Drop index column
             select(-point_index)
+        
+        # Add identifiers
+        table <-  table %>% 
+          mutate(qs_id = qs_id,
+                 statement_number = statement_number,
+                 measure_type = section_type,
+                 .before = 1
+          )
+    
         
         return(table)
     }
@@ -91,6 +122,7 @@ statement_row_fn <- function(qs_id,
                           statement) {
   return(tibble(qs_id = qs_id, statement_number = statement_number, statement = statement))
 }
+
 
 extract_statement <- function(qs_links, n, qs_id) {
     qs_html <- read_html(qs_links[n])
@@ -127,27 +159,11 @@ extract_statement <- function(qs_links, n, qs_id) {
         } else {
         
           # Separate out points for structure, process and outcome
-          qm_structure_table <- section_table(qm_structure) %>% 
-              mutate(qs_id = qs_id,
-                     statement_number = statement_number,
-                     measure_type = "structure",
-                     .before = 1
-              )
+          qm_structure_table <- section_table(qm_structure, qs_id, statement_number, "structure")
           
-          qm_process_table <- section_table(qm_process)  %>% 
-              mutate(qs_id = qs_id,
-                     statement_number = statement_number,
-                     measure_type = "process",
-                     .before = 1
-              )
+          qm_process_table <- section_table(qm_process, qs_id, statement_number, "process")
           
-          
-          qm_outcome_table <- section_table(qm_outcome)  %>% 
-              mutate(qs_id = qs_id,
-                     statement_number = statement_number,
-                     measure_type = "outcome",
-                     .before = 1
-              )
+          qm_outcome_table <- section_table(qm_outcome, qs_id, statement_number, "outcome")
           
           # Combine measures
           measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>% 
@@ -156,7 +172,7 @@ extract_statement <- function(qs_links, n, qs_id) {
                          str_trim() %>% 
                          str_replace("^\\w{1}", toupper)) %>% 
               relocate(measure, .after = last_col()) %>% 
-              mutate(measure_id = paste(qs_id, statement_number, measure_type, point, sep = "-")) %>% 
+              mutate(measure_id = paste(qs_id, statement_number, measure_type, point, sep = "-")) %>%             
               pivot_wider(names_from = label,
                           values_from = measure) %>% 
               rename(measure = statement) %>% 
