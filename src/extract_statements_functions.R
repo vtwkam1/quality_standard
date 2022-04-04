@@ -152,7 +152,7 @@ extract_statement <- function(qs_links, n, qs_id) {
           # Combine measures
           measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>% 
               filter(label != "data source") %>% 
-              mutate(measure = str_remove(measure, "^.*(:|\\)|\u2013|-)") %>% 
+              mutate(measure = str_remove(measure, "^\\w+\\s?(:|\\)|\u2013|-)") %>% 
                          str_trim() %>% 
                          str_replace("^\\w{1}", toupper)) %>% 
               relocate(measure, .after = last_col()) %>% 
