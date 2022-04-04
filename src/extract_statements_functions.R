@@ -27,8 +27,8 @@ section_table <- function(section, qs_id, statement_number, section_type) {
                 NULL))
         
         # If for the first row, there is no a), b) etc, assign "a" in point column
-        if (is.na(table$point[1])) {
-            table$point[1] <- "a"
+        if (is.na(table$point[[1]])) {
+            table$point[[1]] <- "a"
         }
         
         # Renumber points if duplicate numbering detected
@@ -55,8 +55,8 @@ section_table <- function(section, qs_id, statement_number, section_type) {
         
         # If a row has no value in the point column, assign it the point letter for the row above
         for (i in seq_along(table$point)) {
-            if (is.na(table$point[i])) {
-                table$point[i] <- table$point[i-1]
+            if (is.na(table$point[[i]])) {
+                table$point[[i]] <- table$point[[i-1]]
             }
         }
         
@@ -125,7 +125,7 @@ statement_row_fn <- function(qs_id,
 
 
 extract_statement <- function(qs_links, n, qs_id) {
-    qs_html <- read_html(qs_links[n])
+    qs_html <- read_html(qs_links[[n]])
     
     # assumes only one paragraph as using html_element() not elements
     title <- qs_html %>% 
@@ -154,7 +154,8 @@ extract_statement <- function(qs_links, n, qs_id) {
           
           measures <- measures_table_fn(
             statement_number = statement_number,
-            measure_type = "error")
+            measure_type = "error",
+            measure_id = paste(qs_id, statement_number, "error", sep = "-"))
           
         } else {
         
@@ -190,12 +191,10 @@ extract_statement <- function(qs_links, n, qs_id) {
         
         statement_row <- statement_row_fn(qs_id, statement_number, statement)
         
-        measure_type <- "placeholder"
-        
         measures <- measures_table_fn(
             statement_number = statement_number,
-            measure_type = measure_type,
-            measure_id = paste(qs_id, statement_number, measure_type, sep = "-"))
+            measure_type = "placeholder",
+            measure_id = paste(qs_id, statement_number, "placeholder", sep = "-"))
     }
         return(list("statement_row" = statement_row,
                     "measures" = measures))
