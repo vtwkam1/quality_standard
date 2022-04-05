@@ -22,9 +22,11 @@ section_table <- function(section, qs_id, statement_number, section_type) {
         # If measure in measure column starts with a lower case character followed by a bracket, extract that letter into point column (e.g. "a)")
         table <- table %>% 
             mutate(point = if_else(
-                str_detect(measure, "^[:lower:]{1}\\) "),
-                str_extract(measure, "^[:lower:]{1}(?=\\) )"),
+                str_detect(measure, "^\\(?[:lower:]{1}\\) "),
+                str_extract(measure, "^\\(?[:lower:]{1}(?=\\) )") %>% str_remove("\\("),
                 NULL))
+        
+        # "(?<=\\(?)[:lower:]{1}(?=\\) )"
         
         # If for the first row, there is no a), b) etc, assign "a" in point column
         if (is.na(table$point[[1]])) {
@@ -68,10 +70,10 @@ section_table <- function(section, qs_id, statement_number, section_type) {
             ungroup() %>% 
             # Create label column and assign
             mutate(label = case_when(
-                str_detect(measure, "^[:lower:]{1}\\) ") ~ "statement",
-                str_detect(measure, "^Data source") ~ "data source",
-                str_detect(measure, "^Numerator") ~ "numerator",
-                str_detect(measure, "^Denominator") ~ "denominator")) %>% 
+                str_detect(measure, "^\\(?[:lower:]{1}\\) ") ~ "statement",
+                str_detect(measure, regex("^data source", ignore_case = T)) ~ "data source",
+                str_detect(measure, regex("^numerator", ignore_case = T)) ~ "numerator",
+                str_detect(measure, regex("^denominator", ignore_case = T)) ~ "denominator")) %>% 
             # If no label and first statement in point group, assign "statement" label
             mutate(label = if_else(
                 is.na(label) & point_index == 1,
@@ -132,9 +134,9 @@ extract_statement <- function(qs_links, n, qs_id) {
         html_element(".h2") %>% 
         html_text2()
     
-    statement_number <- str_extract(title, "(?<=(s|S)tatement )\\d+")
+    statement_number <- str_extract(title, regex("(?<=statement )\\d+", ignore_case = T))
     
-    if (!str_detect(title, "(P|p)laceholder")) {
+    if (!str_detect(title, regex("placeholder", ignore_case = T))) {
         
         statement <- qs_html %>% 
             html_element('div[title*="tatement"] p') %>% 
@@ -169,7 +171,7 @@ extract_statement <- function(qs_links, n, qs_id) {
           # Combine measures
           measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>% 
               filter(label != "data source") %>% 
-              mutate(measure = str_remove(measure, "^\\w+\\s?(:|\\)|\u2013|-)") %>% 
+              mutate(measure = str_remove(measure, "^\\(?\\w+\\s?(:|\\)|\u2013|-)") %>% 
                          str_trim() %>% 
                          str_replace("^\\w{1}", toupper)) %>% 
               relocate(measure, .after = last_col()) %>% 

@@ -11,7 +11,7 @@ extract_qs <- function(qs_number) {
         html_elements("#Guidance-Menu a") %>% 
         html_attr("href") %>%
         str_c("https://www.nice.org.uk", .) %>% 
-        str_subset(., "(s|S)tatement-\\d+")
+        str_subset(., regex("statement-\\d+", ignore_case = T))
     
     if (!is_empty(qs_links)) {
         # Capture quality standard name

@@ -16,7 +16,7 @@ if(!dir.exists("output")) {
     dir.create("output")
 }
 
-to_pull <- 112
+to_pull <- 1:206
 
 for (qs_number in to_pull) {
     
