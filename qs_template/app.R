@@ -44,12 +44,20 @@ ui <- fluidPage(
         # Main panel
         mainPanel(
             tabsetPanel(
-                tabPanel("Statements",
+                tabPanel("1. Initial assessment",
                          tableOutput("statements"),
                          downloadButton("download_statements",
                                         "Download statements")
                         ),
-                tabPanel("Measures",
+                tabPanel("2. Statements of interest",
+                         checkboxGroupInput("select_statements",
+                                            "Select statements to monitor:",
+                                            choices = c("NA",
+                                                        "NA",
+                                                        "NA"),
+                                            width = "100%"
+                                            ),
+                         actionButton("submit", "Submit"),
                          tableOutput("measures")
                         )
             )
@@ -60,7 +68,8 @@ ui <- fluidPage(
 read_statements <- function(qs_id) {
   statement_table <- read_csv(sprintf("../output/%s_statements.csv", qs_id),
     col_types = "cic"
-  )
+  ) %>% 
+      mutate(label = str_c(statement_number, "-", statement, sep = " "))
 }
 
 read_measures <- function(qs_id) {
@@ -71,9 +80,12 @@ read_measures <- function(qs_id) {
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
+    
   qs_id <- reactive({
     qs_id <- qs_directory$qs_id[qs_directory$label == input$select_qs]
+    
     message(glue("{qs_id} selected"))
+    
     qs_id
   })
 
@@ -82,7 +94,7 @@ server <- function(input, output, session) {
 
   statement_template <- reactive({
     statement_table() %>%
-      select(-qs_id) %>%
+      select(-qs_id, -label) %>%
       rename(Number = statement_number, 
              Statement = statement)
   })
@@ -99,13 +111,34 @@ server <- function(input, output, session) {
       write_csv(statement_template(), file)
     }
   )
+  
+  observeEvent(input$select_qs, {
+      updateCheckboxGroupInput(inputId = "select_statements",
+                               choices = statement_table()$label)
+  })
 
   # Measures
   measure_table <- reactive(read_measures(qs_id()))
+  
+  user_statements <- eventReactive(input$submit, {
+      user_statements <- statement_table() %>% 
+          filter(label %in% input$select_statements)
+      
+      message(paste("Statements", 
+                    paste0(user_statements$statement_number, collapse = ", "), 
+                    "selected"))
+      
+      user_statements
+  })
+  
+  # measure_template <- reactive({
+  #     measure_table
+  # })
 
   output$measures <- renderTable({
     measure_table() %>%
-      select(-measure_id)
+          filter(statement_number %in% user_statements()$statement_number) %>% 
+          select(-measure_id)
   })
 }
 
