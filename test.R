@@ -39,4 +39,4 @@ style <- createStyle(halign = "center",
                      wrapText = T)
 addStyle(wb, qs_id, style, rows = 1:20, cols = 1:20, gridExpand = T, stack = T)
 setColWidths(wb, qs_id, cols = c(2,5,6,7), widths = 35)
-saveWorkbook(wb, paste0(qs_id, ".xlsx"), overwrite = T)
+saveWorkbook(wb, paste0("./output/", qs_id, ".xlsx"), overwrite = T)
