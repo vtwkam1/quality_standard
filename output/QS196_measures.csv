@@ -1,5 +1,5 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS196-1-structure-a,Term health condition or those who look for support to improve their health and wellbeing are offered advice and education when they use community pharmacy services.,NA,NA
+1,structure,a,QS196-1-structure-a,Evidence of local arrangements to ensure that people who have a long-term health condition or those who look for support to improve their health and wellbeing are offered advice and education when they use community pharmacy services.,NA,NA
 1,outcome,a,QS196-1-outcome-a,Proportion of people using community pharmacy services who received health and wellbeing advice or education.,The number in the denominator who received health and wellbeing advice or education.,The number of people using community pharmacy services.
 1,outcome,b,QS196-1-outcome-b,Proportion of people using community pharmacy services who were satisfied with the health and wellbeing advice or education they received.,The number in the denominator satisfied with the advice they received.,The number of people using community pharmacy services who received health and wellbeing advice or education.
 2,structure,a,QS196-2-structure-a,Evidence of local initiatives to raise awareness of the health and wellbeing expertise and services available from community pharmacy teams among members of the public.,NA,NA
@@ -8,7 +8,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 2,outcome,b,QS196-2-outcome-b,Public understanding of the support available from local community pharmacies.,NA,NA
 3,structure,a,QS196-3-structure-a,Evidence of community pharmacies and commissioners working together to integrate community pharmacy services into care and referral pathways.,NA,NA
 3,structure,b,QS196-3-structure-b,"Evidence of defined referral pathways between community pharmacies, primary care networks, health, social care and support service providers.",NA,NA
-3,structure,c,QS196-3-structure-c,"Being agreed for the pathways defined between community pharmacies, primary care networks, health, social care and support service providers.",NA,NA
+3,structure,c,QS196-3-structure-c,"Evidence of key performance indicators (KPIs) being agreed for the pathways defined between community pharmacies, primary care networks, health, social care and support service providers.",NA,NA
 3,outcome,a,QS196-3-outcome-a,Proportion of community pharmacy team members satisfied with the availability of referral pathways.,The number in the denominator satisfied with the availability of referral pathways.,The number of community pharmacy team members.
 4,structure,a,QS196-4-structure-a,Evidence of actions taken locally between community pharmacies and commissioners to agree health and wellbeing interventions needed to support people from underserved groups.,NA,NA
 4,structure,b,QS196-4-structure-b,Evidence of local commissioning agreements for provision of health and wellbeing interventions according to local need.,NA,NA

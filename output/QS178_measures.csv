@@ -2,35 +2,35 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,structure,a,QS178-1-structure-a,Evidence of local agreement on the key points of contact when people will be asked about their sexual history.,NA,NA
 1,structure,b,QS178-1-structure-b,Evidence of local processes to ensure that people are asked about their sexual history at key points of contact.,NA,NA
 1,process,a,QS178-1-process-a,Proportion of people who have a discussion about their sexual history at key points of contact.,The number in the denominator who have a discussion about their sexual history.,The number of people attending a key point of contact.
-1,outcome,a,QS178-1-outcome-a,Proportion of people attending the service who are tested for STIs.,NA,NA
+1,outcome,a,QS178-1-outcome-a,Coverage of testing for STIs: proportion of people attending the service who are tested for STIs.,NA,NA
 2,structure,a,QS178-2-structure-a,Evidence of local arrangements to ensure that trained healthcare professionals are available to discuss behaviour change with people identified as being at risk of STIs.,NA,NA
 2,structure,b,QS178-2-structure-b,Evidence of local processes to ensure that people identified as being at risk of STIs have a discussion about prevention and testing.,NA,NA
 2,process,a,QS178-2-process-a,Proportion of people identified as being at risk of STIs who have a discussion about prevention and testing.,The number in the denominator who have a discussion about prevention and testing.,The number of people identified as being at risk of STIs.
-2,outcome,a,QS178-2-outcome-a,Proportion of people attending the service who are tested for STIs.,NA,NA
-2,outcome,b,QS178-2-outcome-b,"Per 100,000 people aged 15 to 64.",NA,NA
+2,outcome,a,QS178-2-outcome-a,Coverage of testing for STIs: proportion of people attending the service who are tested for STIs.,NA,NA
+2,outcome,b,QS178-2-outcome-b,"New STI diagnoses (excluding chlamydia in people aged under 25) per 100,000 people aged 15 to 64.",NA,NA
 2,outcome,c,QS178-2-outcome-c,"Chlamydia detection rate per 100,000 people aged 15 to 24.",NA,NA
 3,structure,a,QS178-3-structure-a,Evidence of local arrangements to assess the needs of local populations for condom distribution schemes.,NA,NA
 3,structure,b,QS178-3-structure-b,Evidence of local arrangements to provide a range of condom distribution schemes tailored to the needs of the population.,NA,NA
 3,structure,c,QS178-3-structure-c,Evidence of local arrangements to publicise condom distribution schemes to people most at risk of getting an STI.,NA,NA
 3,outcome,a,QS178-3-outcome-a,Proportion of people who are at risk of STIs who used a condom at last intercourse.,NA,NA
-3,outcome,b,QS178-3-outcome-b,"Per 100,000 people aged 15 to 64.",NA,NA
+3,outcome,b,QS178-3-outcome-b,"New STI diagnoses (excluding chlamydia in people aged under 25) per 100,000 people aged 15 to 64.",NA,NA
 3,outcome,c,QS178-3-outcome-c,"Chlamydia detection rate per 100,000 people aged 15 to 24.",NA,NA
 4,structure,a,QS178-4-structure-a,Evidence of local arrangements to ensure that people contacting a sexual health service about an STI are offered an appointment that is within 2 working days.,NA,NA
 4,process,a,QS178-4-process-a,"Proportion of contacts with a sexual health service about an STI in which an appointment that is within 2 working days, was offered.","The number in the denominator in which an appointment that is within 2 working days, was offered.",The number of contacts with a sexual health service about an STI.
-4,process,b,QS178-4-process-b,In clinic in which the waiting time was less than 2 hours.,The number in the denominator in which the waiting time was less than 2 hours.,In clinic.
+4,process,b,QS178-4-process-b,Proportion of attendances at a sexual health service walk-in clinic in which the waiting time was less than 2 hours.,The number in the denominator in which the waiting time was less than 2 hours.,The number of attendances at a sexual health service walk-in clinic.
 4,outcome,a,QS178-4-outcome-a,Satisfaction with access to services among people who contact sexual health services about an STI.,NA,NA
-4,outcome,b,QS178-4-outcome-b,Proportion of people attending the service who are tested for STIs.,NA,NA
-4,outcome,c,QS178-4-outcome-c,"Per 100,000 people aged 15 to 64.",NA,NA
+4,outcome,b,QS178-4-outcome-b,Coverage of testing for STIs: proportion of people attending the service who are tested for STIs.,NA,NA
+4,outcome,c,QS178-4-outcome-c,"New STI diagnoses (excluding chlamydia in people aged under 25) per 100,000 people aged 15 to 64.",NA,NA
 4,outcome,d,QS178-4-outcome-d,"Chlamydia detection rate per 100,000 people aged 15 to 24.",NA,NA
 5,structure,a,QS178-5-structure-a,Evidence of local arrangements to provide STI repeat testing every 3 months for men who have sex with men and are at increased risk of STIs.,NA,NA
 5,structure,b,QS178-5-structure-b,Evidence of local arrangements to encourage men who have sex with men to have repeat STI tests every 3 months if they are at increased risk of STIs.,NA,NA
 5,process,a,QS178-5-process-a,Proportion of men who have sex with men and are at increased risk of STIs who were sent a reminder to have repeat testing for STIs within the past 3 months.,The number in the denominator who were sent a reminder to have repeat testing for STIs within the past 3 months.,The number of men who have sex with men and are at increased risk of STIs.
 5,process,b,QS178-5-process-b,Proportion of men who have sex with men and are at increased risk of STIs who were tested for STIs within the past 3 months.,The number in the denominator who were tested for STIs within the past 3 months.,The number of men who have sex with men and are at increased risk of STIs.
-5,outcome,a,QS178-5-outcome-a,Proportion of people attending the service who are tested for STIs.,NA,NA
-5,outcome,b,QS178-5-outcome-b,"Per 100,000 people aged 15 to 64.",NA,NA
+5,outcome,a,QS178-5-outcome-a,Coverage of testing for STIs: proportion of people attending the service who are tested for STIs.,NA,NA
+5,outcome,b,QS178-5-outcome-b,"New STI diagnoses (excluding chlamydia in people aged under 25) per 100,000 people aged 15 to 64.",NA,NA
 5,outcome,c,QS178-5-outcome-c,"Chlamydia detection rate per 100,000 people aged 15 to 24.",NA,NA
 6,structure,a,QS178-6-structure-a,Evidence of local arrangements for partner notification to be discussed with people diagnosed with STIs.,NA,NA
 6,structure,b,QS178-6-structure-b,Evidence of local arrangements for partner notification support to be provided to people diagnosed with STIs.,NA,NA
 6,process,a,QS178-6-process-a,Proportion of people diagnosed with an STI who have partner notification initiated.,The number in the denominator who have partner notification initiated.,The number of people diagnosed with an STI.
-6,outcome,a,QS178-6-outcome-a,Proportion of people attending the service who are tested for STIs.,NA,NA
+6,outcome,a,QS178-6-outcome-a,Coverage of testing for STIs: proportion of people attending the service who are tested for STIs.,NA,NA
 6,outcome,b,QS178-6-outcome-b,Number of people presenting as a partner of an index case diagnosed with an STI.,NA,NA

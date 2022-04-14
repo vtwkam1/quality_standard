@@ -2,7 +2,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,structure,a,QS25-1-structure-a,Evidence of local arrangements or referral pathways to asthma diagnostic hubs to ensure that people aged 5 years and over with suspected asthma have objective tests to support diagnosis.,NA,NA
 1,structure,b,QS25-1-structure-b,Evidence of local arrangements to ensure that healthcare professionals are trained and competent to carry out and interpret objective tests to support diagnosis of asthma.,NA,NA
 1,structure,c,QS25-1-structure-c,Evidence of local processes to ensure that the basis for a diagnosis of asthma is documented.,NA,NA
-1,process,a,QS25-1-process-a,Test to support diagnosis.,The number in the denominator who have a record of a FeNO test to support diagnosis.,The number of adults aged 17 years and over with newly diagnosed asthma.
+1,process,a,QS25-1-process-a,Proportion of adults aged 17 years and over with newly diagnosed asthma who have a record of a fractional exhaled nitric oxide (FeNO) test to support diagnosis.,The number in the denominator who have a record of a FeNO test to support diagnosis.,The number of adults aged 17 years and over with newly diagnosed asthma.
 1,process,b,QS25-1-process-b,Proportion of people aged 5 years and over with newly diagnosed asthma who have a record of a spirometry test to support diagnosis.,The number in the denominator who have a record of a spirometry test to support diagnosis.,The number of people aged 5 years and over with newly diagnosed asthma.
 1,process,c,QS25-1-process-c,Proportion of people aged 5 years and over with newly diagnosed asthma who have a record of the objective tests used to support diagnosis.,The number in the denominator who have a record of the objective tests used to support diagnosis.,The number of people aged 5 years and over with newly diagnosed asthma.
 1,outcome,a,QS25-1-outcome-a,Prevalence of asthma.,NA,NA
@@ -12,23 +12,23 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 2,process,b,QS25-2-process-b,Proportion of people aged 5 years and over with asthma who have a documented written personalised action plan.,The number of people in the denominator who have a documented written personalised action plan.,The number of people aged 5 years and over with asthma.
 2,process,c,QS25-2-process-c,Proportion of written personalised action plans for people aged 5 years and over with asthma that include approaches to minimising exposure to indoor and outdoor air pollution.,The number in the denominator that include approaches to minimising exposure to indoor and outdoor air pollution.,The number of written personalised action plans for people aged 5 years and over with asthma.
 2,outcome,a,QS25-2-outcome-a,Rate of hospital attendance or admission for an asthma attack.,NA,NA
-2,outcome,b,QS25-2-outcome-b,Manage their condition and their asthma is well controlled.,NA,NA
+2,outcome,b,QS25-2-outcome-b,Satisfaction of people with asthma aged 5 years and over and their family and carers (as appropriate) that they are able to self-manage their condition and their asthma is well controlled.,NA,NA
 3,structure,a,QS25-3-structure-a,"Evidence that tools, such as a validated questionnaire, are used locally for monitoring asthma control in adults.",NA,NA
 3,structure,b,QS25-3-structure-b,Evidence that spirometry or peak flow variability testing are used locally for monitoring asthma control in people aged 5 and over.,NA,NA
 3,structure,c,QS25-3-structure-c,Evidence of local arrangements to ensure that people with asthma have their asthma control monitored at every asthma review.,NA,NA
 3,process,a,QS25-3-process-a,Proportion of people with asthma who had an asthma review within the past 12 months.,The number in the denominator who had an asthma review within the past 12 months.,The number of people with asthma.
 3,process,b,QS25-3-process-b,Proportion of asthma reviews that include monitoring of asthma control.,The number in the denominator that include monitoring of asthma control.,The number of asthma reviews.
-3,outcome,a,QS25-3-outcome-a,Reliever inhalers within the past 12 months.,NA,NA
+3,outcome,a,QS25-3-outcome-a,Proportion of people with asthma prescribed more than 12 short-acting beta agonist (SABA) reliever inhalers within the past 12 months.,NA,NA
 3,outcome,b,QS25-3-outcome-b,Rate of hospital attendance or admission for asthma attack.,NA,NA
 4,structure,a,QS25-4-structure-a,Evidence of local arrangements to ensure that emergency care settings notify the person's general practice following treatment for an asthma attack.,NA,NA
 4,structure,b,QS25-4-structure-b,Evidence of local arrangements to ensure that general practices follow‑up people treated in an emergency care setting for an asthma attack within 2 working days of discharge.,NA,NA
 4,process,a,QS25-4-process-a,Proportion of cases of asthma attack treated in an emergency care setting notified to the person's general practice.,The number in the denominator notified to the person's general practice.,The number of cases of asthma attack treated in an emergency care setting.
 4,process,b,QS25-4-process-b,Proportion of notifications of asthma attack treated in an emergency care setting followed up by a general practice within 2 working days of discharge.,The number in the denominator that are followed up by a general practice within 2 working days of discharge.,The number of notifications of asthma attack treated in an emergency care setting.
-4,outcome,a,QS25-4-outcome-a,Attendance within 7 days of a previous attendance in emergency care for asthma.,NA,NA
+4,outcome,a,QS25-4-outcome-a,Rate of re-attendance within 7 days of a previous attendance in emergency care for asthma.,NA,NA
 4,outcome,b,QS25-4-outcome-b,Rate of hospital attendance or admission for asthma attack.,NA,NA
 4,outcome,c,QS25-4-outcome-c,Mortality rate for people with asthma.,NA,NA
 5,structure,a,QS25-5-structure-a,Evidence that specialist multidisciplinary severe asthma services are available for people with suspected severe asthma.,NA,NA
 5,structure,b,QS25-5-structure-b,Evidence of local arrangements to ensure that people with suspected severe asthma are referred to a specialist multidisciplinary severe asthma service.,NA,NA
 5,process,a,QS25-5-process-a,Proportion of people with suspected severe asthma who are referred to a specialist multidisciplinary severe asthma service.,The number in the denominator who are referred to a specialist multidisciplinary severe asthma service.,The number of people with suspected severe asthma.
 5,outcome,a,QS25-5-outcome-a,Rate of hospital attendance or admission for an asthma attack.,NA,NA
-5,outcome,b,QS25-5-outcome-b,Dose oral corticosteroids per year.,NA,NA
+5,outcome,b,QS25-5-outcome-b,Proportion of people with asthma who have 2 or more courses of high-dose oral corticosteroids per year.,NA,NA

@@ -36,4 +36,4 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 7,structure,a,QS10-7-structure-a,Evidence of local arrangements to ensure that people with an acute exacerbation of COPD and persistent acidotic hypercapnic ventilatory failure that is not improving after 1 hour of optimal medical treatment have non‑invasive ventilation.,NA,NA
 7,process,a,QS10-7-process-a,Proportion of people with an exacerbation of COPD and persistent acidotic hypercapnic ventilatory failure that is not improving after 1 hour of optimal medical treatment who have non‑invasive ventilation.,The number in the denominator who have non‑invasive ventilation.,The number of people with an acute exacerbation of COPD and persistent acidotic hypercapnic ventilatory failure that is not improving after 1 hour of optimal medical therapy.
 7,outcome,a,QS10-7-outcome-a,Mortality rates.,NA,NA
-8,placeholder,NA,NA,NA,NA,NA
+8,placeholder,NA,QS10-8-placeholder,NA,NA,NA

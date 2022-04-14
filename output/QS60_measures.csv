@@ -12,5 +12,5 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 4,structure,a,QS60-4-structure-a,Evidence of local arrangements to ensure that pregnant women discuss the option of vaginal examination for membrane sweeping at their antenatal appointments after 39 weeks of pregnancy.,NA,NA
 4,process,a,QS60-4-process-a,Proportion of pregnant women attending an antenatal appointment after 39 weeks of pregnancy who discuss the option of vaginal examination for membrane sweeping.,The number in the denominator who discuss the option of vaginal examination for membrane sweeping.,The number of pregnant women attending an antenatal appointment after 39 weeks of pregnancy.
 4,outcome,a,QS60-4-outcome-a,Rates of induction of labour for women with prolonged pregnancy.,NA,NA
-4,outcome,b,QS60-4-outcome-b,,NA,NA
-4,outcome,c,QS60-4-outcome-c,.,NA,NA
+4,outcome,b,QS60-4-outcome-b,Mode of delivery for women with prolonged pregnancy including:,NA,NA
+4,outcome,c,QS60-4-outcome-c,Rates of stillbirth beyond 40 weeks of pregnancy (where there is no underlying medical cause).,NA,NA

@@ -1,8 +1,8 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS138-1-structure-a,Deficiency anaemia who are having surgery are offered iron supplementation before surgery.,NA,NA
-1,structure,b,QS138-1-structure-b,Deficiency anaemia are offered iron supplementation after surgery.,NA,NA
-1,process,a,QS138-1-process-a,Deficiency anaemia who are having surgery and receive iron supplementation before surgery.,The number in the denominator who receive iron supplementation before surgery.,Deficiency anaemia who are having surgery.
-1,process,b,QS138-1-process-b,Deficiency anaemia who receive iron supplementation after surgery.,The number in the denominator who receive iron supplementation.,Deficiency anaemia who have had surgery.
+1,structure,a,QS138-1-structure-a,Evidence of local arrangements to ensure that people with iron-deficiency anaemia who are having surgery are offered iron supplementation before surgery.,NA,NA
+1,structure,b,QS138-1-structure-b,Evidence of local arrangements to ensure that people with iron-deficiency anaemia are offered iron supplementation after surgery.,NA,NA
+1,process,a,QS138-1-process-a,Proportion of people with iron-deficiency anaemia who are having surgery and receive iron supplementation before surgery.,The number in the denominator who receive iron supplementation before surgery.,The number of people with iron-deficiency anaemia who are having surgery.
+1,process,b,QS138-1-process-b,Proportion of people with iron-deficiency anaemia who receive iron supplementation after surgery.,The number in the denominator who receive iron supplementation.,The number of people with iron-deficiency anaemia who have had surgery.
 1,outcome,a,QS138-1-outcome-a,Blood transfusion rates associated with surgery.,NA,NA
 2,structure,a,QS138-2-structure-a,Evidence of local arrangements to ensure that adults who are having surgery and are expected to have moderate blood loss are offered tranexamic acid.,NA,NA
 2,process,a,QS138-2-process-a,Proportion of adults who are having surgery and are expected to have moderate blood loss who receive tranexamic acid.,The number of adults in the denominator who receive tranexamic acid.,The number of adults who are having surgery and are expected to have moderate blood loss.

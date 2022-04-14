@@ -2,9 +2,9 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,structure,a,QS123-1-structure-a,Evidence of local processes to ensure that home care plans for older people identify how their personal priorities and outcomes will be met.,NA,NA
 1,process,a,QS123-1-process-a,Proportion of older people using home care services whose home care plan includes their personal priorities and outcomes.,The number in the denominator whose home care plan includes their personal priorities and outcomes.,The number of older people using home care services.
 1,process,b,QS123-1-process-b,Proportion of older people using home care services whose home care plan identifies how their personal priorities and outcomes will be met.,The number in the denominator whose home care plan identifies how their personal priorities and outcomes will be met.,The number of older people using home care services.
-1,outcome,a,QS123-1-outcome-a,Making.,NA,NA
-1,outcome,b,QS123-1-outcome-b,Related quality of life for older people using home care services.,NA,NA
-1,outcome,c,QS123-1-outcome-c,Related quality of life for older people using home care services.,NA,NA
+1,outcome,a,QS123-1-outcome-a,Older people's involvement in decision-making.,NA,NA
+1,outcome,b,QS123-1-outcome-b,Health-related quality of life for older people using home care services.,NA,NA
+1,outcome,c,QS123-1-outcome-c,Social care-related quality of life for older people using home care services.,NA,NA
 2,structure,a,QS123-2-structure-a,Evidence of local processes to ensure that older people using home care services have a home care plan that identifies how their home care provider will respond to missed or late visits.,NA,NA
 2,process,a,QS123-2-process-a,Proportion of older people using home care services who have a home care plan that identifies how their home care provider will respond to missed or late visits.,The number in the denominator who have a home care plan that identifies how their home care provider will respond to missed or late visits.,The number of older people using home care services.
 2,process,b,QS123-2-process-b,Proportion of planned home care visits for older people that are missed.,The number in the denominator that are missed.,The number of planned home care visits for older people.
@@ -24,9 +24,9 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 5,process,a,QS123-5-process-a,Proportion of older people using home care services who have a review of the outcomes of their home care plan within 6 weeks of the service starting.,The number in the denominator who have a review of the outcomes of their home care plan within 6 weeks of the service starting.,The number of older people starting to use home care services.
 5,process,b,QS123-5-process-b,Proportion of older people using home care services who have a review of the outcomes of their home care plan within a year of their previous review.,The number in the denominator who have a review of the outcomes of their home care plan within a year of their previous review.,The number of older people using home care services for more than a year.
 5,outcome,a,QS123-5-outcome-a,Older people's satisfaction with the home care service.,NA,NA
-5,outcome,b,QS123-5-outcome-b,Related quality of life.,NA,NA
-5,outcome,c,QS123-5-outcome-c,Related quality of life.,NA,NA
-6,structure,a,QS123-6-structure-a,Based supervision discussions with home care workers at least every 3 months.,NA,NA
-6,process,a,QS123-6-process-a,Based supervision discussion within the past 3 months.,Based supervision discussion within the past 3 months.,The number of home care workers supporting older people.
+5,outcome,b,QS123-5-outcome-b,Health-related quality of life.,NA,NA
+5,outcome,c,QS123-5-outcome-c,Social care-related quality of life.,NA,NA
+6,structure,a,QS123-6-structure-a,Evidence of local processes to ensure that home care providers have practice-based supervision discussions with home care workers at least every 3 months.,NA,NA
+6,process,a,QS123-6-process-a,Proportion of home care workers supporting older people who had a practice-based supervision discussion within the past 3 months.,The number in the denominator who had a practice-based supervision discussion within the past 3 months.,The number of home care workers supporting older people.
 6,outcome,a,QS123-6-outcome-a,Older people's satisfaction with the home care service.,NA,NA
 6,outcome,b,QS123-6-outcome-b,Staff retention among home care workers.,NA,NA

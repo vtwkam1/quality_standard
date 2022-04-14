@@ -3,7 +3,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,process,a,QS28-1-process-a,Proportion of people with suspected hypertension who receive ABPM to confirm a diagnosis of hypertension.,The number of people in the denominator who receive ABPM to confirm a diagnosis of hypertension.,The number of people with suspected hypertension.
 2,structure,a,QS28-2-structure-a,Evidence of local arrangements for people with newly diagnosed hypertension to receive all investigations for target organ damage within 1 month of diagnosis.,NA,NA
 2,process,a,QS28-2-process-a,Proportion of people with newly diagnosed hypertension who receive all investigations for target organ damage within 1 month of diagnosis.,The number of people in the denominator who receive all investigations for target organ damage within 1 month of diagnosis.,The number of people with newly diagnosed hypertension.
-3,error,NA,NA,NA,NA,NA
+3,error,NA,QS28-3-error,NA,NA,NA
 4,structure,a,QS28-4-structure-a,Evidence of local arrangements to ensure people aged under 80 years with treated hypertension have a clinic blood pressure target set to below 140/90 mmHg.,NA,NA
 4,structure,b,QS28-4-structure-b,Evidence of local arrangements to ensure people aged 80 years and over with treated hypertension have a clinic blood pressure target set to below 150/90 mmHg.,NA,NA
 4,outcome,a,QS28-4-outcome-a,People with treated hypertension whose target blood pressure is achieved.,NA,NA

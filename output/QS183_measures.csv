@@ -9,7 +9,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,outcome,d,QS183-1-outcome-d,"Proportion of adults, children and young people who are physically inactive.",The number in the denominator who are physically inactive.,"The number of adults, children and young people."
 2,structure,a,QS183-2-structure-a,"Evidence that local authorities prioritise pedestrians, cyclists and people who use public transport when developing and maintaining connected travel routes.",NA,NA
 2,structure,b,QS183-2-structure-b,Evidence that local authorities reallocate road space to support physically active modes of transport such as walking and cycling.,NA,NA
-2,structure,c,QS183-2-structure-c,", to move around their local area.",NA,NA
+2,structure,c,QS183-2-structure-c,"Evidence that local authorities implement plans to make it as easy as possible for people with limited mobility, such as older people and people with disabilities (including sensory, visual or learning disabilities), to move around their local area.",NA,NA
 2,outcome,a,QS183-2-outcome-a,Percentage of people cycling for travel.,NA,NA
 2,outcome,b,QS183-2-outcome-b,Percentage of people walking for travel.,NA,NA
 2,outcome,c,QS183-2-outcome-c,Number of pedestrians and cyclists reported killed or seriously injured on the roads.,NA,NA

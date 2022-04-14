@@ -11,7 +11,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 3,outcome,a,QS114-3-outcome-a,People with irritable bowel syndrome feel confident to manage their condition.,NA,NA
 3,outcome,b,QS114-3-outcome-b,Satisfaction with care received for irritable bowel syndrome.,NA,NA
 4,structure,a,QS114-4-structure-a,Evidence of local arrangements to ensure that adults with irritable bowel syndrome agree their follow‑up with their healthcare professional.,NA,NA
-4,structure,b,QS114-4-structure-b,To ensure that adults with irritable bowel syndrome have follow‑up as agreed with their healthcare professional.,NA,NA
+4,structure,b,QS114-4-structure-b,Evidence of local arrangements (for example through local protocols on appointment reminders) to ensure that adults with irritable bowel syndrome have follow‑up as agreed with their healthcare professional.,NA,NA
 4,process,a,QS114-4-process-a,Proportion of adults with irritable bowel syndrome who agree their follow‑up arrangements with their healthcare professional.,The number in the denominator who agree their follow‑up arrangements with their healthcare professional.,The number of adults with irritable bowel syndrome.
 4,process,b,QS114-4-process-b,Proportion of adults with irritable bowel syndrome whose follow‑up takes place by the date agreed with their healthcare professional.,The number in the denominator whose follow‑up takes place by the date agreed.,The number of adults with irritable bowel syndrome who have a follow‑up date agreed with their healthcare professional.
 4,outcome,a,QS114-4-outcome-a,People with irritable bowel syndrome feel confident to manage their condition.,NA,NA

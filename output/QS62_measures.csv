@@ -1,7 +1,7 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,structure,a,QS62-1-structure-a,Evidence of local arrangements to ensure that children and young people with constipation receive a full assessment before a diagnosis of idiopathic constipation is made.,NA,NA
 1,process,a,QS62-1-process-a,Proportion of children and young people with constipation who receive a full assessment.,The number in the denominator who receive a full assessment.,The number of children and young people with constipation.
-2,structure,a,QS62-2-structure-a,Line treatment.,NA,NA
+2,structure,a,QS62-2-structure-a,Evidence of local arrangements to ensure that children and young people with idiopathic constipation receive oral macrogols as first-line treatment.,NA,NA
 2,process,a,QS62-2-process-a,Proportion of diagnosed cases of idiopathic constipation in children and young people for which oral macrogols are prescribed as first‑line treatment.,The number in the denominator for which oral macrogols are prescribed as first‑line treatment.,The number of diagnosed cases of idiopathic constipation in children and young people.
 2,outcome,a,QS62-2-outcome-a,Rates of unplanned hospital attendance for idiopathic constipation.,NA,NA
 3,structure,a,QS62-3-structure-a,Evidence of local arrangements to ensure that children and young people with idiopathic constipation starting faecal disimpaction therapy have their treatment reviewed by a healthcare professional within 1 week.,NA,NA

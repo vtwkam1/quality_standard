@@ -1,6 +1,6 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,error,NA,NA,NA,NA,NA
-2,error,NA,NA,NA,NA,NA
-3,error,NA,NA,NA,NA,NA
-4,error,NA,NA,NA,NA,NA
-5,error,NA,NA,NA,NA,NA
+1,error,NA,QS21-1-error,NA,NA,NA
+2,error,NA,QS21-2-error,NA,NA,NA
+3,error,NA,QS21-3-error,NA,NA,NA
+4,error,NA,QS21-4-error,NA,NA,NA
+5,error,NA,QS21-5-error,NA,NA,NA

@@ -1,8 +1,8 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,structure,a,QS97-1-structure-a,Evidence of local arrangements to ensure that people with suspected drug allergy have their drug reaction documented using the structured assessment guide.,NA,NA
 1,process,a,QS97-1-process-a,Proportion of people with suspected drug allergy who have their drug reaction documented using the structured assessment guide.,The number in the denominator who have their drug reaction documented using the structured assessment guide.,The number of people with suspected drug allergy.
-1,outcome,a,QS97-1-outcome-a,.,NA,NA
-1,outcome,b,QS97-1-outcome-b,.,NA,NA
+1,outcome,a,QS97-1-outcome-a,Medication errors (inappropriate prescribing or administration of drugs).,NA,NA
+1,outcome,b,QS97-1-outcome-b,Number of repeat allergic drug reactions (including patient‑reported episodes).,NA,NA
 2,structure,a,QS97-2-structure-a,Evidence of local arrangements to ensure that people with a new diagnosis of drug allergy are advised to carry structured information about their drug reaction at all times.,NA,NA
 2,process,a,QS97-2-process-a,Proportion of people with a new diagnosis of drug allergy who are advised to carry structured information about their drug reaction at all times.,The number in the denominator who are advised to carry structured information about their drug reaction at all times.,The number of people with a new diagnosis of drug allergy.
 2,outcome,a,QS97-2-outcome-a,Self‑management of drug allergy.,NA,NA

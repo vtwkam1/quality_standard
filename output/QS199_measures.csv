@@ -1,7 +1,7 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,structure,a,QS199-1-structure-a,Evidence that healthcare commissioners and providers work together to make abortion services easy to access.,NA,NA
 1,structure,b,QS199-1-structure-b,Evidence of joint local arrangements to provide information about how to access abortion services.,NA,NA
-1,structure,c,QS199-1-structure-c,Refer to abortion services.,NA,NA
+1,structure,c,QS199-1-structure-c,Evidence that women can self-refer to abortion services.,NA,NA
 1,outcome,a,QS199-1-outcome-a,Proportion of abortions performed at under 10 weeks.,The number in the denominator performed at under 10 weeks.,The number of abortions.
 1,outcome,b,QS199-1-outcome-b,Proportion of women assessed for an abortion who are satisfied with ease of access to abortion services.,The number in the denominator who are satisfied with ease of access to abortion services.,The number of women assessed for an abortion.
 2,structure,a,QS199-2-structure-a,"Evidence of local processes to support a discussion about the differences between medical and surgical abortion, including the benefits and risks, with women who request an abortion.",NA,NA

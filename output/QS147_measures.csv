@@ -16,7 +16,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 3,process,c,QS147-3-process-c,Proportion of line managers who receive information on sources of support for stress both inside and outside the workplace.,The number in the denominator who receive information on sources of support for stress both inside and outside the workplace.,The number of line managers in the organisation.
 3,outcome,a,QS147-3-outcome-a,Identification of stress in employees.,NA,NA
 3,outcome,b,QS147-3-outcome-b,Support for employees experiencing stress.,NA,NA
-4,structure,a,QS147-4-structure-a,Making.,NA,NA
+4,structure,a,QS147-4-structure-a,Evidence of arrangements for staff engagement forums that enable employees to contribute to decision-making.,NA,NA
 4,structure,b,QS147-4-structure-b,Evidence of arrangements for feedback to employees on actions taken as a result of their contribution.,NA,NA
 4,outcome,a,QS147-4-outcome-a,Employee satisfaction rates.,NA,NA
 4,outcome,b,QS147-4-outcome-b,Employee engagement.,NA,NA

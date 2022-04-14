@@ -20,11 +20,11 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 4,process,b,QS22-4-process-b,Proportion of pregnant women with a body mass index of 30 kg/m2 or more at the booking appointment who are offered personalised advice from an appropriately trained person on healthy eating and physical activity.,The number in the denominator offered personalised advice from an appropriately trained person on healthy eating and physical activity.,The number of pregnant women with a body mass index of 30 kg/m2 or more at the booking appointment.
 4,outcome,a,QS22-4-outcome-a,Women with a body mass index of 30 kg/m2 or more feel confident to make decisions about healthy eating and physical activity during their pregnancy.,NA,NA
 5,structure,a,QS22-5-structure-a,Evidence of local arrangements that pregnant women have their smoking status recorded at the booking appointment.,NA,NA
-5,structure,b,QS22-5-structure-b,Smoking support.,NA,NA
-5,structure,c,QS22-5-structure-c,Up.,NA,NA
+5,structure,b,QS22-5-structure-b,Evidence of local arrangements to ensure that pregnant women who smoke are referred for evidence-based stop-smoking support.,NA,NA
+5,structure,c,QS22-5-structure-c,Evidence of local arrangements to ensure that pregnant women who smoke and opt out of attending evidence-based stop-smoking support receive follow-up.,NA,NA
 5,process,a,QS22-5-process-a,Proportion of pregnant women accessing antenatal care whose smoking status is recorded at the booking appointment.,The number in the denominator whose smoking status is recorded at the booking appointment.,The number of pregnant women accessing antenatal care.
-5,process,b,QS22-5-process-b,Smoking support at the booking appointment.,Smoking support.,The number of pregnant women who smoke and attend a booking appointment.
-5,process,c,QS22-5-process-c,Up.,Up.,Smoking support.
+5,process,b,QS22-5-process-b,Proportion of pregnant women who smoke who are referred for evidence-based stop-smoking support at the booking appointment.,The number in the denominator who are referred for evidence-based stop-smoking support.,The number of pregnant women who smoke and attend a booking appointment.
+5,process,c,QS22-5-process-c,Proportion of pregnant women who smoke and opt out of attending evidence-based stop-smoking support who receive follow-up.,The number in the denominator who receive follow-up.,The number of pregnant women who smoke and opt out of attending evidence-based stop-smoking support.
 5,outcome,a,QS22-5-outcome-a,Quit rates for pregnant women.,NA,NA
 5,outcome,b,QS22-5-outcome-b,Smoking rates in pregnancy.,NA,NA
 6,structure,a,QS22-6-structure-a,Evidence of local arrangements to ensure that pregnant women have their risk factors for gestational diabetes identified and recorded at the booking appointment.,NA,NA
@@ -32,23 +32,23 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 6,process,a,QS22-6-process-a,Proportion of pregnant women identified as at risk of gestational diabetes at the booking appointment who are offered testing for gestational diabetes.,The number in the denominator offered testing for gestational diabetes.,The number of pregnant women identified as at risk of gestational diabetes at the booking appointment.
 6,process,b,QS22-6-process-b,Proportion of pregnant women identified as at risk of gestational diabetes at the booking appointment who receive testing for gestational diabetes.,The number of women in the denominator receiving testing for gestational diabetes.,The number of pregnant women identified as at risk of gestational diabetes at the booking appointment.
 6,outcome,a,QS22-6-outcome-a,Early identification of women with gestational diabetes.,NA,NA
-7,error,NA,NA,NA,NA,NA
-8,structure,a,QS22-8-structure-a,Assessed and recorded at the booking appointment.,NA,NA
+7,error,NA,QS22-7-error,NA,NA,NA
+8,structure,a,QS22-8-structure-a,Evidence of local arrangements to ensure that pregnant women have their risk of venous thromboembolism (VTE) assessed and recorded at the booking appointment.,NA,NA
 8,structure,b,QS22-8-structure-b,Evidence of local arrangements to ensure that pregnant women at risk of VTE at the booking appointment are referred to an obstetrician for further management.,NA,NA
 8,process,a,QS22-8-process-a,Proportion of pregnant women accessing antenatal care who have their risk of VTE assessed and recorded at the booking appointment.,The number in the denominator who have their risk of VTE assessed and recorded at the booking appointment.,The number of pregnant women accessing antenatal care.
 8,process,b,QS22-8-process-b,Proportion of pregnant women at risk of VTE at the booking appointment who are referred to an obstetrician for further management.,The number in the denominator referred to an obstetrician for further management.,The number of pregnant women at risk of VTE at the booking appointment.
 8,outcome,a,QS22-8-outcome-a,Incidence of VTE in pregnant women.,NA,NA
-9,error,NA,NA,NA,NA,NA
-10,structure,a,QS22-10-structure-a,Commissioned services to ensure that all pregnant women are offered fetal anomaly screening in accordance with current UK National Screening Committee programmes.,NA,NA
+9,error,NA,QS22-9-error,NA,NA,NA
+10,structure,a,QS22-10-structure-a,Evidence of local NHS-commissioned services to ensure that all pregnant women are offered fetal anomaly screening in accordance with current UK National Screening Committee programmes.,NA,NA
 10,process,a,QS22-10-process-a,Proportion of pregnant women booking before 21 weeks who are offered the NHS fetal anomaly screening programme at the booking appointment.,The number in the denominator who are offered the NHS fetal anomaly screening programme.,The number of pregnant women accessing antenatal care before 21 weeks.
 10,process,b,QS22-10-process-b,"Proportion of pregnant women booking before 14 weeks 2 days that agreed to fetal anomaly screening who are offered an ultrasound scan to screen for Down's syndrome, Edward's syndrome and Patau's syndrome to take place between 11 weeks 2 days and 14 weeks 1 day.","The number in the denominator who are offered an ultrasound screening for Down's syndrome, Edward's syndrome and Patau's syndrome to take place between 11 weeks 2 days and 14 weeks 1 day.","The number of pregnant women booking before 14 weeks 2 days that agreed to fetal anomaly screening for Down's syndrome, Edward's syndrome and Patau's syndrome."
 10,process,c,QS22-10-process-c,Proportion of pregnant women booking before 21 weeks that agreed to fetal anomaly screening who are offered ultrasound screening for fetal anomalies to take place between 18 weeks 0 days and 20 weeks 6 days.,The number in the denominator offered ultrasound screening for fetal anomalies to take place between 18 weeks 0 days and 20 weeks 6 days.,The number of pregnant women booking before 21 weeks that agreed to fetal anomaly screening.
 10,outcome,a,QS22-10-outcome-a,Pregnant women feel they have made an informed decision about whether to undergo fetal anomaly screening.,NA,NA
 10,outcome,b,QS22-10-outcome-b,Screening uptake rates.,NA,NA
-11,structure,a,QS22-11-structure-a,Are referred for confirmatory ultrasound assessment.,NA,NA
-11,structure,b,QS22-11-structure-b,Who prefer cephalic vaginal birth are offered external cephalic version.,NA,NA
-11,process,a,QS22-11-process-a,Who are referred for confirmatory ultrasound assessment.,The number in the denominator referred for confirmatory ultrasound assessment.,.
-11,process,b,QS22-11-process-b,Who prefer cephalic vaginal birth who are offered external cephalic version.,The number in the denominator offered external cephalic version.,Who prefer cephalic vaginal birth.
+11,structure,a,QS22-11-structure-a,Evidence of local arrangements to ensure that pregnant women with a suspected breech presentation at 36 weeks or later (until labour begins) are referred for confirmatory ultrasound assessment.,NA,NA
+11,structure,b,QS22-11-structure-b,Evidence of local arrangements to ensure that pregnant women with a confirmed uncomplicated singleton breech presentation at 36 weeks or later (until labour begins) who prefer cephalic vaginal birth are offered external cephalic version.,NA,NA
+11,process,a,QS22-11-process-a,Proportion of pregnant women with a suspected breech presentation at 36 weeks or later (until labour begins) who are referred for confirmatory ultrasound assessment.,The number in the denominator referred for confirmatory ultrasound assessment.,The number of pregnant women with a suspected breech presentation at 36 weeks or later (until labour begins).
+11,process,b,QS22-11-process-b,Proportion of pregnant women with a confirmed uncomplicated singleton breech presentation at 36 weeks or later (until labour begins) who prefer cephalic vaginal birth who are offered external cephalic version.,The number in the denominator offered external cephalic version.,The number of pregnant women with a confirmed uncomplicated singleton breech presentation at 36 weeks or later (until labour begins) who prefer cephalic vaginal birth.
 11,outcome,a,QS22-11-outcome-a,External cephalic version rates.,NA,NA
-11,outcome,b,QS22-11-outcome-b,,NA,NA
-12,error,NA,NA,NA,NA,NA
+11,outcome,b,QS22-11-outcome-b,Mode of delivery including:,NA,NA
+12,error,NA,QS22-12-error,NA,NA,NA

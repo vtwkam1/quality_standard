@@ -1,9 +1,9 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,error,NA,NA,NA,NA,NA
-2,error,NA,NA,NA,NA,NA
-3,error,NA,NA,NA,NA,NA
-4,error,NA,NA,NA,NA,NA
-5,error,NA,NA,NA,NA,NA
-6,error,NA,NA,NA,NA,NA
-7,error,NA,NA,NA,NA,NA
-8,error,NA,NA,NA,NA,NA
+1,error,NA,QS18-1-error,NA,NA,NA
+2,error,NA,QS18-2-error,NA,NA,NA
+3,error,NA,QS18-3-error,NA,NA,NA
+4,error,NA,QS18-4-error,NA,NA,NA
+5,error,NA,QS18-5-error,NA,NA,NA
+6,error,NA,QS18-6-error,NA,NA,NA
+7,error,NA,QS18-7-error,NA,NA,NA
+8,error,NA,QS18-8-error,NA,NA,NA

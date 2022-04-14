@@ -8,4 +8,4 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 2,outcome,a,QS151-2-outcome-a,Care staff awareness of individual residents' mouth care needs.,NA,NA
 3,structure,a,QS151-3-structure-a,Evidence of local arrangements for adults living in care homes to be supported to clean their teeth twice a day and carry out daily care for dentures.,NA,NA
 3,process,a,QS151-3-process-a,Proportion of adults in a care home who are supported with daily mouth care.,The number in the denominator who are supported with daily mouth care.,The number of adults living in a care home.
-3,outcome,a,QS151-3-outcome-a,Related quality of life for adults living in care homes.,NA,NA
+3,outcome,a,QS151-3-outcome-a,Oral health-related quality of life for adults living in care homes.,NA,NA

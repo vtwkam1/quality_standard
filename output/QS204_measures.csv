@@ -1,8 +1,8 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS204-1-structure-a,Risk drinking guidelines on alcohol consumption in pregnancy.,NA,NA
-1,structure,b,QS204-1-structure-b,Risk drinking guidelines.,NA,NA
+1,structure,a,QS204-1-structure-a,"Evidence of local arrangements to ensure that midwives and other healthcare professionals carrying out antenatal appointments are aware of the risks of drinking alcohol in pregnancy, including FASD, and the advice in the UK Chief Medical Officers' low-risk drinking guidelines on alcohol consumption in pregnancy.",NA,NA
+1,structure,b,QS204-1-structure-b,Evidence of local arrangements to ensure that antenatal appointments include discussion of the risks of drinking alcohol in pregnancy and the advice in the UK Chief Medical Officers' low-risk drinking guidelines.,NA,NA
 1,process,a,QS204-1-process-a,Proportion of antenatal appointments in which pregnant women are advised not to drink alcohol during pregnancy.,The number in the denominator in which pregnant women are advised not to drink alcohol.,The total number of antenatal appointments attended.
-1,outcome,a,QS204-1-outcome-a,Exposed pregnancies.,NA,NA
+1,outcome,a,QS204-1-outcome-a,Rate of alcohol-exposed pregnancies.,NA,NA
 2,structure,a,QS204-2-structure-a,Evidence of local arrangements to ensure that antenatal appointments include discussion about drinking alcohol in pregnancy.,NA,NA
 2,process,a,QS204-2-process-a,Proportion of antenatal booking appointments where drinking of alcohol is reported.,The number in the denominator where the weekly number of alcohol units reported is greater than 1.,The number of antenatal booking appointments.
 2,process,b,QS204-2-process-b,Proportion of routine antenatal appointments attended in which alcohol consumption is recorded.,The number in the denominator in which alcohol consumption is recorded.,The total number of routine antenatal appointments attended.

@@ -1,5 +1,5 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,error,NA,NA,NA,NA,NA
+1,error,NA,QS37-1-error,NA,NA,NA
 2,structure,a,QS37-2-structure-a,"Evidence of local arrangements to ensure that women are advised, at the first postnatal midwife contact, of the symptoms and signs of potentially serious conditions that require them to seek medical advice without delay.",NA,NA
 2,process,a,QS37-2-process-a,"The proportion of women who are advised, at the first postnatal midwife contact, of the symptoms and signs of potentially serious conditions that require them to seek medical advice without delay.","The number in the denominator who are advised, at the first postnatal midwife contact, of the symptoms and signs of potentially serious conditions that require them to seek medical advice without delay.",The number of women who have given birth.
 2,outcome,a,QS37-2-outcome-a,Incidence of potentially avoidable maternal morbidity and mortality.,NA,NA
@@ -8,13 +8,13 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 3,process,a,QS37-3-process-a,"The proportion of women or main carers of babies who are advised, within 24 hours of the birth, of the symptoms and signs of serious illness in the baby that require them to contact emergency services.","The number in the denominator who are advised, within 24 hours of the birth, of the symptoms and signs of serious illness in the baby that require them to contact emergency services.",The number of mothers or main carers of babies.
 3,outcome,a,QS37-3-outcome-a,Incidence of potentially avoidable infant morbidity and mortality.,NA,NA
 3,outcome,b,QS37-3-outcome-b,Women and main carers feel informed about symptoms and signs of serious illness in the baby.,NA,NA
-4,structure,a,QS37-4-structure-a,Sharing practices.,NA,NA
-4,process,a,QS37-4-process-a,Sharing practices.,Sharing practices.,The number of postnatal contacts.
-4,outcome,a,QS37-4-outcome-a,.,NA,NA
-4,outcome,b,QS37-4-outcome-b,Sharing practices.,NA,NA
+4,structure,a,QS37-4-structure-a,"Evidence of local arrangements to ensure that women, their partner or main carers of babies have discussions with their healthcare professional about safer bed-sharing practices.",NA,NA
+4,process,a,QS37-4-process-a,"Proportion of postnatal contacts in which women, their partner or main carers of babies have discussions with their healthcare professional about safer bed-sharing practices.","The number in the denominator in which women, their partner or main carers of babies have discussions with their healthcare professional about safer bed-sharing practices.",The number of postnatal contacts.
+4,outcome,a,QS37-4-outcome-a,Incidence of sudden infant death syndrome (SIDS).,NA,NA
+4,outcome,b,QS37-4-outcome-b,"Women, their partner and main carers of babies know about safer bed-sharing practices.",NA,NA
 5,structure,a,QS37-5-structure-a,"Evidence of local arrangements for breastfeeding support to be provided through a service that uses an evaluated, structured programme.",NA,NA
-5,process,a,QS37-5-process-a,"Proportion of women who receive breastfeeding support through a service that uses an evaluated, structured programme.","The number in the denominator who receive breastfeeding support through a service that uses an evaluated, structured programme.",.
-5,process,b,QS37-5-process-b,Proportion of women who wanted to continue breastfeeding but stopped before they had planned to.,The number in the denominator who wanted to continue breastfeeding but stopped before they had planned to.,.
+5,process,a,QS37-5-process-a,"Proportion of women who receive breastfeeding support through a service that uses an evaluated, structured programme.","The number in the denominator who receive breastfeeding support through a service that uses an evaluated, structured programme.",The number of women who breastfeed (exclusively or partially).
+5,process,b,QS37-5-process-b,Proportion of women who wanted to continue breastfeeding but stopped before they had planned to.,The number in the denominator who wanted to continue breastfeeding but stopped before they had planned to.,The number of women who breastfed (exclusively or partially).
 5,outcome,a,QS37-5-outcome-a,Rates of breastfeeding initiation.,NA,NA
 5,outcome,b,QS37-5-outcome-b,Rates of exclusive or partial breastfeeding on discharge from hospital and at 6 to 8 weeks after the birth.,NA,NA
 5,outcome,c,QS37-5-outcome-c,Women's satisfaction with breastfeeding support.,NA,NA
@@ -38,6 +38,6 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 9,structure,a,QS37-9-structure-a,"Evidence of local arrangements that women have an assessment of their emotional wellbeing, including bonding with their baby, at each postnatal contact.",NA,NA
 9,process,a,QS37-9-process-a,"Proportion of postnatal contacts that include an assessment of the woman's emotional wellbeing, including bonding with their baby.","The number in the denominator that include an assessment of the woman's emotional wellbeing, including bonding with their baby.",The number of postnatal contacts.
 9,outcome,a,QS37-9-outcome-a,Incidence of postnatal mental health problems.,NA,NA
-9,outcome,b,QS37-9-outcome-b,Mother emotional attachment problems.,NA,NA
-10,error,NA,NA,NA,NA,NA
-11,error,NA,NA,NA,NA,NA
+9,outcome,b,QS37-9-outcome-b,Incidence of baby-to-mother emotional attachment problems.,NA,NA
+10,error,NA,QS37-10-error,NA,NA,NA
+11,error,NA,QS37-11-error,NA,NA,NA

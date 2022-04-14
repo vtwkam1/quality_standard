@@ -1,10 +1,10 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,structure,a,QS43-1-structure-a,"Evidence of local arrangements to ensure that people are asked if they smoke by their healthcare practitioner, and those who smoke are offered advice on how to stop.",NA,NA
-1,process,a,QS43-1-process-a,Proportion of people who are asked if they smoke by their healthcare practitioner.,The number of people in the denominator who are asked if they smoke by their healthcare practitioner.,Face contact with a healthcare practitioner.
-1,process,b,QS43-1-process-b,Proportion of people who smoke who receive advice on how to stop.,The number of people in the denominator who receive advice on how to stop.,Face contact with a healthcare practitioner.
-2,error,NA,NA,NA,NA,NA
-3,structure,a,QS43-3-structure-a,Smoking advice and interventions.,NA,NA
-3,process,a,QS43-3-process-a,Smoking advice and interventions.,Smoking advice and interventions.,Smoking support.
+1,process,a,QS43-1-process-a,Proportion of people who are asked if they smoke by their healthcare practitioner.,The number of people in the denominator who are asked if they smoke by their healthcare practitioner.,The number of people who have face-to-face contact with a healthcare practitioner.
+1,process,b,QS43-1-process-b,Proportion of people who smoke who receive advice on how to stop.,The number of people in the denominator who receive advice on how to stop.,The number of people who report that they smoke during face-to-face contact with a healthcare practitioner.
+2,error,NA,QS43-2-error,NA,NA,NA
+3,structure,a,QS43-3-structure-a,Evidence of local arrangements to ensure that people in contact with healthcare practitioners who provide stop-smoking support are offered stop-smoking advice and interventions.,NA,NA
+3,process,a,QS43-3-process-a,Proportion of people in contact with healthcare practitioners who provide stop-smoking support who are offered stop-smoking advice and interventions.,The number of people in the denominator who are offered stop-smoking advice and interventions.,The number of people in contact with healthcare practitioners who provide stop-smoking support.
 4,structure,a,QS43-4-structure-a,Evidence of local arrangements to ensure that people who seek support to stop smoking and who choose to take pharmacotherapy are offered a full course.,NA,NA
 4,process,a,QS43-4-process-a,Proportion of people who seek support to stop smoking and who choose to take pharmacotherapy who receive a full course.,The number of people in the denominator who receive a full course of pharmacotherapy.,The number of people who seek support to stop smoking and who choose to take pharmacotherapy.
 5,structure,a,QS43-5-structure-a,Evidence of local arrangements to ensure that people who smoke who have set a quit date have a carbon monoxide test 4 weeks after the quit date.,NA,NA

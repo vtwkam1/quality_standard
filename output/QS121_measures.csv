@@ -1,13 +1,13 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS121-1-structure-a,Management and adverse consequences of overusing antimicrobials.,NA,NA
-1,structure,b,QS121-1-structure-b,Management of self‑limiting conditions and raise awareness of risks associated with overusing antimicrobials.,NA,NA
+1,structure,a,QS121-1-structure-a,"Evidence of local arrangements to ensure that people with a self‑limiting condition, as assessed by a primary care prescriber, receive advice about self-management and adverse consequences of overusing antimicrobials.",NA,NA
+1,structure,b,QS121-1-structure-b,Evidence of local arrangements to promote self-management of self‑limiting conditions and raise awareness of risks associated with overusing antimicrobials.,NA,NA
 1,process,a,QS121-1-process-a,Proportion of presentations in primary care assessed as a self‑limiting condition with a record stating that advice about self‑management was given.,The number in the denominator with a record stating that advice about self‑management was given.,The number of presentations in primary care assessed as a self‑limiting condition.
 1,process,b,QS121-1-process-b,Proportion of presentations in primary care assessed as a self‑limiting condition with a record stating that advice about the adverse consequences of overusing antimicrobials was given.,The number in the denominator with a record stating that advice about the adverse consequences of overusing antimicrobials was given.,The number of presentations in primary care assessed as a self‑limiting condition.
 1,outcome,a,QS121-1-outcome-a,Antimicrobial prescribing rates in primary care.,NA,NA
-2,structure,a,QS121-2-structure-a,Antimicrobial prescribing if there is uncertainty about whether a condition is self‑limiting or is likely to deteriorate.,NA,NA
-2,process,a,QS121-2-process-a,Prescription.,Prescription.,The number of prescriptions for antimicrobials issued.
-2,process,b,QS121-2-process-b,Prescription for antimicrobials who are advised when to use the prescription.,The number in the denominator who are told when to use the prescription.,Prescription for antimicrobials.
-2,outcome,a,QS121-2-outcome-a,Prescriptions for antimicrobials that are dispensed.,NA,NA
+2,structure,a,QS121-2-structure-a,Evidence of local arrangements to ensure that prescribers in primary care can use back‑up (delayed) antimicrobial prescribing if there is uncertainty about whether a condition is self‑limiting or is likely to deteriorate.,NA,NA
+2,process,a,QS121-2-process-a,Proportion of prescriptions for antimicrobials issued as a back‑up (delayed) prescription.,The number in the denominator issued as a back‑up (delayed) prescription.,The number of prescriptions for antimicrobials issued.
+2,process,b,QS121-2-process-b,Proportion of people issued a back‑up (delayed) prescription for antimicrobials who are advised when to use the prescription.,The number in the denominator who are told when to use the prescription.,The number of people issued a back‑up (delayed) prescription for antimicrobials.
+2,outcome,a,QS121-2-outcome-a,Back-up (delayed) prescriptions for antimicrobials that are dispensed.,NA,NA
 2,outcome,b,QS121-2-outcome-b,Antimicrobial prescribing rates in primary care.,NA,NA
 3,structure,a,QS121-3-structure-a,"Evidence of local arrangements and processes to ensure that all prescribers document the clinical indication, dose and duration of treatment in patients' records when prescribing an antimicrobial.",NA,NA
 3,process,a,QS121-3-process-a,"Proportion of prescriptions for antimicrobials with the clinical indication, dose and duration of treatment documented.","The number in the denominator with the clinical indication, dose and duration of treatment documented.",The number of prescriptions for antimicrobials.

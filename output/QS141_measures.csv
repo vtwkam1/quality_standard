@@ -15,14 +15,14 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 4,process,a,QS141-4-process-a,Proportion of people with imaging features suggestive of active pulmonary TB who are assessed by the next working day after their results are received.,The number in the denominator who are assessed by the next working day after their results are received.,The number of people with imaging features suggestive of active pulmonary TB.
 4,outcome,a,QS141-4-outcome-a,Proportion of people with active pulmonary TB starting treatment within 2 months of symptom onset.,The number in the denominator starting treatment within 2 months of symptom onset.,The number of people with active pulmonary TB.
 4,outcome,b,QS141-4-outcome-b,Active pulmonary TB incidence.,NA,NA
-5,structure,a,QS141-5-structure-a,Served groups are offered directly observed therapy.,NA,NA
+5,structure,a,QS141-5-structure-a,Evidence of local arrangements to ensure that people with active TB from under-served groups are offered directly observed therapy.,NA,NA
 5,process,a,QS141-5-process-a,Proportion of people with active TB who are experiencing homelessness who have directly observed therapy.,The number in the denominator who have directly observed therapy.,The number of people with active TB who are experiencing homelessness.
 5,process,b,QS141-5-process-b,Proportion of people with active TB who misuse substances who have directly observed therapy.,The number in the denominator who have directly observed therapy.,The number of people with active TB who misuse substances.
 5,process,c,QS141-5-process-c,Proportion of people with active TB who have been in prison who have directly observed therapy.,The number in the denominator who have directly observed therapy.,The number of people with active TB who have been in prison.
 5,process,d,QS141-5-process-d,Proportion of people with active TB who are vulnerable migrants who have directly observed therapy.,The number in the denominator who have directly observed therapy.,The number of people with active TB who are vulnerable migrants.
-5,outcome,a,QS141-5-outcome-a,Up.,Up.,Served groups with active TB.
-5,outcome,b,QS141-5-outcome-b,Served groups.,NA,NA
-5,outcome,c,QS141-5-outcome-c,Resistant TB.,NA,NA
+5,outcome,a,QS141-5-outcome-a,Proportion of people from under-served groups with active TB lost to follow-up.,The number in the denominator lost to follow-up.,The number of people from under-served groups with active TB.
+5,outcome,b,QS141-5-outcome-b,TB treatment completion rates for people from under-served groups.,NA,NA
+5,outcome,c,QS141-5-outcome-c,TB treatment completion rates for people from under-served groups with multidrug-resistant TB.,NA,NA
 6,structure,a,QS141-6-structure-a,Evidence of local arrangements to ensure that people diagnosed with active pulmonary TB who are experiencing homelessness are identified.,NA,NA
 6,structure,b,QS141-6-structure-b,Evidence of local arrangements to ensure that people diagnosed with active pulmonary TB who are experiencing homelessness are offered accommodation for the duration of their treatment.,NA,NA
 6,process,a,QS141-6-process-a,Proportion of people with active pulmonary TB who are experiencing homelessness who are provided with accommodation for the duration of their treatment.,The number in the denominator who are provided with accommodation for the duration of their treatment.,The number of people with active pulmonary TB who are experiencing homelessness.

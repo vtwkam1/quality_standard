@@ -26,7 +26,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 5,outcome,a,QS95-5-outcome-a,Adults with bipolar disorder prescribed lithium who have their plasma lithium levels maintained within the optimum range.,NA,NA
 5,outcome,b,QS95-5-outcome-b,Kidney function among adults with bipolar disorder prescribed lithium.,NA,NA
 5,outcome,c,QS95-5-outcome-c,Thyroid function among adults with bipolar disorder prescribed lithium.,NA,NA
-6,error,NA,NA,NA,NA,NA
+6,error,NA,QS95-6-error,NA,NA,NA
 7,structure,a,QS95-7-structure-a,Evidence of local arrangements to ensure that adults with bipolar disorder receive a physical health assessment at least annually.,NA,NA
 7,structure,b,QS95-7-structure-b,Evidence of local arrangements to ensure that symptoms of poor physical health identified during the physical health assessment of adults with bipolar disorder are addressed.,NA,NA
 7,process,a,QS95-7-process-a,Proportion of adults with bipolar disorder who receive an annual physical health assessment.,The number in the denominator who received an annual physical health assessment within the last 12 months.,The number of adults with bipolar disorder.

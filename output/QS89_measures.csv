@@ -27,4 +27,4 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 8,process,a,QS89-8-process-a,Proportion of people newly identified as being at high risk of developing pressure ulcers who receive a pressure redistribution device.,The number in the denominator who receive a pressure redistribution device.,The number of people newly identified as being at high risk of developing pressure ulcers.
 8,outcome,a,QS89-8-outcome-a,Waiting times from the identified need for a pressure redistribution device to the time the device is requested.,NA,NA
 8,outcome,b,QS89-8-outcome-b,Waiting times from the time the pressure redistribution device is requested to the time the device is received.,NA,NA
-9,placeholder,NA,NA,NA,NA,NA
+9,placeholder,NA,QS89-9-placeholder,NA,NA,NA

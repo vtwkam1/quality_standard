@@ -2,26 +2,26 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,structure,a,QS61-1-structure-a,Evidence of local antibiotic formularies governing the use of antibiotics to ensure that people are prescribed antibiotics appropriately.,NA,NA
 1,structure,b,QS61-1-structure-b,Evidence that local antibiotic formularies are reviewed regularly.,NA,NA
 1,structure,c,QS61-1-structure-c,Evidence of local audits of the appropriateness of antibiotic prescribing.,NA,NA
-1,outcome,a,QS61-1-outcome-a,.,NA,NA
+1,outcome,a,QS61-1-outcome-a,Antibiotic prescribing rates (primary and secondary care).,NA,NA
 2,structure,a,QS61-2-structure-a,Evidence that the organisation includes infection prevention and control within its overall strategy.,NA,NA
 2,structure,b,QS61-2-structure-b,"Evidence that the organisation's board is up to date with, and has a working knowledge and understanding of, infection prevention and control.",NA,NA
 2,structure,c,QS61-2-structure-c,Evidence that a lead for infection prevention and control has been assigned and is taking an active role.,NA,NA
-2,structure,d,QS61-2-structure-d,Associated infections locally.,NA,NA
-2,structure,e,QS61-2-structure-e,Associated infections.,NA,NA
-2,outcome,a,QS61-2-outcome-a,Associated infection.,NA,NA
+2,structure,d,QS61-2-structure-d,"Evidence of support for, and participation in, joint working initiatives beyond mandatory or contractual requirements, to reduce healthcare-associated infections locally.",NA,NA
+2,structure,e,QS61-2-structure-e,"Evidence of an adequately resourced surveillance system with specific, locally defined objectives and priorities for preventing and managing healthcare-associated infections.",NA,NA
+2,outcome,a,QS61-2-outcome-a,Incidence of healthcare-associated infection.,NA,NA
 3,structure,a,QS61-3-structure-a,Evidence of local arrangements to ensure the availability of facilities for hand decontamination.,NA,NA
 3,structure,b,QS61-3-structure-b,Evidence of local arrangements to ensure that all healthcare workers receive training in hand decontamination.,NA,NA
 3,structure,c,QS61-3-structure-c,Evidence of local arrangements to ensure that regular local hand hygiene observation audits are undertaken.,NA,NA
-3,outcome,a,QS61-3-outcome-a,Associated infection.,NA,NA
+3,outcome,a,QS61-3-outcome-a,Incidence of healthcare-associated infection.,NA,NA
 4,structure,a,QS61-4-structure-a,Evidence of a written protocol to ensure that people who need a urinary catheter have their risk of infection minimised by the completion of specified procedures necessary for the safe insertion and maintenance of the catheter and its removal as soon as it is no longer needed.,NA,NA
-4,process,a,QS61-4-process-a,Term urinary catheter who had their risk of infection minimised by the completion of specified procedures necessary for the safe insertion and maintenance of the catheter and its removal as soon as it is no longer needed.,The number of people in the denominator for whom all of the specified procedures were completed for the safe insertion and maintenance of the catheter and its removal as soon as it is no longer needed.,Term urinary catheter.
-4,process,b,QS61-4-process-b,Term urinary catheter who had their risk of infection minimised by the completion of specified procedures necessary for the safe insertion and maintenance of the catheter and its removal as soon as it is no longer needed.,The number of people in the denominator for whom all of the specified procedures were completed for the safe insertion and maintenance of the catheter and its removal as soon as it is no longer needed were completed.,Term urinary catheter.
-4,outcome,a,QS61-4-outcome-a,Associated infection.,NA,NA
-4,outcome,b,QS61-4-outcome-b,Associated urinary tract infection.,NA,NA
+4,process,a,QS61-4-process-a,Proportion of people with a short-term urinary catheter who had their risk of infection minimised by the completion of specified procedures necessary for the safe insertion and maintenance of the catheter and its removal as soon as it is no longer needed.,The number of people in the denominator for whom all of the specified procedures were completed for the safe insertion and maintenance of the catheter and its removal as soon as it is no longer needed.,The number of people who have had a short-term urinary catheter.
+4,process,b,QS61-4-process-b,Proportion of people with a long-term urinary catheter who had their risk of infection minimised by the completion of specified procedures necessary for the safe insertion and maintenance of the catheter and its removal as soon as it is no longer needed.,The number of people in the denominator for whom all of the specified procedures were completed for the safe insertion and maintenance of the catheter and its removal as soon as it is no longer needed were completed.,The number of people who have had a long-term urinary catheter.
+4,outcome,a,QS61-4-outcome-a,Incidence of healthcare-associated infection.,NA,NA
+4,outcome,b,QS61-4-outcome-b,Incidence of catheter-associated urinary tract infection.,NA,NA
 5,structure,a,QS61-5-structure-a,Evidence of a written protocol to ensure that people who need a vascular access device have their risk of infection minimised by the completion of specified procedures necessary for the safe insertion and maintenance of the device and its removal as soon as it is no longer needed.,NA,NA
 5,process,a,QS61-5-process-a,Proportion of people with a vascular access device who had their risk of infection minimised by the completion of specified procedures necessary for the safe insertion and maintenance of the device and its removal as soon as it is no longer needed.,The number of people in the denominator for whom all of the specified procedures were completed for the safe insertion and maintenance of the device and its removal as soon as it is no longer needed.,The number of people who have had a vascular access device.
-5,outcome,a,QS61-5-outcome-a,Related bloodstream infection.,NA,NA
-6,structure,a,QS61-6-structure-a,", to be educated about the safe management of their device or equipment, including techniques to prevent infection.",NA,NA
-6,process,a,QS61-6-process-a,", who are educated about the safe management of their device or equipment, including techniques to prevent infection.","The number of people in the denominator who are educated about the safe management of their device or equipment, including techniques to prevent infection.",.
-6,outcome,a,QS61-6-outcome-a,Associated infection.,NA,NA
-6,outcome,b,QS61-6-outcome-b,", feel able to manage their device or equipment.",NA,NA
+5,outcome,a,QS61-5-outcome-a,Incidence of vascular access device-related bloodstream infection.,NA,NA
+6,structure,a,QS61-6-structure-a,"Evidence of local arrangements for people with a urinary catheter, vascular access device or enteral feeding tube, and their family members or carers (as appropriate), to be educated about the safe management of their device or equipment, including techniques to prevent infection.",NA,NA
+6,process,a,QS61-6-process-a,"Proportion of people with a urinary catheter, vascular access device or enteral feeding tube, and their family members or carers (as appropriate), who are educated about the safe management of their device or equipment, including techniques to prevent infection.","The number of people in the denominator who are educated about the safe management of their device or equipment, including techniques to prevent infection.","The number of people with a urinary catheter, vascular access device or enteral feeding tube, and their family members or carers (as appropriate)."
+6,outcome,a,QS61-6-outcome-a,Incidence of healthcare-associated infection.,NA,NA
+6,outcome,b,QS61-6-outcome-b,"People with a urinary catheter, vascular access device or enteral feeding tube, and their family members or carers (as appropriate), feel able to manage their device or equipment.",NA,NA

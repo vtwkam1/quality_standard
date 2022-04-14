@@ -10,7 +10,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 3,outcome,a,QS93-3-outcome-a,Patient experience.,NA,NA
 3,outcome,b,QS93-3-outcome-b,Rates of adherence to anticoagulation therapy for adults with atrial fibrillation.,NA,NA
 4,structure,a,QS93-4-structure-a,Evidence of local arrangements and written clinical protocols to ensure that adults with atrial fibrillation taking a vitamin K antagonist have their anticoagulation reassessed if their anticoagulation control is poor.,NA,NA
-4,process,a,QS93-4-process-a,Recorded at each visit for INR assessment.,The number in the denominator who have their TTR recorded at each visit for INR assessment.,The number of adults with atrial fibrillation taking a vitamin K antagonist.
+4,process,a,QS93-4-process-a,Proportion of adults with atrial fibrillation taking a vitamin K antagonist who have their time in therapeutic range (TTR) recorded at each visit for INR assessment.,The number in the denominator who have their TTR recorded at each visit for INR assessment.,The number of adults with atrial fibrillation taking a vitamin K antagonist.
 4,process,b,QS93-4-process-b,Proportion of adults with poor anticoagulation control who have it reassessed.,The number in the denominator who have their anticoagulation reassessed.,The number of adults with poor anticoagulation control.
 4,outcome,a,QS93-4-outcome-a,Rates of thromboembolic complications.,NA,NA
 4,outcome,b,QS93-4-outcome-b,Patient experience.,NA,NA

@@ -5,14 +5,14 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 2,structure,a,QS171-2-structure-a,Evidence of local arrangements for social care providers to notify a person's general practice and supplying pharmacy when they start to provide them with medicines support in the community.,NA,NA
 2,process,a,QS171-2-process-a,Proportion of adults receiving medicines support in the community from a social care provider whose general practice is informed that medicines support has started.,The number in the denominator whose general practice is informed that they have started to receive medicines support.,The number of adults receiving medicines support in the community from a social care provider.
 2,process,b,QS171-2-process-b,Proportion of adults receiving medicines support in the community from a social care provider whose supplying pharmacy is informed that medicines support has started.,The number in the denominator whose supplying pharmacy is informed that they have started to receive medicines support.,The number of adults receiving medicines support in the community from a social care provider.
-2,outcome,a,QS171-2-outcome-a,Related incidents.,NA,NA
+2,outcome,a,QS171-2-outcome-a,Number of medicines-related incidents.,NA,NA
 3,structure,a,QS171-3-structure-a,Evidence of local processes for social care providers to ensure that care plans include a record of the medicines support a person needs.,NA,NA
 3,process,a,QS171-3-process-a,Proportion of adults receiving medicines support in the community from a social care provider whose care plan includes a record of the medicines support they need.,The number in the denominator that include a record of the medicines support they need.,The number of care plans for adults receiving medicines support in the community from a social care provider.
 3,outcome,a,QS171-3-outcome-a,Satisfaction of people providing medicines support with information recorded about the medicine support needed.,NA,NA
 3,outcome,b,QS171-3-outcome-b,Satisfaction of people receiving social care in the community with their medicines support.,NA,NA
-4,structure,a,QS171-4-structure-a,Related problems.,NA,NA
+4,structure,a,QS171-4-structure-a,Evidence of local processes for service providers to actively encourage adults receiving medicines support in the community to raise any medicines-related problems.,NA,NA
 4,structure,b,QS171-4-structure-b,Evidence that care workers providing medicines support for adults receiving social care in the community give them information on how to raise any problems with their medicines.,NA,NA
-4,process,a,QS171-4-process-a,Related problems.,Related problems.,The number of adults receiving medicines support in the community from a social care provider.
-4,outcome,a,QS171-4-outcome-a,Related problems.,NA,NA
-4,outcome,b,QS171-4-outcome-b,Related problems raised by adults receiving social care in the community.,NA,NA
-4,outcome,c,QS171-4-outcome-c,Related incidents involving adults receiving social care in the community.,NA,NA
+4,process,a,QS171-4-process-a,Proportion of adults receiving medicines support in the community from a social care provider who are given information on how to raise any medicines-related problems.,The number in the denominator who are given information on how to raise any medicines-related problems.,The number of adults receiving medicines support in the community from a social care provider.
+4,outcome,a,QS171-4-outcome-a,People's satisfaction with being able to raise medicines-related problems.,NA,NA
+4,outcome,b,QS171-4-outcome-b,Number of medicines-related problems raised by adults receiving social care in the community.,NA,NA
+4,outcome,c,QS171-4-outcome-c,Number of medicines-related incidents involving adults receiving social care in the community.,NA,NA

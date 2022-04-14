@@ -7,7 +7,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 2,structure,c,QS190-2-structure-c,Evidence of local arrangements to give tailored information through a variety of different methods to eligible groups when inviting them to receive the flu vaccine.,NA,NA
 2,process,a,QS190-2-process-a,Proportion of people eligible to receive the flu vaccine who receive an invitation that includes information about their situation or clinical risk.,The number of people in the denominator who receive information about their situation or clinical risk on invitation for vaccination.,The number of people eligible to receive the flu vaccine.
 2,outcome,a,QS190-2-outcome-a,Flu vaccine uptake in eligible groups.,NA,NA
-3,structure,a,QS190-3-structure-a,General practice providers of flu vaccination and commissioners.,NA,NA
+3,structure,a,QS190-3-structure-a,Evidence of local agreements for sharing information about flu vaccination status between non-general practice providers of flu vaccination and commissioners.,NA,NA
 3,structure,b,QS190-3-structure-b,"Evidence that providers of flu vaccination give timely, accurate and consistent notification to GP practices when they vaccinate their eligible patients.",NA,NA
 3,structure,c,QS190-3-structure-c,Evidence of the use of audit and monitoring systems by providers within a local health economy to review uptake data or vaccination status in health records.,NA,NA
 3,structure,d,QS190-3-structure-d,"Evidence of arrangements for GP practices to make timely, accurate and consistent updates to patient records with auditable codes when notified that their eligible patients have received flu vaccination from another provider.",NA,NA

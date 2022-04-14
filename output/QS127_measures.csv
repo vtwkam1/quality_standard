@@ -21,11 +21,11 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 5,structure,a,QS127-5-structure-a,Evidence of local arrangements and written clinical protocols to ensure that adults with a BMI above 50 are offered a referral for bariatric surgery assessment.,NA,NA
 5,process,a,QS127-5-process-a,Proportion of adults with a BMI above 50 who are referred for bariatric surgery assessment.,The number in the denominator who are referred for bariatric surgery assessment.,The number of adults with a BMI above 50.
 5,outcome,a,QS127-5-outcome-a,Bariatric surgery assessments for adults with a BMI above 50.,NA,NA
-6,structure,a,QS127-6-structure-a,Up care package within the bariatric service for a minimum of 2 years.,NA,NA
-6,process,a,QS127-6-process-a,Up care package within the bariatric service for a minimum of 2 years after bariatric surgery.,Up care package within the bariatric service.,The number of people who had bariatric surgery within the past 2 years.
+6,structure,a,QS127-6-structure-a,Evidence of local arrangements to ensure that people who have had bariatric surgery are offered a follow-up care package within the bariatric service for a minimum of 2 years.,NA,NA
+6,process,a,QS127-6-process-a,Proportion of people who have had bariatric surgery who have a follow-up care package within the bariatric service for a minimum of 2 years after bariatric surgery.,The number in the denominator who have a postoperative follow-up care package within the bariatric service.,The number of people who had bariatric surgery within the past 2 years.
 6,outcome,a,QS127-6-outcome-a,Nutritional status in the first 2 years following bariatric surgery.,NA,NA
 6,outcome,b,QS127-6-outcome-b,Patient satisfaction with bariatric surgery.,NA,NA
-7,structure,a,QS127-7-structure-a,Care model of management.,NA,NA
-7,structure,b,QS127-7-structure-b,"Up, developed by tier 3 specialists and primary care.",NA,NA
-7,process,a,QS127-7-process-a,Care model of management.,Care model of management.,Up more than 1 year ago.
-7,outcome,a,QS127-7-outcome-a,Up.,NA,NA
+7,structure,a,QS127-7-structure-a,Evidence of local arrangements and written clinical protocols to ensure that people are offered at least annual monitoring of nutritional status and appropriate supplementation after discharge from bariatric surgery service follow-up as part of a shared-care model of management.,NA,NA
+7,structure,b,QS127-7-structure-b,"Evidence of a locally agreed shared-care model of management for people who are discharged from bariatric surgery service follow-up, developed by tier 3 specialists and primary care.",NA,NA
+7,process,a,QS127-7-process-a,Proportion of people discharged from bariatric surgery service follow-up who have at least annual monitoring of nutritional status and appropriate supplementation as part of a shared-care model of management.,The number in the denominator who have had their nutritional status monitored within the past year as part of a shared-care model of management.,The number of people discharged from bariatric surgery service follow-up more than 1 year ago.
+7,outcome,a,QS127-7-outcome-a,Nutritional status after discharge from bariatric surgery service follow-up.,NA,NA

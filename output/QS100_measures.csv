@@ -16,4 +16,4 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 7,outcome,a,QS100-7-outcome-a,Adherence to statin therapy.,NA,NA
 8,structure,a,QS100-8-structure-a,Evidence of local arrangements to ensure that adults on a high‑intensity statin have a repeat measurement of lipids and liver transaminases after 3 months of treatment.,NA,NA
 8,process,a,QS100-8-process-a,Proportion of adults on high‑intensity statins who have had a repeat measurement of lipids and liver transaminases after 3 months of treatment.,The number in the denominator who have had a repeat measurement of lipids and liver transaminases after 3 months of treatment.,The number of adults prescribed high‑intensity statins for at least 3 months.
-9,placeholder,NA,NA,NA,NA,NA
+9,placeholder,NA,QS100-9-placeholder,NA,NA,NA

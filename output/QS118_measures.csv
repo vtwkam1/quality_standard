@@ -14,5 +14,5 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 4,process,a,QS118-4-process-a,Proportion of children and young people who are referred to secondary or specialist allergy care if their allergy‑focused clinical history or diagnostic testing indicates a need for a referral.,The number in the denominator who are referred to secondary or specialist allergy care.,The number of children and young people who have an allergy‑focused clinical history or diagnostic testing that indicates a need for a referral to secondary or specialist allergy care.
 4,outcome,a,QS118-4-outcome-a,Identification of food allergy.,NA,NA
 4,outcome,b,QS118-4-outcome-b,"Children and young people with food allergy who feel, or whose families feel, able to manage their condition.",NA,NA
-5,placeholder,NA,NA,NA,NA,NA
-6,placeholder,NA,NA,NA,NA,NA
+5,placeholder,NA,QS118-5-placeholder,NA,NA,NA
+6,placeholder,NA,QS118-6-placeholder,NA,NA,NA

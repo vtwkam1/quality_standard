@@ -1,7 +1,7 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,structure,a,QS201-1-structure-a,Evidence of arrangements to ensure that people aged 16 and over who are in hospital and assessed as needing pharmacological VTE prophylaxis start it as soon as possible and within 14 hours of hospital admission.,NA,NA
 1,process,a,QS201-1-process-a,Proportion of people aged 16 and over who are in hospital and assessed as needing pharmacological VTE prophylaxis who start it within 14 hours of hospital admission.,The number in the denominator who start pharmacological VTE prophylaxis within 14 hours of hospital admission.,The number of people aged 16 and over who are in hospital and assessed as needing pharmacological VTE prophylaxis.
-1,outcome,a,QS201-1-outcome-a,.,NA,NA
+1,outcome,a,QS201-1-outcome-a,Rates of hospital-acquired thrombosis (HAT).,NA,NA
 2,structure,a,QS201-2-structure-a,Evidence of written clinical protocols to ensure that people aged 16 and over who are discharged with lower limb immobilisation are assessed to identify their risk of VTE.,NA,NA
 2,process,a,QS201-2-process-a,Proportion of people aged 16 and over who are discharged with lower limb immobilisation who are assessed to identify their risk of VTE.,The number in the denominator who are assessed to identify their risk of VTE.,The number of people aged 16 and over who are discharged with lower limb immobilisation.
 2,outcome,a,QS201-2-outcome-a,Rates of thrombosis.,NA,NA
@@ -9,10 +9,10 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 3,process,a,QS201-3-process-a,Proportion of people aged 18 and over with a DVT Wells score of 2 points or more who have a proximal leg vein ultrasound scan within 4 hours of it being requested.,The number in the denominator who have a proximal leg vein ultrasound scan within 4 hours of it being requested.,The number of people aged 18 and over with a DVT Wells score of 2 points or more.
 3,outcome,a,QS201-3-outcome-a,Prescribing rates of interim therapeutic anticoagulation to prevent DVT.,NA,NA
 4,structure,a,QS201-4-structure-a,"Evidence of local systems to identify and invite people aged 18 and over, taking anticoagulation treatment after a VTE for a review at 3 months.",NA,NA
-4,structure,b,QS201-4-structure-b,Term anticoagulation treatment after a VTE for a review at least once a year.,NA,NA
+4,structure,b,QS201-4-structure-b,Evidence of local systems to identify and invite people aged 18 and over taking long-term anticoagulation treatment after a VTE for a review at least once a year.,NA,NA
 4,process,a,QS201-4-process-a,Proportion of people aged 18 and over taking anticoagulation treatment for 3 months after a VTE who have a review.,The number in the denominator who have a review at 3 months.,The number of people aged 18 and over taking anticoagulation treatment after a VTE.
-4,process,b,QS201-4-process-b,Term anticoagulation treatment for secondary prevention of VTE who have a review at least once a year.,The number in the denominator who had a review in the previous year.,Term anticoagulation treatment for secondary prevention of VTE.
-5,structure,a,QS201-5-structure-a,Risk PE have an agreed plan for monitoring and follow‑up.,NA,NA
-5,structure,b,QS201-5-structure-b,"Risk PE on symptoms and signs to look out for, and contact information for healthcare professionals they can discuss concerns with.",NA,NA
-5,process,a,QS201-5-process-a,Risk PE who have an agreed plan for monitoring and follow‑up.,The number in the denominator who have an agreed plan for monitoring and follow‑up.,Risk PE.
-5,outcome,a,QS201-5-outcome-a,Risk PE.,NA,NA
+4,process,b,QS201-4-process-b,Proportion of people aged 18 and over taking long-term anticoagulation treatment for secondary prevention of VTE who have a review at least once a year.,The number in the denominator who had a review in the previous year.,The number of people aged 18 and over taking long-term anticoagulation treatment for secondary prevention of VTE.
+5,structure,a,QS201-5-structure-a,Evidence of local arrangements to ensure that people aged 18 and over having outpatient treatment for suspected or confirmed low-risk PE have an agreed plan for monitoring and follow‑up.,NA,NA
+5,structure,b,QS201-5-structure-b,"Evidence that information is available for people aged 18 and over having outpatient treatment for suspected or confirmed low-risk PE on symptoms and signs to look out for, and contact information for healthcare professionals they can discuss concerns with.",NA,NA
+5,process,a,QS201-5-process-a,Proportion of people aged 18 and over having outpatient treatment for suspected or confirmed low-risk PE who have an agreed plan for monitoring and follow‑up.,The number in the denominator who have an agreed plan for monitoring and follow‑up.,The number of people aged 18 and over having outpatient treatment for suspected or confirmed low-risk PE.
+5,outcome,a,QS201-5-outcome-a,Rates of emergency admissions to hospital for people aged 18 and over having outpatient treatment for low-risk PE.,NA,NA

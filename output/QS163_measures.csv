@@ -1,12 +1,12 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,structure,a,QS163-1-structure-a,Evidence of arrangements to ensure that police officers are given induction training in responding to features of mental health problems.,NA,NA
 1,structure,b,QS163-1-structure-b,Evidence of arrangements to ensure that police officers are given regular update training in responding to features of mental health problems.,NA,NA
-1,process,a,QS163-1-process-a,Harm or suicide and in contact with the police because of a suspected offence for whom initial safety precautions are taken.,The number in the denominator for whom initial safety precautions are taken.,Harm or suicide and in contact with the police because of a suspected offence.
-1,process,b,QS163-1-process-b,Escalation techniques.,Escalation techniques.,The number of adults behaving aggressively and in contact with the police because of a suspected offence.
+1,process,a,QS163-1-process-a,Proportion of adults at risk of self-harm or suicide and in contact with the police because of a suspected offence for whom initial safety precautions are taken.,The number in the denominator for whom initial safety precautions are taken.,The number of adults at risk of self-harm or suicide and in contact with the police because of a suspected offence.
+1,process,b,QS163-1-process-b,Proportion of adults behaving aggressively and in contact with the police because of a suspected offence who are calmed using de-escalation techniques.,The number in the denominator who are calmed using de-escalation techniques.,The number of adults behaving aggressively and in contact with the police because of a suspected offence.
 1,outcome,a,QS163-1-outcome-a,Number of adults with mental health problems in contact with the police because of a suspected offence who are referred to liaison and diversion services.,NA,NA
 1,outcome,b,QS163-1-outcome-b,Number of assaults on police officers by adults with mental health problems.,NA,NA
 1,outcome,c,QS163-1-outcome-c,Number of assaults on other detainees by adults with mental health problems.,NA,NA
-1,outcome,d,QS163-1-outcome-d,Harm and suicide attempts by adults in contact with the police because of a suspected offence.,NA,NA
+1,outcome,d,QS163-1-outcome-d,Number of self-harm and suicide attempts by adults in contact with the police because of a suspected offence.,NA,NA
 2,structure,a,QS163-2-structure-a,Evidence of local arrangements of joint working between the police and mental health services to ensure adults with suspected mental health problems are referred for comprehensive mental health assessments.,NA,NA
 2,process,a,QS163-2-process-a,Proportion of adults in contact with the police because of a suspected offence identified as having suspected mental health problems who are referred for a comprehensive mental health assessment.,The number in the denominator who are referred for a comprehensive mental health assessment.,The number of adults in contact with the police because of a suspected offence identified as having suspected mental health problems.
 2,outcome,a,QS163-2-outcome-a,Number of adults with mental health problems in contact with the police referred to liaison and diversion services.,NA,NA
@@ -19,6 +19,6 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 4,structure,b,QS163-4-structure-b,Evidence of local arrangements to implement mental health risk management plans.,NA,NA
 4,process,a,QS163-4-process-a,Proportion of transfers between services within the criminal justice system in which mental health risk management plans were reviewed.,The number in the denominator in which mental health risk management plans were reviewed.,The number of transfers between services within the criminal justice system.
 4,outcome,a,QS163-4-outcome-a,Number of assaults within the criminal justice system.,NA,NA
-4,outcome,b,QS163-4-outcome-b,Harm incidents within the criminal justice system.,NA,NA
+4,outcome,b,QS163-4-outcome-b,Number of self-harm incidents within the criminal justice system.,NA,NA
 4,outcome,c,QS163-4-outcome-c,Number of assaults committed by adults under the care of probation services.,NA,NA
-4,outcome,d,QS163-4-outcome-d,Harm incidents involving adults under the care of probation services.,NA,NA
+4,outcome,d,QS163-4-outcome-d,Number of self-harm incidents involving adults under the care of probation services.,NA,NA

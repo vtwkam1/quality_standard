@@ -4,6 +4,4 @@
 .Ruserdata
 *.html
 experiment.R
-*_measures.csv
-*_statements.csv
 *_log.csv

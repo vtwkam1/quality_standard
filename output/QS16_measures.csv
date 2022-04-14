@@ -19,10 +19,10 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 4,outcome,a,QS16-4-outcome-a,Reoperation rates for people with trochanteric fractures.,NA,NA
 5,structure,a,QS16-5-structure-a,Evidence of local arrangements to ensure that people with subtrochanteric fracture are treated with an intramedullary nail.,NA,NA
 5,process,a,QS16-5-process-a,Proportion of presentations of subtrochanteric fractures treated with an intramedullary nail.,The number in the denominator that are treated with an intramedullary nail.,The number of presentations of subtrochanteric fractures.
-5,outcome,a,QS16-5-outcome-a,Union of fracture.,NA,NA
+5,outcome,a,QS16-5-outcome-a,Number of people with non-union of fracture.,NA,NA
 6,structure,a,QS16-6-structure-a,"Evidence of local arrangements to ensure that people with hip fracture start rehabilitation at least once a day, no later than the day after surgery.",NA,NA
 6,process,a,QS16-6-process-a,Proportion of hip fracture operations after which the person starts rehabilitation no later than the day after surgery.,The number in the denominator after which the person starts rehabilitation no later than the day after surgery.,The number of hip fracture operations.
 6,process,b,QS16-6-process-b,Proportion of hip fracture operations after which the person has rehabilitation at least once a day.,The number in the denominator after which the person has rehabilitation at least once a day.,The number of hip fracture operations.
 6,outcome,a,QS16-6-outcome-a,Length of hospital stay for people with hip fracture.,NA,NA
-6,outcome,b,QS16-6-outcome-b,Hip fracture place of residence.,NA,NA
-6,outcome,c,QS16-6-outcome-c,Hip fracture level of mobility.,NA,NA
+6,outcome,b,QS16-6-outcome-b,Return to the pre-hip fracture place of residence.,NA,NA
+6,outcome,c,QS16-6-outcome-c,Return to the pre-hip fracture level of mobility.,NA,NA

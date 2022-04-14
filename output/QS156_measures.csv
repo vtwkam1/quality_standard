@@ -1,20 +1,20 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,structure,a,QS156-1-structure-a,"Evidence of local arrangements to ensure that an accurate list of a person's current medicines is obtained from the person's GP, other healthcare professionals and, where appropriate, the transferring prison healthcare team.",NA,NA
 1,structure,b,QS156-1-structure-b,Evidence of local arrangements to ensure that a list of the medicines currently being taken by a person is obtained from them.,NA,NA
-1,structure,c,QS156-1-structure-c,Stage health assessment.,NA,NA
-1,process,a,QS156-1-process-a,Stage health assessments for people entering or transferring between prisons where medicines reconciliation has already been carried out.,Stage health assessment.,Stage health assessments for people entering or transferring between prisons.
+1,structure,c,QS156-1-structure-c,Evidence of local arrangements to ensure that medicines reconciliation is carried out before the second-stage health assessment.,NA,NA
+1,process,a,QS156-1-process-a,Proportion of second-stage health assessments for people entering or transferring between prisons where medicines reconciliation has already been carried out.,The number in the denominator where a medicines reconciliation was carried out before the second-stage health assessment.,The number of second-stage health assessments for people entering or transferring between prisons.
 1,outcome,a,QS156-1-outcome-a,Number of adverse medication events in prison.,NA,NA
 1,outcome,b,QS156-1-outcome-b,Number of hospital admissions of people in prison because of adverse medication events.,NA,NA
-2,structure,a,QS156-2-structure-a,Stage health assessment within 7 days of people entering or transferring between prisons.,NA,NA
-2,process,a,QS156-2-process-a,Stage health assessment takes place within 7 days of arrival in prison.,Stage health assessment takes place within 7 days.,The number of prison stays which last for more than 7 days.
-2,outcome,a,QS156-2-outcome-a,.,NA,NA
+2,structure,a,QS156-2-structure-a,Evidence of local arrangements to ensure that prison healthcare services are available to carry out a second-stage health assessment within 7 days of people entering or transferring between prisons.,NA,NA
+2,process,a,QS156-2-process-a,Proportion of prison stays where a second-stage health assessment takes place within 7 days of arrival in prison.,The number in the denominator where a second-stage health assessment takes place within 7 days.,The number of prison stays which last for more than 7 days.
+2,outcome,a,QS156-2-outcome-a,"Uptake rates of national screening programmes in prison (for example retinal screening, breast, cervical and bowel cancer screening).",NA,NA
 2,outcome,b,QS156-2-outcome-b,Number of deaths in prisons.,NA,NA
 2,outcome,c,QS156-2-outcome-c,Number of people in prison engaging with healthcare services.,NA,NA
-3,structure,a,QS156-3-structure-a,Borne viruses when people enter or are transferred between prisons.,NA,NA
+3,structure,a,QS156-3-structure-a,Evidence of local arrangements to test for blood-borne viruses when people enter or are transferred between prisons.,NA,NA
 3,structure,b,QS156-3-structure-b,Evidence of local arrangements to ensure that people entering or transferring between prisons are assessed for the risk of sexually transmitted infections.,NA,NA
-3,process,a,QS156-3-process-a,Borne viruses takes place or has already been completed.,Borne viruses take place or has already been completed.,Stage health assessments for people entering or transferring between prisons.
-3,process,b,QS156-3-process-b,Stage health assessments for people entering or transferring between prisons where assessment for the risk of sexually transmitted infections takes place or has already been completed.,The number in the denominator where assessment for the risk of sexually transmitted infections takes place or has already been completed.,Stage health assessments for people entering or transferring between prisons.
-3,outcome,a,QS156-3-outcome-a,Borne viruses in prisons.,NA,NA
+3,process,a,QS156-3-process-a,Proportion of second-stage health assessments for people entering or transferring between prisons where testing for blood-borne viruses takes place or has already been completed.,The number in the denominator where testing for blood-borne viruses take place or has already been completed.,The number of second-stage health assessments for people entering or transferring between prisons.
+3,process,b,QS156-3-process-b,Proportion of second-stage health assessments for people entering or transferring between prisons where assessment for the risk of sexually transmitted infections takes place or has already been completed.,The number in the denominator where assessment for the risk of sexually transmitted infections takes place or has already been completed.,The number of second-stage health assessments for people entering or transferring between prisons.
+3,outcome,a,QS156-3-outcome-a,The number of people diagnosed and treated for blood-borne viruses in prisons.,NA,NA
 3,outcome,b,QS156-3-outcome-b,The number of people diagnosed and treated for sexually transmitted infections in prisons.,NA,NA
 4,structure,a,QS156-4-structure-a,Evidence of local arrangements to ensure that a lead care coordinator is available for people in prison who are being cared for by different prison teams.,NA,NA
 4,process,a,QS156-4-process-a,Proportion of people in prison who have complex health and social care needs who have a lead care coordinator.,The number in the denominator who have a lead care coordinator.,The number of people in prison with complex health and social care needs.

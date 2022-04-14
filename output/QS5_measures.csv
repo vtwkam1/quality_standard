@@ -14,7 +14,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 2,outcome,a,QS5-2-outcome-a,Prevalence of cardiovascular disease among people with CKD.,NA,NA
 2,outcome,b,QS5-2-outcome-b,Incidence of cardiovascular events for people with CKD.,NA,NA
 2,outcome,c,QS5-2-outcome-c,Cardiovascular mortality rates among people with CKD.,NA,NA
-2,outcome,d,QS5-2-outcome-d,Stage kidney disease.,NA,NA
+2,outcome,d,QS5-2-outcome-d,Incidence of end-stage kidney disease.,NA,NA
 3,structure,a,QS5-3-structure-a,Evidence of the availability of atorvastatin 20 mg within local service providers.,NA,NA
 3,structure,b,QS5-3-structure-b,Evidence of local systems to check whether adults with CKD are taking atorvastatin 20 mg and invite them to discuss starting treatment if not.,NA,NA
 3,process,a,QS5-3-process-a,Proportion of adults with CKD who receive atorvastatin 20 mg.,The number in the denominator who receive atorvastatin 20 mg.,The number of adults with CKD.

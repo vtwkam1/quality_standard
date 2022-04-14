@@ -8,7 +8,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 2,process,b,QS125-2-process-b,Proportion of children and young people with type 2 diabetes who are offered a programme of diabetes education from diagnosis that is updated at least annually.,The number in the denominator who receive a programme of diabetes education from diagnosis that is updated at least annually.,The number of children and young people with type 2 diabetes.
 2,outcome,a,QS125-2-outcome-a,Quality of life of children and young people with type 1 or type 2 diabetes.,NA,NA
 2,outcome,b,QS125-2-outcome-b,HbA1c level of 48 mmol/mol or lower.,NA,NA
-2,outcome,c,QS125-2-outcome-c,With the education intervention.,NA,NA
+2,outcome,c,QS125-2-outcome-c,"Satisfaction of children, young people and their family members or carers (as appropriate) with the education intervention.",NA,NA
 3,structure,a,QS125-3-structure-a,Evidence of local arrangements and written clinical protocols to ensure that children and young people with type 1 diabetes are offered intensive insulin therapy and level 3 carbohydrate‑counting education at diagnosis.,NA,NA
 3,process,a,QS125-3-process-a,Proportion of children and young people with type 1 diabetes who are offered intensive insulin therapy and level 3 carbohydrate‑counting education at diagnosis.,The number in the denominator who receive intensive insulin therapy and level 3 carbohydrate‑counting education at diagnosis.,The number of children and young people with type 1 diabetes.
 3,outcome,a,QS125-3-outcome-a,HbA1c level of 48 mmol/mol or lower.,NA,NA
@@ -22,13 +22,13 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 5,process,a,QS125-5-process-a,Proportion of children and young people with type 1 diabetes who receive blood ketone testing strips and a blood ketone meter.,The number in the denominator who receive blood ketone testing strips and a blood ketone meter.,The number of children and young people with type 1 diabetes.
 5,outcome,a,QS125-5-outcome-a,Diabetic ketoacidosis.,NA,NA
 5,outcome,b,QS125-5-outcome-b,Hospital admission rates of children and young people with type 1 diabetes.,NA,NA
-5,outcome,c,QS125-5-outcome-c,With blood ketone testing strips and blood ketone meters.,NA,NA
+5,outcome,c,QS125-5-outcome-c,Satisfaction of children and young people with type 1 diabetes and their family members or carers (as appropriate) with blood ketone testing strips and blood ketone meters.,NA,NA
 6,structure,a,QS125-6-structure-a,Evidence of local arrangements to ensure that children and young people with type 1 or type 2 diabetes are offered access to mental health professionals with an understanding of diabetes.,NA,NA
 6,process,a,QS125-6-process-a,Proportion of children and young people with type 1 diabetes who are offered access to mental health professionals with an understanding of diabetes.,The number in the denominator who have access to mental health professionals with an understanding of diabetes.,The number of children and young people with type 1 diabetes.
 6,process,b,QS125-6-process-b,Proportion of children and young people with type 2 diabetes who are offered access to mental health professionals with an understanding of diabetes.,The number in the denominator who have access to mental health professionals with an understanding of diabetes.,The number of children and young people with type 2 diabetes.
-6,outcome,a,QS125-6-outcome-a,Management of type 1 and type 2 diabetes.,NA,NA
-6,outcome,b,QS125-6-outcome-b,.,NA,NA
+6,outcome,a,QS125-6-outcome-a,Self-management of type 1 and type 2 diabetes.,NA,NA
+6,outcome,b,QS125-6-outcome-b,"Adverse events (for example, severe hypoglycaemic episodes, diabetic ketoacidosis [DKA] or self‑harm).",NA,NA
 6,outcome,c,QS125-6-outcome-c,Quality of life of children and young people with type 1 or type 2 diabetes.,NA,NA
-6,outcome,d,QS125-6-outcome-d,With the intervention.,NA,NA
+6,outcome,d,QS125-6-outcome-d,"Satisfaction of children, young people and their family members or carers (as appropriate) with the intervention.",NA,NA
 6,outcome,e,QS125-6-outcome-e,Anxiety or depression in children and young people with type 1 or type 2 diabetes.,NA,NA
 6,outcome,f,QS125-6-outcome-f,School performance or attendance of children and young people with type 1 or type 2 diabetes.,NA,NA

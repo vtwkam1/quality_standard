@@ -17,7 +17,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 2,outcome,a,QS167-2-outcome-a,"The number of people from black, Asian and other minority groups who access local health and wellbeing programmes.",NA,NA
 2,outcome,b,QS167-2-outcome-b,"The number of people in peer and lay roles supporting black, Asian and other minority ethnic groups to improve their health and wellbeing.",NA,NA
 2,outcome,c,QS167-2-outcome-c,"Experience of engaging with local health and wellbeing programmes among people from black, Asian and other minority groups.",NA,NA
-2,outcome,d,QS167-2-outcome-d,Term retention of people in peer and lay roles.,NA,NA
+2,outcome,d,QS167-2-outcome-d,Long-term retention of people in peer and lay roles.,NA,NA
 3,structure,a,QS167-3-structure-a,"Evidence of local arrangements for identifying and referring people from black, Asian and other minority ethnic groups at high risk of type 2 diabetes.",NA,NA
 3,process,a,QS167-3-process-a,"Proportion of people from black, Asian and other minority ethnic groups identified as being at high risk of type 2 diabetes who are referred to an intensive lifestyle change programme.",The number in the denominator who are referred to an intensive lifestyle change programme.,"The number of people from black, Asian and other minority ethnic groups who are identified as being at high risk of type 2 diabetes."
 3,process,b,QS167-3-process-b,"Proportion of people from black, Asian and other minority ethnic groups referred to an intensive lifestyle change programme who attended the programme.",The number in the denominator who attended an intensive lifestyle change programme.,"The number of people from black, Asian and other minority ethnic groups who are at high risk of type 2 diabetes referred to an intensive lifestyle change programme."
@@ -37,7 +37,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 4,outcome,c,QS167-4-outcome-c,"Service user experience among people from black, Asian and other minority ethnic groups who accessed cardiac rehabilitation programmes.",NA,NA
 5,structure,a,QS167-5-structure-a,"Evidence of local arrangements to improve access to mental health services for people from black, Asian and other minority ethnic groups.",NA,NA
 5,structure,b,QS167-5-structure-b,"Evidence of local arrangements to ensure that mental health services are provided in a variety of settings that people from black, Asian and other minority ethnic groups can choose from.",NA,NA
-5,process,a,QS167-5-process-a,Based settings.,Based settings.,"The number of people from black, Asian and other minority ethnic groups accessing mental health services."
+5,process,a,QS167-5-process-a,"Proportion of people from black, Asian and other minority ethnic groups accessing mental health services who are offered support in community-based settings.",The number in the denominator offered support in community-based settings.,"The number of people from black, Asian and other minority ethnic groups accessing mental health services."
 5,outcome,a,QS167-5-outcome-a,"Rates of uptake of mental health services among people from black, Asian and other minority ethnic groups.",NA,NA
 5,outcome,b,QS167-5-outcome-b,"Proportion of people from black, Asian and other minority ethnic groups who complete treatment from mental health services.",NA,NA
 5,outcome,c,QS167-5-outcome-c,"Service user experience among people from black, Asian and other minority ethnic groups who accessed mental health services.",NA,NA

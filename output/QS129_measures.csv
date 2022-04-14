@@ -1,10 +1,10 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS129-1-structure-a,"Acting reversible contraception, and the local services that provide them.",NA,NA
-1,structure,b,QS129-1-structure-b,Acting reversible contraception.,NA,NA
-1,process,a,QS129-1-process-a,Acting reversible contraception.,Acting reversible contraception.,The number of women who ask for contraception from contraceptive services.
-1,process,b,QS129-1-process-b,Acting reversible contraception.,Acting reversible contraception.,The number of women who ask for contraception from contraceptive services.
+1,structure,a,QS129-1-structure-a,"Evidence that accessible information is available about the full range of contraceptive methods, including long-acting reversible contraception, and the local services that provide them.",NA,NA
+1,structure,b,QS129-1-structure-b,"Evidence of local processes and referral pathways to ensure that women asking for contraception from contraceptive services are given information about, and offered a choice of, all methods including long-acting reversible contraception.",NA,NA
+1,process,a,QS129-1-process-a,"Proportion of women who ask for contraception from contraceptive services who are given information about all methods, including long-acting reversible contraception.","The number in the denominator who are given information about all methods, including long-acting reversible contraception.",The number of women who ask for contraception from contraceptive services.
+1,process,b,QS129-1-process-b,"Proportion of women who ask for contraception from contraceptive services who are offered a choice of all contraceptive methods, including long-acting reversible contraception.","The number in the denominator who are offered a choice of all contraceptive methods, including long-acting reversible contraception.",The number of women who ask for contraception from contraceptive services.
 1,outcome,a,QS129-1-outcome-a,Contraceptive use in women.,NA,NA
-1,outcome,b,QS129-1-outcome-b,Acting reversible contraception.,NA,NA
+1,outcome,b,QS129-1-outcome-b,Uptake of long-acting reversible contraception.,NA,NA
 1,outcome,c,QS129-1-outcome-c,Women's satisfaction with their choice of contraceptive method.,NA,NA
 2,structure,a,QS129-2-structure-a,Evidence of local processes to ensure that women asking for emergency contraception are told that an intrauterine device is more effective than an oral method.,NA,NA
 2,process,a,QS129-2-process-a,Proportion of requests for emergency contraception where the woman is told that an intrauterine device is more effective than an oral method.,The number in the denominator where the woman is told that an intrauterine device is more effective than an oral method.,The number of requests for emergency contraception.
@@ -14,7 +14,7 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 3,structure,b,QS129-3-structure-b,Evidence of local processes to ensure that a healthcare practitioner offers women a choice of all contraceptive methods before discharge from an abortion service.,NA,NA
 3,process,a,QS129-3-process-a,Proportion of women who discuss contraception and all contraceptive methods with a healthcare practitioner at an assessment for abortion.,The number in the denominator who discuss contraception and all contraceptive methods with a healthcare practitioner.,The number of women having an assessment for abortion.
 3,process,b,QS129-3-process-b,Proportion of women who are offered a choice of all contraceptive methods before discharge from an abortion service.,The number in the denominator who are offered a choice of all contraceptive methods before discharge.,The number of women discharged from an abortion service.
-3,outcome,a,QS129-3-outcome-a,Acting reversible contraception at the time of abortion.,NA,NA
+3,outcome,a,QS129-3-outcome-a,Uptake of long-acting reversible contraception at the time of abortion.,NA,NA
 3,outcome,b,QS129-3-outcome-b,Contraception uptake rate after abortion.,NA,NA
 3,outcome,c,QS129-3-outcome-c,Women who have more than 1 abortion.,NA,NA
 4,structure,a,QS129-4-structure-a,Evidence of local processes to ensure that women who give birth are given information about all contraceptive methods by their midwife within 7 days of delivery.,NA,NA

@@ -1,53 +1,53 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS31-1-structure-a,"Quality mandatory training and support packages that equip them to provide warm, nurturing care.",NA,NA
-1,structure,b,QS31-1-structure-b,After children and young people receive specialist training and support that helps them to develop positive attachments with children in their care.,NA,NA
-1,outcome,a,QS31-1-outcome-a,"After children and young people that they feel they receive warm, nurturing care.",NA,NA
-1,outcome,b,QS31-1-outcome-b,Esteem.,NA,NA
+1,structure,a,QS31-1-structure-a,"Evidence of local arrangements for all carers of looked-after children and young people to receive ongoing high-quality mandatory training and support packages that equip them to provide warm, nurturing care.",NA,NA
+1,structure,b,QS31-1-structure-b,Evidence of local arrangements to ensure that all carers of looked-after children and young people receive specialist training and support that helps them to develop positive attachments with children in their care.,NA,NA
+1,outcome,a,QS31-1-outcome-a,"Feedback from looked-after children and young people that they feel they receive warm, nurturing care.",NA,NA
+1,outcome,b,QS31-1-outcome-b,Looked-after children and young people's self-reported wellbeing and self-esteem.,NA,NA
 1,outcome,c,QS31-1-outcome-c,Carer satisfaction with provision of training and support.,NA,NA
 2,structure,a,QS31-2-structure-a,"Evidence of local arrangements for the team working with the child or young person to work collaboratively to manage the multidisciplinary care plan, with the named lead social worker taking a lead professional role.",NA,NA
-2,structure,b,QS31-2-structure-b,"Sharing protocols between health, social care and educational services.",NA,NA
+2,structure,b,QS31-2-structure-b,"Evidence of effective local information-sharing protocols between health, social care and educational services.",NA,NA
 2,structure,c,QS31-2-structure-c,Evidence of local arrangements to include the carer as part of the team working with the child or young person.,NA,NA
-2,outcome,a,QS31-2-outcome-a,Tell their life and medical history when using services.,NA,NA
-2,outcome,b,QS31-2-outcome-b,"After children and young people that they feel information about them is shared appropriately between people working with them, and caring for them.",NA,NA
+2,outcome,a,QS31-2-outcome-a,Feedback from looked-after children and young people that they do not have to re-tell their life and medical history when using services.,NA,NA
+2,outcome,b,QS31-2-outcome-b,"Feedback from looked-after children and young people that they feel information about them is shared appropriately between people working with them, and caring for them.",NA,NA
 2,outcome,c,QS31-2-outcome-c,Feedback from carers that they feel involved as part of the team working with the child or young person.,NA,NA
 2,outcome,d,QS31-2-outcome-d,Feedback from the team working with the child or young person that they have all of the information they need to work effectively.,NA,NA
-3,structure,a,QS31-3-structure-a,Placement.,NA,NA
-3,structure,b,QS31-3-structure-b,After children and young people in choices and discussions about placement changes.,NA,NA
+3,structure,a,QS31-3-structure-a,"Evidence of a strategy to commission a diverse range of placements for looked-after children and young people, which includes arrangements for considering sibling co-placement.",NA,NA
+3,structure,b,QS31-3-structure-b,Evidence of local arrangements to involve looked-after children and young people in choices and discussions about placement changes.,NA,NA
 3,structure,c,QS31-3-structure-c,Evidence of local arrangements for identifying potential carers among extended family and friends and assessing them for suitability at the start of the care planning process.,NA,NA
 3,structure,d,QS31-3-structure-d,"Evidence of local arrangements to ensure that the child or young person gets to know their new carers and placement through visits and, where possible, overnight stays before they move to the placement.",NA,NA
-3,outcome,a,QS31-3-outcome-a,After children and young people's satisfaction with their placement.,NA,NA
+3,outcome,a,QS31-3-outcome-a,Looked-after children and young people's satisfaction with their placement.,NA,NA
 3,outcome,b,QS31-3-outcome-b,Carer satisfaction with decisions made to place children or young people in their care.,NA,NA
-3,outcome,c,QS31-3-outcome-c,After children and young people that they were involved in decisions about placement changes.,NA,NA
+3,outcome,c,QS31-3-outcome-c,Feedback from looked-after children and young people that they were involved in decisions about placement changes.,NA,NA
 3,outcome,d,QS31-3-outcome-d,Placement stability.,NA,NA
 3,outcome,e,QS31-3-outcome-e,Proportion of all placements that are emergency placements.,NA,NA
-4,structure,a,QS31-4-structure-a,"After children and young people to explore and make sense of their identity, including their life story and appropriate health history.",NA,NA
-4,structure,b,QS31-4-structure-b,"After children and young people value, including former carers, siblings, other family members, friends or professionals, if this is desired and in their best interests.",NA,NA
-4,outcome,a,QS31-4-outcome-a,"After children and young people that they feel supported to explore and make sense of their identity and life story, including their health history.",NA,NA
-4,outcome,b,QS31-4-outcome-b,After children and young people that they feel supported to have continued contact with people they value.,NA,NA
-4,outcome,c,QS31-4-outcome-c,After children and young people that they have a supportive peer network.,NA,NA
-5,structure,a,QS31-5-structure-a,After children and young people receive specialist and dedicated services to meet their needs. These services should be delivered on a continuing basis within agreed timescales.,NA,NA
+4,structure,a,QS31-4-structure-a,"Evidence of local arrangements to offer ongoing activities to looked-after children and young people to explore and make sense of their identity, including their life story and appropriate health history.",NA,NA
+4,structure,b,QS31-4-structure-b,"Evidence of local arrangements to coordinate ongoing contact with people that looked-after children and young people value, including former carers, siblings, other family members, friends or professionals, if this is desired and in their best interests.",NA,NA
+4,outcome,a,QS31-4-outcome-a,"Feedback from looked-after children and young people that they feel supported to explore and make sense of their identity and life story, including their health history.",NA,NA
+4,outcome,b,QS31-4-outcome-b,Feedback from looked-after children and young people that they feel supported to have continued contact with people they value.,NA,NA
+4,outcome,c,QS31-4-outcome-c,Feedback from looked-after children and young people that they have a supportive peer network.,NA,NA
+5,structure,a,QS31-5-structure-a,Evidence of local arrangements to ensure that looked-after children and young people receive specialist and dedicated services to meet their needs. These services should be delivered on a continuing basis within agreed timescales.,NA,NA
 5,structure,b,QS31-5-structure-b,"Evidence of local arrangements for health plans to be monitored and updated by independent reviewing officers, social workers and the lead health professional to ensure that the child or young person's continuing needs are being met.",NA,NA
-5,structure,c,QS31-5-structure-c,"After young people moving from child to adult mental health services, until a handover with an assessment and completed care plan has been developed with the adult service.",NA,NA
-5,process,a,QS31-5-process-a,"After young people who are moving from child to adult mental health services, whose case management and treatment continues until a handover is completed with the adult service.",The number of people in the denominator who have their case management and treatment continued until handover with the adult service.,After young people who are moving from child to adult mental health services.
-5,outcome,a,QS31-5-outcome-a,After children and young people that they have access to the services they need.,NA,NA
+5,structure,c,QS31-5-structure-c,"Evidence of local arrangements for case management and treatment to continue for looked-after young people moving from child to adult mental health services, until a handover with an assessment and completed care plan has been developed with the adult service.",NA,NA
+5,process,a,QS31-5-process-a,"Proportion of looked-after young people who are moving from child to adult mental health services, whose case management and treatment continues until a handover is completed with the adult service.",The number of people in the denominator who have their case management and treatment continued until handover with the adult service.,The number of looked-after young people who are moving from child to adult mental health services.
+5,outcome,a,QS31-5-outcome-a,Feedback from looked-after children and young people that they have access to the services they need.,NA,NA
 5,outcome,b,QS31-5-outcome-b,"Feedback from recognised assessment tools that the child, young person or care leaver's needs are being met through access to specialist and dedicated services when needed.",NA,NA
 5,outcome,c,QS31-5-outcome-c,Feedback from carers that they feel the needs of children and young people that they look after are being met through access to specialist and dedicated services when needed.,NA,NA
 6,structure,a,QS31-6-structure-a,Evidence of local arrangements to ensure the placing authority shares relevant information before a child or young person is placed across a local authority or health boundary.,NA,NA
 6,structure,b,QS31-6-structure-b,Evidence of local arrangements to ensure that an assessment of health needs has been carried out before a child or young person is placed across a local authority or health boundary.,NA,NA
 6,structure,c,QS31-6-structure-c,Evidence of local arrangements to ensure there is agreement between placing and receiving teams about schooling and healthcare arrangements before a child or young person is placed across a local authority or health boundary.,NA,NA
-6,structure,d,QS31-6-structure-d,After children and young people have continued contact with key professionals when they are placed across a local authority or health boundary.,NA,NA
-6,process,a,QS31-6-process-a,After children and young people placed across a local authority or health boundary for whom relevant information was shared before the placement took place.,The number of people in the denominator for whom all relevant information was shared before the placement took place.,After children and young people placed across a local authority or health boundary.
-6,process,b,QS31-6-process-b,After children and young people for whom an assessment of health needs was carried out before they were placed across a local authority or health boundary.,The number of people in the denominator who received an assessment of health needs before they were placed across a local authority or health boundary.,After children and young people placed across a local authority or health boundary.
-6,outcome,a,QS31-6-outcome-a,After children and young people that they remain in contact with key professionals when they move across a local authority or health boundary.,NA,NA
+6,structure,d,QS31-6-structure-d,Evidence of local arrangements to ensure that looked-after children and young people have continued contact with key professionals when they are placed across a local authority or health boundary.,NA,NA
+6,process,a,QS31-6-process-a,Proportion of looked-after children and young people placed across a local authority or health boundary for whom relevant information was shared before the placement took place.,The number of people in the denominator for whom all relevant information was shared before the placement took place.,The number of looked-after children and young people placed across a local authority or health boundary.
+6,process,b,QS31-6-process-b,Proportion of looked-after children and young people for whom an assessment of health needs was carried out before they were placed across a local authority or health boundary.,The number of people in the denominator who received an assessment of health needs before they were placed across a local authority or health boundary.,The number of looked-after children and young people placed across a local authority or health boundary.
+6,outcome,a,QS31-6-outcome-a,Feedback from looked-after children and young people that they remain in contact with key professionals when they move across a local authority or health boundary.,NA,NA
 6,outcome,b,QS31-6-outcome-b,Carer satisfaction with the arrangements made for children and young people placed with them from a different area.,NA,NA
 7,structure,a,QS31-7-structure-a,Evidence of local arrangements for the designated teacher to engage with the child or young person's social worker and carer in developing and monitoring their education plans.,NA,NA
 7,structure,b,QS31-7-structure-b,Evidence of supportive pathways into further and higher education and training.,NA,NA
-7,structure,c,QS31-7-structure-c,Esteem.,NA,NA
-7,outcome,a,QS31-7-outcome-a,"After children and young people that they feel supported to access education, training or employment that is right for them.",NA,NA
-7,outcome,b,QS31-7-outcome-b,After children and young people.,NA,NA
-7,outcome,c,QS31-7-outcome-c,After children and young people.,NA,NA
+7,structure,c,QS31-7-structure-c,"Evidence of supportive pathways into creative arts, physical activities and other hobbies and interests that support wellbeing and build self-esteem.",NA,NA
+7,outcome,a,QS31-7-outcome-a,"Feedback from looked-after children and young people that they feel supported to access education, training or employment that is right for them.",NA,NA
+7,outcome,b,QS31-7-outcome-b,Educational attainment among looked-after children and young people.,NA,NA
+7,outcome,c,QS31-7-outcome-c,"Education, employment or training status among looked-after children and young people.",NA,NA
 8,structure,a,QS31-8-structure-a,Evidence of local arrangements to ensure pathway planning is responsive to the needs of young people preparing to leave care and equips them with the skills they need to live independently.,NA,NA
-8,structure,b,QS31-8-structure-b,", if they experience difficulty in moving to live independently.",NA,NA
+8,structure,b,QS31-8-structure-b,"Evidence of local arrangements to ensure that care leavers are given the option to remain in a stable foster home or residential home beyond the age of 18, and to return to the care of the local authority, including their previous placement (if possible), if they experience difficulty in moving to live independently.",NA,NA
 8,structure,c,QS31-8-structure-c,Evidence that a range of accommodation and support is available for care leavers.,NA,NA
 8,outcome,a,QS31-8-outcome-a,Feedback from care leavers that they felt supported to move to live independently at their own pace.,NA,NA
 8,outcome,b,QS31-8-outcome-b,Care leaver satisfaction with their accommodation.,NA,NA

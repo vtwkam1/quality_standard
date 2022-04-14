@@ -1,28 +1,29 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS72-1-structure-a,,,
-1,process,a,QS72-1-process-a,,,
-1,process,b,QS72-1-process-b,,,
-1,process,c,QS72-1-process-c,,,
-1,process,d,QS72-1-process-d,,,
-1,outcome,a,QS72-1-outcome-a,,,
-2,structure,a,QS72-2-structure-a,,,
-2,structure,b,QS72-2-structure-b,,,
-2,process,a,QS72-2-process-a,,,
-3,structure,a,QS72-3-structure-a,,,
-3,structure,b,QS72-3-structure-b,,,
-3,process,a,QS72-3-process-a,,,
-3,process,b,QS72-3-process-b,,,
-3,process,c,QS72-3-process-c,,,
-4,error,NA,NA,,,
-5,structure,a,QS72-5-structure-a,,,
-5,process,a,QS72-5-process-a,,,
-6,error,NA,NA,,,
-7,structure,a,QS72-7-structure-a,,,
-7,process,a,QS72-7-process-a,,,
-8,structure,a,QS72-8-structure-a,,,
-8,structure,b,QS72-8-structure-b,,,
-8,process,a,QS72-8-process-a,,,
-8,outcome,a,QS72-8-outcome-a,,,
-8,outcome,b,QS72-8-outcome-b,,,
-8,outcome,c,QS72-8-outcome-c,,,
-8,outcome,d,QS72-8-outcome-d,,,
+1,structure,a,QS72-1-structure-a,"Evidence that adults preparing for or receiving renal replacement therapy, and their family members or carers, undertake individualised education programmes at specialist renal centres.",NA,NA
+1,process,a,QS72-1-process-a,Proportion of adults preparing for renal replacement therapy who undertake individualised education programmes at specialist renal centres.,The number in the denominator who undertake individualised education programmes at specialist renal centres.,The number of adults preparing for renal replacement therapy.
+1,process,b,QS72-1-process-b,Proportion of adults receiving renal replacement therapy who undertake individualised education programmes at specialist renal centres.,The number in the denominator who undertake individualised education programmes at specialist renal centres.,The number of adults receiving renal replacement therapy.
+1,process,c,QS72-1-process-c,Proportion of family members or carers of adults preparing for renal replacement therapy who undertake individualised education programmes at specialist renal centres.,The number in the denominator who undertake individualised education programmes at specialist renal centres.,The number of family members or carers of adults preparing for renal replacement therapy.
+1,process,d,QS72-1-process-d,Proportion of family members or carers of adults receiving renal replacement therapy who undertake individualised education programmes at specialist renal centres.,The number in the denominator who undertake individualised education programmes at specialist renal centres.,The number of family members or carers of adults receiving renal replacement therapy.
+1,outcome,a,QS72-1-outcome-a,Patient satisfaction feedback from adults preparing for or receiving renal replacement therapy (and their family members and carers) about their individualised education programmes on renal replacement therapy at specialist renal centres.,NA,NA
+2,structure,a,QS72-2-structure-a,Evidence of local arrangements to ensure that adults who will need renal replacement therapy have their suitability for kidney transplantation assessed at the earliest opportunity.,NA,NA
+2,structure,b,QS72-2-structure-b,"Evidence of local arrangements to ensure that adults who will need renal replacement therapy receive a pre‑emptive kidney transplant, if they are medically suitable.",NA,NA
+2,process,a,QS72-2-process-a,Proportion of adults who will need renal replacement therapy who are assessed for transplant suitability.,The number in the denominator who are assessed for transplant suitability.,The number of adults who will need renal replacement therapy.
+2,process,b,QS72-2-process-b,"Proportion of adults who will need renal replacement therapy and are medically suitable for pre‑emptive kidney transplantation, who receive a pre‑emptive kidney transplant.",The number in the denominator receiving a pre‑emptive kidney transplant.,The number of adults who will need renal replacement therapy and are medically suitable for pre‑emptive kidney transplantation.
+3,structure,a,QS72-3-structure-a,Evidence of local arrangements to ensure that adults on dialysis have their suitability for kidney transplantation assessed at the earliest opportunity.,NA,NA
+3,structure,b,QS72-3-structure-b,"Evidence of local arrangements to ensure that adults on dialysis receive a kidney transplant, if they are medically suitable.",NA,NA
+3,process,a,QS72-3-process-a,Proportion of adults receiving dialysis that was started in a planned way (excluding those presenting late in advanced chronic kidney disease) who are medically suitable and active on the kidney transplant waiting list within 6 months of starting dialysis.,The number in the denominator active on the kidney transplant waiting list within 6 months of starting dialysis.,The number of adults receiving dialysis that was started in a planned way who are medically suitable for kidney transplantation.
+3,process,b,QS72-3-process-b,Proportion of adults receiving dialysis that was started in an unplanned way who are medically suitable and active on the kidney transplant waiting list within 12 months of starting dialysis.,The number in the denominator active on the kidney transplant waiting list within 12 months of starting dialysis.,The number of adults receiving dialysis that was started in an unplanned way who are medically suitable for kidney transplantation.
+3,process,c,QS72-3-process-c,"Proportion of adults previously or currently on dialysis who are medically suitable for, and who receive, a kidney transplant.",The number in the denominator who receive a kidney transplant.,"The number of adults previously or currently on dialysis, who are medically suitable for a kidney transplant."
+4,error,NA,QS72-4-error,NA,NA,NA
+5,structure,a,QS72-5-structure-a,Evidence of local arrangements to ensure that adults on long‑term dialysis are offered the option of home‑based dialysis.,NA,NA
+5,process,a,QS72-5-process-a,Proportion of adults on long‑term dialysis have a recorded discussion about the option of home‑based dialysis.,The number in the denominator who have a recorded discussion about the option of home-based dialysis.,The number of adults on long‑term dialysis.
+6,error,NA,QS72-6-error,NA,NA,NA
+7,structure,a,QS72-7-structure-a,Evidence of local arrangements to ensure that adults who have a suspected acute rejection episode have a transplant kidney biopsy carried out and reported on within 24 hours.,NA,NA
+7,process,a,QS72-7-process-a,Proportion of adults with a suspected acute rejection episode who have a transplant kidney biopsy carried out and reported on within 24 hours.,The number in the denominator who have a transplant kidney biopsy carried out and reported on within 24 hours.,The number of adults with a suspected acute rejection episode.
+8,structure,a,QS72-8-structure-a,Evidence of local arrangements to ensure that adults receiving haemodialysis have their vascular access monitored and maintained using systematic assessment.,NA,NA
+8,structure,b,QS72-8-structure-b,Evidence of a local protocol to ensure that complications of vascular access are recorded and regularly reviewed within the unit.,NA,NA
+8,process,a,QS72-8-process-a,Proportion of adults receiving haemodialysis who have their vascular access monitored and maintained using systematic assessment.,The number in the denominator who have a documented plan recording the monitoring and maintenance of their vascular access using systematic assessment.,The number of adults receiving haemodialysis.
+8,outcome,a,QS72-8-outcome-a,"Infection rates (by vascular access type: arteriovenous fistula, arteriovenous graft, non‑tunnelled line, tunnelled line).",NA,NA
+8,outcome,b,QS72-8-outcome-b,Rupture of vascular access (fistula and graft).,NA,NA
+8,outcome,c,QS72-8-outcome-c,Catheter patency.,NA,NA
+8,outcome,d,QS72-8-outcome-d,Interventions needed for non‑functioning or inadequately functioning access.,NA,NA

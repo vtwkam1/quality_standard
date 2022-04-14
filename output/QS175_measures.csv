@@ -7,21 +7,21 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,outcome,c,QS175-1-outcome-c,Rate of recovery for people with eating disorders.,NA,NA
 2,structure,a,QS175-2-structure-a,Evidence of local arrangements to provide psychological treatments for people with eating disorders.,NA,NA
 2,process,a,QS175-2-process-a,Proportion of people with eating disorders who have a documented discussion with a healthcare professional about their options for psychological treatment at diagnosis.,The number in the denominator who have a documented discussion with a healthcare professional about their options for psychological treatment at diagnosis.,The number of people diagnosed with eating disorders.
-3,structure,a,QS175-3-structure-a,Line psychological treatment for people with binge eating disorder.,NA,NA
-3,process,a,QS175-3-process-a,Line psychological treatment.,Line psychological treatment.,The number of people diagnosed with binge eating disorder.
+3,structure,a,QS175-3-structure-a,Evidence of local arrangements to provide a guided self-help programme as first-line psychological treatment for people with binge eating disorder.,NA,NA
+3,process,a,QS175-3-process-a,Proportion of people with binge eating disorder who participate in a guided self-help programme as first-line psychological treatment.,The number in the denominator who participate in a guided self-help programme as first-line psychological treatment.,The number of people diagnosed with binge eating disorder.
 3,outcome,a,QS175-3-outcome-a,Binge eating frequency for people with binge eating disorder.,NA,NA
 3,outcome,b,QS175-3-outcome-b,Rate of relapse for people with binge eating disorder.,NA,NA
-4,structure,a,QS175-4-structure-a,BN to children and young people with bulimia nervosa.,NA,NA
-4,process,a,QS175-4-process-a,BN.,BN.,The number of children and young people diagnosed with bulimia nervosa.
+4,structure,a,QS175-4-structure-a,Evidence of local arrangements to offer FT-BN to children and young people with bulimia nervosa.,NA,NA
+4,process,a,QS175-4-process-a,Proportion of children and young people with bulimia nervosa who are offered FT-BN.,The number in the denominator who are offered FT-BN.,The number of children and young people diagnosed with bulimia nervosa.
 4,outcome,a,QS175-4-outcome-a,Binge eating frequency for children and young people with bulimia nervosa.,NA,NA
 4,outcome,b,QS175-4-outcome-b,Purging frequency for children and young people with bulimia nervosa.,NA,NA
 4,outcome,c,QS175-4-outcome-c,Rate of recovery for children and young people with bulimia nervosa.,NA,NA
-5,structure,a,QS175-5-structure-a,.,NA,NA
+5,structure,a,QS175-5-structure-a,"Evidence of joint working arrangements, including regular liaison and meetings to discuss care plans, between eating disorder services and other services, using formal processes of care planning, such as the Care Programme Approach (CPA).",NA,NA
 5,process,a,QS175-5-process-a,Proportion of people with eating disorders who are supported by more than one service who have a care plan that explains how the services will work together.,The number in the denominator who have a care plan that explains how the services will work together.,The number of people diagnosed with eating disorders who are supported by more than one service.
 5,process,b,QS175-5-process-b,Proportion of people with eating disorders who are supported by more than one service and have CPA meetings to discuss their care plan.,The number in the denominator who have their care plan discussed in their last CPA meeting.,The number of people diagnosed with eating disorders who are supported by more than one service and have a care plan.
 5,outcome,a,QS175-5-outcome-a,Rate of relapse for people with eating disorders who are supported by more than one service.,NA,NA
 5,outcome,b,QS175-5-outcome-b,Service user experience of eating disorder services.,NA,NA
-6,structure,a,QS175-6-structure-a,.,NA,NA
+6,structure,a,QS175-6-structure-a,"Evidence of joint transition protocols between eating disorder services and other services, using formal processes of care planning such as the Care Programme Approach (CPA).",NA,NA
 6,structure,b,QS175-6-structure-b,"Evidence of joint working arrangements, including regular liaison and meetings, to discuss risk assessment and monitoring at transition between eating disorder services and other services providing care for people with eating disorders.",NA,NA
 6,process,a,QS175-6-process-a,Proportion of people with eating disorders moving between services who have a care plan that includes a risk assessment before transfer.,The number in the denominator who have a care plan that includes a risk assessment before transfer.,The number of people with eating disorders who are moving between services.
 6,process,b,QS175-6-process-b,Proportion of people with eating disorders moving between services who have a care plan that includes a risk assessment after transfer.,The number in the denominator who have a care plan that includes a risk assessment after transfer.,The number of people with eating disorders who are moving between services.

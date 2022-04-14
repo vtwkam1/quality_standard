@@ -3,8 +3,8 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 1,outcome,a,QS137-1-outcome-a,Number of older people identified as at risk of a decline in their independence and mental wellbeing.,NA,NA
 1,outcome,b,QS137-1-outcome-b,Incidence of mental health conditions among older people identified as being at risk of decline.,NA,NA
 1,outcome,c,QS137-1-outcome-c,Incidence of admission to supported care facilities among older people identified as being at risk of decline.,NA,NA
-2,structure,a,QS137-2-structure-a,Based physical activity programmes are in place for older people most at risk of a decline in their independence and mental wellbeing.,NA,NA
-2,process,a,QS137-2-process-a,Based physical activity programmes.,Based physical activity programmes.,The number of older people most at risk of a decline in their independence and mental wellbeing.
+2,structure,a,QS137-2-structure-a,"Evidence of local arrangements to ensure tailored, community-based physical activity programmes are in place for older people most at risk of a decline in their independence and mental wellbeing.",NA,NA
+2,process,a,QS137-2-process-a,"Proportion of older people most at risk of a decline in their independence and mental wellbeing who take part in tailored, community-based physical activity programmes.","The number in the denominator who take part in tailored, community-based physical activity programmes.",The number of older people most at risk of a decline in their independence and mental wellbeing.
 2,outcome,a,QS137-2-outcome-a,Change in physical activity among older people.,NA,NA
 2,outcome,b,QS137-2-outcome-b,Incidence of mental health conditions among older people identified as being at risk of decline.,NA,NA
 2,outcome,c,QS137-2-outcome-c,Incidence of admission to supported care facilities among older people identified as being at risk of decline.,NA,NA

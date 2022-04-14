@@ -1,12 +1,12 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS92-1-structure-a,Reduction approach to smoking.,NA,NA
-1,process,a,QS92-1-process-a,Reduction approach to smoking.,Reduction approach to smoking.,The number of people identified as not wanting or not ready to stop smoking.
-1,outcome,a,QS92-1-outcome-a,Reduction approaches.,NA,NA
+1,structure,a,QS92-1-structure-a,"Evidence of local arrangements and written protocols to ensure that people who do not want, or are not ready, to stop smoking are offered a harm-reduction approach to smoking.",NA,NA
+1,process,a,QS92-1-process-a,Proportion of people identified as not wanting or not ready to stop smoking who are offered a harm-reduction approach to smoking.,The number in the denominator who are offered a harm-reduction approach to smoking.,The number of people identified as not wanting or not ready to stop smoking.
+1,outcome,a,QS92-1-outcome-a,Uptake of smoking harm-reduction approaches.,NA,NA
 2,structure,a,QS92-2-structure-a,"Evidence of local arrangements and protocols to ensure that people who do not want, or are not ready, to stop smoking are advised that health problems associated with smoking are caused primarily by components in tobacco smoke other than nicotine.",NA,NA
 2,process,a,QS92-2-process-a,Proportion of people identified as not wanting or not ready to stop smoking who are advised that health problems associated with smoking are caused primarily by components in tobacco smoke other than nicotine.,The number in the denominator who are advised that health problems associated with smoking are caused primarily by components in tobacco smoke other than nicotine.,The number of people identified as not wanting or not ready to stop smoking.
 2,outcome,a,QS92-2-outcome-a,Awareness of people who smoke that health problems associated with smoking are caused primarily by components in tobacco smoke other than nicotine.,NA,NA
-3,structure,a,QS92-3-structure-a,Containing products.,NA,NA
-3,process,a,QS92-3-process-a,Containing products.,Containing products.,"The number of people identified as not wanting, or not ready, to stop smoking."
-3,process,b,QS92-3-process-b,Containing products.,Containing products.,"The number of people identified as not wanting, or not ready, to stop smoking."
-3,outcome,a,QS92-3-outcome-a,Containing products.,NA,NA
-4,error,NA,NA,NA,NA,NA
+3,structure,a,QS92-3-structure-a,"Evidence of local arrangements that people who do not want, or are not ready, to stop smoking are advised about and supported to obtain medicinally licensed nicotine-containing products.",NA,NA
+3,process,a,QS92-3-process-a,"Proportion of people identified as not wanting, or not ready, to stop smoking who are advised about using medicinally licensed nicotine-containing products.",The number in the denominator who are advised about using medicinally licensed nicotine-containing products.,"The number of people identified as not wanting, or not ready, to stop smoking."
+3,process,b,QS92-3-process-b,"Proportion of people identified as not wanting, or not ready, to stop smoking who are supported to obtain medicinally licensed nicotine-containing products.",The number in the denominator who are supported to obtain medicinally licensed nicotine-containing products.,"The number of people identified as not wanting, or not ready, to stop smoking."
+3,outcome,a,QS92-3-outcome-a,Uptake of medicinally licensed nicotine-containing products.,NA,NA
+4,error,NA,QS92-4-error,NA,NA,NA

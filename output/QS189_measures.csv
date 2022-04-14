@@ -1,19 +1,19 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS189-1-structure-a,Agency suicide prevention partnerships have a strategic suicide prevention group attended by senior level representatives.,NA,NA
-1,structure,b,QS189-1-structure-b,Agency suicide prevention partnerships have clear governance and accountability structures.,NA,NA
-1,structure,c,QS189-1-structure-c,"Agency suicide prevention partnerships support people with personal experience of a suicide attempt, suicidal thoughts and feelings, or a suicide bereavement, to be involved in the partnership.",NA,NA
-1,outcome,a,QS189-1-outcome-a,Harm.,NA,NA
-1,outcome,b,QS189-1-outcome-b,Harm in the community.,NA,NA
+1,structure,a,QS189-1-structure-a,Evidence that multi-agency suicide prevention partnerships have a strategic suicide prevention group attended by senior level representatives.,NA,NA
+1,structure,b,QS189-1-structure-b,Evidence that multi-agency suicide prevention partnerships have clear governance and accountability structures.,NA,NA
+1,structure,c,QS189-1-structure-c,"Evidence that multi-agency suicide prevention partnerships support people with personal experience of a suicide attempt, suicidal thoughts and feelings, or a suicide bereavement, to be involved in the partnership.",NA,NA
+1,outcome,a,QS189-1-outcome-a,Rate of emergency hospital attendance or admission for intentional self-harm.,NA,NA
+1,outcome,b,QS189-1-outcome-b,Rate of self-harm in the community.,NA,NA
 1,outcome,c,QS189-1-outcome-c,Suicide rate.,NA,NA
-2,structure,a,QS189-2-structure-a,Agency suicide prevention partnerships collect and analyse local information on methods of suicide and locations.,NA,NA
-2,structure,b,QS189-2-structure-b,Agency suicide prevention partnerships identify how they will reduce access to methods of suicide.,NA,NA
-2,structure,c,QS189-2-structure-c,Agency suicide prevention partnerships review progress in reducing access to methods of suicide at least annually.,NA,NA
+2,structure,a,QS189-2-structure-a,Evidence that multi-agency suicide prevention partnerships collect and analyse local information on methods of suicide and locations.,NA,NA
+2,structure,b,QS189-2-structure-b,Evidence that multi-agency suicide prevention partnerships identify how they will reduce access to methods of suicide.,NA,NA
+2,structure,c,QS189-2-structure-c,Evidence that multi-agency suicide prevention partnerships review progress in reducing access to methods of suicide at least annually.,NA,NA
 2,outcome,a,QS189-2-outcome-a,Number of suicides by methods identified in the local suicide prevention action plan.,NA,NA
-2,outcome,b,QS189-2-outcome-b,Frequency locations.,NA,NA
+2,outcome,b,QS189-2-outcome-b,Number of suicides in high-frequency locations.,NA,NA
 2,outcome,c,QS189-2-outcome-c,Suicide rate.,NA,NA
-3,structure,a,QS189-3-structure-a,Agency suicide prevention partnerships have a local media plan that identifies how they will encourage best practice in reporting on suicide and suicidal behaviour.,NA,NA
-3,structure,b,QS189-3-structure-b,Agency suicide prevention partnerships have a named lead for the local media plan.,NA,NA
-3,structure,c,QS189-3-structure-c,Agency suicide prevention partnerships work with other organisations such as the Samaritans to give feedback to local media journalists and editors about reporting on suicide and suicidal behaviour.,NA,NA
+3,structure,a,QS189-3-structure-a,Evidence that multi-agency suicide prevention partnerships have a local media plan that identifies how they will encourage best practice in reporting on suicide and suicidal behaviour.,NA,NA
+3,structure,b,QS189-3-structure-b,Evidence that multi-agency suicide prevention partnerships have a named lead for the local media plan.,NA,NA
+3,structure,c,QS189-3-structure-c,Evidence that multi-agency suicide prevention partnerships work with other organisations such as the Samaritans to give feedback to local media journalists and editors about reporting on suicide and suicidal behaviour.,NA,NA
 3,outcome,a,QS189-3-outcome-a,Number of local media reports of suicide or suicidal behaviour that do not meet best practice criteria.,NA,NA
 3,outcome,b,QS189-3-outcome-b,Suicide rate.,NA,NA
 4,structure,a,QS189-4-structure-a,Evidence of local arrangements to provide training on information sharing and confidentiality based on the Department of Health and Social Care's consensus statement on information sharing and suicide prevention to practitioners in contact with adults presenting to health or care services with suicidal thoughts or plans.,NA,NA

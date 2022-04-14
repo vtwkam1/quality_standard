@@ -7,8 +7,8 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 2,process,a,QS133-2-process-a,Proportion of children and young people with attachment difficulties who have an education plan setting out how they will be supported in school.,The number in the denominator who have an education plan setting out how they will be supported in school.,The number of children and young people with attachment difficulties.
 2,outcome,a,QS133-2-outcome-a,School attendance rates for children and young people with attachment difficulties.,NA,NA
 2,outcome,b,QS133-2-outcome-b,School exclusions for children and young people with attachment difficulties.,NA,NA
-3,structure,a,QS133-3-structure-a,Age children identified to have or be at risk of attachment difficulties are offered a video feedback programme.,NA,NA
-3,process,a,QS133-3-process-a,Age children with or at risk of attachment difficulties whose parents or carers receive a video feedback programme.,The number in the denominator whose parents or carers receive a video feedback programme.,Age children with or at risk of attachment difficulties.
+3,structure,a,QS133-3-structure-a,Evidence of local arrangements to ensure that parents and carers of preschool-age children identified to have or be at risk of attachment difficulties are offered a video feedback programme.,NA,NA
+3,process,a,QS133-3-process-a,Proportion of preschool-age children with or at risk of attachment difficulties whose parents or carers receive a video feedback programme.,The number in the denominator whose parents or carers receive a video feedback programme.,The number of preschool-age children with or at risk of attachment difficulties.
 3,outcome,a,QS133-3-outcome-a,Sensitivity and responsiveness in parents of children with attachment difficulties on the edge of care.,NA,NA
 3,outcome,b,QS133-3-outcome-b,Breakdown in care placements for preschool aged children with or at risk of attachment difficulties.,NA,NA
 4,structure,a,QS133-4-structure-a,"Evidence of local arrangements to provide training, education and support programmes for carers of children and young people with attachment difficulties.",NA,NA

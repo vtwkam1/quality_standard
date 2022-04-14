@@ -12,12 +12,12 @@ statement_number,measure_type,point,measure_id,measure,numerator,denominator
 3,structure,a,QS177-3-structure-a,"Evidence of local care protocols, which ensure that adults with resectable pancreatic cancer and obstructive jaundice have resectional surgery without preoperative biliary drainage unless the drainage is specifically indicated.",NA,NA
 3,process,a,QS177-3-process-a,Proportion of adults with resectable pancreatic cancer and obstructive jaundice with no indication for preoperative biliary drainage who had resectional surgery without the drainage.,The number in the denominator who had resectional surgery without preoperative biliary drainage.,The number of adults with resectable pancreatic cancer and obstructive jaundice with no indication for preoperative biliary drainage.
 3,outcome,a,QS177-3-outcome-a,Time to resectional surgery for adults with resectable pancreatic cancer and obstructive jaundice.,NA,NA
-3,outcome,b,QS177-3-outcome-b,Free survival in adults with resectable pancreatic cancer and obstructive jaundice who had resectable surgery without preoperative biliary drainage.,NA,NA
+3,outcome,b,QS177-3-outcome-b,Disease-free survival in adults with resectable pancreatic cancer and obstructive jaundice who had resectable surgery without preoperative biliary drainage.,NA,NA
 3,outcome,c,QS177-3-outcome-c,Overall survival in adults with resectable pancreatic cancer.,NA,NA
-3,outcome,d,QS177-3-outcome-d,Related quality of life in adults with pancreatic cancer.,NA,NA
-4,structure,a,QS177-4-structure-a,Coated pancreatin.,NA,NA
-4,structure,b,QS177-4-structure-b,Coated pancreatin receive advice on how to take it.,NA,NA
-4,process,a,QS177-4-process-a,Coated pancreatin.,Coated pancreatin.,The number of adults with unresectable pancreatic cancer.
-4,outcome,a,QS177-4-outcome-a,Score in adults with unresectable pancreatic cancer.,NA,NA
-4,outcome,b,QS177-4-outcome-b,Related quality of life in people with pancreatic cancer.,NA,NA
-5,placeholder,NA,NA,NA,NA,NA
+3,outcome,d,QS177-3-outcome-d,Health-related quality of life in adults with pancreatic cancer.,NA,NA
+4,structure,a,QS177-4-structure-a,Evidence of local arrangements to ensure that adults with unresectable pancreatic cancer are prescribed enteric-coated pancreatin.,NA,NA
+4,structure,b,QS177-4-structure-b,Evidence of local arrangements to ensure that adults with unresectable pancreatic cancer prescribed enteric-coated pancreatin receive advice on how to take it.,NA,NA
+4,process,a,QS177-4-process-a,Proportion of adults with unresectable pancreatic cancer prescribed enteric-coated pancreatin.,The number in the denominator prescribed enteric-coated pancreatin.,The number of adults with unresectable pancreatic cancer.
+4,outcome,a,QS177-4-outcome-a,Malnutrition Universal Screening Tool (MUST) score in adults with unresectable pancreatic cancer.,NA,NA
+4,outcome,b,QS177-4-outcome-b,Health-related quality of life in people with pancreatic cancer.,NA,NA
+5,placeholder,NA,QS177-5-placeholder,NA,NA,NA
