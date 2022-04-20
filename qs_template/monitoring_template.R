@@ -1,5 +1,5 @@
 # 
-# qs_directory <- read_csv("./output/qs_directory.csv", col_types = "cc") %>% 
+# qs_directory <- read_csv("./output/qs_directory.csv", col_types = "cc") %>%
 #     mutate(qs_disp = str_c(qs_id, "-", name, sep = " "))
 # 
 # qs_id <- "QS206"
@@ -7,7 +7,7 @@
 # 
 # statement_table <- read_csv(sprintf("./output/%s_statements.csv", qs_id),
 #                                 col_types = "cic"
-#     ) %>% 
+#     ) %>%
 #         mutate(statement_disp = str_c(statement_number, "-", statement, sep = " "))
 # 
 # 
@@ -66,7 +66,7 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
   
   addStyle(wb, 
            qs_id, 
-           style = createStyle(fontSize = 16,
+           style = createStyle(fontSize = 14,
                        textDecoration = "bold"), 
            rows = 1, 
            cols = 1:2, 
