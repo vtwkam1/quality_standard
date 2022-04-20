@@ -1,13 +1,20 @@
 statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS52-1-structure-a,,,
-1,process,a,QS52-1-process-a,,,
-1,outcome,a,QS52-1-outcome-a,,,
-2,structure,a,QS52-2-structure-a,,,
-2,process,a,QS52-2-process-a,,,
-3,structure,a,QS52-3-structure-a,,,
-3,process,a,QS52-3-process-a,,,
-3,outcome,a,QS52-3-outcome-a,,,
-4,structure,a,QS52-4-structure-a,,,
-4,process,a,QS52-4-process-a,,,
-5,structure,a,QS52-5-structure-a,,,
-5,process,a,QS52-5-process-a,,,
+1,structure,a,QS52-1-structure-a,Evidence of local arrangements to ensure that health and social care practitioners receive training to recognise the symptoms of PAD.,NA,NA
+1,structure,b,QS52-1-structure-b,"Evidence of local arrangements to ensure that people who have symptoms of, or who are at risk of developing, PAD are offered a clinical assessment and ABPI measurement.",NA,NA
+1,structure,c,QS52-1-structure-c,Evidence of local arrangements to ensure that all healthcare practitioners undertaking hand-held doppler ultrasound assessment of ABPI are appropriately trained.,NA,NA
+1,process,a,QS52-1-process-a,Proportion of people who have symptoms of PAD who receive a clinical assessment and ABPI measurement.,The number of people in the denominator receiving a clinical assessment and ABPI measurement.,The number of people who have symptoms of PAD.
+1,process,b,QS52-1-process-b,Proportion of people who are at risk of developing PAD who receive a clinical assessment and ABPI measurement.,The number of people in the denominator receiving a clinical assessment and ABPI measurement.,The number of people at risk of developing PAD.
+1,outcome,a,QS52-1-outcome-a,Disease severity at diagnosis.,NA,NA
+2,structure,a,QS52-2-structure-a,Evidence of local arrangements to ensure that people with PAD are offered an assessment of cardiovascular comorbidities and modifiable risk factors.,NA,NA
+2,process,a,QS52-2-process-a,Proportion of people with PAD who receive an assessment of cardiovascular comorbidities and modifiable risk factors.,The number of people in the denominator receiving an assessment of cardiovascular comorbidities and modifiable risk factors.,The number of people with PAD.
+3,structure,a,QS52-3-structure-a,Evidence of local arrangements to ensure the availability of supervised exercise programmes.,NA,NA
+3,process,a,QS52-3-process-a,Proportion of people with intermittent claudication who are offered a supervised exercise programme.,The number of people in the denominator offered a supervised exercise programme.,The number of people with intermittent claudication.
+3,process,b,QS52-3-process-b,Proportion of people with intermittent claudication who start a supervised exercise programme.,The number of people in the denominator starting a supervised exercise programme.,The number of people with intermittent claudication offered a supervised exercise programme.
+3,process,c,QS52-3-process-c,Proportion of people with intermittent claudication who complete a supervised exercise programme.,The number of people in the denominator completing a supervised exercise programme.,The number of people with intermittent claudication who start a supervised exercise programme.
+3,outcome,a,QS52-3-outcome-a,Improvement in pain-free walking distance.,NA,NA
+3,outcome,b,QS52-3-outcome-b,Improvement in health-related quality of life.,NA,NA
+4,structure,a,QS52-4-structure-a,Evidence of local arrangements to ensure that healthcare practitioners undertaking imaging are appropriately trained in the use of duplex ultrasound and MRA for PAD.,NA,NA
+4,structure,b,QS52-4-structure-b,Evidence of local arrangements to ensure that people with PAD being considered for revascularisation who need further imaging after a duplex ultrasound are offered MRA.,NA,NA
+4,process,a,QS52-4-process-a,Proportion of people with PAD being considered for revascularisation needing further imaging after a duplex ultrasound who receive MRA.,The number of people in the denominator receiving MRA.,The number of people with PAD being considered for revascularisation who need further imaging after a duplex ultrasound.
+5,structure,a,QS52-5-structure-a,"Evidence of local arrangements to ensure that people with intermittent claudication are offered angioplasty only when imaging has confirmed it is appropriate, advice on the benefits of modifying risk factors has been given and a supervised exercise programme has not improved symptoms.",NA,NA
+5,process,a,QS52-5-process-a,"Proportion of people with intermittent claudication receiving angioplasty who have had imaging to confirm angioplasty is appropriate, received advice on the benefits of modifying risk factors and undergone a supervised exercise programme that did not improve symptoms.","The number of people in the denominator who have had imaging to confirm angioplasty is appropriate, received advice on the benefits of modifying risk factors and undergone supervised exercise programme that did not improve symptoms.",The number of people with intermittent claudication who receive angioplasty.
