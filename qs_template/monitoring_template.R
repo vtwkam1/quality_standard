@@ -78,26 +78,26 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
                 statement_number, 
                 point, 
                 measure, 
-                point_disp)) %>% 
-      rename(Statement = statement_disp,
-             'Measure type' = measure_type,
-             Measure = measure_disp,
+                point_disp)) %>%
+      select(statement_disp, measure_type, measure_disp, everything()) %>% 
+      rename("Quality statement" = statement_disp,
+             "Measure type" = measure_type,
+             "Quality measure" = measure_disp,
              Numerator = numerator,
              Denominator = denominator
-      ) %>% 
-      select(Statement, 'Measure type', Measure, everything())
+      )
   
   writeDataTable(wb, 
                  qs_id, 
                  measures_ui,
                  startCol = 1,
-                 startRow = 2
+                 startRow = 3
   )
   
   wrap_text <- createStyle(valign = "center",
                        wrapText = T)
   
-  addStyle(wb, qs_id, wrap_text, rows = 2:50, cols = 1:20, gridExpand = T, stack = T)
+  addStyle(wb, qs_id, wrap_text, rows = 3:50, cols = 1:20, gridExpand = T, stack = T)
   
   setColWidths(wb, qs_id, cols = c(1, 3:5), widths = 35)
   
@@ -150,7 +150,7 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
     
     addStyle(wb, 
              sheet_name,
-             style = createStyle(textDecoration = c("bold", "underline")),
+             style = createStyle(textDecoration = "bold"),
              rows = 5,
              cols = 2,
              gridExpand = T,

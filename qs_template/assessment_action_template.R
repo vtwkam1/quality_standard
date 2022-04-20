@@ -102,7 +102,7 @@ assessment_action_template <- function(qs, statement_table) {
              "What is the source of evidence to support this?" = NA,
              "What are the risks associated with not making these improvements?\n(This should be an initial high-level assessment)" = NA,
              "Has this statement been prioritised for improvement?\n(If no, record a date for the review of the decision; if yes, use the remaining columns to record an action plan and monitor delivery)" = NA) %>% 
-      rename(Statement = statement_disp)
+      rename("Quality statement" = statement_disp)
   
   tbl_start <- nrow(header_chunk) + 2
   tbl_end <- tbl_start + nrow(statements_assessment)
@@ -194,7 +194,7 @@ assessment_action_template <- function(qs, statement_table) {
              "Deadline for action\n(dd/mm/yy)" = NA,
              "Progress\n(Provide examples of actions in progress, changes in practices etc)" = NA,
              "Change stage\n(e.g. Not yet actioned, Action in progress, Action completed, Never actioned)" = NA) %>% 
-      rename(Statement = statement_disp)
+      rename("Quality statement" = statement_disp)
   
   class(statements_assessment$`Date action decided\n(dd/mm/yy)`) <- "date"
   

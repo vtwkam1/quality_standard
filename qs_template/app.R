@@ -17,6 +17,8 @@ library(readr)
 library(purrr)
 library(rlang)
 library(openxlsx)
+library(shinyjs)
+
 
 source("./monitoring_template.R")
 source("./assessment_action_template.R")
@@ -28,6 +30,8 @@ qs_directory <- read_csv("../output/qs_directory.csv", col_types = "cc") %>%
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
+    
+    useShinyjs(),
     
     # Change app theme
     theme = bslib::bs_theme(bootswatch = "darkly"),
@@ -48,23 +52,23 @@ ui <- fluidPage(
         # Main panel
         mainPanel(
             tabsetPanel(
-                tabPanel("1. Initial assessment",
+                tabPanel("1. Initial assessment and action plan",
                          tableOutput("statements"),
                          downloadButton("download_assessment",
                                         "Download initial assessment and action plan template")
                         ),
-                tabPanel("2. Statements of interest",
+                tabPanel("2. Monitoring selected statements",
                          checkboxGroupInput("select_statements",
-                                            "Select statements to monitor:",
+                                            "Select quality statements to monitor:",
                                             choices = c("NA",
                                                         "NA",
                                                         "NA"),
                                             width = "100%"
                                             ),
                          actionButton("submit", "Submit"),
-                         tableOutput("measures"),
                          downloadButton("download_monitoring",
-                                        "Download monitoring template")
+                                        "Download monitoring template"),
+                         tableOutput("measures")
                         )
             )
         )
@@ -102,7 +106,7 @@ server <- function(input, output, session) {
       statement_table() %>%
           select(-qs_id, -statement_disp) %>%
           rename(Number = statement_number, 
-                 Statement = statement)
+                 "Quality statement" = statement)
   })
   
   assessment_template <- eventReactive(input$select_qs, {
@@ -156,6 +160,12 @@ server <- function(input, output, session) {
 
   output$measures <- renderTable({monitoring_output()$measures_ui})
   
+  observe({
+      if (input$submit > 0) {
+          enable("download_monitoring")
+      }
+  })
+  
   output$download_monitoring <- downloadHandler(
       filename = function() {
           paste0(qs_id(), "_QSSIT_monitoring", ".xlsx")
@@ -164,6 +174,8 @@ server <- function(input, output, session) {
           saveWorkbook(monitoring_output()$wb, file)
       }
   )
+  
+  disable("download_monitoring")
   
 }
 
