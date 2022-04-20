@@ -19,9 +19,12 @@ library(rlang)
 library(openxlsx)
 
 source("./monitoring_template.R")
+source("./assessment_action_template.R")
+
 
 qs_directory <- read_csv("../output/qs_directory.csv", col_types = "cc") %>% 
-    mutate(qs_disp = str_c(qs_id, "-", name, sep = " "))
+    mutate(qs_disp = str_c(qs_id, "-", name, sep = " ")) %>% 
+    arrange(order(str_order(qs_id, numeric = T)))
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -47,8 +50,8 @@ ui <- fluidPage(
             tabsetPanel(
                 tabPanel("1. Initial assessment",
                          tableOutput("statements"),
-                         downloadButton("download_statements",
-                                        "Download statements")
+                         downloadButton("download_assessment",
+                                        "Download initial assessment and action plan template")
                         ),
                 tabPanel("2. Statements of interest",
                          checkboxGroupInput("select_statements",
@@ -81,7 +84,7 @@ read_measures <- function(qs_id) {
   )
 }
 
-# Define server logic required to draw a histogram
+# 
 server <- function(input, output, session) {
     
   qs_id <- reactive({
@@ -95,24 +98,25 @@ server <- function(input, output, session) {
   # Statements
   statement_table <- reactive(read_statements(qs_id()))
 
-  statement_template <- reactive({
-    statement_table() %>%
-      select(-qs_id, -statement_disp) %>%
-      rename(Number = statement_number, 
-             Statement = statement)
-  })
-
   output$statements <- renderTable({
-    statement_template()
+      statement_table() %>%
+          select(-qs_id, -statement_disp) %>%
+          rename(Number = statement_number, 
+                 Statement = statement)
+  })
+  
+  assessment_template <- eventReactive(input$select_qs, {
+      assessment_action_template(qs = input$select_qs,
+                                 statement_table = statement_table())
   })
 
-  output$download_statements <- downloadHandler(
-    filename = function() {
-      paste0(qs_id(), "_statements", ".csv")
-    },
-    content = function(file) {
-      write_csv(statement_template(), file)
-    }
+  output$download_assessment <- downloadHandler(
+     filename = function() {
+         paste0(qs_id(), "_QSSIT_assessment_action", ".xlsx")
+     },
+     content = function(file) {
+         saveWorkbook(assessment_template(), file)
+     }
   )
   
   observeEvent(input$select_qs, {
@@ -154,7 +158,7 @@ server <- function(input, output, session) {
   
   output$download_monitoring <- downloadHandler(
       filename = function() {
-          paste0(qs_id(), "_QSSIT", ".xlsx")
+          paste0(qs_id(), "_QSSIT_monitoring", ".xlsx")
       },
       content = function(file) {
           saveWorkbook(monitoring_output()$wb, file)
