@@ -170,7 +170,7 @@ extract_statement <- function(qs_links, n, qs_id) {
           
           # Combine measures
           measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>% 
-              filter(label != "data source") %>% 
+              # filter(label != "data source") %>% 
               mutate(measure = str_remove(measure, "^\\(?\\w+\\s?(:|\\)|\u2013|-)") %>% 
                          str_trim() %>% 
                          str_replace("^\\w{1}", toupper)) %>% 
@@ -178,8 +178,19 @@ extract_statement <- function(qs_links, n, qs_id) {
               mutate(measure_id = paste(qs_id, statement_number, measure_type, point, sep = "-")) %>%             
               pivot_wider(names_from = label,
                           values_from = measure) %>% 
-              rename(measure = statement) %>% 
-              select(-qs_id)
+              rename(measure = statement,
+                     data_source = "data source") %>% 
+              select(-qs_id) %>% 
+              relocate(data_source, .after = last_col()) %>% 
+              mutate(data_source = str_remove(data_source, "^\\w+\\s{1}\\w+\\s?[:punct:]{1}") %>% 
+                         str_trim() %>% 
+                         str_replace("^\\w{1}", toupper),
+                     numerator = if_else(measure_type == "outcome" & is.na(numerator), 
+                                         "To be determined locally", 
+                                         numerator),
+                     denominator = if_else(measure_type == "outcome" & is.na(denominator), 
+                                         "To be determined locally", 
+                                         denominator))
           
           if(!("numerator" %in% colnames(measures))) {
               measures$numerator <- NA

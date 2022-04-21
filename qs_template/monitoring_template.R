@@ -84,7 +84,8 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
              "Measure type" = measure_type,
              "Quality measure" = measure_disp,
              Numerator = numerator,
-             Denominator = denominator
+             Denominator = denominator,
+             "Data source" = data_source
       )
   
   writeDataTable(wb, 
@@ -99,7 +100,7 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
   
   addStyle(wb, qs_id, wrap_text, rows = 3:50, cols = 1:20, gridExpand = T, stack = T)
   
-  setColWidths(wb, qs_id, cols = c(1, 3:5), widths = 35)
+  setColWidths(wb, qs_id, cols = c(1, 3:6), widths = 35)
   
   measure_sheet <- function(i, measures_template, wb, qs_header, qs_id) {
     measure <- as.list(measures_template[i, ])
@@ -113,13 +114,16 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
     
     measure_header <- header_fn("Quality measure:", measure$measure_disp)
     
+    data_source_header <- header_fn("Data source:", measure$data_source)
+    
     empty_row <- header_fn(NA, NA)
     
     header_chunk <- bind_rows(qs_header, 
                               statement_header, 
                               empty_row, 
                               measure_type_header, 
-                              measure_header)
+                              measure_header,
+                              data_source_header)
     
     if (!is.na(measure$numerator)) {
         numerator_header <- header_fn("Numerator:", measure$numerator)
@@ -136,7 +140,7 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
               startRow = 1,
               colNames = F)
     
-    tbl_startrow <- 9
+    tbl_startrow <- 10
     tbl_endrow <- 50 + tbl_startrow  
     
     addStyle(wb, 
