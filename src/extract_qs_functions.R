@@ -45,7 +45,8 @@ extract_qs <- function(qs_number) {
                                      measure_id = character(),
                                      measure = character(),
                                      numerator = character(),
-                                     denominator = character())
+                                     denominator = character(),
+                                     data_source = character())
         
         for (i in seq_along(qs_links)) {   
             st_table  <- extract_statement(qs_links, i, qs_id)

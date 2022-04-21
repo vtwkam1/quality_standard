@@ -80,7 +80,8 @@ section_table <- function(section, qs_id, statement_number, section_type) {
                 "statement",
                 label)) %>% 
             # Drop index column
-            select(-point_index)
+            select(-point_index) %>% 
+            filter(!is.na(label))
         
         # Add identifiers
         table <-  table %>% 
@@ -107,7 +108,8 @@ measures_table_fn <- function(statement_number = 9999,
                            measure_id = NA, 
                            measure = NA, 
                            numerator = NA, 
-                           denominator = NA) {
+                           denominator = NA,
+                           data_source = NA) {
   return(tibble(
       statement_number = statement_number,
       measure_type = measure_type,
@@ -115,7 +117,8 @@ measures_table_fn <- function(statement_number = 9999,
       measure_id = measure_id,
       measure = measure,
       numerator = numerator,
-      denominator = denominator
+      denominator = denominator,
+      data_source = data_source
   ))
 }
 
@@ -178,24 +181,33 @@ extract_statement <- function(qs_links, n, qs_id) {
               mutate(measure_id = paste(qs_id, statement_number, measure_type, point, sep = "-")) %>%             
               pivot_wider(names_from = label,
                           values_from = measure) %>% 
-              rename(measure = statement,
-                     data_source = "data source") %>% 
-              select(-qs_id) %>% 
-              relocate(data_source, .after = last_col()) %>% 
-              mutate(data_source = str_remove(data_source, "^\\w+\\s{1}\\w+\\s?[:punct:]{1}") %>% 
-                         str_trim() %>% 
-                         str_replace("^\\w{1}", toupper),
-                     numerator = if_else(measure_type == "outcome" & is.na(numerator), 
-                                         "To be determined locally", 
-                                         numerator),
-                     denominator = if_else(measure_type == "outcome" & is.na(denominator), 
-                                         "To be determined locally", 
-                                         denominator))
+              rename(measure = statement) %>% 
+              select(-qs_id) 
           
           if(!("numerator" %in% colnames(measures))) {
               measures$numerator <- NA
               measures$denominator <- NA
           }
+          
+          if(!("data source" %in% colnames(measures))) {
+              measures$data_source <- NA
+          } else {
+              measures <- measures %>% 
+                  rename(data_source = "data source")
+          }
+          
+          measures <- measures %>% 
+              mutate(numerator = ifelse(measure_type == "outcome" & is.na(numerator), 
+                                         "To be determined locally",
+                                         numerator),
+                     denominator = ifelse(measure_type == "outcome" & is.na(denominator),
+                                           "To be determined locally",
+                                           denominator)) %>% 
+              relocate(data_source, .after = last_col()) %>% 
+              mutate(data_source = str_remove(data_source, "^\\w+\\s{1}\\w+\\s?[:punct:]{1}") %>% 
+                         str_trim() %>% 
+                         str_replace("^\\w{1}", toupper))
+              
           
         }
         
