@@ -7,14 +7,9 @@
 #    http://shiny.rstudio.com/
 #
 
+library(tidyverse)
 library(shiny)
 library(glue)
-library(dplyr)
-library(stringr)
-# library(forcats)
-library(tidyr)
-library(readr)
-library(purrr)
 library(rlang)
 library(openxlsx)
 library(shinyjs)

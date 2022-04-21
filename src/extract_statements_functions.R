@@ -1,3 +1,4 @@
+
 extract_measure <- function(qs_html, measure_type) {
     
     css <- str_c('div[title^="Quality measure"] div[title*="', measure_type, '"] p')
@@ -207,7 +208,7 @@ extract_statement <- function(qs_links, n, qs_id) {
               mutate(data_source = str_remove(data_source, "^\\w+\\s{1}\\w+\\s?[:punct:]{1}") %>% 
                          str_trim() %>% 
                          str_replace("^\\w{1}", toupper))
-              
+          
           
         }
         

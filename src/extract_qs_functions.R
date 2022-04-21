@@ -1,22 +1,31 @@
 extract_qs <- function(qs_number) {
     
+    # Concatenate number inputted to QS format, e.g. 1 -> "QS1"
     qs_id <- paste0("QS", qs_number)
+    
+    # Generate url of QS
     qs_url <- paste0("https://www.nice.org.uk/guidance/qs", qs_number)
     
-    # Returns xml_document object with webpage html
+    # Reads url and returns xml_document object of webpage
     qs_html <- read_html(qs_url)
     
-    # Extract links to quality statements within quality standard
+    # Extract links to the quality statements within the quality standard
     qs_links <- qs_html %>% 
+        # Select all <a> elements which are descendants of the element with id="Guidance-Menu"
         html_elements("#Guidance-Menu a") %>% 
+        # Get the href attribute (specifies url of page the link goes to), ie get all links
         html_attr("href") %>%
+        # Add the beginning of the NICE url so it is a complete url
         str_c("https://www.nice.org.uk", .) %>% 
+        # Only keep the links which go to quality statements
         str_subset(., regex("statement-\\d+", ignore_case = T))
     
     if (!is_empty(qs_links)) {
         # Capture quality standard name
         qs_name <- qs_html %>% 
+            # Select element with id="content_start"
             html_elements("#content-start") %>% 
+            # Retrieve text
             html_text2()
         
         qs_directory <- tibble(qs_id = qs_id, qs_name = qs_name)
