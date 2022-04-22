@@ -13,7 +13,8 @@ extract_qs <- function(qs_number) {
     qs_links <- qs_html %>% 
         # Select all <a> elements which are descendants of the element with id="Guidance-Menu"
         html_elements("#Guidance-Menu a") %>% 
-        # Get the href attribute (specifies url of page the link goes to), ie get all links
+        # Get the href attribute value (specifies url of page the link goes to), ie get all links (e.g.
+        # "/guidance/qs205/chapter/Quality-statement-1-Standardised-bags")
         html_attr("href") %>%
         # Add the beginning of the NICE url so it is a complete url
         str_c("https://www.nice.org.uk", .) %>% 

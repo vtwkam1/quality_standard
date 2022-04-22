@@ -1,0 +1,20 @@
+qs,Reason
+QS18,"Headings not used for Structure, Process, Outcome. All just in paragraphs under Quality measure. Data source under separate header."
+QS19,Same as QS18
+QS21,Same as QS18
+QS22,"Statement 7 removed, 9 merged, 12 moved"
+QS23,Same as QS18
+QS26,Same as QS18
+QS28,Statement 3 replaced
+QS32,Statement 7 removed
+QS37,"Statement 1, 10, 11 removed."
+QS39,Statement 5 removed
+QS43,Statement 2 removed
+QS45,"Statements 4 and 8 have wrong structure. Structure, Process and Outcome not as headers. Unlike QS18, data source in correct place under "
+QS64,"Statement 3 strange structure. All detail somewhere else, but statement still exists."
+QS72,Statements 4 and 6 removed.
+QS73,Quality measures heading missing for statement 9. Bulletpoints under denominator
+QS92,"Statement 4, Structure header same level hierarchy as Quality measures header"
+QS95,Statement 6 removed
+QS98,"Statement 4. Statement exists, but no detail as refers to other QS"
+QS105,Statement 3 removed

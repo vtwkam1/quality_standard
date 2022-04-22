@@ -1,0 +1,117 @@
+statement_number,measure_type,point,measure_id,measure,numerator,denominator,data_source,qs
+1,structure,a,QS115-1-structure-a,NA,NA,NA,Local data collection.,QS115
+1,process,a,QS115-1-process-a,NA,NA,NA,Local data collection.,QS115
+1,outcome,a,QS115-1-outcome-a,NA,NA,NA,Local data collection.,QS115
+2,structure,a,QS115-2-structure-a,NA,NA,NA,Local data collection.,QS115
+2,process,a,QS115-2-process-a,NA,NA,NA,Local data collection.,QS115
+3,structure,a,QS115-3-structure-a,NA,NA,NA,Local data collection.,QS115
+3,process,a,QS115-3-process-a,NA,NA,NA,NA,QS115
+4,structure,a,QS115-4-structure-a,NA,NA,NA,Local data collection.,QS115
+4,process,a,QS115-4-process-a,NA,NA,NA,Local data collection.,QS115
+4,outcome,a,QS115-4-outcome-a,NA,NA,NA,Local data collection. The Care Quality Commission's Maternity services survey asks women whether a midwife or health visitor had asked how they were feeling emotionally at the postnatal stage.,QS115
+4,outcome,b,QS115-4-outcome-b,NA,NA,NA,Local data collection.,QS115
+5,structure,a,QS115-5-structure-a,NA,NA,NA,Local data collection.,QS115
+5,process,a,QS115-5-process-a,NA,NA,NA,Local data collection.,QS115
+6,structure,a,QS115-6-structure-a,NA,NA,NA,Local data collection.,QS115
+6,process,a,QS115-6-process-a,NA,NA,NA,NULL,QS115
+6,process,b,QS115-6-process-b,NA,NA,NA,"C(""Data source: Local data collection."", ""Data source: Local data collection."")",QS115
+7,structure,a,QS115-7-structure-a,NA,NA,NA,NA,QS115
+7,structure,b,QS115-7-structure-b,NA,NA,NA,NA,QS115
+7,structure,c,QS115-7-structure-c,NA,NA,NA,Local data collection.,QS115
+1,structure,a,QS150-1-structure-a,NA,NA,NA,Local data collection.,QS150
+1,structure,b,QS150-1-structure-b,NA,NA,NA,"C(""Data source: Local data collection."", ""Data source: Local data collection."", ""Data source: Local data collection."")",QS150
+2,structure,a,QS150-2-structure-a,NA,NA,NA,Local data collection.,QS150
+2,process,a,QS150-2-process-a,NA,NA,NA,Local data collection.,QS150
+2,process,b,QS150-2-process-b,NA,NA,NA,Local data collection.,QS150
+2,process,c,QS150-2-process-c,NA,NA,NA,Local data collection.,QS150
+2,outcome,a,QS150-2-outcome-a,NA,NA,NA,Local data collection.,QS150
+2,outcome,b,QS150-2-outcome-b,NA,NA,NA,Local data collection.,QS150
+3,structure,a,QS150-3-structure-a,NA,NA,NA,Local data collection.,QS150
+3,process,a,QS150-3-process-a,NA,NA,NA,National Radiotherapy Dataset and local data collection.,QS150
+3,outcome,a,QS150-3-outcome-a,NA,NA,NA,Local data collection.,QS150
+4,structure,a,QS150-4-structure-a,NA,NA,NA,Local data collection.,QS150
+4,process,a,QS150-4-process-a,NA,NA,NA,"C(""Data source: Local data collection."", ""Data source: Local data collection."")",QS150
+4,outcome,a,QS150-4-outcome-a,NA,NA,NA,Local data collection.,QS150
+4,outcome,b,QS150-4-outcome-b,NA,NA,NA,Local data collection.,QS150
+1,structure,a,QS194-1-structure-a,NA,NA,NA,"Local data collection, for example evidence of providers implementing locally tools and approaches described in chapter 3 of the Mental Capacity Act Code of Practice.",QS194
+1,structure,b,QS194-1-structure-b,NA,NA,NA,"Local data collection, for example evidence of significant and trusted people, advocacy service or specialists such as occupational therapists, psychologists, or speech and language therapists being involved in supporting the decision-making process.",QS194
+1,process,a,QS194-1-process-a,NA,NA,NA,NULL,QS194
+1,process,b,QS194-1-process-b,NA,NA,NA,"C(""Data source: Local data collection, for example local audit of patient records or care plans."", ""Data source: Local data collection, for example local audit of patient/client records or care plans."", ""Data source: Local data collection, for example local audit of patient/client records or care plans."")",QS194
+1,outcome,a,QS194-1-outcome-a,NA,NA,NA,"Local data collection, for example surveys of people's experience of supported decision making in health and social care, feedback gathered by voluntary sector organisations supporting people who may lack capacity, and their families and carers.",QS194
+1,outcome,b,QS194-1-outcome-b,NA,NA,NA,"Local data collection, for example surveys of family members and carers on their experiences of supported decision making in health and social care, feedback gathered by voluntary sector organisations supporting people who may lack capacity, and their families and carers.",QS194
+2,structure,a,QS194-2-structure-a,NA,NA,NA,"Local data collection, for example local protocols or recording templates.",QS194
+2,process,a,QS194-2-process-a,NA,NA,NA,NULL,QS194
+2,process,b,QS194-2-process-b,NA,NA,NA,"C(""Data source: Local data collection, for example local audit of individual care plans."", ""Data source: Local data collection, for example local audit of individual care plans."", ""Data source: Local data collection, for example local audit of patient records or care plans."", ""Data source: Local data collection, for example local audit of patient records or care plans."", ""Data source: Local data collection, for example local audit of patient records or care plans."", ""Data source: Local data collection, for example local audit of patient records or care plans.""
+)",QS194
+2,outcome,a,QS194-2-outcome-a,NA,NA,NA,"Local data collection, for example a survey of people with a long-term condition, or a progressive or life-limiting illness.",QS194
+2,outcome,b,QS194-2-outcome-b,NA,NA,NA,"Local data collection, for example a survey of people with progressive illness or mental health problems.",QS194
+3,structure,a,QS194-3-structure-a,NA,NA,NA,"Local data collection, for example local protocols or recording templates.",QS194
+3,structure,b,QS194-3-structure-b,NA,NA,NA,"Local data collection, for example an audit of the quality of mental capacity assessments.",QS194
+3,structure,c,QS194-3-structure-c,NA,NA,NA,"Local data collection, for example service level agreements and partnership arrangements between services.",QS194
+3,process,a,QS194-3-process-a,NA,NA,NA,"Local data collection, for example local audit of patient records or individual care plans.",QS194
+3,process,b,QS194-3-process-b,NA,NA,NA,"Local data collection, for example local audit of patient records or individual care plans.",QS194
+4,structure,a,QS194-4-structure-a,NA,NA,NA,"Local data collection, for example an audit of the best interests decision-making processes.",QS194
+4,structure,b,QS194-4-structure-b,NA,NA,NA,"Local data collection, for example service level agreements and partnership arrangements between services.",QS194
+4,structure,c,QS194-4-structure-c,NA,NA,NA,"Local data collection, for example an audit of the best interests decision-making processes.",QS194
+4,structure,d,QS194-4-structure-d,NA,NA,NA,"Local data collection, for example an audit of the best interests decision-making processes.",QS194
+4,outcome,a,QS194-4-outcome-a,NA,NA,NA,"Local data collection, for example a survey of trusted people including family members, carers and independent advocates.",QS194
+1,structure,a,QS42-1-structure-a,NA,NA,NA,Local data collection.,QS42
+1,process,a,QS42-1-process-a,NA,NA,NA,Local data collection.,QS42
+2,structure,a,QS42-2-structure-a,NA,NA,NA,Local data collection.,QS42
+2,process,a,QS42-2-process-a,NA,NA,NA,"C(""Data source: Local data collection."", ""Data source: Local data collection."")",QS42
+3,structure,a,QS42-3-structure-a,NA,NA,NA,Local data collection.,QS42
+3,process,a,QS42-3-process-a,NA,NA,NA,"C(""Data source: Local data collection."", ""Data source: Local data collection."")",QS42
+4,structure,a,QS42-4-structure-a,NA,NA,NA,Local data collection.,QS42
+4,process,a,QS42-4-process-a,NA,NA,NA,Local data collection.,QS42
+1,structure,a,QS61-1-structure-a,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, local formularies.",QS61
+1,structure,b,QS61-1-structure-b,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from records of formulary reviews.",QS61
+1,structure,c,QS61-1-structure-c,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, records of local audits.",QS61
+1,outcome,a,QS61-1-outcome-a,NA,To be determined locally,To be determined locally,"C(""Data source for primary care: National prescribing comparator data available from the NHS Digital Information Services Portal, specifically the number of prescription items for antibacterial drugs per Specific Therapeutic Group Age-sex weightings Related Prescribing Unit (STAR-PU), and the number of prescription items for cephalosporins and quinolones as a percentage of the total number of prescription items for selected antibacterial drugs (British National Formulary [BNF])."", ""Data source for secondary care: No routinely collected national data for secondary care has been identified for this measure. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, records of local prescribing audits.""
+)",QS61
+2,structure,a,QS61-2-structure-a,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from the local organisational strategy.",QS61
+2,structure,b,QS61-2-structure-b,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from minutes of board meetings.",QS61
+2,structure,c,QS61-2-structure-c,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from job descriptions.",QS61
+2,structure,d,QS61-2-structure-d,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from joint working agreements.",QS61
+2,structure,e,QS61-2-structure-e,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from audits of healthcare-associated infections.",QS61
+2,outcome,a,QS61-2-outcome-a,NA,To be determined locally,To be determined locally,2014/15 NHS Outcomes Framework indicator 5.2 and 2014/15 CCG Outcomes Indicator Set indicators 5.3 and 5.4 measure incidence of methicillin-resistant Staphylococcus aureus (MRSA) and Clostridium difficile. Data are derived from UK Health Security Agency's mandatory reporting of healthcare-associated infections.,QS61
+3,structure,a,QS61-3-structure-a,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by organisations, for example, from procurement records.",QS61
+3,structure,b,QS61-3-structure-b,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from training records.",QS61
+3,structure,c,QS61-3-structure-c,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by provider organisations, for example, records of hand hygiene observation audits.",QS61
+3,outcome,a,QS61-3-outcome-a,NA,To be determined locally,To be determined locally,2020/21 NHS Outcomes Framework indicator 5.2.,QS61
+4,structure,a,QS61-4-structure-a,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by provider organisations, for example, from local protocols.",QS61
+4,process,a,QS61-4-process-a,NA,The number of people in the denominator for whom all of the specified procedures were completed for the safe insertion and maintenance of the catheter and its removal as soon as it is no longer needed.,The number of people who have had a short-term urinary catheter.,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from patient records.",QS61
+4,process,b,QS61-4-process-b,NA,The number of people in the denominator for whom all of the specified procedures were completed for the safe insertion and maintenance of the catheter and its removal as soon as it is no longer needed were completed.,The number of people who have had a long-term urinary catheter.,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from patient records.",QS61
+4,outcome,a,QS61-4-outcome-a,NA,To be determined locally,To be determined locally,2020/21 NHS Outcomes Framework indicator 5.2 and 2020/21 CCG Outcomes Indicator Set indicators 5.3 and 5.4 measure incidence of methicillin-resistant Staphylococcus aureus (MRSA) and Clostridium difficile. Data are derived from UK Health Security Agency's mandatory reporting of healthcare-associated infections.,QS61
+4,outcome,b,QS61-4-outcome-b,NA,To be determined locally,To be determined locally,"Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from patient records.",QS61
+5,structure,a,QS61-5-structure-a,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by provider organisations, for example, local protocols.",QS61
+5,process,a,QS61-5-process-a,NA,The number of people in the denominator for whom all of the specified procedures were completed for the safe insertion and maintenance of the device and its removal as soon as it is no longer needed.,The number of people who have had a vascular access device.,"Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from patient records. This is also included in the UK Renal Registry Annual Report.",QS61
+5,outcome,a,QS61-5-outcome-a,NA,To be determined locally,To be determined locally,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, patient records.",QS61
+6,structure,a,QS61-6-structure-a,NA,NA,NA,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, local protocols.",QS61
+6,process,a,QS61-6-process-a,NA,"The number of people in the denominator who are educated about the safe management of their device or equipment, including techniques to prevent infection.","The number of people with a urinary catheter, vascular access device or enteral feeding tube, and their family members or carers (as appropriate).","No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from patient records.",QS61
+6,outcome,a,QS61-6-outcome-a,NA,To be determined locally,To be determined locally,2020/21 NHS Outcomes Framework indicator 5.2 and 2020/21 CCG Outcomes Indicator Set indicators 5.3 and 5.4 measure incidence of methicillin-resistant Staphylococcus aureus (MRSA) and Clostridium difficile. Data are derived from UK Health Security Agency's mandatory reporting of healthcare-associated infections.,QS61
+6,outcome,b,QS61-6-outcome-b,NA,To be determined locally,To be determined locally,"No routinely collected national data for this measure has been identified. Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example, from patient surveys to demonstrate that patients and carers have understood their education.",QS61
+1,structure,a,QS96-1-structure-a,NA,NA,NA,Local data collection.,QS96
+1,process,a,QS96-1-process-a,NA,NA,NA,Local data collection.,QS96
+1,outcome,a,QS96-1-outcome-a,NA,NA,NA,"C(""Data source: Local data collection."", ""Data source: Local data collection."")",QS96
+2,structure,a,QS96-2-structure-a,NA,NA,NA,Local data collection.,QS96
+2,process,a,QS96-2-process-a,NA,NA,NA,Local data collection. Hospital Episode Statistics collects data on upper gastrointestinal endoscopies.,QS96
+2,process,b,QS96-2-process-b,NA,NA,NA,Local data collection. Hospital Episode Statistics collects data on upper gastrointestinal endoscopies.,QS96
+2,process,c,QS96-2-process-c,NA,NA,NA,Local data collection. Hospital Episode Statistics collects data on upper gastrointestinal endoscopies.,QS96
+2,process,d,QS96-2-process-d,NA,NA,NA,Local data collection. Hospital Episode Statistics collects data on upper gastrointestinal endoscopies.,QS96
+2,outcome,a,QS96-2-outcome-a,NA,NA,NA,Local data collection. Cancer Registration Statistics collects data on the incidence of cancer.,QS96
+2,outcome,b,QS96-2-outcome-b,NA,NA,NA,Local data collection. Geographic patterns of cancer survival in England provide data on 1‑ and 5‑year survival rates.,QS96
+2,outcome,c,QS96-2-outcome-c,NA,NA,NA,Local data collection.,QS96
+3,structure,a,QS96-3-structure-a,NA,NA,NA,Local data collection.,QS96
+3,process,a,QS96-3-process-a,NA,NA,NA,Local data collection.,QS96
+3,outcome,a,QS96-3-outcome-a,NA,NA,NA,Local data collection.,QS96
+4,structure,a,QS96-4-structure-a,NA,NA,NA,Local data collection.,QS96
+4,process,a,QS96-4-process-a,NA,NA,NA,Local data collection.,QS96
+4,outcome,a,QS96-4-outcome-a,NA,NA,NA,Local data collection. Cancer Registration Statistics collect data on the incidence of cancer.,QS96
+4,outcome,b,QS96-4-outcome-b,NA,NA,NA,Local data collection. Geographic patterns of cancer survival in England provide data on 1‑ and 5‑year survival rates.,QS96
+4,outcome,c,QS96-4-outcome-c,NA,NA,NA,Local data collection.,QS96
+5,structure,a,QS96-5-structure-a,NA,NA,NA,Local data collection.,QS96
+5,process,a,QS96-5-process-a,NA,NA,NA,Local data collection.,QS96
+5,outcome,a,QS96-5-outcome-a,NA,NA,NA,Local data collection.,QS96
+5,outcome,b,QS96-5-outcome-b,NA,NA,NA,Local data collection.,QS96
+5,outcome,c,QS96-5-outcome-c,NA,NA,NA,Local data collection.,QS96
+5,outcome,d,QS96-5-outcome-d,NA,NA,NA,Local data collection.,QS96
