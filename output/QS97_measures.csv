@@ -1,38 +1,38 @@
-statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS97-1-structure-a,Evidence of local arrangements to ensure that people with suspected drug allergy have their drug reaction documented using the structured assessment guide.,NA,NA
-1,process,a,QS97-1-process-a,Proportion of people with suspected drug allergy who have their drug reaction documented using the structured assessment guide.,The number in the denominator who have their drug reaction documented using the structured assessment guide.,The number of people with suspected drug allergy.
-1,outcome,a,QS97-1-outcome-a,Medication errors (inappropriate prescribing or administration of drugs).,NA,NA
-1,outcome,b,QS97-1-outcome-b,Number of repeat allergic drug reactions (including patient‑reported episodes).,NA,NA
-2,structure,a,QS97-2-structure-a,Evidence of local arrangements to ensure that people with a new diagnosis of drug allergy are advised to carry structured information about their drug reaction at all times.,NA,NA
-2,process,a,QS97-2-process-a,Proportion of people with a new diagnosis of drug allergy who are advised to carry structured information about their drug reaction at all times.,The number in the denominator who are advised to carry structured information about their drug reaction at all times.,The number of people with a new diagnosis of drug allergy.
-2,outcome,a,QS97-2-outcome-a,Self‑management of drug allergy.,NA,NA
-3,structure,a,QS97-3-structure-a,"Evidence of local arrangements to ensure that people with a suspected or confirmed anaphylactic reaction, or severe non‑immediate cutaneous reaction to a drug, or reaction to a general anaesthetic are referred to a specialist drug allergy service.",NA,NA
-3,process,a,QS97-3-process-a,Proportion of people with a suspected or confirmed anaphylactic reaction to a drug who are referred to a specialist drug allergy service.,The number in the denominator who are referred to a specialist drug allergy service.,The number of people with a suspected or confirmed anaphylactic reaction to a drug.
-3,process,b,QS97-3-process-b,Proportion of people with a severe non‑immediate cutaneous reaction to a drug who are referred to a specialist drug allergy service.,The number in the denominator who are referred to a specialist drug allergy service.,The number of people with a severe non‑immediate cutaneous reaction to a drug.
-3,process,c,QS97-3-process-c,Proportion of people with a reaction to a general anaesthetic who are referred to a specialist drug allergy service.,The number in the denominator who are referred to a specialist drug allergy service.,The number of people with a reaction to a general anaesthetic.
-3,outcome,a,QS97-3-outcome-a,Mortality.,NA,NA
-3,outcome,b,QS97-3-outcome-b,Number of repeat allergic drug reactions.,NA,NA
-3,outcome,c,QS97-3-outcome-c,Length of hospital stay.,NA,NA
-3,outcome,d,QS97-3-outcome-d,Inappropriate avoidance of drugs.,NA,NA
-3,outcome,e,QS97-3-outcome-e,Further anaesthetics without problems.,NA,NA
-4,structure,a,QS97-4-structure-a,Evidence of local arrangements to ensure that people with drug allergy have their status documented in their electronic medical record using the recommended coding framework.,NA,NA
-4,process,a,QS97-4-process-a,Proportion of electronic medical records with a drug allergy status documented using the recommended coding framework.,The number in the denominator with a drug allergy status documented using the recommended coding framework.,The number of electronic medical records.
-4,outcome,a,QS97-4-outcome-a,Mortality.,NA,NA
-4,outcome,b,QS97-4-outcome-b,Repeat allergic drug reactions.,NA,NA
-4,outcome,c,QS97-4-outcome-c,Length of hospital stay.,NA,NA
-4,outcome,d,QS97-4-outcome-d,Inappropriate avoidance of drugs.,NA,NA
-4,outcome,e,QS97-4-outcome-e,Anaphylaxis.,NA,NA
-5,structure,a,QS97-5-structure-a,Evidence of local arrangements to ensure that people with a new diagnosis of drug allergy who are being referred or discharged have their drug allergy status updated in all GP referral and hospital discharge letters.,NA,NA
-5,process,a,QS97-5-process-a,Proportion of GP referral letters for people with a new diagnosis of drug allergy with updated drug allergy status.,The number in the denominator with updated drug allergy status.,The number of GP referral letters for people with a new diagnosis of drug allergy.
-5,process,b,QS97-5-process-b,Proportion of hospital discharge letters for people with a new diagnosis of drug allergy with updated drug allergy status.,The number in the denominator with updated drug allergy status.,The number of hospital discharge letters for people with a new diagnosis of drug allergy.
-5,outcome,a,QS97-5-outcome-a,Mortality.,NA,NA
-5,outcome,b,QS97-5-outcome-b,Repeat allergic drug reactions.,NA,NA
-5,outcome,c,QS97-5-outcome-c,Length of hospital stay.,NA,NA
-5,outcome,d,QS97-5-outcome-d,Inappropriate avoidance of drugs.,NA,NA
-5,outcome,e,QS97-5-outcome-e,Anaphylaxis.,NA,NA
-6,structure,a,QS97-6-structure-a,Evidence of local arrangements to ensure that prescriptions have drug allergy information included about which drugs or drug classes to avoid.,NA,NA
-6,process,a,QS97-6-process-a,Proportion of paper prescriptions issued in any healthcare setting which have drug allergy information included about which drugs or drug classes to avoid.,The number in the denominator which have drug allergy information about which drugs or drug classes to avoid.,The number of paper prescriptions issued in any healthcare setting.
-6,process,b,QS97-6-process-b,Proportion of electronic prescriptions issued in any healthcare setting which have drug allergy information included about which drugs or drug classes to avoid.,The number in the denominator which have drug allergy information about which drugs or drug classes to avoid.,The number of electronic prescriptions issued in any healthcare setting.
-6,outcome,a,QS97-6-outcome-a,Mortality.,NA,NA
-6,outcome,b,QS97-6-outcome-b,Repeat allergic drug reactions.,NA,NA
-6,outcome,c,QS97-6-outcome-c,Inappropriate avoidance of drugs.,NA,NA
+statement_number,measure_type,point,measure_id,measure,numerator,denominator,data_source
+1,structure,a,QS97-1-structure-a,Evidence of local arrangements to ensure that people with suspected drug allergy have their drug reaction documented using the structured assessment guide.,NA,NA,Local data collection.
+1,process,a,QS97-1-process-a,Proportion of people with suspected drug allergy who have their drug reaction documented using the structured assessment guide.,The number in the denominator who have their drug reaction documented using the structured assessment guide.,The number of people with suspected drug allergy.,Local data collection.
+1,outcome,a,QS97-1-outcome-a,Medication errors (inappropriate prescribing or administration of drugs).,To be determined locally,To be determined locally,Local data collection.
+1,outcome,b,QS97-1-outcome-b,Number of repeat allergic drug reactions (including patient‑reported episodes).,To be determined locally,To be determined locally,Local data collection.
+2,structure,a,QS97-2-structure-a,Evidence of local arrangements to ensure that people with a new diagnosis of drug allergy are advised to carry structured information about their drug reaction at all times.,NA,NA,Local data collection.
+2,process,a,QS97-2-process-a,Proportion of people with a new diagnosis of drug allergy who are advised to carry structured information about their drug reaction at all times.,The number in the denominator who are advised to carry structured information about their drug reaction at all times.,The number of people with a new diagnosis of drug allergy.,Local data collection.
+2,outcome,a,QS97-2-outcome-a,Self‑management of drug allergy.,To be determined locally,To be determined locally,Local data collection.
+3,structure,a,QS97-3-structure-a,"Evidence of local arrangements to ensure that people with a suspected or confirmed anaphylactic reaction, or severe non‑immediate cutaneous reaction to a drug, or reaction to a general anaesthetic are referred to a specialist drug allergy service.",NA,NA,Local data collection.
+3,process,a,QS97-3-process-a,Proportion of people with a suspected or confirmed anaphylactic reaction to a drug who are referred to a specialist drug allergy service.,The number in the denominator who are referred to a specialist drug allergy service.,The number of people with a suspected or confirmed anaphylactic reaction to a drug.,Local data collection.
+3,process,b,QS97-3-process-b,Proportion of people with a severe non‑immediate cutaneous reaction to a drug who are referred to a specialist drug allergy service.,The number in the denominator who are referred to a specialist drug allergy service.,The number of people with a severe non‑immediate cutaneous reaction to a drug.,Local data collection.
+3,process,c,QS97-3-process-c,Proportion of people with a reaction to a general anaesthetic who are referred to a specialist drug allergy service.,The number in the denominator who are referred to a specialist drug allergy service.,The number of people with a reaction to a general anaesthetic.,Local data collection.
+3,outcome,a,QS97-3-outcome-a,Mortality.,To be determined locally,To be determined locally,Local data collection.
+3,outcome,b,QS97-3-outcome-b,Number of repeat allergic drug reactions.,To be determined locally,To be determined locally,Local data collection.
+3,outcome,c,QS97-3-outcome-c,Length of hospital stay.,To be determined locally,To be determined locally,Local data collection.
+3,outcome,d,QS97-3-outcome-d,Inappropriate avoidance of drugs.,To be determined locally,To be determined locally,Local data collection.
+3,outcome,e,QS97-3-outcome-e,Further anaesthetics without problems.,To be determined locally,To be determined locally,Local data collection.
+4,structure,a,QS97-4-structure-a,Evidence of local arrangements to ensure that people with drug allergy have their status documented in their electronic medical record using the recommended coding framework.,NA,NA,Local data collection.
+4,process,a,QS97-4-process-a,Proportion of electronic medical records with a drug allergy status documented using the recommended coding framework.,The number in the denominator with a drug allergy status documented using the recommended coding framework.,The number of electronic medical records.,Local data collection.
+4,outcome,a,QS97-4-outcome-a,Mortality.,To be determined locally,To be determined locally,Local data collection.
+4,outcome,b,QS97-4-outcome-b,Repeat allergic drug reactions.,To be determined locally,To be determined locally,Local data collection.
+4,outcome,c,QS97-4-outcome-c,Length of hospital stay.,To be determined locally,To be determined locally,Local data collection.
+4,outcome,d,QS97-4-outcome-d,Inappropriate avoidance of drugs.,To be determined locally,To be determined locally,Local data collection.
+4,outcome,e,QS97-4-outcome-e,Anaphylaxis.,To be determined locally,To be determined locally,Local data collection.
+5,structure,a,QS97-5-structure-a,Evidence of local arrangements to ensure that people with a new diagnosis of drug allergy who are being referred or discharged have their drug allergy status updated in all GP referral and hospital discharge letters.,NA,NA,Local data collection.
+5,process,a,QS97-5-process-a,Proportion of GP referral letters for people with a new diagnosis of drug allergy with updated drug allergy status.,The number in the denominator with updated drug allergy status.,The number of GP referral letters for people with a new diagnosis of drug allergy.,Local data collection.
+5,process,b,QS97-5-process-b,Proportion of hospital discharge letters for people with a new diagnosis of drug allergy with updated drug allergy status.,The number in the denominator with updated drug allergy status.,The number of hospital discharge letters for people with a new diagnosis of drug allergy.,Local data collection.
+5,outcome,a,QS97-5-outcome-a,Mortality.,To be determined locally,To be determined locally,Local data collection.
+5,outcome,b,QS97-5-outcome-b,Repeat allergic drug reactions.,To be determined locally,To be determined locally,Local data collection.
+5,outcome,c,QS97-5-outcome-c,Length of hospital stay.,To be determined locally,To be determined locally,Local data collection.
+5,outcome,d,QS97-5-outcome-d,Inappropriate avoidance of drugs.,To be determined locally,To be determined locally,Local data collection.
+5,outcome,e,QS97-5-outcome-e,Anaphylaxis.,To be determined locally,To be determined locally,Local data collection.
+6,structure,a,QS97-6-structure-a,Evidence of local arrangements to ensure that prescriptions have drug allergy information included about which drugs or drug classes to avoid.,NA,NA,Local data collection.
+6,process,a,QS97-6-process-a,Proportion of paper prescriptions issued in any healthcare setting which have drug allergy information included about which drugs or drug classes to avoid.,The number in the denominator which have drug allergy information about which drugs or drug classes to avoid.,The number of paper prescriptions issued in any healthcare setting.,Local data collection.
+6,process,b,QS97-6-process-b,Proportion of electronic prescriptions issued in any healthcare setting which have drug allergy information included about which drugs or drug classes to avoid.,The number in the denominator which have drug allergy information about which drugs or drug classes to avoid.,The number of electronic prescriptions issued in any healthcare setting.,Local data collection.
+6,outcome,a,QS97-6-outcome-a,Mortality.,To be determined locally,To be determined locally,Local data collection.
+6,outcome,b,QS97-6-outcome-b,Repeat allergic drug reactions.,To be determined locally,To be determined locally,Local data collection.
+6,outcome,c,QS97-6-outcome-c,Inappropriate avoidance of drugs.,To be determined locally,To be determined locally,Local data collection.

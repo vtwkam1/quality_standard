@@ -1,11 +1,11 @@
-statement_number,measure_type,point,measure_id,measure,numerator,denominator
-1,structure,a,QS151-1-structure-a,Evidence of local arrangements to ensure that adults have their mouth care needs assessed on admission.,NA,NA
-1,process,a,QS151-1-process-a,Proportion of adults living in a care home who had their mouth care needs assessed on admission.,The number in the denominator who had their mouth care needs assessed on admission.,The number of adults living in a care home.
-1,outcome,a,QS151-1-outcome-a,Satisfaction of resident or carer with the care home admission process.,NA,NA
-1,outcome,b,QS151-1-outcome-b,Satisfaction of resident or carer with the mouth care they receive.,NA,NA
-2,structure,a,QS151-2-structure-a,Evidence of local arrangements for adults living in care homes to have their mouth care needs recorded in their personal care plan.,NA,NA
-2,process,a,QS151-2-process-a,Proportion of adults living in a care home who have their mouth care needs recorded in their personal care plan.,The number in the denominator who have their mouth care needs recorded in their personal care plan.,The number of adults living in a care home.
-2,outcome,a,QS151-2-outcome-a,Care staff awareness of individual residents' mouth care needs.,NA,NA
-3,structure,a,QS151-3-structure-a,Evidence of local arrangements for adults living in care homes to be supported to clean their teeth twice a day and carry out daily care for dentures.,NA,NA
-3,process,a,QS151-3-process-a,Proportion of adults in a care home who are supported with daily mouth care.,The number in the denominator who are supported with daily mouth care.,The number of adults living in a care home.
-3,outcome,a,QS151-3-outcome-a,Oral health-related quality of life for adults living in care homes.,NA,NA
+statement_number,measure_type,point,measure_id,measure,numerator,denominator,data_source
+1,structure,a,QS151-1-structure-a,Evidence of local arrangements to ensure that adults have their mouth care needs assessed on admission.,NA,NA,"Local data collection, for example, mouth care policies."
+1,process,a,QS151-1-process-a,Proportion of adults living in a care home who had their mouth care needs assessed on admission.,The number in the denominator who had their mouth care needs assessed on admission.,The number of adults living in a care home.,"Local data collection, for example, audits of personal care plans."
+1,outcome,a,QS151-1-outcome-a,Satisfaction of resident or carer with the care home admission process.,To be determined locally,To be determined locally,"Local data collection, for example, comments, feedback or surveys from residents and carers."
+1,outcome,b,QS151-1-outcome-b,Satisfaction of resident or carer with the mouth care they receive.,To be determined locally,To be determined locally,"Local data collection, for example, comments, feedback or surveys from residents and carers."
+2,structure,a,QS151-2-structure-a,Evidence of local arrangements for adults living in care homes to have their mouth care needs recorded in their personal care plan.,NA,NA,"Local data collection, for example, mouth care policies."
+2,process,a,QS151-2-process-a,Proportion of adults living in a care home who have their mouth care needs recorded in their personal care plan.,The number in the denominator who have their mouth care needs recorded in their personal care plan.,The number of adults living in a care home.,"Local data collection, including audits of personal care plans."
+2,outcome,a,QS151-2-outcome-a,Care staff awareness of individual residents' mouth care needs.,To be determined locally,To be determined locally,"Local data collection, for example, staff interviews and surveys."
+3,structure,a,QS151-3-structure-a,Evidence of local arrangements for adults living in care homes to be supported to clean their teeth twice a day and carry out daily care for dentures.,NA,NA,"Local data collection, for example, mouth care policies."
+3,process,a,QS151-3-process-a,Proportion of adults in a care home who are supported with daily mouth care.,The number in the denominator who are supported with daily mouth care.,The number of adults living in a care home.,"Local data collection, for example, audits of personal care plans."
+3,outcome,a,QS151-3-outcome-a,Oral health-related quality of life for adults living in care homes.,To be determined locally,To be determined locally,Local data collection. Oral health-related quality of life can be established for some groups of residents using an Oral Health Impact Profile.
