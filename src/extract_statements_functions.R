@@ -198,22 +198,6 @@ extract_statement <- function(qs_links, n, qs_id) {
     ## If "placeholder" is not detected in the title, then...
     if (!str_detect(title, regex("placeholder", ignore_case = T))) {
         
-        # Capture the full quality statement, e.g. "Preterm and term babies who are prescribed neonatal
-        # parenteral nutrition are started on a standardised bag."
-        statement <- qs_html %>% 
-            # Select <div> element whose title attribute value contains the substring "tatement"
-            ## "tatement" chosen due to inconsistencies in labelling 
-            html_element('div[title*="tatement"] p') %>% 
-            html_text2() %>% 
-            # Remove information on year of publishing/updating (anything in square brackets, e.g. "[2005]")
-            str_remove("\\[.*\\]") %>% 
-            # Trim white from start or end of string, e.g. "XXX standardised bag. " -> "XXX standardised bag."
-            str_trim()
-        
-        # Call custom function statement_row(), declared above in same script
-        ## Generates table with one row, containing qs_id, statement_number and statement
-        statement_row <- statement_row_fn(qs_id, statement_number, statement)
-        
         # Call custom function extract_measure() to pull structure, process, then outcome measures
         qm_structure <- extract_measure(qs_html, measure = "Structure")
         qm_process <- extract_measure(qs_html, measure = "Process")
@@ -222,14 +206,39 @@ extract_statement <- function(qs_links, n, qs_id) {
         # Handling cases where all three come back empty, e.g. where the quality statement has been removed
         ## If nothing pulled under Structure, Process AND Outcome...
         if (is_empty(qm_structure) & is_empty(qm_process) & is_empty(qm_outcome)){
-          
+            
+            statement <- qs_html %>% 
+                # Select all <p> elements where the parent is a <div> element with class="chapter"
+                html_element('div.chapter > p') %>% 
+                html_text2() %>%
+                # Combine all elements into a single string
+                str_flatten(collapse = " ") %>% 
+                # Trim whitespace
+                str_trim()
+            
             # Create the measures table, but populate the row with an error message
+            measure_type <- if_else(str_detect(statement, " (removed|moved|merged|replaced)"), 
+                                    "removed",
+                                    "error")
+            
             measures <- measures_table_fn(
               statement_number = statement_number,
-              measure_type = "error",
-              measure_id = paste(qs_id, statement_number, "error", sep = "-"))
+              measure_type = measure_type,
+              measure_id = str_c(qs_id, statement_number, measure_type, sep = "-"))
           
         } else {
+            
+            # Capture the full quality statement, e.g. "Preterm and term babies who are prescribed neonatal
+            # parenteral nutrition are started on a standardised bag."
+            statement <- qs_html %>% 
+                # Select <div> element whose title attribute value contains the substring "tatement"
+                ## "tatement" chosen due to inconsistencies in labelling 
+                html_element('div[title*="tatement"] p') %>% 
+                html_text2() %>% 
+                # Remove information on year of publishing/updating (anything in square brackets, e.g. "[2005]")
+                str_remove("\\[.*\\]") %>% 
+                # Trim white from start or end of string, e.g. "XXX standardised bag. " -> "XXX standardised bag."
+                str_trim()
             
             # Call custom function section_table() to identify the 'type' (label) of each paragraph (element)
             # pulled using extract_measure(), (e.g. statement, numerator, denominator, data source)
@@ -238,56 +247,60 @@ extract_statement <- function(qs_links, n, qs_id) {
             qm_process_table <- section_table(qm_process, qs_id, statement_number, "process")
             qm_outcome_table <- section_table(qm_outcome, qs_id, statement_number, "outcome")
           
-          # Bind the tables for Structure, Process and Outcome
-          measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>%
-              # Remove 
-              mutate(measure = str_remove(measure, "^\\(?\\w+\\s?(:|\\)|\u2013|-)") %>% 
-                         str_trim() %>% 
-                         str_replace("^\\w{1}", toupper)) %>% 
-              relocate(measure, .after = last_col()) %>% 
-              mutate(measure_id = paste(qs_id, statement_number, measure_type, point, sep = "-")) %>%             
-              pivot_wider(names_from = label,
-                          values_from = measure) %>% 
-              rename(measure = statement) %>% 
-              select(-qs_id) 
-          
-          if(!("numerator" %in% colnames(measures))) {
-              measures$numerator <- NA
-              measures$denominator <- NA
-          }
-          
-          if(!("data source" %in% colnames(measures))) {
-              measures$data_source <- NA
-          } else {
-              measures <- measures %>% 
-                  rename(data_source = "data source")
-          }
-          
-          measures <- measures %>% 
-              mutate(numerator = ifelse(measure_type == "outcome" & is.na(numerator), 
-                                         "To be determined locally",
-                                         numerator),
-                     denominator = ifelse(measure_type == "outcome" & is.na(denominator),
+            # Bind the tables for Structure, Process and Outcome
+            measures <- rbind(qm_structure_table, qm_process_table, qm_outcome_table) %>%
+                # Remove 
+                mutate(measure = str_remove(measure, "^\\(?\\w+\\s?(:|\\)|\u2013|-)") %>% 
+                           str_trim() %>% 
+                           str_replace("^\\w{1}", toupper)) %>% 
+                relocate(measure, .after = last_col()) %>% 
+                mutate(measure_id = paste(qs_id, statement_number, measure_type, point, sep = "-")) %>%             
+                pivot_wider(names_from = label,
+                            values_from = measure) %>% 
+                rename(measure = statement) %>% 
+                select(-qs_id) 
+            
+            if(!("numerator" %in% colnames(measures))) {
+                measures$numerator <- NA
+                measures$denominator <- NA
+            }
+            
+            if(!("data source" %in% colnames(measures))) {
+                measures$data_source <- NA
+            } else {
+                measures <- measures %>% 
+                    rename(data_source = "data source")
+            }
+            
+            measures <- measures %>% 
+                mutate(numerator = ifelse(measure_type == "outcome" & is.na(numerator), 
                                            "To be determined locally",
-                                           denominator)) %>% 
-              relocate(data_source, .after = last_col()) %>% 
-              mutate(data_source = str_remove(data_source, "^\\w+\\s{1}\\w+\\s?[:punct:]{1}") %>% 
-                         str_trim() %>% 
-                         str_replace("^\\w{1}", toupper))
-          
-          
+                                           numerator),
+                       denominator = ifelse(measure_type == "outcome" & is.na(denominator),
+                                             "To be determined locally",
+                                             denominator)) %>% 
+                relocate(data_source, .after = last_col()) %>% 
+                mutate(data_source = str_remove(data_source, "^\\w+\\s{1}\\w+\\s?[:punct:]{1}") %>% 
+                           str_trim() %>% 
+                           str_replace("^\\w{1}", toupper))
+            
+            
         }
         
     } else {
         statement <- sprintf("[Placeholder: %s]", str_extract(title, "(?<=:).+") %>% str_trim())
-        
-        statement_row <- statement_row_fn(qs_id, statement_number, statement)
         
         measures <- measures_table_fn(
             statement_number = statement_number,
             measure_type = "placeholder",
             measure_id = paste(qs_id, statement_number, "placeholder", sep = "-"))
     }
-        return(list("statement_row" = statement_row,
+    
+    
+    # Call custom function statement_row(), declared above in same script
+    ## Generates table with one row, containing qs_id, statement_number and statement
+    statement_row <- statement_row_fn(qs_id, statement_number, statement)
+    
+    return(list("statement_row" = statement_row,
                     "measures" = measures))
 }

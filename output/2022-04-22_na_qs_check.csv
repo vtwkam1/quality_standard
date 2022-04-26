@@ -1,0 +1,7 @@
+qs,reason
+QS42,"Statement 2, 3, 'Outcome' not as a header"
+QS61,"Statement 1, two data sources (primary care and secondary care)"
+QS96,"Statement 1, script unable to detect two statements under 'Outcome' as not labelled a), b)."
+QS115,"Statement 6, paragraph before statement throws off a), b) detection"
+QS150,"Statement 1, 'Process' and 'Outcome' not headers; Statement 4, 'Process' 'b)' not followed by space"
+QS194,"Statement 1, 2 , paragraph before statement throws off a) b) detection"

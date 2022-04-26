@@ -12,7 +12,7 @@ if(!dir.exists("output")) {
 }
 
 # Specify which QSs to pull
-to_pull <- 206
+to_pull <- 22
 
 
 for (qs_number in to_pull) {
