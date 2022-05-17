@@ -1,0 +1,174 @@
+---
+title: "Quality standard service improvement templates (QSSIT) downloads"
+author: "Impact team"
+date: "`r Sys.Date()`"
+output: 
+    html_document:
+        toc: TRUE
+        toc_float: TRUE
+        code_folding: "hide"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(lubridate)
+library(DT)
+library(zoo)
+library(kableExtra)
+library(plotly)
+
+```
+
+# Methods
+
+Downloads data was exported from the prototype [health and social care dashboard](https://datastudio.google.com/u/0/reporting/f35ae256-7912-4f05-8838-79937f289faf/page/p_oqpodkxvuc), which displays Google Analytics data from the NICE website. 
+
+Google Analytics samples a fraction of all web activity, therefore the time periods specified when extracting results were one-month rather than one-year periods. This was done by manually selecting each month in the date range widget and exporting the Downloads table in the ['All webpages:links and downloads' tab](https://datastudio.google.com/u/0/reporting/f35ae256-7912-4f05-8838-79937f289faf/page/p_ha6m8qvdtc).
+
+Downloads were pulled for June 2019 to April 2022.
+
+The dashboard currently does not allow for filtering by the downloaded file's URL. The exported Downloads table therefore covers all downloads from across the whole NICE website. QSSIT downloads were identified by filtering the data set for rows where the file name includes 'QS-service-improvement-template' or 'quality-standard-service-improvement-template'. This relies on the naming system being consistent over time, which is not necessarily the case.
+
+<button class="btn btn-primary" data-toggle="collapse" data-target="#raw_data"> Show/hide raw data </button>  
+<div id="raw_data" class="collapse">  
+
+```{r read}
+data <- read_csv('./download_analytics/qssit_downloads_2019-06_2022-04.csv', col_types = "Dccd") %>% 
+    mutate(qs = if_else(str_detect(page_path, "/qs\\d+/resources"), 
+                        str_extract(page_path, "(?<=/)qs\\d+(?=/resources)"), 
+                        "general")) %>% 
+    relocate(downloads,
+             .after = last_col())
+
+data %>% 
+    select(!qs) %>% 
+    datatable(.,
+          filter = "top",
+          colnames = c("Month" = "year_month",
+                       "Download page" = "page_path",
+                       "File URL" = "file",
+                       "Downloads" = "downloads"),
+          rownames = FALSE,
+          extensions = 'Buttons', 
+          options = list(
+              dom = 'Bfrtip',
+              buttons = c('csv')
+  ))
+```
+
+</div>
+
+# How much is the QSSIT being downloaded per month from across the whole NICE website?
+
+<button class="btn btn-primary" data-toggle="collapse" data-target="#total_downloads_data"> Show/hide total monthly downloads table </button>  
+<div id="total_downloads_data" class="collapse">  
+
+```{r}
+total_downloads <- data %>% 
+    group_by(year_month) %>% 
+    summarise(downloads = sum(downloads))
+
+total_downloads %>% 
+    mutate(year_month = zoo::as.yearmon(year_month)) %>% 
+    rename("Month" = year_month,
+           "Downloads" = downloads) %>% 
+    kbl() %>% 
+    kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+</div>
+
+```{r}
+fig <- total_downloads %>% 
+    mutate(year_month = zoo::as.yearmon(year_month)) %>% 
+    ggplot(aes(x = year_month, y = downloads)) +
+    geom_line() +
+    labs(x = "Month",
+         y = "Downloads",
+         title = "Total monthly downloads of QSSIT")
+    
+
+fig %>% ggplotly()
+```
+
+# Which pages are the QSSIT being downloaded from?
+
+The QSSIT sits on many pages, namely:
+
+- the 'Tools and resources' tab of *every single* quality standard, e.g. [for QS206 (the latest QS)](https://www.nice.org.uk/guidance/qs206/resources),
+- the '[How to use quality standards](https://www.nice.org.uk/standards-and-indicators/how-to-use-quality-standards)' page, under 'Standards and indicators' in the navigation bar,
+- the '[Measuring the use of NICE guidance](https://www.nice.org.uk/about/what-we-do/into-practice/measuring-the-uptake-of-nice-guidance)' page, under 'About > Into practice' in the navigation bar,
+- the very hidden '[Audit and service improvement](https://www.nice.org.uk/about/what-we-do/into-practice/audit-and-service-improvement)' page, also under 'Into practice', and more recently,
+- the '[About quality standards](https://www.nice.org.uk/standards-and-indicators/quality-standards)' page, also under 'Standards and indicators'
+
+
+```{r}
+data <- data %>% 
+    mutate(source_page = case_when(str_detect(page_path, "/qs\\d+/resources") ~ "Specific QSs (qs__/resources)",
+                              TRUE ~ page_path) %>% 
+               str_remove("\\?.*") %>% 
+               str_remove("^((www.nice.org.uk/about/what-we-do/)|(www.nice.org.uk/))") %>% 
+               fct_infreq())
+
+fig_source <- data %>% 
+    group_by(year_month, source_page) %>% 
+    summarise(downloads = sum(downloads), .groups = "drop") %>% 
+    ggplot(aes(x = year_month, y = downloads, fill = source_page)) +
+    geom_col(position = "stack") +
+    labs(x = "Month",
+         y = "Downloads",
+         title = "Monthly downloads of QSSIT, by category of page downloaded from",
+         fill = "Page source")
+
+fig_source %>% ggplotly(width = 850) 
+
+```
+
+## All-time downloads by page category
+Aggregating downloads by page category over the whole time period (June 2019 - April 2022), people most often download the QSSIT from the 'Tools and resources' tab of individual quality standards.
+
+```{r}
+data %>% 
+    group_by(source_page) %>% 
+    summarise(downloads = sum(downloads)) %>%
+    arrange(desc(downloads)) %>% 
+    rename("Download page category" = source_page,
+           Downloads = downloads) %>% 
+    kbl() %>% 
+    kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+## Looking at individual pages
+
+```{r}
+fig_qs <- data %>% 
+    ggplot(aes(x = year_month, y = downloads, colour = source_page, label = qs)) +
+    geom_point() +
+    labs(x = "Month",
+         y = "Downloads",
+         title = "Monthly downloads of QSSIT, by individual pages",
+         colour = "Page source")
+
+fig_qs %>% ggplotly(width = 850)
+
+```
+
+Looking just at all-time downloads from individual quality standard pages, the QSSIT is downloaded more from some quality standards than others.
+
+```{r}
+data %>% 
+    filter(qs != "general") %>% 
+    group_by(qs) %>% 
+    summarise(downloads = sum(downloads)) %>% 
+    arrange(desc(downloads)) %>% 
+    select(qs, downloads) %>% 
+    rename("Quality standard" = qs,
+           Downloads = downloads) %>% 
+    kbl() %>% 
+    kable_styling(bootstrap_options = c("striped", "hover")) %>% 
+    scroll_box(width = "100%", height = "400px")
+
+```
+
