@@ -1,5 +1,5 @@
 ---
-title: "Quality standard service improvement templates (QSSIT) downloads"
+title: "Quality standard service improvement template (QSSIT) downloads"
 author: "Impact team"
 date: "`r Sys.Date()`"
 output: 
