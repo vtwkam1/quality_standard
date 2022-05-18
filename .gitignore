@@ -2,7 +2,6 @@
 .Rhistory
 *.RData
 .Ruserdata
-*.html
 experiment.R
 *_log.csv
 download_analytics/
