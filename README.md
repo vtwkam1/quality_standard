@@ -1,2 +1,1 @@
-# quality_standard
-Testing Rstudio Git connection
+# Redeveloping the quality standard service improvement template (QSSIT)
