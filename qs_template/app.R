@@ -51,8 +51,8 @@ ui <- fluidPage(
             tabsetPanel(
                 tabPanel("1. Initial assessment and action plan",
                          tableOutput("statements"),
-                #          downloadButton("download_assessment",
-                #                         "Download initial assessment and action plan template")
+                         downloadButton("download_assessment",
+                                        "Download initial assessment and action plan template")
                         ),
                 # tabPanel("2. Monitoring selected statements",
                 #          checkboxGroupInput("select_statements",
@@ -115,20 +115,20 @@ server <- function(input, output, session) {
           "Quality statement" = statement_disp)
   })
 
-  # assessment_template <- eventReactive(input$select_qs, {
-  #     assessment_action_template(qs = input$select_qs,
-  #                                statement_table = statement_table())
-  # })
-  # 
-  # output$download_assessment <- downloadHandler(
-  #    filename = function() {
-  #        paste0(qs_id(), "_QSSIT_assessment_action", ".xlsx")
-  #    },
-  #    content = function(file) {
-  #        saveWorkbook(assessment_template(), file)
-  #    }
-  # )
-  # 
+  assessment_template <- eventReactive(input$select_qs, {
+      assessment_action_template(qs = input$select_qs,
+                                 statement_table = statement_table())
+  })
+
+  output$download_assessment <- downloadHandler(
+     filename = function() {
+         paste0(paste0(selected_qs()$qs_id, collapse = "_"), "_QSSIT_assessment_action", ".xlsx")
+     },
+     content = function(file) {
+         saveWorkbook(assessment_template(), file)
+     }
+  )
+
   # observeEvent(input$select_qs, {
   #     updateCheckboxGroupInput(inputId = "select_statements",
   #                              choices = statement_table()$statement_disp)
