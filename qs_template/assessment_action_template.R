@@ -32,14 +32,12 @@ assessment_action_template <- function(qs, statement_table) {
   }
   
   template_header <- header_fn("Initial assessment", NA)
-  qs_header <- header_fn("Quality standard:", qs)
   empty_row <- header_fn(NA, NA)
   date_header <-  header_fn("Date completed:", NA)
   assessor_header <- header_fn("Assessor:", NA)
   
   
   header_chunk <- bind_rows(template_header, 
-                            qs_header, 
                             empty_row, 
                             date_header, 
                             assessor_header)
@@ -62,20 +60,7 @@ assessment_action_template <- function(qs, statement_table) {
            cols = 1, 
            gridExpand = T, 
            stack = T)
-  
-  
-  # Style QS name
-  qs_header_style <- createStyle(fontSize = 14,
-                                textDecoration = "bold")
-  
-  addStyle(wb, 
-           sheet_name, 
-           style = qs_header_style, 
-           rows = 2, 
-           cols = 1:2, 
-           gridExpand = T, 
-           stack = T)
-  
+
   # Style other header starters
   addStyle(wb, 
            sheet_name,
@@ -97,12 +82,13 @@ assessment_action_template <- function(qs, statement_table) {
   # )
   
   statements_assessment <- statement_table %>% 
-      select(statement_disp) %>% 
+      select(qs_disp, statement_disp) %>% 
       mutate("How does the current service compare with the statement?" = NA,
              "What is the source of evidence to support this?" = NA,
              "What are the risks associated with not making these improvements?\n(This should be an initial high-level assessment)" = NA,
              "Has this statement been prioritised for improvement?\n(If no, record a date for the review of the decision; if yes, use the remaining columns to record an action plan and monitor delivery)" = NA) %>% 
-      rename("Quality statement" = statement_disp)
+      rename("Quality standard" = qs_disp,
+             "Quality statement" = statement_disp)
   
   tbl_start <- nrow(header_chunk) + 2
   tbl_end <- tbl_start + nrow(statements_assessment)
@@ -126,7 +112,9 @@ assessment_action_template <- function(qs, statement_table) {
                 rows = tbl_start:tbl_end, 
                 heights = 80)
   
-  setColWidths(wb, sheet_name, cols = 1:5, widths = 40)
+  setColWidths(wb, sheet_name, cols = 1, widths = 25)
+
+  setColWidths(wb, sheet_name, cols = 2:ncol(statements_assessment), widths = 40)
   
   
   # Action plan ------
@@ -135,10 +123,8 @@ assessment_action_template <- function(qs, statement_table) {
   addWorksheet(wb, sheetName = sheet_name)
   
   template_header <- header_fn("Action plan", NA)
-  qs_header <- header_fn("Quality standard:", qs)
-  
-  header_chunk <- bind_rows(template_header, 
-                            qs_header)
+
+  header_chunk <- bind_rows(template_header)
   
   writeData(wb,
             sheet_name,
@@ -156,26 +142,6 @@ assessment_action_template <- function(qs, statement_table) {
            gridExpand = T, 
            stack = T)
   
-  
-  # Style QS name
-  addStyle(wb, 
-           sheet_name, 
-           style = qs_header_style, 
-           rows = 2, 
-           cols = 1:2, 
-           gridExpand = T, 
-           stack = T)
-  
-  # # Style other header starters
-  # addStyle(wb, 
-  #          sheet_name,
-  #          style = createStyle(textDecoration = "bold"),
-  #          rows = 2:nrow(header_chunk),
-  #          cols = 1,
-  #          gridExpand = T,
-  #          stack = T
-  # )
-  
   # Date formatting
   # addStyle(wb, 
   #          sheet_name,
@@ -187,14 +153,15 @@ assessment_action_template <- function(qs, statement_table) {
   # )
   
   statements_assessment <- statement_table %>% 
-      select(statement_disp) %>% 
+      select(qs_disp, statement_disp) %>% 
       mutate("Action(s) to improve the service to meet the statement" = NA,
              "Date action decided\n(dd/mm/yy)" = NA,
              "Person responsible" = NA,
              "Deadline for action\n(dd/mm/yy)" = NA,
              "Progress\n(Provide examples of actions in progress, changes in practices etc)" = NA,
              "Change stage\n(e.g. Not yet actioned, Action in progress, Action completed, Never actioned)" = NA) %>% 
-      rename("Quality statement" = statement_disp)
+      rename("Quality standard" = qs_disp,
+             "Quality statement" = statement_disp)
   
   class(statements_assessment$`Date action decided\n(dd/mm/yy)`) <- "date"
   
@@ -223,8 +190,9 @@ assessment_action_template <- function(qs, statement_table) {
                 rows = tbl_start:tbl_end, 
                 heights = 80)
   
-  setColWidths(wb, sheet_name, cols = c(1, 2, 6, 7), widths = 40)
-  setColWidths(wb, sheet_name, cols = 3:5, widths = 18)
+  setColWidths(wb, sheet_name, cols = 1, widths = 25)
+  setColWidths(wb, sheet_name, cols = c(2, 3, 7, 8), widths = 40)
+  setColWidths(wb, sheet_name, cols = 4:6, widths = 18)
   
   return(wb)
   
