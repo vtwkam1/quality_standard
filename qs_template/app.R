@@ -1,12 +1,3 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
 library(tidyverse)
 library(shiny)
 library(glue)
@@ -54,19 +45,19 @@ ui <- fluidPage(
                          downloadButton("download_assessment",
                                         "Download initial assessment and action plan template")
                         ),
-                # tabPanel("2. Monitoring selected statements",
-                #          checkboxGroupInput("select_statements",
-                #                             "Select quality statements to monitor:",
-                #                             choices = c("NA",
-                #                                         "NA",
-                #                                         "NA"),
-                #                             width = "100%"
-                #                             ),
-                #          actionButton("submit", "Submit"),
-                #          downloadButton("download_monitoring",
-                #                         "Download monitoring template"),
-                #          tableOutput("measures")
-                #         )
+                tabPanel("2. Monitoring selected statements",
+                         checkboxGroupInput("select_statements",
+                                            "Select quality statements to monitor:",
+                                            choices = c("NA",
+                                                        "NA",
+                                                        "NA"),
+                                            width = "100%"
+                                            )
+                         # actionButton("submit", "Submit"),
+                         # downloadButton("download_monitoring",
+                         #                "Download monitoring template"),
+                         # tableOutput("measures")
+                        )
             )
         )
     )
@@ -88,7 +79,7 @@ read_measures <- function(qs_id) {
 # 
 server <- function(input, output, session) {
     
-  selected_qs <- reactive({
+  selected_qs <- eventReactive(input$submit_qs, {
     selected_qs <- tibble(qs_disp = input$select_qs) %>% 
         left_join(qs_directory %>% select(qs_disp, qs_id),
                   by = "qs_disp") %>% 
@@ -115,7 +106,7 @@ server <- function(input, output, session) {
           "Quality statement" = statement_disp)
   })
 
-  assessment_template <- eventReactive(input$select_qs, {
+  assessment_template <- eventReactive(input$submit_qs, {
       assessment_action_template(qs = input$select_qs,
                                  statement_table = statement_table())
   })
@@ -135,11 +126,11 @@ server <- function(input, output, session) {
      }
   )
 
-  # observeEvent(input$select_qs, {
-  #     updateCheckboxGroupInput(inputId = "select_statements",
-  #                              choices = statement_table()$statement_disp)
-  # })
-  # 
+  observeEvent(input$submit_qs, {
+      updateCheckboxGroupInput(inputId = "select_statements",
+                               choices = statement_table()$statement_disp)
+  })
+
   # # Measures
   # measure_table <- reactive(read_measures(qs_id()))
   # 
