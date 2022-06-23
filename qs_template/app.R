@@ -119,6 +119,12 @@ server <- function(input, output, session) {
       assessment_action_template(qs = input$select_qs,
                                  statement_table = statement_table())
   })
+  
+  observe({
+      if (input$submit_qs > 0) {
+          enable("download_assessment")
+      }
+  })
 
   output$download_assessment <- downloadHandler(
      filename = function() {
@@ -181,6 +187,8 @@ server <- function(input, output, session) {
   #     }
   # )
   # 
+  disable("download_assessment")
+  
   # disable("download_monitoring")
   
 }
