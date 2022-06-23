@@ -127,8 +127,12 @@ server <- function(input, output, session) {
   )
 
   observeEvent(input$submit_qs, {
+      checkbox <- statement_table() %>% 
+          mutate(checkbox_list = str_c(qs_id, " - ", statement_disp)) %>% 
+          pull(checkbox_list)
+      
       updateCheckboxGroupInput(inputId = "select_statements",
-                               choices = statement_table()$statement_disp)
+                               choices = checkbox)
   })
 
   # # Measures
