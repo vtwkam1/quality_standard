@@ -18,10 +18,10 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
   
   measures_template <- measure_table %>% 
       left_join(statement_table %>% select(-qs_id, -statement),
-                by = "statement_number") %>% 
+                by = "qs_statement_id") %>% 
       mutate(measure_type = str_to_sentence(measure_type)) %>% 
       relocate(statement_disp, .before = 2) %>% 
-      group_by(statement_number, measure_type) %>% 
+      group_by(qs_statement_id, measure_type) %>% 
       mutate(rn = row_number(),
              sum_rn = sum(rn)) %>% 
       mutate(point = if_else(sum_rn != 1, point, NA_character_)) %>% 
@@ -29,7 +29,7 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
       mutate(point_disp = if_else(!is.na(point), paste0("(", point, ")"), NULL),
              measure_type_disp = paste("-", measure_type)) %>% 
       unite(measure_id, 
-            c(statement_number, measure_type_disp, point_disp),
+            c(qs_statement_id, measure_type_disp, point_disp),
             sep = " ",
             remove = F, 
             na.rm = T) %>% 
@@ -48,30 +48,30 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
   options("openxlsx.fontSize" = 12)
   options("openxlsx.dateFormat" = "dd/mm/yyyy")
   
-  addWorksheet(wb, sheetName = qs_id)
+  addWorksheet(wb, sheetName = "Summary")
   
   header_fn <- function(val1, val2) {
       tibble(col1 = val1,
              col2 = val2)
   }
   
-  qs_header <- header_fn("Quality standard:", qs)
-  
-  writeData(wb, 
-            qs_id, 
-            qs_header,
-            startCol = 1,
-            startRow = 1,
-            colNames = F)
-  
-  addStyle(wb, 
-           qs_id, 
-           style = createStyle(fontSize = 14,
-                       textDecoration = "bold"), 
-           rows = 1, 
-           cols = 1:2, 
-           gridExpand = T, 
-           stack = T)
+  # qs_header <- header_fn("Quality standard:", qs)
+  # 
+  # writeData(wb, 
+  #           "Summary", 
+  #           qs_header,
+  #           startCol = 1,
+  #           startRow = 1,
+  #           colNames = F)
+  # 
+  # addStyle(wb, 
+  #          qs_id, 
+  #          style = createStyle(fontSize = 14,
+  #                      textDecoration = "bold"), 
+  #          rows = 1, 
+  #          cols = 1:2, 
+  #          gridExpand = T, 
+  #          stack = T)
   
   measures_ui <- measures_template %>% 
       select(-c(measure_id, 
@@ -79,7 +79,7 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
                 point, 
                 measure, 
                 point_disp)) %>%
-      select(statement_disp, measure_type, measure_disp, everything()) %>% 
+      select(qs_disp, statement_disp, measure_type, measure_disp, everything()) %>% 
       rename("Quality statement" = statement_disp,
              "Measure type" = measure_type,
              "Quality measure" = measure_disp,
@@ -89,20 +89,20 @@ monitoring_template <- function(measure_table, statement_table, qs_id, qs) {
       )
   
   writeDataTable(wb, 
-                 qs_id, 
+                 "Summary", 
                  measures_ui,
                  startCol = 1,
-                 startRow = 3
+                 startRow = 1
   )
   
   wrap_text <- createStyle(valign = "center",
                        wrapText = T)
   
-  addStyle(wb, qs_id, wrap_text, rows = 3:50, cols = 1:20, gridExpand = T, stack = T)
+  addStyle(wb, qs_id, wrap_text, rows = 1:50, cols = 1:20, gridExpand = T, stack = T)
   
-  setColWidths(wb, qs_id, cols = c(1, 3:6), widths = 35)
+  setColWidths(wb, qs_id, cols = c(1, 2, 4:7), widths = 35)
   
-  measure_sheet <- function(i, measures_template, wb, qs_header, qs_id) {
+  measure_sheet <- function(i, measures_template, wb) {
     measure <- as.list(measures_template[i, ])
     sheet_name <- measure$measure_id
     

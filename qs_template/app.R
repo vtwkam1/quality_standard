@@ -52,11 +52,11 @@ ui <- fluidPage(
                                                         "NA",
                                                         "NA"),
                                             width = "100%"
-                                            )
-                         # actionButton("submit", "Submit"),
+                                            ),
+                         actionButton("submit_statement", "Submit"),
                          # downloadButton("download_monitoring",
                          #                "Download monitoring template"),
-                         # tableOutput("measures")
+                         tableOutput("measures")
                         )
             )
         )
@@ -78,7 +78,8 @@ read_measures <- function(qs_id) {
 
 # 
 server <- function(input, output, session) {
-    
+  
+    # Return qs_disp and qs_id of selected QSs  
   selected_qs <- eventReactive(input$submit_qs, {
     selected_qs <- tibble(qs_disp = input$select_qs) %>% 
         left_join(qs_directory %>% select(qs_disp, qs_id),
@@ -96,12 +97,14 @@ server <- function(input, output, session) {
           mutate(statements = map(qs_id, read_statements)) %>% 
           select(-qs_id) %>% 
           unnest(statements,
-                 names_repair = "unique")
-    })
+                 names_repair = "unique") %>% 
+          mutate(qs_statement_disp = str_c(qs_id, " - ", statement_disp),
+                 qs_statement_id = str_c(qs_id, "-", statement_number))
+  })
 
   output$statements <- renderTable({
       statement_table() %>%
-          select(-c(qs_id, statement_number, statement)) %>%
+          select(c(qs_disp, statement_disp)) %>%
           rename("Quality standard" = qs_disp,
           "Quality statement" = statement_disp)
   })
@@ -127,39 +130,46 @@ server <- function(input, output, session) {
   )
 
   observeEvent(input$submit_qs, {
-      checkbox <- statement_table() %>% 
-          mutate(checkbox_list = str_c(qs_id, " - ", statement_disp)) %>% 
-          pull(checkbox_list)
-      
       updateCheckboxGroupInput(inputId = "select_statements",
-                               choices = checkbox)
+                               choices = statement_table()$qs_statement_disp)
   })
 
-  # # Measures
-  # measure_table <- reactive(read_measures(qs_id()))
+  # Measures
+  # Import all measures for selected QSs
+  measure_table <- eventReactive(input$submit_qs, {
+      selected_qs() %>% 
+          mutate(measures = map(qs_id, read_measures)) %>% 
+          unnest(measures,
+                 names_repair = "unique") %>% 
+          mutate(qs_statement_id = str_c(qs_id, "-", statement_number))
+  })
+
+  # Capture selected statements
+  user_statements <- eventReactive(input$submit_statement, {
+      user_statements <- statement_table() %>%
+          filter(qs_statement_disp %in% input$select_statements)
+
+      message(paste(paste0(user_statements$qs_statement_id, collapse = ", "),
+                    "selected"))
+
+      user_statements
+  })
   # 
-  # user_statements <- eventReactive(input$submit, {
-  #     user_statements <- statement_table() %>% 
-  #         filter(statement_disp %in% input$select_statements)
-  #     
-  #     message(paste("Statements", 
-  #                   paste0(user_statements$statement_number, collapse = ", "), 
-  #                   "selected"))
-  #     
-  #     user_statements
-  # })
-  # 
-  # user_measures <- eventReactive(input$submit, {
-  #     measure_table() %>%
-  #         filter(statement_number %in% user_statements()$statement_number)
-  # })
-  # 
-  # monitoring_output <- eventReactive(input$submit, {
-  #     monitoring_template(measure_table = user_measures(), 
-  #                         statement_table = user_statements(), 
-  #                         qs_id = qs_id(), 
-  #                         qs = input$select_qs)
-  # })
+  # output$measures <- renderTable(
+  #     user_measures()
+  # )
+
+  user_measures <- eventReactive(input$submit_statement, {
+      measure_table() %>%
+          filter(qs_statement_id %in% user_statements()$qs_statement_id)
+  })
+
+  monitoring_output <- eventReactive(input$submit_statement, {
+      monitoring_template(measure_table = user_measures(),
+                          statement_table = user_statements(),
+                          qs_id = qs_id(),
+                          qs = input$select_qs)
+  })
   # 
   # # measure_template <- reactive({
   # #     measure_table
@@ -168,7 +178,7 @@ server <- function(input, output, session) {
   # output$measures <- renderTable({monitoring_output()$measures_ui})
   # 
   # observe({
-  #     if (input$submit > 0) {
+  #     if (input$submit_statement > 0) {
   #         enable("download_monitoring")
   #     }
   # })
